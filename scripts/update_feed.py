@@ -41,7 +41,7 @@ def log(*a):
     print(*a, file=sys.stderr, flush=True)
 
 
-def get(url: str, *, accept: str = "*/*", retries: int = 2, timeout: int = 25) -> bytes:
+def get(url: str, *, accept: str = "*/*", retries: int = 1, timeout: int = 20) -> bytes:
     last = None
     for i in range(retries + 1):
         try:
@@ -121,17 +121,49 @@ def norm_id(kind: str, number: str, title: str = "") -> str:
     return "n-" + hid(canonical_kind(kind, title), core)
 
 
+# Termos que tornam um item relevante para financiamento de veículos/imóveis e garantias
+RELEVANT = [
+    r"financiament\w* (de |para )?(veicul|carro|moto|automo|imobil|imove|habitac|da casa)",
+    r"financiament\w* imobili", r"credito (imobili|habitac|automo|de veicul|para veicul|com garantia)",
+    r"veiculos financiados", r"vendas financiadas", r"imoveis financiados", r"gravame", r"alienac\w* fiduciari",
+    r"cessao fiduciaria", r"propriedade fiduciaria", r"renave", r"renavam", r"registro de contratos?", r"registradora",
+    r"\bsfh\b", r"sistema financeiro da habitacao", r"\bsfi\b", r"sistema de financiamento imobiliario", r"\bsbpe\b",
+    r"\bpoupanca\b", r"abecip", r"trillia", r"tabela auto b3", r"home equity", r"garantia de imove",
+    r"marco legal das garantias", r"\bhipotec", r"registro (eletronico )?de imoveis", r"\bonr\b", r"\bserp\b",
+    r"minha casa,? minha vida", r"\bfgts\b.*(imov|habitac|casa)", r"consorcio", r"leasing", r"arrendamento mercantil",
+    r"\banef\b", r"fenabrave", r"emplacament", r"\bdetran", r"\bsenatran\b", r"\bcontran\b", r"\bcri\b",
+    r"\blci\b", r"\blig\b", r"securitizac\w* imobili", r"busca e apreensao", r"leil\w+ de imove",
+    r"concessionari\w* de veicul", r"credito (para|de) (pessoa fisica|consumo).*(veicul|imove)", r"\bcdc\b.*veicul",
+    r"repasse (de|do) imove", r"\bb3\b.*(financ|gravame|veicul|imove)", r"juros d\w* financiament",
+]
+RELEVANT_RE = [re.compile(r) for r in RELEVANT]
+IRRELEVANT_RE = re.compile(r"edital de leil|credito rural|pronaf|produtores rurais|plano safra|edificio-sede|eleitas/nomeadas|eleitas ou nomeadas|liquidacao extrajudicial|open finance|pix\b|diesel")
+SKIP_KINDS = {"comunicado", "ato de diretor", "ato do presidente", "ato normativo conjunto", "resolucao coseg", "carta circular"}
+
+
+HARD_EXCLUDE = re.compile(r"edital de (leil|intimac|notificac)|leilao de alienacao fiduciaria")
+
+
+def relevant(text: str) -> bool:
+    t = norm(text)
+    if HARD_EXCLUDE.search(t):
+        return False
+    if IRRELEVANT_RE.search(t) and not any(r.search(t) for r in RELEVANT_RE[:12]):
+        return False
+    return any(r.search(t) for r in RELEVANT_RE)
+
+
 TOPIC_RULES = [
     ("trillia", ["trillia", "tabela auto b3"]),
-    ("veiculos", ["veicul", "automove", "carro", "moto", "gravame", "renave", "renavam", "detran", "contran", "senatran", "concessionari"]),
-    ("imoveis", ["imobili", "imove", "habitac", "sfh", "sfi", "poupanca", "abecip", "minha casa", "registro de imoveis", "onr", "home equity"]),
+    ("veiculos", ["veicul", "automove", "automotiv", "carro", "motocicl", " motos", "gravame", "renave", "renavam", "detran", "contran", "senatran", "concessionari", "emplacament"]),
+    ("imoveis", ["imobili", "imove", "habitac", " sfh", " sfi", "poupanca", "abecip", "minha casa", "registro de imoveis", " onr", "home equity", "casa propria", "moradia"]),
     ("garantias", ["garantia", "fiduciari", "hipotec"]),
     ("credito", ["juros", "selic", "credito", "inadimpl", "spread"]),
 ]
 
 
 def topic_of(text: str, default: str) -> str:
-    t = norm(text)
+    t = " " + norm(text)
     for topic, keys in TOPIC_RULES:
         if any(k in t for k in keys):
             return topic
@@ -143,6 +175,28 @@ ACT_RE = re.compile(
     r"Medida Provis[oó]ria|Instru[cç][aã]o Normativa|Provimento|Circular|Delibera[cç][aã]o)\s*(?:n[ºo°.]*\s*)?(?P<num>\d{1,3}(?:\.\d{3})*(?:/\d{2,4})?)",
     re.I,
 )
+
+STOP = set("a o as os de da do das dos e em no na nos nas para por com que um uma ao sobre mais ate apos como diz entre sem se".split())
+
+
+def _tokens(t: str) -> set:
+    return {w for w in norm(t).split() if len(w) > 2 and w not in STOP}
+
+
+def dedupe(items: list, thr: float = 0.5) -> list:
+    """Remove a mesma notícia publicada por vários veículos (títulos muito parecidos)."""
+    kept, toks = [], []
+    for n in items:
+        t = _tokens(n["title"])
+        def similar(k):
+            inter = len(t & k)
+            return inter / max(1, len(t | k)) >= thr or (min(len(t), len(k)) >= 4 and inter / min(len(t), len(k)) >= 0.7)
+        if not n.get("keep") and any(similar(k) for k in toks[-80:]):
+            continue
+        kept.append(n)
+        toks.append(t)
+    return kept
+
 
 # --------------------------------------------------------------------------- fontes
 
@@ -229,6 +283,8 @@ def camara(q: str, days: int, known: dict):
     data = get_json("https://dadosabertos.camara.leg.br/api/v2/proposicoes?" + urllib.parse.urlencode(params))
     out = []
     for p in data.get("dados", []):
+        if not relevant(p.get("ementa") or ""):
+            continue
         pid = str(p.get("id"))
         nid = "camara-" + pid
         date, status = None, ""
@@ -236,7 +292,7 @@ def camara(q: str, days: int, known: dict):
             date, status = known[nid].get("date"), known[nid].get("status", "")
         else:
             try:
-                det = get_json(f"https://dadosabertos.camara.leg.br/api/v2/proposicoes/{pid}").get("dados", {})
+                det = json.loads(get(f"https://dadosabertos.camara.leg.br/api/v2/proposicoes/{pid}", accept="application/json", retries=0, timeout=12).decode()).get("dados", {})
                 date = (det.get("dataApresentacao") or "")[:10] or None
                 status = (det.get("statusProposicao") or {}).get("descricaoSituacao") or ""
             except Exception as e:  # noqa: BLE001
@@ -313,6 +369,8 @@ def main(dry: bool = False):
             for n in google_news(b["q"], news_cfg["dias"]):
                 if not n["title"] or not n["url"]:
                     continue
+                if not relevant(n["title"] + " " + n.get("summary", "")):
+                    continue
                 n["id"] = hid(n["title"])
                 n["topic"] = topic_of(n["title"] + " " + n.get("summary", ""), b["tema"])
                 if n["id"] in news:
@@ -326,17 +384,24 @@ def main(dry: bool = False):
     fontes.setdefault("Google Notícias", f"ok (+{ok})")
 
     cutoff = (TODAY - dt.timedelta(days=news_cfg["dias"] + 15)).isoformat()
-    news_list = [n for n in news.values() if n.get("keep") or (n.get("date") or "9999") >= cutoff]
+    news_list = [n for n in news.values() if n.get("keep") or ((n.get("date") or "9999") >= cutoff and relevant(n["title"] + " " + n.get("summary", "")))]
     news_list.sort(key=lambda n: n.get("date") or "", reverse=True)
-    news_list = news_list[: news_cfg["maximo"]]
+    news_list = dedupe(news_list)[: news_cfg["maximo"]]
 
     # ---------------- Normas
     ncfg = cfg["normas"]
     normas: dict[str, dict] = {n["id"]: n for n in old.get("normas", [])}
     now_iso = TODAY.isoformat()
 
+    def norm_ok(n: dict) -> bool:
+        if n.get("keep"):
+            return True
+        if norm(n.get("kind", "")) in SKIP_KINDS:
+            return False
+        return relevant(f"{n.get('title', '')} {n.get('ementa', '')}")
+
     def add_norm(n: dict, tema: str):
-        if not n.get("title"):
+        if not n.get("title") or not norm_ok(n):
             return 0
         if "id" not in n:
             n["id"] = norm_id(n.get("kind", ""), n["number"], n["title"]) if n.get("number") else "t-" + hid(n["title"])
@@ -356,8 +421,11 @@ def main(dry: bool = False):
         ("Câmara", lambda b: camara(b["q"], ncfg["dias"], normas), ncfg.get("camara", [])),
         ("Senado", lambda b: senado(b["q"], ncfg["dias"]), ncfg.get("senado", [])),
     ):
-        added, err = 0, ""
+        added, err, fails = 0, "", 0
         for b in items:
+            if fails >= 2:
+                log(name, "pulando demais buscas após 2 falhas")
+                break
             try:
                 for n in fn(b):
                     added += add_norm(n, b["tema"])
@@ -365,6 +433,7 @@ def main(dry: bool = False):
             except Exception as e:  # noqa: BLE001
                 log(name, b["q"], e)
                 err = str(e)[:140]
+                fails += 1
         fontes[name] = f"ok (+{added})" if not err else f"erro: {err} (+{added})"
 
     # Atos noticiados na imprensa (Contran, Senatran, Detrans, CVM, CNJ…)
@@ -395,7 +464,7 @@ def main(dry: bool = False):
     fontes["Atos na imprensa"] = f"ok (+{added})" if not err else f"erro: {err} (+{added})"
 
     ncut = (TODAY - dt.timedelta(days=ncfg["dias"] + 30)).strftime("%Y-%m-%d")
-    norm_list = [n for n in normas.values() if n.get("keep") or (n.get("date") or "9999") >= ncut]
+    norm_list = [n for n in normas.values() if n.get("keep") or ((n.get("date") or "9999") >= ncut and norm_ok(n))]
     norm_list.sort(key=lambda n: (n.get("date") or "", n.get("firstSeen") or ""), reverse=True)
     norm_list = norm_list[:400]
 
