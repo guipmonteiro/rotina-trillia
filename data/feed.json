@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-04T03:03:19.392336+00:00",
- "checkedAt": "2026-11-04T03:03:19.392336+00:00",
+ "updatedAt": "2026-11-04T17:07:47.810079+00:00",
+ "checkedAt": "2026-11-04T17:07:47.810079+00:00",
  "fontes": {
-  "Google Notícias": "ok (+131)",
+  "Google Notícias": "ok (+40)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -11,6 +11,24 @@
   "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "Trillia leva inteligência de dados da B3 à análise de risco e precificação de seguros no CQCS Inovação",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcWxTVmEtcGUzWjViTEdQRE93cVFWcExEZ214VzFGSkUxSDJpZTVmMnlVc2EtWEJKSHc1cGtlcXNQT3BZcjNFSHNhMG41blE2MnRJRDhnczZRa2pQcnRmVllwZ1paaWU5OXQxekw1N0stWW1ZN0swZlV1R2RtUUQyNFJuWVdIMXYweW5VY1VYMFl1WUpwcC1SZnFtZkM5TW9GMm93UElqOF9selhxS05CbDN1RGIzMVczbHhKZ3RXOTF6bUNjNVpxaHVBMA?oc=5",
+   "source": "CQCS",
+   "date": "2026-11-04T14:33:39+00:00",
+   "summary": "",
+   "id": "5475b024ff3a54",
+   "topic": "trillia"
+  },
+  {
+   "title": "Loft cresce como ponte de crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcng5Sjk0UldtS2pLcmg4NHk0ZlVNcGNtVGJkSVJaVjMzTnBJZTJoNUZkajlHLUJOekpubFhfYXdGXzg4cm9abk8xdnY4WVp6UWpLbVk0STBaNlhoNzl0QkRQRjdOTnBfOTZQZ0FXS0JUaFdyTFVCTVlueUpRcDc5aksyeHRoMVFONGxZQXVBTXVnc2xrLWhTTkxmVDZUQkhtbzVtSzdNY1hveTVQSTM2VGhNOWlOLUR0bHNlWdIBwgFBVV95cUxQSjY0Smk1MkZwdGdZMHhlTlllbHV4RENzNHpwTDl4d01BZkE4bjBZUU9JNVdEeld3RHRHRm04aHpkdzZENFJNTDdITlU1cW1rVkt0bUh0dGRzMDFiVjFqZXBBcUNJMC1vaG9hcjBQSzNfVDJpZzRUTVJYYmVwVERnbEpoZWZXR1lodGZwcDFQMWtkX0xobm5RN1VJUktjY29GYVl4d184LXZQem9QV2Fsa0IxdFhLTWhxVUM3NlZzdHA1QQ?oc=5",
+   "source": "Estado de Minas",
+   "date": "2026-11-04T11:16:00+00:00",
+   "summary": "",
+   "id": "aec290c015a32a",
+   "topic": "imoveis"
+  },
   {
    "title": "Recursos da poupança na casa própria superam R$ 13 bilhões no país",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMFdlclBITWZobnJkNnBGNnh2Ul9yZ0tBTVZvY09HRXpCbmZMRm5BTnBHQXB3OWY1ejR4VkxTVlBrM2RNNy03YmJhZG1PVkZrU2VvWm1fT2dlVk0xel9VSVNsYURrR0tHRVpra29wVjhfRnRRV3RMSlZvclBNRlBDMk9hbEZncnJSWjU3RWpMV0YxZ0lFLU12emxBUUYycndyUTJYV05xMllZMjdMdkVJODJBTC1CdXhPd3hIWDJmdVV5R214eS16LXNydW51RGZnWjFRenZB0gHbAUFVX3lxTE01MDhSWG5WbVltWXpnVFQyLUhkSUI1ZFBKeWRPN2pzQ3Rqby11bUxFNXpldF95WFhmY1RIajVFdnl0a2Z2R0g5TlNLenlDb2pKSGJMNEpxUEhzUTdmLVNCNVFjeDFKcG5ibXFzUzd3WEdqYWlwUkJaLXJLeGx0Z0tBOEZlUUlqQTBrZmo5ZGJHTjllcV9fQ0dfNUlkWFdMNk1EeVl0MUt6V1A4Y1hpcXhhc2d0LWRsNWxUUDNXYmNZUWRKbi1MbThzT1c1R0o3RlFJRHlFTXg5Nzk2VQ?oc=5",
@@ -64,6 +82,15 @@
    "summary": "",
    "id": "6b1240c7b0c095",
    "topic": "imoveis"
+  },
+  {
+   "title": "Vale a pena fazer consórcio de carro? Entenda as taxas, lances e sorteios",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdjJHeEF1MzVsaWtMYWdsaUhLNHdjWTZDVW5jX1FwdnduZkFVTnVRdW9NRzBCajNrOXV6azhJdXVpNXNjeGQ5U2F4V0hDcHVVR3FPa0YyQVNuTC00WUZzMm9yMTNfTkR1clk3Vkl2UVBaelhNVDdqaHBNRDdkcnpZRXJZNmsxaEJ2RDk4U3I5QUhiUQ?oc=5",
+   "source": "Quatro Rodas",
+   "date": "2026-11-03T13:30:00+00:00",
+   "summary": "",
+   "id": "8457b76d2e0fc5",
+   "topic": "veiculos"
   },
   {
    "title": "Fim do aluguel: prefeituras vão doar 14 mil apartamentos populares do Minha Casa, Minha Vida e abrem inscrições",
@@ -408,6 +435,15 @@
    "topic": "imoveis"
   },
   {
+   "title": "BCP reorienta financiamento imobiliário para construção a custos moderados e está aberto a soluções com municípios",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORUZxMm1YZjVJZ2N3VFNpSDEzcV9sTld5dXNXRDdIU19SLUdFSmpmWVRUQ2I4ZGVieUszd0tKTkktYUxOTHpiR1Z6aTlyU1dISGFWVWF2YWNmNzZycWdWY3JQdFh3amFtNEZlNld3U2FWRXJLZlFRdjZUUk13bmlIZ2lKOG5tUjA2NmtORWIwVVpZXzVVZ1hEYzRUUy1nZGt6S3hkeU14cDRQQ3ZLYU1HeFZ6SExYcTdyd2pCVHlPVG1jOXhJU0ZmNkNmbkZ2S0RTbi1UVWFrRDFaYWg3YWZpb1R4M3QzaXozb1dheQ?oc=5",
+   "source": "Jornal Económico",
+   "date": "2026-10-28T17:58:00+00:00",
+   "summary": "",
+   "id": "b07bb3a06f9741",
+   "topic": "imoveis"
+  },
+  {
    "title": "Acima da Selic: Bradesco eleva juros do financiamento imobiliário para 15% ao ano",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS3REem9Gc3VCWEFwWFljM3ozbTBwRmVkbHRzbF9ZeGdhVEJzM19pMUdYUjFZXzM0RVFfNkZHazVoQXV0dTNLMzlLRWNBUGNPaU5LWHZuaUlwYmJKSEZyYlljdDJZMWFFdFJFZXBkOGNiMDQ5LXBWbnJ4R3ZEMWlRdGlIZnhBLTJPMHB0MFktaHFpTENjVzZ1eXpqTnNGTVM5RTAwcm9XdVVYc3pHQVplNXJ5WG1nenVKT3JZY1lETEJuMTBpVmZn0gHHAUFVX3lxTE5LdER6b0ZzdUJYQXBYWWMzejNtMHBGZWRsdHNsX1l4Z2FUQnMzX2kxR1hSMVlfMzRFUV82RkdrNWhBdXR1M0szOUtFY0FQY09pTktYdm5pSXBiYkpIRnJiWWN0MlkxYUV0UkVlcGQ4Y2IwNDktcFZucnhHdkQxaVF0aUhmeEEtMk8wcHQwWS1ocWlMQ2NXNnV5empOc0ZNUzlFMDByb1d1VVhzekdBWmU1cnlYbWd6dUpPclljWURMQm4xMGlWZmc?oc=5",
    "source": "Investidor10",
@@ -639,6 +675,15 @@
    "date": "2026-10-22T07:00:00+00:00",
    "summary": "",
    "id": "33634c8a43c018",
+   "topic": "garantias"
+  },
+  {
+   "title": "Alienação fiduciária: O STJ protegeu o pequeno produtor. E o médio?",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa1pLUElTc2ZpYmc2ZmNRNE0yNGlRbDZpMFFnekhyWEJiekgyM2RuYWhJSm9JcFc1THE2dlZkRkZXa2dsLUo5Q29sUlBVMVRuSVl6OEZ5U3JlZWRVdi10elJ0UWJ2R0k1UEI1V3BUX1FQaW1seTdGM0xoWFpSNmMwLUJBRXh3OTdNaGVGYmxxQWttZmV6UDQ2YTZfQk4ybWNVMERpTHpaLVRYZw?oc=5",
+   "source": "Migalhas",
+   "date": "2026-10-22T07:00:00+00:00",
+   "summary": "",
+   "id": "2200b37df3af0c",
    "topic": "garantias"
   },
   {
@@ -1585,15 +1630,15 @@
    "label": "CDI anualizado",
    "value": "13,65",
    "unit": "% a.a.",
-   "date": "30/10/2026",
+   "date": "03/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
    "id": "sgs-226",
    "label": "TR (diária)",
-   "value": "0,1183",
+   "value": "0,1695",
    "unit": "% a.m.",
-   "date": "30/10/2026",
+   "date": "03/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
