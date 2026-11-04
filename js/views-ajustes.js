@@ -201,9 +201,11 @@ function jornada() {
       <label class="field"><span>Área</span><input name="area" value="${esc(s.profile.area)}" maxlength="80"></label>
       <div class="grid-2">
         <label class="field"><span>Jornada diária (horas)</span><input type="number" name="workHours" min="1" max="12" step="0.25" value="${st.workMinutes / 60}"></label>
-        <label class="field"><span>Intervalo (minutos)</span><input type="number" name="lunch" min="0" max="180" step="5" value="${st.lunchMinutes}"></label>
+        <label class="field"><span>Almoço (minutos)</span><input type="number" name="lunch" min="0" max="180" step="5" value="${st.lunchMinutes}"></label>
+        <label class="field"><span>Descontar almoço após (horas trabalhadas)</span><input type="number" name="lunchAfter" min="0" max="8" step="0.5" value="${Number(st.autoLunchAfter ?? 240) / 60}"></label>
         <label class="field"><span>Raio padrão de novos escritórios (m)</span><input type="number" name="radius" min="50" max="1000" step="25" value="${st.radiusDefault}"></label>
       </div>
+      ${toggle({ id: 's-lunch', label: 'Descontar o almoço automaticamente', checked: st.autoLunch, act: 'set-autolunch', hint: 'Nos dias trabalhados, o almoço sai da conta mesmo sem marcar o intervalo. Se você marcar, vale o que foi marcado (até completar o almoço).' })}
       ${toggle({ id: 's-auto', label: 'Verificar localização ao abrir o app', checked: st.autoDetect, act: 'set-auto', hint: 'Sugere registrar entrada ao chegar no escritório e saída ao se afastar.' })}
       <button type="submit" class="btn btn-primary">${icon('check')} Salvar</button>
     </form>

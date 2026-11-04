@@ -46,7 +46,28 @@ export function nextKinds(key = dayKey()) {
 }
 
 /** Minutos trabalhados no dia (conta até agora se o período estiver aberto e for hoje) */
+/**
+ * Horas líquidas do dia. Com o desconto automático ligado, o intervalo (1h por padrão)
+ * é descontado mesmo sem marcação: as primeiras horas contam inteiras e, passado o
+ * limite configurado (4h por padrão), o tempo seguinte vira almoço até completar o intervalo.
+ * Intervalos marcados manualmente abatem do desconto automático.
+ */
 export function workedMinutes(key = dayKey(), now = new Date()) {
+  const gross = grossMinutes(key, now);
+  return Math.max(0, gross - autoLunch(key, gross, now));
+}
+
+/** Minutos de almoço descontados automaticamente no dia */
+export function autoLunch(key = dayKey(), gross = grossMinutes(key), now = new Date()) {
+  const s = store.get().settings;
+  if (!s.autoLunch || !s.lunchMinutes) return 0;
+  const rest = Math.max(0, s.lunchMinutes - breakMinutes(key, now));
+  const after = Number(s.autoLunchAfter ?? 240);
+  return Math.min(rest, Math.max(0, gross - after));
+}
+
+/** Tempo bruto entre entradas e saídas (sem os intervalos marcados) */
+export function grossMinutes(key = dayKey(), now = new Date()) {
   const list = punchesOf(key);
   let total = 0;
   let open = null;
@@ -153,6 +174,20 @@ export function expectedExit(key = dayKey(), now = new Date()) {
   const s = store.get().settings;
   const list = punchesOf(key);
   if (!list.length || !isOpen(key)) return null;
+  if (s.autoLunch) {
+    // Simula o restante do dia minuto a minuto (até 16h) considerando o desconto automático
+    const breakLeft = onBreak(key) ? Math.max(0, s.lunchMinutes - breakMinutes(key, now)) : 0;
+    const gross = grossMinutes(key, now);
+    const pb = breakMinutes(key, now) + breakLeft;
+    const rest = Math.max(0, s.lunchMinutes - pb);
+    const after = Number(s.autoLunchAfter ?? 240);
+    for (let t = 0; t <= 960; t++) {
+      const g = gross + t;
+      const net = g - Math.min(rest, Math.max(0, g - after));
+      if (net >= s.workMinutes) return new Date(now.getTime() + (breakLeft + t) * 60000);
+    }
+    return null;
+  }
   const worked = workedMinutes(key, now);
   const remaining = s.workMinutes - worked;
   const hadPause = list.some((p) => p.kind === 'pausa_inicio');
@@ -227,7 +262,7 @@ export function toCSV(year, month) {
   const s = store.get();
   const officeName = (id) => s.offices.find((o) => o.id === id)?.name || '';
   const rows = [['Data', 'Dia da semana', 'Hora', 'Marcação', 'Modalidade', 'Escritório', 'Distância (m)', 'Precisão GPS (m)', 'Manual', 'Observação']];
-  const sum = [['Data', 'Modalidade do dia', 'Trabalhado', 'Esperado', 'Saldo', 'Situação']];
+  const sum = [['Data', 'Modalidade do dia', 'Trabalhado (líquido)', 'Almoço descontado', 'Esperado', 'Saldo', 'Situação']];
   const ms = monthSummary(year, month);
   for (const p of s.punches) {
     const d = new Date(p.ts);
@@ -242,7 +277,7 @@ export function toCSV(year, month) {
   for (const d of ms.days) {
     if (!d.worked && !d.status && !d.expected) continue;
     sum.push([
-      dateShort(d.date), d.mode ? MODES[d.mode].label : '', fmtDuration(d.worked),
+      dateShort(d.date), d.mode ? MODES[d.mode].label : '', fmtDuration(d.worked), fmtDuration(autoLunch(d.key)),
       fmtDuration(d.expected), fmtDuration(d.worked - d.expected, { sign: true }),
       d.status ? DAY_STATUS[d.status] : d.holiday || '',
     ]);

@@ -111,11 +111,20 @@ function hero(key, now) {
     ${list.length ? `
     <div class="hero-progress">
       <div class="worked-row"><span>Hoje</span><span><strong data-tick="worked">${fmtDuration(worked)}</strong> de ${fmtDuration(s.settings.workMinutes)}</span></div>
+      ${s.settings.autoLunch && s.settings.lunchMinutes ? `<p class="hero-note" data-tick="lunch-note">${lunchNote(key, now)}</p>` : ''}
       <div class="meter meter-hero" role="meter" aria-label="Jornada do dia" aria-valuemin="0" aria-valuemax="${s.settings.workMinutes}" aria-valuenow="${Math.round(worked)}" aria-valuetext="${esc(spokenDuration(worked))} de ${esc(spokenDuration(s.settings.workMinutes))}">
         <span data-tick="worked-bar" style="width:${pct}%"></span>
       </div>
     </div>` : ''}
   </section>`;
+}
+
+export function lunchNote(key, now = new Date()) {
+  const s = store.get().settings;
+  const d = P.autoLunch(key, P.grossMinutes(key, now), now);
+  if (d >= s.lunchMinutes) return `Almoço de ${fmtDuration(s.lunchMinutes)} já descontado automaticamente.`;
+  if (d > 0) return `Descontando o almoço: ${fmtDuration(d)} de ${fmtDuration(s.lunchMinutes)}.`;
+  return `${fmtDuration(s.lunchMinutes)} de almoço será descontada após ${fmtDuration(Number(s.autoLunchAfter ?? 240))} de trabalho.`;
 }
 
 function locationPill() {
@@ -496,7 +505,7 @@ export async function dayDialog(key) {
   const r = await openDialog({
     title: capitalize(dateLong(d)),
     body: `
-      <p><strong>${fmtDuration(worked)}</strong> trabalhadas${P.dayMode(key) ? ` · ${P.modeOf(P.dayMode(key)).label}` : ''}${P.holidayName(key) ? ` · feriado: ${esc(P.holidayName(key))}` : ''}${P.expectedMinutes(d) ? ` · esperado ${fmtDuration(P.expectedMinutes(d))}` : ''}</p>
+      <p><strong>${fmtDuration(worked)}</strong> trabalhadas${P.autoLunch(key) ? ` (já sem ${fmtDuration(P.autoLunch(key))} de almoço)` : ''}${P.dayMode(key) ? ` · ${P.modeOf(P.dayMode(key)).label}` : ''}${P.holidayName(key) ? ` · feriado: ${esc(P.holidayName(key))}` : ''}${P.expectedMinutes(d) ? ` · esperado ${fmtDuration(P.expectedMinutes(d))}` : ''}</p>
       ${list.length ? `<ol class="timeline compact">${list.map((p) => `<li class="tl-item k-${p.kind}"><span class="tl-time">${hhmm(p.ts)}</span><span class="tl-body">${esc(P.KINDS[p.kind].label)} <span class="tag ${P.modeClass(p.mode)}">${esc(P.modeOf(p.mode).label)}</span>${p.note ? `<span class="tl-note">${esc(p.note)}</span>` : ''}</span><button type="button" class="icon-btn" data-value="edit:${p.id}" aria-label="Editar ${esc(P.KINDS[p.kind].label)} às ${hhmm(p.ts)}">${icon('edit')}</button></li>`).join('')}</ol>` : '<p class="muted">Sem marcações neste dia.</p>'}
       <form data-dialog-form class="form">
         <label class="field"><span>Situação do dia</span>

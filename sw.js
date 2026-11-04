@@ -1,5 +1,5 @@
 // Service worker: funciona offline, atualiza o feed pela rede e abre o app ao tocar na notificação.
-const VERSION = 'v1.1.0';
+const VERSION = 'v1.2.0';
 const SHELL = `rotina-shell-${VERSION}`;
 const RUNTIME = 'rotina-runtime';
 

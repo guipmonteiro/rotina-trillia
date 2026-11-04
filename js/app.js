@@ -216,6 +216,7 @@ const changes = {
     store.update((s) => { s.settings.workDays = days; });
   },
   'set-auto': (el) => store.update((s) => { s.settings.autoDetect = el.checked; }),
+  'set-autolunch': (el) => { store.update((s) => { s.settings.autoLunch = el.checked; }); render(); announce(el.checked ? 'Almoço passa a ser descontado automaticamente.' : 'Desconto automático do almoço desligado.'); },
   'presence-type': (el) => { store.update((s) => { s.settings.presence.type = el.value; }); render(); },
   'presence-pct': (el) => { store.update((s) => { s.settings.presence.pct = Math.min(100, Math.max(0, Math.round(Number(el.value) || 0))); }); render(); announce(`Cota de ${store.get().settings.presence.pct} por cento.`); },
   'presence-days-week': (el) => { store.update((s) => { s.settings.presence.daysWeek = Math.min(7, Math.max(0, Number(el.value) || 0)); }); render(); },
@@ -284,6 +285,7 @@ const forms = {
       s.profile.area = data.area.trim();
       s.settings.workMinutes = Math.round(Number(data.workHours) * 60) || 480;
       s.settings.lunchMinutes = Math.max(0, Number(data.lunch) || 0);
+      s.settings.autoLunchAfter = Math.round(Math.max(0, Number(data.lunchAfter) || 4) * 60);
       s.settings.radiusDefault = Math.max(50, Number(data.radius) || 150);
     });
     toast('Ajustes salvos.', { kind: 'ok' });
@@ -365,6 +367,8 @@ function tick() {
   if (w) {
     const m = P.workedMinutes(dayKey(now), now);
     w.textContent = fmtDuration(m);
+    const ln = document.querySelector('[data-tick="lunch-note"]');
+    if (ln) ln.textContent = VP.lunchNote(dayKey(now), now);
     const bar = document.querySelector('[data-tick="worked-bar"]');
     if (bar) bar.style.width = `${Math.min(100, (m / Math.max(1, store.get().settings.workMinutes)) * 100)}%`;
   }

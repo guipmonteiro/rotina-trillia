@@ -646,3 +646,6 @@ html.hc .wizard-step span.on { background: #FFE500; }
 .tabbar a[aria-current="page"] .ico { background: var(--accent-soft); }
 .tabbar a[aria-current="page"]::before { display: none; }
 html.hc .tabbar a[aria-current="page"] .ico { background: #FFE500; color: #000; }
+
+.hero-note { margin: .35rem 0 0; font-size: .82rem; color: #BFE9F8; }
+html.hc .hero-note { color: #fff; }

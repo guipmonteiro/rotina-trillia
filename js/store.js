@@ -33,6 +33,8 @@ export function defaults() {
     settings: {
       workMinutes: 480,
       lunchMinutes: 60,
+      autoLunch: true, // desconta o almoço automaticamente nos dias trabalhados
+      autoLunchAfter: 240, // a partir de quantos minutos de trabalho o almoço é descontado
       presencialGoal: 3, // legado (versão 1)
       presence: {
         type: 'pct_mes', // pct_mes | dias_semana | dias_mes

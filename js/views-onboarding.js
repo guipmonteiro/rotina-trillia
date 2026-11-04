@@ -131,14 +131,14 @@ async function stepDialog(step) {
       body: frame(4, `
         <div class="grid-2">
           <label class="field"><span>Jornada diária (horas)</span><input type="number" name="hours" min="1" max="12" step="0.25" value="${st.workMinutes / 60}"></label>
-          <label class="field"><span>Intervalo (minutos)</span><input type="number" name="lunch" min="0" max="180" step="5" value="${st.lunchMinutes}"></label>
+          <label class="field"><span>Almoço (minutos)</span><input type="number" name="lunch" min="0" max="180" step="5" value="${st.lunchMinutes}"></label>
           <label class="field"><span>Lembrete de entrada</span><input type="time" name="ent" value="${esc(ent.time)}"></label>
           <label class="field"><span>Lembrete de saída</span><input type="time" name="sai" value="${esc(sai.time)}"></label>
         </div>
         <fieldset class="fieldset"><legend>Dias de trabalho</legend>
           <div class="days">${[1, 2, 3, 4, 5, 6, 0].map((d) => `<label class="day-chip"><input type="checkbox" name="days" value="${d}" data-multi ${st.workDays.includes(d) ? 'checked' : ''}><span>${['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'][d]}</span></label>`).join('')}</div>
         </fieldset>
-        <p class="hint">Depois, em Ajustes → Lembretes, toque em "Adicionar ao calendário" para receber o aviso todo dia, mesmo com o app fechado.</p>`),
+        <p class="hint">O almoço é descontado automaticamente nos dias trabalhados, mesmo sem marcar o intervalo. Depois, em Ajustes → Lembretes, toque em "Adicionar ao calendário" para receber o aviso todo dia, mesmo com o app fechado.</p>`),
     });
     if (!r) return null;
     if (r._action !== 'back') {
