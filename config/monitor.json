@@ -1,0 +1,74 @@
+{
+  "_leia_me": "Configuração do robô que atualiza data/feed.json. Edite as listas e faça commit: a próxima execução já usa os novos termos.",
+  "noticias": {
+    "dias": 45,
+    "maximo": 220,
+    "buscas": [
+      { "q": "\"Trillia\" B3", "tema": "trillia" },
+      { "q": "financiamento de veículos", "tema": "veiculos" },
+      { "q": "vendas financiadas veículos", "tema": "veiculos" },
+      { "q": "gravame veículo", "tema": "veiculos" },
+      { "q": "Renave concessionárias", "tema": "veiculos" },
+      { "q": "registro de contratos Detran financiamento", "tema": "veiculos" },
+      { "q": "Tabela Auto B3", "tema": "trillia" },
+      { "q": "financiamento imobiliário", "tema": "imoveis" },
+      { "q": "crédito imobiliário poupança", "tema": "imoveis" },
+      { "q": "Abecip financiamento", "tema": "imoveis" },
+      { "q": "home equity crédito com garantia de imóvel", "tema": "imoveis" },
+      { "q": "alienação fiduciária", "tema": "garantias" },
+      { "q": "Marco Legal das Garantias", "tema": "garantias" },
+      { "q": "registro eletrônico de imóveis ONR", "tema": "imoveis" },
+      { "q": "juros financiamento de veículos Banco Central", "tema": "credito" },
+      { "q": "inadimplência financiamento veículos", "tema": "credito" }
+    ]
+  },
+  "normas": {
+    "dias": 400,
+    "google_news": [
+      { "q": "\"Resolução Contran\" registro OR gravame OR Renave OR financiamento", "tema": "veiculos" },
+      { "q": "\"Resolução CMN\" crédito imobiliário OR poupança OR SFH", "tema": "imoveis" },
+      { "q": "portaria Senatran registro de contratos", "tema": "veiculos" },
+      { "q": "portaria Detran registradoras de contratos", "tema": "veiculos" },
+      { "q": "Resolução CVM securitização imobiliária", "tema": "imoveis" },
+      { "q": "provimento CNJ alienação fiduciária registro de imóveis", "tema": "imoveis" },
+      { "q": "sanciona lei financiamento OR garantias OR alienação fiduciária", "tema": "garantias" }
+    ],
+    "bcb": [
+      { "q": "imobiliário", "tema": "imoveis" },
+      { "q": "poupança", "tema": "imoveis" },
+      { "q": "veículos", "tema": "veiculos" },
+      { "q": "garantias", "tema": "garantias" },
+      { "q": "gravames", "tema": "garantias" },
+      { "q": "registro de ativos financeiros", "tema": "regulatorio" }
+    ],
+    "dou": [
+      { "q": "\"registro de contratos de financiamento\"", "tema": "veiculos" },
+      { "q": "gravame", "tema": "veiculos" },
+      { "q": "Renave", "tema": "veiculos" },
+      { "q": "\"alienação fiduciária\"", "tema": "garantias" },
+      { "q": "\"crédito imobiliário\"", "tema": "imoveis" },
+      { "q": "\"Sistema Financeiro da Habitação\"", "tema": "imoveis" }
+    ],
+    "camara": [
+      { "q": "alienação fiduciária", "tema": "garantias" },
+      { "q": "financiamento de veículos", "tema": "veiculos" },
+      { "q": "gravame", "tema": "veiculos" },
+      { "q": "financiamento imobiliário", "tema": "imoveis" },
+      { "q": "crédito imobiliário", "tema": "imoveis" },
+      { "q": "garantias", "tema": "garantias" }
+    ],
+    "senado": [
+      { "q": "alienação fiduciária", "tema": "garantias" },
+      { "q": "financiamento imobiliário", "tema": "imoveis" },
+      { "q": "financiamento de veículos", "tema": "veiculos" }
+    ]
+  },
+  "indicadores": [
+    { "codigo": 432, "nome": "Selic (meta)", "unidade": "% a.a.", "casas": 2 },
+    { "codigo": 13522, "nome": "IPCA 12 meses", "unidade": "%", "casas": 2 },
+    { "codigo": 4389, "nome": "CDI anualizado", "unidade": "% a.a.", "casas": 2 },
+    { "codigo": 226, "nome": "TR (diária)", "unidade": "% a.m.", "casas": 4 },
+    { "codigo": 20749, "nome": "Juros PF – aquisição de veículos", "unidade": "% a.a.", "casas": 2 },
+    { "codigo": 20772, "nome": "Juros PF – financiamento imobiliário (mercado)", "unidade": "% a.a.", "casas": 2 }
+  ]
+}

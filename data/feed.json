@@ -1,0 +1,300 @@
+{
+ "updatedAt": "2026-11-03T23:00:00+00:00",
+ "checkedAt": "2026-11-03T23:00:00+00:00",
+ "fontes": {
+  "Curadoria inicial": "itens verificados em 03/11/2026; o robô diário acrescenta o restante"
+ },
+ "news": [
+  {
+   "id": "fa557f3a636670",
+   "title": "Financiamento de veículos bate recorde para setembro e alcança maior volume em 15 anos",
+   "url": "https://www.b3.com.br/pt_br/noticias/financiamento-de-veiculos-bate-recorde-para-setembro-e-alcanca-maior-volume-em-15-anos-aponta-trillia.htm",
+   "source": "B3",
+   "date": "2026-10-20T12:00:00+00:00",
+   "topic": "trillia",
+   "summary": "Levantamento da Trillia: 5,8 milhões de veículos financiados de janeiro a setembro de 2026, alta de 9,1% sobre 2025.",
+   "keep": true
+  },
+  {
+   "id": "7ccaef3691b174",
+   "title": "B3: financiamento de veículos tem melhor setembro em 15 anos",
+   "url": "https://www.letsmoney.com.br/credito/financiamento-veiculos-setembro-2026-trillia-b3/",
+   "source": "Let's Money",
+   "date": "2026-10-20T15:00:00+00:00",
+   "topic": "trillia",
+   "summary": "670.675 veículos financiados em setembro, 2,8% acima de setembro de 2025; Tabela AUTO B3 aponta queda de preços.",
+   "keep": true
+  },
+  {
+   "id": "d6597183a035c5",
+   "title": "Financiamento de veículos em setembro é o maior para o mês em 15 anos",
+   "url": "https://www.autodata.com.br/?p=138263",
+   "source": "AutoData",
+   "date": "2026-10-20T18:00:00+00:00",
+   "topic": "veiculos",
+   "summary": "Média de 31,9 mil operações por dia útil, segundo a Trillia.",
+   "keep": true
+  },
+  {
+   "id": "81cec35fe659f9",
+   "title": "Financiamento de veículos bate recorde para agosto e alcança maior volume em 15 anos, aponta Trillia",
+   "url": "https://b3.com.br/pt_br/noticias/financiamento-de-veiculos-bate-recorde-para-agosto-e-alcanca-maior-volume-em-15-anos-aponta-trillia.htm",
+   "source": "B3",
+   "date": "2026-09-22T12:00:00+00:00",
+   "topic": "trillia",
+   "summary": "683.928 unidades em agosto (+10,4%); preços de 0 km sobem 2,7% no mês pela Tabela AUTO B3.",
+   "keep": true
+  },
+  {
+   "id": "01991e3b2b3822",
+   "title": "Abecip projeta alta de 25% do crédito imobiliário em 2026",
+   "url": "https://www.registrodeimoveis.org.br/abecip-projeta-alta-de-25-do-credito-imobiliario-em-2026",
+   "source": "Registro de Imóveis do Brasil",
+   "date": "2026-08-26T12:00:00+00:00",
+   "topic": "imoveis",
+   "summary": "Projeção revisada aponta cerca de R$ 411 bilhões em concessões no ano.",
+   "keep": true
+  },
+  {
+   "id": "7efebc48fca5b3",
+   "title": "Abecip eleva projeção de alta nos financiamentos imobiliários de 16% para 25%",
+   "url": "https://mercadoeconsumo.com.br/24/08/2026/economia/abecip-eleva-projecao-de-alta-nos-financiamentos-imobiliarios-neste-ano-de-16-para-25/amp/",
+   "source": "Mercado&Consumo",
+   "date": "2026-08-24T12:00:00+00:00",
+   "topic": "imoveis",
+   "summary": "Bancos revisam para cima a expectativa de financiamentos para compra e produção de moradias em 2026.",
+   "keep": true
+  },
+  {
+   "id": "140b1d463d66ac",
+   "title": "Financiamento de veículos atinge melhor nível para o mês de julho desde 2008",
+   "url": "https://b3.com.br/pt_br/noticias/financiamento-de-veiculos-8AE490C9A02182D301A03A3E94825FD6.htm",
+   "source": "B3",
+   "date": "2026-08-24T12:00:00+00:00",
+   "topic": "trillia",
+   "summary": "674.735 unidades em julho, alta de 5,6% na comparação anual; dados também mostram alongamento de prazos.",
+   "keep": true
+  },
+  {
+   "id": "cab89c7cdec726",
+   "title": "Juros elevados não travam expansão do crédito imobiliário",
+   "url": "https://www.registrodeimoveis.org.br/juros-elevados-nao-travam-expansao-do-credito-imobiliario",
+   "source": "Registro de Imóveis do Brasil",
+   "date": "2026-09-03T12:00:00+00:00",
+   "topic": "imoveis",
+   "summary": "Números recentes da poupança confirmam a projeção otimista da Abecip.",
+   "keep": true
+  },
+  {
+   "id": "804fb670d8583e",
+   "title": "Novo modelo de crédito imobiliário é debatido",
+   "url": "https://www.registrodeimoveis.org.br/novo-modelo-de-credito-imobiliario-e-debatido",
+   "source": "Registro de Imóveis do Brasil",
+   "date": "2026-08-21T12:00:00+00:00",
+   "topic": "imoveis",
+   "summary": "Abecip Summit 2026 discutiu o novo modelo, que entra em pleno vigor no próximo ano.",
+   "keep": true
+  },
+  {
+   "id": "57e0e923977955",
+   "title": "Novo Renave promete fechar brechas para fraudes na compra e venda de veículos",
+   "url": "https://www.portaldotransito.com.br/noticias/mobilidade-e-tecnologia/veiculos/novo-renave-promete-fechar-brechas-para-fraudes-na-compra-e-venda-de-veiculos/",
+   "source": "Portal do Trânsito",
+   "date": "2026-08-14T12:00:00+00:00",
+   "topic": "veiculos",
+   "summary": "Resolução Contran 1.026/2026 amplia integração entre trânsito e setor financeiro; Detrans apontam desafios tecnológicos.",
+   "keep": true
+  },
+  {
+   "id": "7a7153efdffbe9",
+   "title": "Abecip: crédito imobiliário totaliza R$ 180,9 bilhões no 1º semestre, alta de 23% ante um ano",
+   "url": "https://www.dgabc.com.br/Noticia/4337824/abecip-credito-imobiliario-totaliza-r-180-9-bilhoes-no-1-semestre-alta-de-23-ante-um-ano",
+   "source": "Diário do Grande ABC",
+   "date": "2026-07-28T14:00:00+00:00",
+   "topic": "imoveis",
+   "summary": "",
+   "keep": true
+  },
+  {
+   "id": "2d1253a9dea3c4",
+   "title": "Financiamento de veículos cresce no semestre e tem melhor início de ano desde 2008, aponta Trillia",
+   "url": "https://www.b3.com.br/pt_br/noticias/trillia-8AA8D0CC9FA31844019FA48130AC63DE.htm",
+   "source": "B3",
+   "date": "2026-07-27T12:00:00+00:00",
+   "topic": "trillia",
+   "summary": "3,78 milhões de unidades financiadas no 1º semestre de 2026.",
+   "keep": true
+  },
+  {
+   "id": "fcaedd7d037184",
+   "title": "Financiamento de imóveis residenciais sobe 6,6% no 1º semestre, mostra Trillia, da B3",
+   "url": "https://www.acessa.com/economia/2026/09/338480-financiamento-de-imoveis-residenciais-sobe-66-no-1-semestre-em-1-ano-mostra-trillia-da-b3.html",
+   "source": "Acessa.com",
+   "date": null,
+   "topic": "trillia",
+   "summary": "507.299 imóveis residenciais financiados no semestre; home equity responde por cerca de 3% a 4% das operações.",
+   "keep": true
+  },
+  {
+   "id": "5ca647c6ae43f3",
+   "title": "O fim da informalidade nos carros seminovos",
+   "url": "https://www.infomoney.com.br/?p=3400650",
+   "source": "InfoMoney",
+   "date": null,
+   "topic": "veiculos",
+   "summary": "Artigo sobre os efeitos da Resolução Contran 1.026 (Renave) no crédito para revendas.",
+   "keep": true
+  },
+  {
+   "id": "f14d6fc24a5ca5",
+   "title": "Financiamento de veículos em MG bate recorde no primeiro semestre",
+   "url": "https://www.itatiaia.com.br/auto/financiamento-de-veiculos-em-mg-bate-recorde-no-primeiro-semestre/",
+   "source": "Itatiaia",
+   "date": null,
+   "topic": "trillia",
+   "summary": "",
+   "keep": true
+  },
+  {
+   "id": "4c435fd8fc6c2b",
+   "title": "B3 vê retomada de ofertas de ações e espaço para destravar valor com negócio de dados",
+   "url": "https://www.bloomberglinea.com.br/negocios/b3-ve-retomada-de-ofertas-de-acoes-e-espaco-para-destravar-valor-com-negocio-de-dados/",
+   "source": "Bloomberg Línea",
+   "date": null,
+   "topic": "trillia",
+   "summary": "Lançamento da marca Trillia, que reúne cinco negócios de dados da B3.",
+   "keep": true
+  }
+ ],
+ "normas": [
+  {
+   "id": "n-9bd6f685da4f8d",
+   "kind": "Resolução Contran",
+   "number": "1.027/2026",
+   "title": "Normatiza os procedimentos de registro, licenciamento e transferência de propriedade de veículos",
+   "ementa": "Publicada no DOU de 18/08/2026 (edição extra). Prevê a transferência eletrônica integrada ao Renavam.",
+   "date": "2026-08-18",
+   "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/resolucao10272026.pdf",
+   "source": "Contran",
+   "topic": "veiculos",
+   "origin": "curadoria",
+   "keep": true,
+   "firstSeen": "2026-11-03T23:00:00+00:00"
+  },
+  {
+   "id": "n-7828640601db6d",
+   "kind": "Resolução Contran",
+   "number": "1.026/2026",
+   "title": "Institui o Registro Nacional de Veículos em Estoque (Renave) e altera a Resolução Contran nº 807/2020",
+   "ementa": "Torna o Renave obrigatório para estabelecimentos que comercializam veículos e traz regras sobre apontamento de gravame em veículos de estoque.",
+   "date": "2026-07-01",
+   "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/resolucao10262026n.pdf",
+   "source": "Contran",
+   "topic": "veiculos",
+   "origin": "curadoria",
+   "keep": true,
+   "firstSeen": "2026-11-03T23:00:00+00:00"
+  },
+  {
+   "id": "t-694c87fd199ff3",
+   "kind": "Ato Senatran",
+   "number": "",
+   "title": "Cronograma de implementação da Resolução Contran nº 1.026/2026 (Renave)",
+   "ementa": "Fases de operação assistida em out–nov/2026; controle de conformidade dos apontamentos de garantias a partir de 20/11/2026.",
+   "date": null,
+   "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/circular022026.pdf",
+   "source": "Senatran",
+   "topic": "veiculos",
+   "origin": "curadoria",
+   "keep": true,
+   "firstSeen": "2026-11-03T23:00:00+00:00",
+   "status": "Etapa E a partir de 20/11/2026"
+  },
+  {
+   "id": "n-fdb950c5c08657",
+   "kind": "Portaria Detran-MT",
+   "number": "79/2026",
+   "title": "Altera regras do registro de contratos de financiamento de veículos com garantia no Detran-MT",
+   "ementa": "Define fluxo de responsabilidades entre registradoras e credoras e atribui às instituições financeiras o pagamento da taxa de registro.",
+   "date": "2026-02-20",
+   "url": "https://www.legisweb.com.br/legislacao/?id=491137",
+   "source": "Detran-MT",
+   "topic": "veiculos",
+   "origin": "curadoria",
+   "keep": true,
+   "firstSeen": "2026-11-03T23:00:00+00:00"
+  },
+  {
+   "id": "n-bb4c73b7ec55a5",
+   "kind": "Resolução CMN",
+   "number": "5.255/2025",
+   "title": "Altera a Resolução nº 4.676/2018: novo modelo de direcionamento da poupança e limite do SFH de R$ 2,25 milhões",
+   "ementa": "Parte do novo modelo de crédito imobiliário, com transição a partir de 2027.",
+   "date": "2025-10-10",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5255",
+   "source": "Banco Central",
+   "topic": "imoveis",
+   "origin": "curadoria",
+   "keep": true,
+   "firstSeen": "2026-11-03T23:00:00+00:00"
+  },
+  {
+   "id": "n-e8162925eb386f",
+   "kind": "Resolução CMN",
+   "number": "5.254/2025",
+   "title": "Integra o novo modelo de crédito imobiliário anunciado em 10/10/2025",
+   "ementa": "Editada em conjunto com a Resolução CMN 5.255 e a Resolução BCB 512.",
+   "date": "2025-10-10",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5254",
+   "source": "Banco Central",
+   "topic": "imoveis",
+   "origin": "curadoria",
+   "keep": true,
+   "firstSeen": "2026-11-03T23:00:00+00:00"
+  },
+  {
+   "id": "n-d178c24ed9d44c",
+   "kind": "Resolução BCB",
+   "number": "512/2025",
+   "title": "Integra o novo modelo de crédito imobiliário (recolhimento compulsório sobre poupança)",
+   "ementa": "A dedução no compulsório segue os critérios de elegibilidade do novo direcionamento.",
+   "date": "2025-10-10",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=512",
+   "source": "Banco Central",
+   "topic": "imoveis",
+   "origin": "curadoria",
+   "keep": true,
+   "firstSeen": "2026-11-03T23:00:00+00:00"
+  },
+  {
+   "id": "n-bae23efe2c6f9f",
+   "kind": "Resolução CMN",
+   "number": "5.197/2024",
+   "title": "Atualiza a Resolução nº 4.676/2018 (SBPE, SFH e SFI) e alinha o crédito imobiliário ao Marco Legal das Garantias",
+   "ementa": "Inclui conceitos de crédito e financiamento imobiliário e regras de garantias; vigência desde 1º/7/2025.",
+   "date": "2024-12-19",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20CMN&numero=5197",
+   "source": "Banco Central",
+   "topic": "imoveis",
+   "origin": "curadoria",
+   "keep": true,
+   "firstSeen": "2026-11-03T23:00:00+00:00"
+  },
+  {
+   "id": "n-8625710a3ebd96",
+   "kind": "Resolução Contran",
+   "number": "1.016/2024",
+   "title": "Altera a Resolução Contran nº 807/2020 (registro de contratos de financiamento com garantia real de veículo)",
+   "ementa": "",
+   "date": null,
+   "url": "https://www.gov.br/transportes/pt-br/assuntos/transito/senatran/governanca-regulatoria-1/arquivos/Resoluo1016_2024RelatriodedispensadeAIR.pdf",
+   "source": "Contran",
+   "topic": "veiculos",
+   "origin": "curadoria",
+   "keep": true,
+   "firstSeen": "2026-11-03T23:00:00+00:00"
+  }
+ ],
+ "indicadores": [],
+ "agenda": []
+}
