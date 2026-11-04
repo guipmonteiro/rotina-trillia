@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-04T17:07:47.810079+00:00",
- "checkedAt": "2026-11-04T17:07:47.810079+00:00",
+ "updatedAt": "2026-11-04T23:35:12.893886+00:00",
+ "checkedAt": "2026-11-04T23:35:12.893886+00:00",
  "fontes": {
-  "Google Notícias": "ok (+40)",
+  "Google Notícias": "ok (+37)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -11,6 +11,24 @@
   "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "IOF sobre LCI, LCA, CRI e CRA pode encarecer crédito imobiliário e rural",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM3czTzdQUE1lbmlPUVdIUlVnNGFsa1gyMVJKNWVzZGRmS2R2d3pDNjNDRGtCcFFwRkpFTEdvdTgwV21IYzBMMmc1LXF0ZTZkZGFpVVp5NzJjaGIwb1FYa3NGN0ZTWGdfTGJxSFlhZDFmZ25mYlA5ZXJzSUwtTlIzVi1icXBtdmFSSVUtWFE5TjNYRjlrcVZ0N0k5UTN6QVFPU0psdi13?oc=5",
+   "source": "Monitor Mercantil",
+   "date": "2026-11-04T18:26:00+00:00",
+   "summary": "",
+   "id": "2333fada917bc2",
+   "topic": "imoveis"
+  },
+  {
+   "title": "O que muda no financiamento de imóveis com o novo modelo de crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObFlSNTdfUUQwbzlxYzczMEpLZmhPaTBrWExsQktZdVluREZ2VzNPa2EwWTU5Y0Q5YkxDVzJrMWJHaTd2M1lpMFVwdThZdzh1a1o0MnZpcFBaaG9vV0d4YTdkWkl1SFNsWmdIa1BDaGViMVdXQUFsNHdwcmtoSkR1Q0YydUNoaE42ZzVNVkpWSmhidDA0NzAtRjh2YTdRYXc5WUFrZ0d3MVlmYzdqVlduTnZMZWJBaHhEWlMxLTRoMFo?oc=5",
+   "source": "O Liberal",
+   "date": "2026-11-04T17:36:36+00:00",
+   "summary": "",
+   "id": "9dec84922f5e1a",
+   "topic": "imoveis"
+  },
   {
    "title": "Trillia leva inteligência de dados da B3 à análise de risco e precificação de seguros no CQCS Inovação",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcWxTVmEtcGUzWjViTEdQRE93cVFWcExEZ214VzFGSkUxSDJpZTVmMnlVc2EtWEJKSHc1cGtlcXNQT3BZcjNFSHNhMG41blE2MnRJRDhnczZRa2pQcnRmVllwZ1paaWU5OXQxekw1N0stWW1ZN0swZlV1R2RtUUQyNFJuWVdIMXYweW5VY1VYMFl1WUpwcC1SZnFtZkM5TW9GMm93UElqOF9selhxS05CbDN1RGIzMVczbHhKZ3RXOTF6bUNjNVpxaHVBMA?oc=5",
@@ -99,6 +117,15 @@
    "date": "2026-11-03T10:43:00+00:00",
    "summary": "",
    "id": "992c23363da1f7",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Tributação de LCI e LIG pode elevar juros do crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY1VEYm9PRnhQWUxpSllmVzFNRE5tM0ZvUldKbDY1c0VEWFIteXItOU9wWTU4SGlMTlU4Q3BFZlpjdTJ2TThENnlBakhwWllLeW5oMEtwU1BSbVFtOFpYRFVjd1pkN2d4VWNJMDcwd2twNjBKcWVtWF9xWVJzd0hSUjJkZW9DSDBuSV9BZXhhOFQ5ZFRGNmkweFVyTFc?oc=5",
+   "source": "portas.com.br",
+   "date": "2026-11-03T10:33:04+00:00",
+   "summary": "",
+   "id": "d1236bb0944a04",
    "topic": "imoveis"
   },
   {
@@ -1614,7 +1641,7 @@
    "label": "Selic (meta)",
    "value": "13,75",
    "unit": "% a.a.",
-   "date": "04/11/2026",
+   "date": "09/12/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
   },
   {
