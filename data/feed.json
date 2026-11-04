@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-04T02:45:12.405418+00:00",
- "checkedAt": "2026-11-04T02:45:12.405418+00:00",
+ "updatedAt": "2026-11-04T03:03:19.392336+00:00",
+ "checkedAt": "2026-11-04T03:03:19.392336+00:00",
  "fontes": {
-  "Google Notícias": "ok (+503)",
-  "Banco Central": "ok (+78)",
-  "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=%22Sistema+Financeiro+da+Habita%C3%A7%C3%A3o… -> Remote end closed connection without response (+0)",
-  "Câmara": "ok (+20)",
-  "Senado": "ok (+9)",
+  "Google Notícias": "ok (+131)",
+  "Banco Central": "ok (+0)",
+  "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
+  "Câmara": "ok (+0)",
+  "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
   "Banco Central SGS": "ok (6)"
  },
@@ -604,6 +604,708 @@
    "summary": "",
    "id": "1fd7fb40f244a2",
    "topic": "imoveis"
+  },
+  {
+   "title": "CBIC debate inflação, crédito imobiliário e os impactos para a construção em 2027",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQjdBbDVUNzdMWURlbFRTRUJtczZIZXRRendXdlVoUzRwUlZQUzVBWTMyNzRFakFIMXJDR0NuWUZJWmxPcDdob01Scm90RjlrVUxsemhMbWdfTVV0dGVwbFlaMkdibXEtd1k3Wjl5WnpCMGZOcW5HUEJ0dk5TXzhNMmIzUDM3QWdVUHhpZVVUTXlQR0EwNFdsSlBYQU4xbkVweGpF?oc=5",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-10-22T07:00:00+00:00",
+   "summary": "",
+   "id": "98039bb148256e",
+   "topic": "imoveis"
+  },
+  {
+   "title": "A Caixa fechou a torneira do Minha Casa, Minha Vida? Vendas do programa perdem fôlego",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUlBIdE5MT2tKOU9UV0dZVVQ4azNfdjVFeUNXMVNhMVo2RzV6NTVnemVoM0JMOVhNODhwOC1FOWw1Qm1rY2FBSU5nUXUzc3ZOSzZjSG5mWnJTb3V3U3BEQWdEbjJ6emhYam45bktCRFJ6Nnlia2hFYkZEcXpPaXZtWGhPZnBkS2lRRVNPZlZEbmw3dU5ST2JyQVhwcEsyY1R1ZU52bEtnOFkta3p3dFlpTmVTVlpoQnBBUWlZQU5YZw?oc=5",
+   "source": "Exame",
+   "date": "2026-10-22T07:00:00+00:00",
+   "summary": "",
+   "id": "3c9d3b4e4dd905",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Alienação fiduciária imobiliária não registrada: Reflexões a partir do Tema 1.420 do STJ",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa2E2R2UtR2Q4R0xsdTM0Y1FVb1E0R05UMU50T1ZMeVV4U0RSb1ZNbHJIZ0ZTY3BOSnlnOGpUb2lHdlAxR2tzQTFRRmlDOWNVd0xlSFNhY2JnSno2NEpWdG0wYzJDdVd2NXZfckZiNXd3M000U2NtMGxhV19FSmNMQ2xjWUVBd05RenIyV19UMXowcDR3OERfV3JBeTh2ZFBHQVU1OHZpMTZUODRpSkhDZVhqemcxcEtIaDhuakFTRUlRbTNOT0pz?oc=5",
+   "source": "Migalhas",
+   "date": "2026-10-22T07:00:00+00:00",
+   "summary": "",
+   "id": "a65ce997f2b17c",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Crédito rural: Federarroz alerta para risco de perda da safra em contratos com alienação fiduciária",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPcktkTmp4RTZDNnJRbFg0Tm9Manl0Qm9mV2tBVmttSUxFN1V2V0hpdy1BcGFYZlVleVZJbzlFeXVSU2RfT29Sb2hLeWVReGpXU19TVjhuZnFMSmdHMk5CUHZqVU1vekZpMXh2S25SRWtIR2FvZmlnMWtmeE9hc2d2Y3lnWGV2cG5hQ0pvZEdMZ3UyazRDeEdZWEMtQm5IYnFJZVRjUU9pd2kwMmF2TjdTRTM5VEdjaHlWRTJHcWlUVUhtU09XVFg2THRVTWJZZ19kYzBaZEpUcWZrdUI3NDQ3WjhsSTJ5LUZwSXVDZlJPOTctcUh1UDZn?oc=5",
+   "source": "Portal do Agronegócio",
+   "date": "2026-10-22T07:00:00+00:00",
+   "summary": "",
+   "id": "33634c8a43c018",
+   "topic": "garantias"
+  },
+  {
+   "title": "Financiamento de veículos registra 670 mil unidades em setembro e atinge recorde histórico em 15 anos",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONGUyM185czcyZFRyS0hzS1NuT0pjUGRFbEhZSl9JbTdMZ2t3Ri1XYlIxeXhHU0FpQUs2M2V5TTJQcE1aYjlDYzFxRWJKUnE1MU44SGRDdzNJUEFJbkZYT1gzWFY2Zk0xSUlDN0o5QXdDWm5NYktRZEp0TkpyNlB2QTQ4anpvTHZoSFFWVVc2d2RIRF95VmN4b01qVDBRTWhsQVZycGtyelZlWU53LUhpY1N0ZmpnQ1RDaVI2a2tLck9iN0UxaDFHSzhNOFo?oc=5",
+   "source": "Brasil Inovador",
+   "date": "2026-10-21T18:00:43+00:00",
+   "summary": "",
+   "id": "b8789b5ce201a1",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Financiamento de veículos bate recorde em setembro, aponta B3",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUTd0RE9fVTFoN3FVMkc0Q203VEhyaHBuckQ5a29HU1k2dkZZRGdGMjhWT29PanlYbmcycW85UEVyMXBVMXVhbGg3UU42aVhkQnRsZDRVMEFRU3dqV2ctWW05WEp6MzdrYUJld2VzNDhyLWhlQWdSSm1yazZXVEs5N2dCN21xM2FvNkVCSVFaeFRqM2hHVzdhR0F1Rl9ETzBCd1F4NNIBqgFBVV95cUxQNUVGUmFiRUs5SGxwTm8yVTREUFJlV3pKSUh3NHVoNjdNQldDMmZaMVp6bU9qUlB1akFMM2hHdGZvS2ZoeXZhU09mTUl3a2JSYTF0ZjNqVUZ3MU52cDktUGtYWVlPZDd1Y1NsazZFbUJoSGQyR2pDcXFpNzFhQ0Y4MGhTN0xzS2VVSkpTSUFURWtoNzdOZVBLZkFTaTBTdkVqbjJCU2RXT1RFdw?oc=5",
+   "source": "Diário do Poder",
+   "date": "2026-10-21T15:25:00+00:00",
+   "summary": "",
+   "id": "b7a373e187361c",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Financiamento de veículos tem melhor setembro em 15 anos",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcHNaRmZ4MXJLYTFndFRrMVF1bnBVaExHcW90Q09FLTlrbjlIakFFeE9NZ1gyalZjbUlDMWw3V1RYQmxhWGdjZ1FRbUVIM0tWaTZPMU1ZNnd0V2Q4d2RGZlJPUHduakF0U3JpZlJfeDF0VzU0OGdQaTRENjlvb0U2VW1UdnpMZFAxc1pNQWZGTG5LVzhFWXZxdGxxeDdESm9kSlMtRg?oc=5",
+   "source": "CidadeVerde.com",
+   "date": "2026-10-21T07:00:00+00:00",
+   "summary": "",
+   "id": "b176de1d1f634d",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Crédito Imobiliário: 60% dos Compradores Dizem Que a Vontade de Financiar Aumentou com Novo Modelo",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVklwUWk4MkRpWi0wZjVHOUljdHBkOUdITmFPWVZHQnNoUkNlR3RIa3lPMzVGSDlZXzNjN0VZMFlSZ1NWaGJEdTBVZFdDaDQ2enhGMGEydF9McXFEckExVG5peEJYMXpoQk53Q1FyZS13YXZvTHM2ekwyZ2dYMEtIdE1KZnF2U0VIS2ZfbWNwUVowM2g5aHdzVlpNb3hvOG05Y2Q5TlgwRTF0czNhakUxSg?oc=5",
+   "source": "Forbes Brasil",
+   "date": "2026-10-21T07:00:00+00:00",
+   "summary": "",
+   "id": "b9753516a2f66f",
+   "topic": "imoveis"
+  },
+  {
+   "title": "LTV, CET e alienação fiduciária: o vocabulário que decide quanto você vai pagar",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOU2FRMDczQTY5eW1OVVQ4N0p1aE5SVklXRnAxa0RsMmRpSk9wMHB1R1M2TWdCSVdxcFFMS0VDdnZLREZCSmFiQlhQdFJMU25zQVZsYnJ4SXRKVTFmWnE1cjRpbFRxRWFKWFBfTmIxQUI1ZF9YX2h2dm5PRC1adjFxMEJ0TTY5bzZVZEV3VEVqb2trZkZZOWdHemVsZWJXenIxOE55eFYwUXdkZzNXMXY2bFdHR1pIbEJBZ1Jld05BOXhOWDlkMjlGeEVTSWtMeGV1ZzlUejVlQnVhR1UydkNOSnJESzFxMWdO0gH3AUFVX3lxTE1OZ2k4dVpXTDF6UkdMU1VFYWVYQ0taZ2FiMllvcjNuNjZiOHJRX3F3cjJ2MkREeFZScy05dWJhWEZIV0R5Z2kxQTlfNFdRWU1RM0V0UzJQdFNqbjBpMkVWcUNZU1hqVmxaYmptdjIwMjN2LXVQYzF0Qk1LX3dyeHFodW90eWJkdDZoRDJndWNyTVpYLWE3WDVCcUtaTGNYWi1UUEx1ZnBIUWxoSWswNzFlRmFicEl6bWt2bVNaYmtUc2FLVjFlOHprMm9hMVdNNHFUQ2RkRGdpOGR4bVpFbnJrNnNoMDhvV2Q2ekx1WXMwcTF0UlViamc?oc=5",
+   "source": "O GLOBO",
+   "date": "2026-10-21T07:00:00+00:00",
+   "summary": "",
+   "id": "33fead699897e0",
+   "topic": "garantias"
+  },
+  {
+   "title": "Financiamento de veículos tem alta anual de 2,8% em setembro, aponta B3",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNY3hnVFhGZ04wQXE2RWdYWHdrZWNudERBMEtXb2tDU0lITHNrdml0ODFfd0dKVnEtV0JONTlZc0l5eEJkV3BDdUd5STZVeTE0X1k5NVItQ091TVRoWGtNdWpIVzUtLWVJNnFXNloxX1NlVFBLd2NDZTJDa1BHUV9xRDJKaW01RDBDZHpJZmRfU1p2cy05ZldPTnRvbTNDU0YxcHZ6bGtldERjYWhUeUl1aVBJT2pZV0l4THVzY2ZZeEhOOHk5ZWp2ZlBsOHlmRUgxT1pzczZhRnBXaEt60gHrAUFVX3lxTE02Zy1MNEV4S0lYeEFkdGFTN3h3eG0xbTJoSndudFBDWEVDSVN4V2ltNnVGYzJfYmZqZFhNTEpGUkNoSWlvS2prN1M1Q1dCRjNKUnIwRkl6UGEzaWJLdGxUN1YwSFBhUjlhamVEeHVseHpFWC0xMU8xR0xEY0tXOThXZkZmNjN1bDA0bVdRTW43N0tCQWN3dGhnQnNKRXZ2dEdPNGljRlEzRC1NQUFqdlMxNG5td2tDN1dacHIwcWZqTk9jVFVVTEVtTHQtMXk1Mnl1dkJRZEg5eThZWDlvZm1mdzJYS1dGUkNuR2c?oc=5",
+   "source": "Valor Econômico",
+   "date": "2026-10-20T07:00:00+00:00",
+   "summary": "",
+   "id": "09f72fc80e1acc",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Alienação fiduciária: carro em garantia segue em uso até o fim do contrato",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPc0dHWG9FZ3g5bGJxa0dQTUZDVjRYQnBTelAwTlpVS2c3eXlkNUJyNXNfMGxXcGkzV0RVYktWMGNaTGlLdXVaWXBnYmFidnNfR0dsVks1SUVIM1FBWUN0R3Rqa2M4Y25MTkFjX3VSb3pzWHZoYlZ3My1JQW8yZ3lQZUw5TGJOWks1YmFUd19HTm5MSmdjTUNiWEZheVNlZU1tRWFnX2hqOWxCNjE0MkgwWEVVMlZvS0dtaFVWNUgtNFl1a2FDR3dWaUgyWTFyS3JIVVpqZGl4aDFkUdIB2gFBVV95cUxPc0dHWG9FZ3g5bGJxa0dQTUZDVjRYQnBTelAwTlpVS2c3eXlkNUJyNXNfMGxXcGkzV0RVYktWMGNaTGlLdXVaWXBnYmFidnNfR0dsVks1SUVIM1FBWUN0R3Rqa2M4Y25MTkFjX3VSb3pzWHZoYlZ3My1JQW8yZ3lQZUw5TGJOWks1YmFUd19HTm5MSmdjTUNiWEZheVNlZU1tRWFnX2hqOWxCNjE0MkgwWEVVMlZvS0dtaFVWNUgtNFl1a2FDR3dWaUgyWTFyS3JIVVpqZGl4aDFkUQ?oc=5",
+   "source": "Estado de Minas",
+   "date": "2026-10-20T07:00:00+00:00",
+   "summary": "",
+   "id": "9459d27989e466",
+   "topic": "veiculos"
+  },
+  {
+   "title": "FIN: Pessoas físicas puxam aumento de crédito em 2025; destaque ao financiamento imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbVAxMFplWXZRRjhDWE1FdWR5eVg2NHd1MGVTOVM3UzlRV1BSaXF1Q1RDLWZSNTdzaDJVc0NJMEpueC1lb2dQMS0wdFJaUjlwZGhGZ2ZHdGFaN1FSeGp5X2lkR2JoZTBBYmVDN1RrQVNfS0o4NEFmTkpRYmRpWW02OGxuUVNWN0ZoY0ZzMk53MlBTVHZrNERBa1piOWRaRkV2VmJKNTBCckpSUllsRXBQVVpQdS1ybFRTOXZsdDRmaHlEVkxieTFNal9lcDgtZkp0UHhEbnljcVhyRmlCR1ozS3NJWjdMQUpUejlUUEhUbng?oc=5",
+   "source": "UOL Economia",
+   "date": "2026-10-20T07:00:00+00:00",
+   "summary": "",
+   "id": "5d1ac828fde7a1",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Alienação fiduciária praticamente substituiu hipoteca, diz Melhim Chalhub",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeEpRS1RrNjZycjVQNlY2M3NIa0s4VUJZSUdDdGJ4c29YQ19hOFhGMTlqY2dtTUhKbzExeXBaZ2h4SGgteks5ZklPeUI1QlFjRzFEdzI4OTN6NEo3ZlhINi15N2NwRDBFWU1JQWJPWTREU3RBZlpuNF9INnZuaTM2OUp2b2x0OUhCYng4YzhLRENzSGd2OU5aWFBpbTFMYlBtR2lEdGNld3VaeHlD?oc=5",
+   "source": "Migalhas",
+   "date": "2026-10-20T07:00:00+00:00",
+   "summary": "",
+   "id": "2bbf04febc245b",
+   "topic": "garantias"
+  },
+  {
+   "title": "Presidente do TJ/SP aponta impasses da alienação fiduciária no STJ",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ2pBWW05LS1BWHJRbG5telpEQzNDNnNuQ21PaGdWcS1vM0g2YXpKMzdQVGRBMFJ0OGI0MUE1c0R6ZzFQYUZTeTkwR0JORERNQjRKMGl1ZURMR1liZk9UY1Z0Vk9jczR3UkllTTFfczRDbkRDWFZXX1EzZkw4RU9qeWN4dDZIQnhQSy1HYkQ2WjNSQlVHUzRPR0k3QmpROHNTQl9RMmkzemkwdHoxU3c?oc=5",
+   "source": "Migalhas",
+   "date": "2026-10-20T07:00:00+00:00",
+   "summary": "",
+   "id": "544c6c11daa0bd",
+   "topic": "garantias"
+  },
+  {
+   "title": "Financiamento para motorista de aplicativo: veja opções para comprar um carro",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbHpJR3hOcVVBeWZJZTU5SUVuYmFaQ2pfemNYaGhMN0x2Rk1tWU9DRktqb2c0eXc3aTU2TVNiTWpERXNtb1ZrRzg3VkxNSU95Z1BSNkJpb29TSDVsY3NZeTQ1cDRudURxajVrU2F6SHJINVlVNmlKSzFLNm9oeHhhWnQ4OFg0X185NVltbnJNam8yN3BJbHZubU55ZjktamU2dlVOMnZJUFJCaFR1c0R0TFhSUE84VE5hdllYSmp0bG1zaTk1aXZpN1hR0gHYAUFVX3lxTE1BbUlZMlUyenp4VWhDcXdlRVAxbG5id1oyeFJsTGZvVmRxbjJMLXFac2dCWkp0RUJ4ZkQ4WTd5THV6bzhiZVVOS2RvcUJVdnh1U1ZUNzc5Wm9taWVUSkVXUDYxZzFhRldJWGUxR0JkbkdPNlJzakE4QXhZaG5STjg2bFZveFRybllpNXpaLVItSFdTRHVfeEtfeXBjM092YkFCUGVfakg5cjdVc0lrUWFjYmtXOUlBSGllUTFFckRxeGY0eFVHaTVrV2MtSG1jUFZpUVNvcXozcg?oc=5",
+   "source": "TechTudo",
+   "date": "2026-10-19T07:00:00+00:00",
+   "summary": "",
+   "id": "e48a89dd89ae35",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Juíza veta juros de 3,2% ao mês em financiamento de veículo",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdUl2T1NHdjhtc1ctMk05NmJDaHZrOVFiNFB3YW9iSUlKczV1U3VZTHliNlZxaXdSNEx1RDIxdmRjNVBBMnl3OFplVVNsQkZNTW1DcEZlRER5cHVYRGt0SnJ5aExvNDBnTW1mcWlwd3RWVlZiS1dVYXI3Z1hXRndyNm51ZExiNGFVWGNKTUxJaWtBUnBTREF0eFNjRkYxclEtLUhr?oc=5",
+   "source": "Consultor Jurídico",
+   "date": "2026-10-18T07:00:00+00:00",
+   "summary": "",
+   "id": "c879b10178d75e",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Banco PAN é condenado a revisar financiamento de moto após cobrança de juros 115% acima da média",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZFlGZmxIandGcG9lM0RwNmRQZDRldHVjc19kcDA5NXVNSXhLdnhjQmhsU0s4TWFxQkExOE9TM1NNblBQYVREQ3BPMGVNZFhPR214Q0lBa2w3dkhiQ2c3U2Nqc195a1JRZzdDVXlhMkI3VUw4XzRfMlBtc3NqQi1Yd0tTWmc5bVBQS0gwN0dOOGVfOWRZZnl1cy1LSG5YbjQyU1BIcmtEaXVUTGZlbnNobVMwVHlheWNNczdweFFYejRvSFVwRy1LMnN1SWJEcjhKLU8wbFNCcXc4QUdfeEsw?oc=5",
+   "source": "O Bom da Notícia",
+   "date": "2026-10-16T07:00:00+00:00",
+   "summary": "",
+   "id": "daeff03403b208",
+   "topic": "credito"
+  },
+  {
+   "title": "Financiamento de veículos em alta: o que acontece se atrasar as parcelas?",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdXQ4VGtCVUdXR2RJSlNaeHdpQ0FDZDFPYkZvUURDcHVYOHZMXzVGdTd3M29abnA1dzNvd3E0M3RRcE1sOFFQVVIxOVZyRjFjQnd2ZTJDajF2MkU2ZDllVHZZVlNBdkdxS3AzS0FXdTB4blhEV2lVTk9kR3g0LVNGUlRRaDB2cFpGX2k5bzB5TDFVOEw0RkpxeUl4MHExdXlaOEdGclhlMk9QcUgxUmRaanBZcUF3ME9kRVJpWkpJcjB6QQ?oc=5",
+   "source": "Vrum",
+   "date": "2026-10-15T07:00:00+00:00",
+   "summary": "",
+   "id": "caca747bb9f317",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Desistência na alienação fiduciária: O inadimplemento do devedor fiduciante",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUlBZLVVLSFBWSjM5YndKcDhlVXVUcXRPZmZYeTNqOGVjcG1zUThZMFpFYmJ4cl81eGR5OS1CWlplVUpfVlNUOWFmQ1FmRWkwUEVrcFRqQTd4TFVuZUZUVTFrTlNpdW8yUTNBY2tobENfWFZYdjROelFHY3pxRXVRNmw2UG05alVfVUNtNHlFTnE3R19nVnlSenlpdlNmSzdsTmFtbDRNOGdwcjd1c1ZxNnVfaFJxR3ZNTTFUVE1SdjdHQlBXSGM0ai1R?oc=5",
+   "source": "Migalhas",
+   "date": "2026-10-15T07:00:00+00:00",
+   "summary": "",
+   "id": "141d01da87525c",
+   "topic": "garantias"
+  },
+  {
+   "title": "A terceira praça no leilão de consolidação da propriedade fiduciária",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTGRYTGZCc1ZYVS1xU0JNRmpLLXZOYkp1cXdUSXdwYXItemZsMkFZdl8xam5YclNURUZ6aGJVZVpUNW1tcC1KTjkyNm5WSUNBTFhhM3hfcko2NjdPa2hUa21HSXg4bjJmTEVkRF9Pbk1XN2NQQ0dVQnVwbFV2a3dWdGlJanhJSC0zazlueERWM3VOckZTTVlONVBJb2pSTlQydjRvM3dmSVBEbmZlN2FR?oc=5",
+   "source": "Migalhas",
+   "date": "2026-10-15T07:00:00+00:00",
+   "summary": "",
+   "id": "ba92f1f5ebb88d",
+   "topic": "garantias"
+  },
+  {
+   "title": "Liminar impede empresa de oferecer renegociação de financiamento de veículos",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNThNdDE5M0ZCOEhXcExrUnJvek4zbU9NbkI2U3lDNTExVUhNQndJMk15M1BGSS1TZDFmR2txY2V6R2UyNkVOSlJDbTNxWUFRQ0dWVU44VGpXOGVhUEl6VktKY3lKQTRYNVI0MldabzExNWp0dnJVTVp3ZGUwX3RQb1pjR3dPUzVnUnFjckFFWHc1bmx0WGZnV3diQkJXZ1h0R2ZBeVdR?oc=5",
+   "source": "oreporter.net",
+   "date": "2026-10-14T13:51:38+00:00",
+   "summary": "",
+   "id": "b06310695070e9",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Recorde no crédito para veículos ganha destaque na Expofest 2026",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWVA4SEtrcVdFYUo3TTVRVTVNSExpbFRhMHdaR2pTME1BMHpqY1FsZi15TkZwWDVQcHB0X2RNcElSSmpGRGdpd2NaeFNsVDkwQk1zLXRjLUJYbVAtZm9DdURDei1UTkpNa2RYTXNWNEJxczgxbU9heXJ4Qk5pYkMxYnQ5Y0Y1cnJxYkM0TW5NR3lCSUw3YmRqQnlEd1E5cVpscU5qZnRwaW9XTkRjQURhVl9yZG55VTNBV2FqVTQtYS1rM0hOYzFJbjR6VnZlNUFkVGc?oc=5",
+   "source": "Sicredi",
+   "date": "2026-10-14T07:00:00+00:00",
+   "summary": "",
+   "id": "de26164aaa91db",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Consórcio imobiliário ganha espaço diante da alta dos preços dos imóveis | SEGS Portal Nacional de...",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV1F3ckhUVHpMTWFXdXNIODl5TWl6RWV4dVJTQjBQOWtDc3JhQUQ2LU1aTExsV3NiS084SE92cEsxTEprLWo5WmFTT0lrVTZlS1pJWFd1NzZ6UDhiRkZsdF9Zd2lwTjRUN2JjS2pncUxzbDRZWDJhTUFYVFF1cjlydVhPUWRBRUZ2WEg3VlBjV2VQM0JWN0N4cHR5RFBEdzdQWFBiSXVYbVFmNjZxM1EwONIBtgFBVV95cUxQYnBWZ3RELUxsem1kMUQzcmNPejhsUExnb0huNV9rWW9sNGtobllIM1JmVEg5VExUbmw0b1lHSFpQTjJCYVdvc0IyMGQzbGt0U2lYWTk1SktBejc5OExPNENkMXV4OVpBOTFSYWdIbVhoRF9uYWtCVHJNUy1hNHVJVDVRVk9ZVzVLMkFBcmxha2ZmY1M4ZFB5S2RUOV9VLWhGTm9GVFRGVWlEdFIzNFNYU2RVdzlUQQ?oc=5",
+   "source": "SEGS Portal Nacional",
+   "date": "2026-10-14T07:00:00+00:00",
+   "summary": "",
+   "id": "81700189b81383",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Santander oferece financiamento de veículos com juros a partir de 1,29% e viagem à Fórmula 1 na Inglaterra",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ0ZPMnFrNVJ0UGhpX0J4QWNDWFZRY0k5ZXJKQm9veHBuYllkeU43Tk5Edi1jcFBBWFN3YzFMT0pEVTN4VnFpUVVBY1NubVFuMEJQeDVEU3hwcW1USE5rcms5YzVYQzNBaE4zdC14eUJDSlgzWnVRRzZrdjRHamVFclROSUprcEFPQXJPdnlaMFJIaF9taW5yV1FqTm1YbEdBVTdhOGdTRndpQ2djbzEtVm9ITnotSVZpNWk4RXFJNTB4T2RIMU42eg?oc=5",
+   "source": "AcreNews",
+   "date": "2026-10-13T07:00:00+00:00",
+   "summary": "",
+   "id": "102ce17c028869",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Vem aí a nova regra da Poupança, que vai mudar de novo para a classe média",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNFFsRlhSVzdLV0hDVVBqUEhsSnU1aGRwX3J6YlZ1V1J1MUtQTS1xRWVMODZ1WXpEOGdocXNHSjR1WUo3Wlh3Um1QaHpTV1ZZSlpSQVF0LUx4ZmlmdlVFeGJaVWgybDJzSlpMZFYyZnFpcUxEUjhnR0tSWnoycFpyc0hvcVk2Y3FJSTRZZ29WZEpES29sdjcyVmVJRGc2NFFWSzVPTWdlWmtDU2hSaVFMdml2aXRjR2h0VnZfS2lNUTVQb1dYNG1KTFhiYjhMNE0?oc=5",
+   "source": "JC",
+   "date": "2026-10-11T07:00:00+00:00",
+   "summary": "",
+   "id": "3f132415b84d61",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Bancos veem juros menores como chave para ampliar financiamento imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTENSR0JjS1R5YnFSb0I5Q2x3aXR4RG1vV1lMd1VqdUtDNXBzeGJKcFhYUTROV2dEU1NHdnpfQm50cWRMUHpBQVR0RlVmNUJpRnZLbXpGVnM1NGQyUmJobXpBcVZTRkdaT3VJdXZKS1N5Z2ZBbjRYcFZwQjJOYW1uYUEtV0ZUVmdkc184TkgtVW8zTk53NUZyQ2t2MG5sZw?oc=5",
+   "source": "portas.com.br",
+   "date": "2026-10-10T07:00:00+00:00",
+   "summary": "",
+   "id": "8dfe521d7c731e",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Financiamento imobiliário: saiba o que fazer para evitar atrasos na compra da casa própria",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQandNcHNXTXFPeVJQRHhMTTVnMkZDTy1uQjgzZlNSZENvcXlPeVpiS0xLN2p5ODVWOHpFQlVQQ2dhdFVuNUF4Nm1OS3VINF82RTluYVhvZHhKWEdjR1RuUXNvX3NKVTNUamR2MXRLZThwM0hTekJUNWhvYnJ6ZEU5S0dta2tpeXdxWUM0dHVfWXc1NWlCT2w5dTl2dmhnV2RqbzBCMml1eFlLOXpaXzNJUlg4WUR3Zml5cXdzOHNJMnRyVDZXQW40cWh3cnZGNjVsWlBiaWFNOENaakZvR2hiWWFjTU0yUjhSZUpJUVpTd20?oc=5",
+   "source": "A Tribuna",
+   "date": "2026-10-10T07:00:00+00:00",
+   "summary": "",
+   "id": "acd8813f25b927",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Poupança do SBPE tem saída de R$ 6,19 bilhões em setembro",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9wRG0tdDR1djcxSFpFS0hjYWY3YWFMQ3ZPaDcyb29UVGhsOG15LWxNNUJicEhPdFlQZm1KM1NqOEh1dldoalY3WFhfaDdWWk5ka1p3cW9aUmtpbFRqdVRkRldhWTNUZnZ3amhOOVp3NGE4V3NRbkRSSmtkaw?oc=5",
+   "source": "portas.com.br",
+   "date": "2026-10-09T07:00:00+00:00",
+   "summary": "",
+   "id": "5b9ebe45fa2c32",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Operação mira fraude no financiamento de veículos",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ1BpRTJDTDkyaHllOFFjZXhLdmtTcmM5UlNxcVA2aVRPY3VxYWJsRXhTMDRGSjZVT3ltSVpFT3N3cGhLbGJMS2tjQTRZc3M4RVBwVEF2bmRvNm1JSkt1Qm5QZWtNdU9pTnJ0N3ZoS0dDcWVlS3FNaDhlbGRTeDBjN1piWUczd2o0QVdHMjBTcWZULUxGVFN6WFNKT1VPWlFyNlN1MExjaF83bVNuWkl5eNIBvwFBVV95cUxPNW52bDhCNUc1N2tPT19rTW1QR2kzQVhXOExFWV92elNSQVg3UWpCTmhhckFUT2M2YmR0U0NCb3Zabi1QVGpqS2s2WjlZZ3JVeWJlOW5HUjVybE5GRWw3VzZpdm9qSHh5b3RNMFFsSkFLSHRvcUxyRnc1OEN4MjMxUW9wdG5VTTZpX3B2SGFNaWNlX3c5OENDaVNaZWc5RDAyYW9vRWFzS3BKVGZ6TXZjLXAyazMwOXJIUC1FWkRpNA?oc=5",
+   "source": "G1",
+   "date": "2026-10-08T07:00:00+00:00",
+   "summary": "",
+   "id": "82d0b30aee741c",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Avelloz lança operação de financiamento de motos com infraestrutura da QI Tech",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlNBVHZFNFZrUXZ2NGVYVlpoMHJGLVpTek5NcDM1TEswUVhRZzMyTzNnbk9aYm9vbE1wWXNWaEZkVkdxVV96d21SQkY0S3QtSWVqUmt5eE1Nc0lzb2VOYktXWnJhdlRoTV9oNzFzLU5sYktSWmtYazJGVTdkY2NqeHZqbzVieVNMOW4yZGJEb3FuVE1TRC1qekwxcnVhdzg3Y3NxeElGOVZsNVhoeVk1Wg?oc=5",
+   "source": "Brazil Journal",
+   "date": "2026-10-08T07:00:00+00:00",
+   "summary": "",
+   "id": "b4d901ce902ddb",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Goiás destina R$ 2,5 milhões para reduzir juros de financiamento de veículos elétricos para motoristas profissionais",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOb1dSb002cDQ5THlIakxMWi1oUEJFODBZU3hEMXpRUnRaTEtEMGJVRGRreUFVMUpBek1vb3BVUGZGSjZsTExaNnlwLWpKZlBfX25hNWRmdkd2RTJLSXFzaFl1ckRyM2VHd2dUN3ZtRHBwSUFCc3JnUEdjdm9kNXBFSVRJVWxpRHZoWVJHUTZLZjlWVzk4bW5nM09rbWlSUnJqMlFsVEhMUS02Q1BiLVdZcWwtTmNnNHlxU3Z1NkN2WlloMjNXT0FINHhnTFhnMWJUbHRsRHFaUGNXc3lHZ2tNODJsQmI2dkNUbjR6R3FzWVUwd9IB9wFBVV95cUxORzhOM3h4TUhSSHdFRElHbTlmUmw2TF9aNkFnSlZzSmZvOFVGVjNFNXduUFNDdzl5Rm5UNGk5S0lKaG0zUHJFNncxc2g0UzM0ZHV5NW1sQnZHRjY4Z1VOM29SRV9sU0t2TG1DVHExUW95THJFbE5KZXFiS3RNVFdqQmtCMlVadUpnQ1JvMHdBeXZKZngtUWdlN2o4OWlxR2dqN19Qcm5LaFNvZVRtZW8xSGpUMHFpVDVRZ3BBWkJUeWoyT2J5cDEtWVV0YlBFZjVsUW9rdnlmaUNmWmM5M1B1RXFhWlAtZ1VKbmJWTVlSLUg0bHEzb3VZ?oc=5",
+   "source": "Diário do Transporte",
+   "date": "2026-10-08T07:00:00+00:00",
+   "summary": "",
+   "id": "9e8dde91734bbb",
+   "topic": "veiculos"
+  },
+  {
+   "title": "PF investiga fraude com biometria facial em financiamentos de veículos",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb1BBbnJEVk5ibWJZSERRVEFRa0FRemZfVU1LTnF3TFl1dUpHV0xLVXRFQktZQWNReDh2Z2RnM3lKTmJYRTR5bVdJenkzTHFCaWNMMnVUM19VNFp4SWM2dHU2a3hjYldHOUJHZXpaSzk4WUc0S1FhcGZSVWNBZE5iVWthdHc?oc=5",
+   "source": "Jornal O Fluminense",
+   "date": "2026-10-08T07:00:00+00:00",
+   "summary": "",
+   "id": "061eac2b889908",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Operação combate grupo suspeito de fraudar financiamentos de veículos em Uberlândia",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWVBsaFh2NjZTeDhqR3VOM2FyS1k0YVFxZFMzWXhaWEZGc0N2aHlWSlBkYnNZeHpabTNJVFlzOC1nR1JHTjhVQl9rUVdya3AyZnlIdmc4QjRGYm9nT01UNFZKSGh4Z2RiS1JQd2JMTzRLZEhoTXVUYVA1UjdSZnpMUnlpVVkydHNVZ3l5NHo1SUZ2NDZDeG9GdWJldGQ1aHhfRjZ6RFprblRCaWd5ak45dzZrVTdxaHFkYmtQXw?oc=5",
+   "source": "patosja.com.br",
+   "date": "2026-10-08T07:00:00+00:00",
+   "summary": "",
+   "id": "221cf14318c73f",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Juiz manda Detran informar contratos de aporte com empresa ré pelo desvio de R$ 7,4 milhões",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYVNkdXB2T0lvQ3FZa1Q4R01hX3duVWl5bXBaQ1RHSWJ0UUZNN2lEWUpjZFFlSmI4OFBSN3ZMVGtMV3g1Tnl1ak0zZFAzLVhfbUZJNTVjQk12N21vRE44aHo2MmFpSVhwSE5EVHR6Sm00UllteXUxa29kSy1jRHA4OHk4Ry1xRVlDUU1zZkowOTVQeHdIbWYtNS1TSUNfMThfbnExOUo0czRQeHVvdnViVVV6N2RCaGsxMmw0eHh4NmhIX2ptTEgw?oc=5",
+   "source": "O Jacaré",
+   "date": "2026-10-08T07:00:00+00:00",
+   "summary": "",
+   "id": "2ea9399dee4d16",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Financiamentos imobiliários do SBPE somaram R$ 17 bilhões em agosto, diz Abecip",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa2I5UHBTRW0tSjRUS0Fubnp1RjhncnRHNEFDRnNSenp5SnNIZzF5TFo2dkwzeEVrV1ZqclV4dzB5RnREX05HUElKVnJPTG5iVWdSR0tBa214RlM2OFI2TE40Y2tIREFubm85YmVOeVJaSnNPUTdfVkk4TEZRRlFVTkZRU3AzdkhyY0FEXzVEYXNrUEpHUDdjOVoxWHNMQXNqZVFtZnR30gGrAUFVX3lxTE5kVVZPb3BzV09tcm40MWVaR1VDNzBydm84emZILVEyX3EtY1RUdmFvM1owTTNTMVUwMElVNHJEMTRaWG5SZnNsVXYzVE9VaFpha0cwd29wWVZaMkQySTViU1N2OGR2V21pYTc1UXQ0YlM3N2xUS05LZTRsQ3F5Y0laSVUwTy1oZkJOUFJGWmFDSFFIQWNQVHYyUFMyYXV4TWpkV0xnTXJhc3ZkUQ?oc=5",
+   "source": "Livecoins",
+   "date": "2026-10-08T07:00:00+00:00",
+   "summary": "",
+   "id": "376e9f1b481cfa",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Detran corta acesso de revendas a emplacamento e transferência de veículos em MT",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQamZCQkRWTmhSb240a3NtZXItaEZxZUFwWkxZYTBUM05rM1VnNzNubU5qOWU1RTdWekN2TXFSVTd1VEFqVnFvTXQ4Zk1uUVJsbzluSm5vWmFwNXFYcEVWTlJ5ekRERGdPVXFQYkd5VU1rTWhUcVUybVpHVEJFRy1pY0NYUEJBcTVwcGQycHRkQnp5bTN4ZjNiSUl0aUdnSEdJaE4td2F0MUpDdmppVUlPTDZYbjNGbldvTUpxZkNWNUVBZHdHS2hCZWtHTzJHU1k?oc=5",
+   "source": "Fatos de Mato Grosso",
+   "date": "2026-10-07T07:00:00+00:00",
+   "summary": "",
+   "id": "a9f3d1888f71bd",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Bancos e cartórios preparam automação do financiamento imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZVB5WFBYLS1zOUx4S2lNZEswRHpaaS12TmktQ1p4eDF6Q2hmQnpxWXRSTTVWVDNKRktqcHN1Qkg3Q2x1N2IzTk44MWQ4bGdGVVN4NUlnbkFsMkhyaXNUQU5manNfdUQ5a2ZnLTVLUGtrQnk1aFdqU0I3X2ZDcHBUQUZqRl9NZmtpOG5PcWNiSVJNaWE3bXp6UGRzaE9Fa1k?oc=5",
+   "source": "portas.com.br",
+   "date": "2026-10-07T07:00:00+00:00",
+   "summary": "",
+   "id": "d3af0a4e1d2a38",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Crédito imobiliário cresce apesar dos saques de poupança e FGTS",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPanNQYWJFc1ZfaUZ0a0pBdDBqbDN4bnZGcXJLbFZGR1otd2hFUzRKdGRyMk5OenMzSGRDU2RGOXNTOTJwT19wOXZhM2w4SlhBR2JlRVd4Z25YdUNIanZrR0JqSnN5dE5XeFV2ZV85clA0cGdSSHFYanIybWxvZGNUNVNpRm43N0FFWXJHNFZONkpidjFLdC1KeTZXaHlOd3hGQ2JQQUhLLTlrVGkxZVoyTQ?oc=5",
+   "source": "Imobi Report",
+   "date": "2026-10-07T07:00:00+00:00",
+   "summary": "",
+   "id": "c00e85a4770372",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Tecnobank estreia programa Camada Zero para debater bastidores regulatórios e infraestrutura do crédito automotivo",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTndHU3NMTGZUM3dxdU0wSW9GTERCSmZiT3VrUTdORGVOZ2NYaEx4RG00ZFpGV2Ztb2d5OEQ2RjBsR2pVUjg0c3V2MlQ4Rzg1bExMVE5XTzlWYzlCNGw0dGdRZFNtUnBNSjdweHZLTDRQTm5vZjYzSFN2SlRHcWlvcnNDREM5ZV9ibFhmVjJBMGhhcEd0YzVsM3JSYjNPQXlKWjlUWkI2VWkzdENld2hWYmNORWpjYzhTWi16dlRsZjY4VDFQUTAxVEYxbWJsVnNhZ25kUnNPaWJ5RWUxbnc?oc=5",
+   "source": "Brasil Inovador",
+   "date": "2026-10-07T07:00:00+00:00",
+   "summary": "",
+   "id": "7640de5b2e0c3f",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Financiamento de carros novos e usados cresce, mas inadimplência dispara no Brasil",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORUtQMnRkeXk3TFJFS3FpX0pWX2MwQzNGVWpzZEJlN19GVTdHNjRfNUpwMTgwTU1mSzlLaDZhQkZWQnMzTTRCWlAyZ2pDS29sRnhIMkNrdThlTWxFV3pWeGxwbzZfWURXblduaHFrVmlzWkhFeGxSLU5VWkJDRU5XenktNDV6c09vSWhRZHlIZkRITFpZR2FhaFo2am9zT3BndWhxT1FMTUFKU0wzS010bG8tT0loM1MyUnUyUjB5dmRRVFZnVXVhczM3eER3b1A1cHl0aTNvN2JFc1RoUTVueFdkZEdhN2VoQ3NuT21KZTjSAf8BQVVfeXFMTkJOTldTNE03aUs4U0FtaVc3M1VSN3ZxQU56Y1lOTExudWRMdjFGTGQyTkNpempjOEZzdXN4U3lLektDV3NRaXdHUEo5U0VJd0UzMDhaRmFoaVJ0cWlxMmZEM1hZUHRqMGVpNUVIbEJZdkVxNGVjano4eHZZbWJtMHByUDczdzV5RzA5TFpTT0pVa21yaFdOcFFvdC1RV2l1NXItZWltbF9pVkp3R2xkWk9ORUZWSVhPUWtJUlhrVWFuS2pNeXQ3Q0xHRm9tLUxGbjlONzdLU1hONVZWVERkY1lxbTh1MlJ4RVdSNkhrMmlOTy1mRlMxcG5qWmxXXy00?oc=5",
+   "source": "G1",
+   "date": "2026-10-06T07:00:00+00:00",
+   "summary": "",
+   "id": "de4eeae4d92eee",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Sicredi Andradina realiza Feirão de Financiamento de Veículos hoje e amanhã",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPM2o1RjFVQTQ2UVBuU2ZHeDNITmFqYjdkV0ZNTmhoeVQ2Mnc5SElzVGI2cjU3ak5GWEJSUFZkaXctWXM5TTVMenduSnV6ZXlrUXpuWDZUQmdqenFvTnFNWi1DLTY5dTBTRVJ2andoM1ZTYUJwMVhRZ1BkcHhRek1JQWRpUEZOMHNRV1FKZi1xUVkyYmVZUEpRTnBKOG1uMTJRaEdEbEJvS25KMDNYMWxKVXp2M0dQNVJRLWtzVnQxeVFwZ2ZQWnhfM2N1ai01NjRzQjh4OWthUHhjU0U?oc=5",
+   "source": "Hojemais.com.br",
+   "date": "2026-10-06T07:00:00+00:00",
+   "summary": "",
+   "id": "ef33101ff617d3",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Alienação fiduciária exige atenção rápida à notificação do cartório, explica Tatiane Garcia",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRGVMcG44VXB5QzZwWEZaSjlTNFJINlRHZjFmbTVEODVCenhnQjh4aHpGOTZqNS1XSlQzSHFxWm1MNVVyaGNZRF9JT3NpTkY1cHhwejVLQWJpaWs2YVZ0X1NIbGxEckR4V2xISlJKeDAtWXliWFhudzZka1k4U1VTYmMwNDhaNmZSeENCbGZ2aG5Eam5qMGJlQklYaVoxUmlrdnBJOXN0dlVrRGs2TXM2MjVMM2N3TEd2TkFzemFreGcwckpGWVcwUmxuUUNUa2NRSmFxdjF4eGp5VHNvN1FKNmFGbjltSlkwS2Jv?oc=5",
+   "source": "Jornal de Brasília",
+   "date": "2026-10-06T07:00:00+00:00",
+   "summary": "",
+   "id": "c5bcda5074653e",
+   "topic": "garantias"
+  },
+  {
+   "title": "Vitória na Justiça suspende busca e apreensão de 5 máquinas agrícolas no Tocantins",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNHBEa3lLdHpUZkRvX3MtbWxBUkoxY1RndDAzVjZxZUZ2WnM3SnFMZnYwMmNmblg3RGlYWnB4UkZWTkttVVpJZ3FsUno2cjhMU2FnejYyaGNVRmVoSUR6Qkw1ZmJtT1B3ZzA1QmZGOEh4cVk5eDQ1WjFVU3Z6S0t0cW1QNm4tUTV2VUNSR1FkcnFVbkZ6dG9WcnpPQnNxWDNGTll4LVJWVnNEV2hyakZyaw?oc=5",
+   "source": "CompreRural",
+   "date": "2026-10-06T07:00:00+00:00",
+   "summary": "",
+   "id": "51fa0ef30bbd2a",
+   "topic": "garantias"
+  },
+  {
+   "title": "Bancos automatizarão financiamento de imóvel",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObjBJamdmaXlUZFFwMXRxcmpoZXNGaHZqMk1yS1BFeHFGWEFEVEVSTkVKRDVlZDEzU0hlVHFYcmRMbm5iblNFVHZpYzljMDRQbER2ZGpxMEk0ODE5Rm9FRzZWdzBtQWtFeXNhQUstcHJtelU2TE5TMGdmM3I1WnNZTExjMVEyam5ZdFRiV0tObWRmMDJtbXlmRUJ0QXNQU1NLTkpkcm10ONIBtgFBVV95cUxQX1RHcXJRV2lsdmphLUV2WU1MNnVNWlg5cW40YXZhSmh1cUVZeGp0STd1bTlwMkczSG5zcjFRczBKc2hqS0NtN1FLclZZeFd5bTFVVVpGQlBNS3oyNEhQYVFSYi1BU0xyMElraW5wOGxlaVVZc1BIei05bGRPZWN3WDdZTndIQ2h0OUdTMVlwY0tFLTVPbEZ4amNSUTM5VXlGeXNmNWljckFuTlFINlFNN1lMbkI4dw?oc=5",
+   "source": "Valor Econômico",
+   "date": "2026-10-06T07:00:00+00:00",
+   "summary": "",
+   "id": "9088eb286fd620",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Quase 2 em cada 3 veículos financiados no Brasil são seminovos em 2026",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ1J5MzNPWWNVOUFlVmJEWWlVNC12emZ6Y040Q01VQjBwbk1XZ2dkVWFfM1ZIajVLNy1mTG8wU085OGNxdHQwQ1lXalBKUThwcTRQRlUyTFBPMzVRem5ha191Nm02SDI4SXBBeUFwYXdXaWJxeURFNFRYQ2ZpRS11VjRJUXo?oc=5",
+   "source": "Economic News Brasil",
+   "date": "2026-10-05T07:00:00+00:00",
+   "summary": "",
+   "id": "4519b6f96973ae",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Nova lei destina R$ 30 bilhões para financiamento de veículos a profissionais do transporte",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYlRsVEI4UThLYW8zdGUzeHZuRlEwcFU1MWpTRy1fSnJJWUhydTNxaTNRbk9CQUtTWGwydTA5dHIwWm92c0dDVmV0QWZLa0duWTBVMWREMGlibGFzbmxGYm5tUks3U3d5TEpFeXFLdmg5SDVtNUxDNFVMWDkwVzZZc0xxaFNIVmMwX3N1UmJydHhqUFE?oc=5",
+   "source": "Folha Vitória",
+   "date": "2026-10-05T07:00:00+00:00",
+   "summary": "",
+   "id": "5061db5bc9e225",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Crédito imobiliário avança no digital e Murilo Arjona amplia atuação",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdzdPMU1QeXo2eW1TallBWkRtYWc3OGduaGI3MzlqT2dNMDVSY0lSY09rakY2ZFViNlNTQndCdXBqY1otVU5ER3RwYlFTQ295ZlB3bkFCX2NPVlpqQUN4NjNPazZ5MzI0bVFpdkFDNWxwdWE2anpvZkI2WWpYUy1OYi1wbmtEeVozcjJxeVUtdV9ZblJBeG5YZldyOXJraFlxV01SZmRyMWZIRWZ0UHVUZ2VSVU80c0Y2T3VLalVHbnZIdVVaYWd2MW43OE1PRVI4OU8yNlFR0gHbAUFVX3lxTE11RTZBcnN1azdCdTdnbzdTelY3SnJud0Foc1Nua1NiMkJEdVNNZjZiOE9paUJyQ0VVRW5ORXlhTTJkc2x2d01uSUxYYkZsdHdyb1A2S2ktam1MMWxHN082R2tuS3d0aGNZd1pCZy10cXIwZDhDdnBmdW0ySnJOYXJ5cGxRU0c1LXFTZy1XTW1zM2t3cFJzQjd0ZkxBeFlIY1d6cTNfMy1xano3Sl9rQ0dGX01BUmktR01Ba0NCdWs0RTlzV0p2cmtGUnd3VDFCbFJZeGZrN0tCZ0pwcw?oc=5",
+   "source": "Estado de Minas",
+   "date": "2026-10-05T07:00:00+00:00",
+   "summary": "",
+   "id": "3aa729f0e87ff6",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Comprador de imóvel com alienação fiduciária responde por IPTU antes da consolidação da propriedade",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQkxFX1lNMXAtYXp2dkZSTDFUVXFLd0RJSUcwdXZ3WG5oOGg0S3VENDNOQW9EVVNlamcwcDRlU0wxQVQ1TzkwbWRuTjI3OE96LXhpTERaTnpEMHNxY0E3azduNTlaQl9kT0JRd1MxTGt3UE5aUlVpVUROZ19UdzlWWVdOa01ZQlVRMHk3eHZuVkk4d0tfcmZiZmppWHZJVGx6c1ZadkxhdDZhMVA2UHFwWmx5bnhOSVh1Z1Ezd0daaDZkQVB2eEY4SXBpSlU?oc=5",
+   "source": "Rota Jurídica",
+   "date": "2026-10-03T07:00:00+00:00",
+   "summary": "",
+   "id": "cde765c65b077d",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Financiamento imobiliário na Caixa: o que fazer após a greve?",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQblJTNGthWG1zMFVzNXo4NDh0RHpKWTBlTF90QmpQd0xlTUFOa0ItWC1qTVRiU0JUVWVzUTMwQWRMZzFKd3dyOENEdms5eEpYQjlIbnB5aldjc2tEQTZDd2pVMUFGSHhjMnRqeUhjbnJYcWZyZ25aVDV5VWd4dXp1YTNPVmdXX1liMXNzZDZCa2JNTHlKcjRPcnNUNTZPTDBhZTZpdmNkenI2V2FtS2c?oc=5",
+   "source": "portas.com.br",
+   "date": "2026-10-02T07:00:00+00:00",
+   "summary": "",
+   "id": "123b3585a425cf",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Jornalistas do ‘Estadão’ vencem prêmio Abecip de Jornalismo; jornal vence como veículo do ano",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa1NSX05UcnZmTk1GdkZYaXcyaDQ2SHhOV0V6SzZQSHJISmZDbEZhNXVCMjR3SHU0emFkd3RTLTRhMGxnemtjUW45VzV1QWxCNkRHM3ZhSHBxMGdpUGJwRXQ4WUdHOV8xT2c5T05KR2NYczcyUEpVTWtQZnlZVTZzY2xReW8yM2x5TW1lR2tJYWlkcWQ5ZVR5elZJOUNvMmM2aG9WVnJQV1ZoV0loNTk1QW44d3RrTERfUzd4TG1kc1d6ZjREWVNzaUE1NExqbHVON2fSAdcBQVVfeXFMUEs5dHAtZWp0Ul9YenFWbzRNZkphRUEtZWRMN0xudy1Gc2pZaHBFNDhkSkRWdF9uX1E3cC1Sb2NyR1BsbldzdEJWM25sbUpsdTZoTTVyQ3libFBmWVFjNDlmNS1ieW5rWnUzLUluam95SjBaaHVFN1RuaFcyMU5PdzVuVGJMbmZ2NHkxRzc5eFZZcmVkdGxyM3pzM2lJZUNjaG1lZWstOFVrcUNhTmhscGlEX00xWnRNVVFQMTE3YnRLc1ZPZ1BhNVl2aXhYbTUxOHQ4ZmgzUmM?oc=5",
+   "source": "Estadão",
+   "date": "2026-10-02T07:00:00+00:00",
+   "summary": "",
+   "id": "972669294b28ce",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Quarta Turma reforma decisão que aplicou a Súmula 308 à alienação fiduciária de imóvel",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNR3dhci1IU2h4YzcxS1B6MmJIWWlFTEplV3ZXNk1jNklGNFdYdHg0dFQySkE1T1p4ci1aQ2hoYWRvd2JHYlZUcTlmdEtRV0JYTUE2SC1jRWJsWUFwZ3ZfUUJDeVBVdFc0SjktUEdlSVFlWnJaN2ZjMWtJdUdtd3VhV1dyX2J5TmdvQTQyVU5OejVWOVdPNERQLXluMFMxVU1tcFZtTk9uUjJ5T2tuRXpST3JvV3JoRkg4cG9HYzd2ZzFwVHYwU3ZKeGpINNIBywFBVV95cUxNbE5mSDRQNEJNaHpsUEtfb195N0VqQXN3R3FfaDFjMTRsbHVzUU15WTdzX3VhMHdFMGJfVWY5SVNZa0pOMVVGdHRGX0c3c2tKMUVEeDF4YVdhcnQ0X2E1c1d0NnpMVWh1M1RxaVVlOEtiTV81ZHBLV00teDhSalRrZG5uME53cmRBclpvbElvcG9BVWNDMUlnOHhFd1c3R2t4NlpfSHNzVklEdnpfUGVoaDFKRFE2SndwX2RDa05oZkk2Q2FXeEFNVEVuMA?oc=5",
+   "source": "Cassilândia Notícias",
+   "date": "2026-10-02T07:00:00+00:00",
+   "summary": "",
+   "id": "abea8b27fcdc47",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Edital de Alienação Fiduciária",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uOWV6OVhOTU8wWEtWNzBGLXdTRWpJZjFzQ1ZIWXZJOExOLUpYdEhHd2Y2ZFFPOTBSMzk5YjdDQWN5bDNmWC11VDFLYnhob2Q4d2Qzb2xrbFlEVE04cmtkMUlXV0ctNW43U0hPUmtUY0JhZ0M3dVZ6RA?oc=5",
+   "source": "AU ONLINE",
+   "date": "2026-10-02T07:00:00+00:00",
+   "summary": "",
+   "id": "07e22ebf1a8edd",
+   "topic": "garantias"
+  },
+  {
+   "title": "Crédito imobiliário com recursos da poupança cresce 46,6% em agosto",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWFMwSnNPRVlnTmtXc0tiY3BiMjJ4N1JRazZIWktxT1VIdU1iWlY2N2tCVjYwcW5YZTV1blBQNTlRbVlXN0d5SmUwNUNodWJGNjhHdWZPOXVMdTlOSlhwTmtnbmFfZEwwMEpXeWlyRThYMjhpNGt0OWhSdk5YMTZWWTE5Yw?oc=5",
+   "source": "Diário do Comércio",
+   "date": "2026-10-01T08:35:00+00:00",
+   "summary": "",
+   "id": "e1098c609a657d",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Crédito imobiliário cresce 37,5% mesmo com brasileiros sacando R$ 47 bilhões da poupança",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSWU3b1BQY2xvcUN3NUhoUTVPUDZ4TG11bUhmbVk3UmxIZ2hKeWFRQTdzMmJZWUlyQzI0elBweU85RjN3MUZfS0ltNDIyS0R1VlRvWFRVV1lRTVdzRnNKekhBUWZIVndqSFhMUXNVNnpkM0o4V2RrNm9iQXlyM2x1QUx6UUJiRWRtUVNocVJrY09RV1NsVEV2WlZ2WnlFQVNpWnd2M3FNTEhQazR5bXh1R0tweUZLR2hDS0twZ3Z3?oc=5",
+   "source": "VEJA",
+   "date": "2026-10-01T07:00:00+00:00",
+   "summary": "",
+   "id": "866ac5556eedaf",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Crédito imobiliário pela poupança avança 37,5% de janeiro a agosto, confirmando tendência de alta em contratações em 2026",
+   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOYnpTQWxFZDY3TTduU09tVjZfMHhnNk4td25HRVF4T1dZbTVZVUhTY0dGYlhDaE9fdXUzYTlnRHdxdUpfSWVzTkhpWk1QLVdIRVJfOUZpMjM4bkhSLTFKV0RxbWNFaHhiN3NkM2JCZFY1X0FnZ3d2UDkxUEY5Wk1uSjlyWTd6Z3FCSm1iQ2xuRElDUmE5cEpXUGR3M2tmcGJaNXRac0xCMTM1V1MzUWFqV2UwNHJDQkJFbzI5UV9wRTVKUGU1VTBpTmVoR3Uyck83aTZkTWw4MlZMRklwODBKSHVrSW5TOVd0S0tJMTIzcVgyMGQwcWZqNGh2NE0zSUNtTG1lY1ZZRktVMy1POFlpdEQ0Z3JoTWt6YjZVWE9B0gGsAkFVX3lxTFAyOEY1NXNuZVVMVXBrQlFKUHV4UU4zM2tJdVZYRVRBeVBDSUliRk8tY1hYUFhtZHhHeGRLWW1feUJfVlBTMVJycEFfYVhjQUxXd21NUlVkeDcwX1JqcTB4WDJZd3RLeTRRVWxYdTd6N3RSbzF4WVluTGhVMnhrUE5ZeUVVdE9td3VSV2VkNW1fNDhRMjhGMkEwaUNkNkZyUzg0NDBvOE9GY2FyazE3M1UzMF8yY0VCbDJhN2trNEVqTnE1X2R2RWYyS0JrVmFBU3FuYWxxRnpTa1VoS2UySGhhNEZmUlROc2hYQzMxTERfNVF4VEVPS1pzTEZ2TDBWc3dGYktzY2lHclJUUFE4WXlmRDA3MnJjLWZIZUpJYTBFZUlaQ19hLWlhUGhNWA?oc=5",
+   "source": "O GLOBO",
+   "date": "2026-10-01T07:00:00+00:00",
+   "summary": "",
+   "id": "c38ce0948be935",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Financiamento imobiliário pode travar mesmo com crédito aprovado; veja 6 cuidados",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ2RnY0ZMN3JZdGxRcHJ2WEJodFk3bFZxajVGWHhhNFJuY1pBRUt6X21MTGlEbVlQMXZJejlsVEx2XzZRc3RkVW9iMXYzZ2V0Tk1zc3ZOWTFpaU1MWWFVTS1COVYxTzFkY1VLQkNmeFAyclNRVjJ3OFRRa1ZRdVdXdUpqVDhaRENwRnJfSm4zMVpFVnl3aTdzOU1Hc2E4U0phQ29rRFUwN25CU0FiaFh6anRQX25ycGZEekVmUmpLckw2ZGJpemJiQQ?oc=5",
+   "source": "Diário do Rio",
+   "date": "2026-10-01T07:00:00+00:00",
+   "summary": "",
+   "id": "a56d64f9f8720e",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Crédito imobiliário cresce 46,6% e movimenta R$ 16,97 bilhões em agosto - Portal IN - Pompeu Vasconcelos",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVVA2Ykt2VUlRSGxXVVZUMVdoal85cHhUTjZscUFJQlREb2JmSEYzN01qYUk5Mk9HQ3Rlcy1Ea0hzd0dxdnJxcUtJYkItZndpeFJyYWtOTTVtRTd4b1VIRGR0M2lwNjR5a1VIcWpsX2tfYnJzS0hKemRqcnF0Vy1ZVm52d21zSm0xT2ViNzNWNWRRV3dlZl90NW9FakYyMG9xQzRSUzBkYW4?oc=5",
+   "source": "Portal IN - Pompeu Vasconcelos",
+   "date": "2026-10-01T07:00:00+00:00",
+   "summary": "",
+   "id": "21f71044d6d669",
+   "topic": "imoveis"
+  },
+  {
+   "title": "CBIC solicita adiamento do novo modelo do SBPE e manutenção do teto de juros",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02aGVhbFQ2ZzZnTURZYUhqR0l5NXE4eFFnSGNHTDhObDJxVnpPUDktUkpEdUl3NDRZQmI5cGJiZFdiT2xtN2xvYWs1bUNsVzlpWGZPWVBQWXBOc1F6dXdfY0g4Q0ZDbm1NMGVvYW1yUW1CNERXX3dYZTRjdk1abG8?oc=5",
+   "source": "portas.com.br",
+   "date": "2026-10-01T07:00:00+00:00",
+   "summary": "",
+   "id": "b9b7829c6c1857",
+   "topic": "credito"
+  },
+  {
+   "title": "Poupança libera quase R$ 17 bilhões para a casa própria",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaFZCRE4zR0RsWFJLZjdnVWpXVnljVWV1SEluRkhSVkxrbGZOQ1JtVVNiOUV6eEZWYW0xbGV5aVRFa1NXZUtoYkZmcEhOSG5EbnZmWDZ1YnBxWjdwNUw3Rlh6VlpTOVFFMjY1Wlp1WVdyUkhNLVpZYmpxN2dhQzdDSTRLRHM3WmdqWU1GcEpEQWhzU3I2eS1Yb09RTGEtZHdmdTdlVkxMVVIyUktxWUlYY3FxNS1QRDNyRElZNXVQWGpldEJiaElv0gHMAUFVX3lxTE9zME9iYXJDcTRqVk5KWGREaGlrLWpOQ0tXM1VOdmxPV3F0eU5lWWdJd1lnbmQwTklueE1RQTJtaFFWVVBQaERWM19kRDM1UFRTYXZ5cFI1NUtCaFZERVRvTXpNMzMxN2xtNlJyU1dsMGRuNlZ4cms1aGJDSjlxbE9LWk9tVmdHekF2QUZUYUNQUktQak0xbjBRZ3lhdlItX0VaOXYxcHpFMFdGbTRsZVluTEpsMkxmWkM1X2VDeHNUVVdTdlpDdXh3dEs3Qg?oc=5",
+   "source": "O Dia",
+   "date": "2026-10-01T07:00:00+00:00",
+   "summary": "",
+   "id": "d2da031b7c5b95",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Nova regra do Contran em vigor trava venda de veículos consignados sem contrato digital prévio em todo o Brasil",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdXNLdWk5RWd0a1NILW15LUQ3aXlVem9RMDlSMk0xN0ZRQkV5c3NUOThabjJwc3JOaU80XzNRWHpJcmRxZzJZazdpejdkM19WQ2paeE1CYko4TWwwQkpieG5kY01YUDloX2k0aGUtWWVHek8zS3N0NWNlOTlqRTBvb3BXZm11SmVqUWNpbWt4WmliOGZWTWxsZjQxSzhObE15Q1NvM0tVUms4SzFDVS1XRTlqMFRJTUtIY28ySWJJcHZiQV9fQVlPYVBiVWVNc19sY0J2VTdaMC1hSTRTdFZjN19jRlQtNWdLb1lWRg?oc=5",
+   "source": "NSC Total",
+   "date": "2026-09-30T07:00:00+00:00",
+   "summary": "",
+   "id": "2ad220c20b2eda",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Greve da Caixa, que teve fim decretado pelo TST, já atrasou concessão de crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRzI0NGNxV2hLLVVsUXBvbS1Eb0VyT3JRVUU0ekg4V21Ud2huZnVDM1dNSTFpbndQaGVxVUFLWGtiR0pJRy1Mbk9abHVTVUV3UFNaRkRSR0hvbXBxS3JpVzVPRnV4ZTdoenFuQW5OczlnWjVBRmhQQTZKaDQ1dkcwWTRuV1NhVHJMcVJDeVhEUEhRdzJDT3dwbzF3anZ5c1ZyVWkzb3lEaDhpN0NhMjk2YlZYVHZpeDhDTVHSAcgBQVVfeXFMT2ZWTGI2VDAzVGhuaVJEcVlzcjhYcVdHTnF4R0dwTmJqS1ExaEMzTzIzQ0ZjU2oxR19FeVFVQnF6TEJpUE4zOW5SOVFFRXotZWRvb0pFX18weUY5VmlBX1VwanJjTUtCdUxNOWFtWjYzRG5nRC1vNDc4SUpwUmZjSndnSHZCTm5ZTktjbHBRbF9jeTlSbjMzWmhlLTl5MTRydURCS21tYVBZaTFrRzlkTklaeng2dU5VTkVHbGxpMjRPUUQ4Mjd0N3Y?oc=5",
+   "source": "O GLOBO",
+   "date": "2026-09-30T07:00:00+00:00",
+   "summary": "",
+   "id": "5ae299a594eb12",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Crédito imobiliário via poupança soma R$ 17 bi e tem 3º melhor agosto",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbGt3R2IxTTJLYkg3aGVDc2h0RWphWTUwY3p6VHh6UlJxNVM1OVU1U01ENmVHdkhvREVOMF9iWWlHY2x3VFBxdXpzUjlhZzVnSTRBVi11d3ZXWDFCc0liamhoVTRmcXlJeU5rZzhfWVJVZnVqRkhpSER3VlRvWUp2dnM1T2FLakdYMmdnS3Vtay1XUWNhd2lSWlg1T0N3dGtYeHZVZmFsZVZMYmFiR0RTV0lSME9HdmFaY3J4aGJMMFhEWmh2aHZj?oc=5",
+   "source": "UOL Economia",
+   "date": "2026-09-30T07:00:00+00:00",
+   "summary": "",
+   "id": "b67c055796be56",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Abecip: crédito imobiliário registra R$ 16,97 bi em agosto, alta de 46,6%",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT21vVDZuc1ktT01PUEtDWVlWTmU1QWZURnlZNHhQMjlzWmdaSEdRbTBIald4LWFkazkzeGZYTlhXWFA2T21MbHI0R3dvQU5hNUxGYkdpdEgtbDV1VUN3ZU9VaXB2OVlvWWMwM2ZyLXBzNTVuN3lybXF6OUVHU3BfYnNEN1gxYm5PSnFySVd1LVZSVHNYdG1NQVlQTFdIaGQ5ck1RYkI1bEZXM25FckVBWnU2TEU1b0F3ODVNejh2V2V6dHNC?oc=5",
+   "source": "CNN Brasil",
+   "date": "2026-09-30T07:00:00+00:00",
+   "summary": "",
+   "id": "f0b4bb90c1d9d4",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Crédito imobiliário cresce 46,6% em agosto e soma R$ 132,5 bilhões no ano",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZzBwa1NOZzVIdjZBbHVQTTVBUnhFNlhGWVZ4bzJUVXlndFQ5dzl5VFR6N3FoZmQtMkdJLVNKaXYtTk9FM0d5Y2VkQ0I0RjZzbFhrY0owTTJGNk11RFF1NC0xUnlmZlJGYVFUZ2tLYjZ0Mi1xMjQ1eG5WTW1vMTRZR25yQkdta09sV185bjhMd1dOSmhmMXBqX2lyS25kQ3ctaDI0?oc=5",
+   "source": "Paraíba Business",
+   "date": "2026-09-30T07:00:00+00:00",
+   "summary": "",
+   "id": "512d6847a9ba22",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Crédito imobiliário ganha novas fontes no ES; confira",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5PZ0c4alB1NnI4M283WTc0MTE5UC1WTnNYUEZEXzdxdW1UQ3o0Rmc3TFg1Q0JRYWVzY3Nrd3Fka2d3Q2l5YzhaWXdpNkctNFRLQWU2UFp1Z2VEc2x1Vy00NEU1OXZXZGFZSEpQNDNYMldRVGJiS1p4Vg?oc=5",
+   "source": "ES Brasil",
+   "date": "2026-09-29T07:00:00+00:00",
+   "summary": "",
+   "id": "53a8bebb428548",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Cresol oferece financiamento de veículos para taxistas e motoristas de aplicativo em Camaquã",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSWZKVXJGVEZETUNSZXprMUJacGtDaE5jYW1VUGVfbGY3ZGpLZjJQUUtIREJfQ2JTWk9jNXdqZzhzbWY5VFowZ1oxRERlOHItRnA3RGhlYWF0ZGhyNUJEUHVtSUFCckpSbVpkSHJCNEpBXzh2RzVlSmJNSml3b2pYZzAzNFFQRHFjaGV3SWx5T0xPbDM4dGl1RFZ0MHFmUU9JZ1pwbjJEZ2dkSDZKTHZLRXVDdnF4ZnlCUkhkNncwVW4?oc=5",
+   "source": "Clic Camaquã",
+   "date": "2026-09-28T07:00:00+00:00",
+   "summary": "",
+   "id": "e6b6449dfe1af9",
+   "topic": "veiculos"
+  },
+  {
+   "title": "RENAVE torna-se obrigatório nacionalmente. Saiba o que muda para lojistas e consumidores",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTzVIZ3hJMWZQb2RGazNXTzdoTzZHTk9PZzVwXzNZSjJxNDc5UW1UQXNhVmtsVjQwNWVaZ3FMOGUwUG9DYU56TFJZbG1JUFA2Y2FOaEYyQXNydWZOa1lyVXBMMlRJUURHY1lVSmRsUGVMVmFUbTRVdjRseGV0dGVhb1RhaFhMU2ZkeDVBWG40aEdkdGhJV1VubVFrVndMMDJfZHRyc1JPbmdkN3VTRHRGSFRXbW1aT1daX0IzY0VyRVNiUG1JdVFkOEp0MlQ4UdIB0wFBVV95cUxNM3JTcVdDUGlHUzVCUXpuN1laOFRPeEFyQnNWTWNKNnRTaFFrZjVqSHNKbGVCeFJuQ1lMVDhPUVBmYjBlU2tCbzRkX0taVGJLdkdJR3NaYjh6M2FFSGN4dnJWQ3B6SVVKakdkMms2UERLS1Z6dWM2bXo0R1RPV09QNDVuVnljZzM4YWJIc1JNZFBjbVpuRi1Ka1BqYTJiV29nRURLd1ZLU0xBM2NMVGRkdVk1dWZ3QWM1R3hyZGYybmJrWXN1S3JPZVdUVHp2NjRnS1Jz?oc=5",
+   "source": "Portal do Trânsito",
+   "date": "2026-09-28T07:00:00+00:00",
+   "summary": "",
+   "id": "8a11819b39cc6b",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Fundador de empresa de crédito imobiliário põe culpa em banco por colapso",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd0xTOHdOTFM5d1RzUjFMV1RRYVdhUG5PN3BYMGNjR2QwLVd6eWItN2FDXzNySnNfRXVDXzg1N1JEXzlhd0lrR3kzTWh5M3pieWV1di1TTjBuRUdta2hxUkJCTEZZd2UzQVNfSlFTRl9DZDl4RFhhVmJjVlBmandIVlhzLTF3MTd3NmU0bVBrWGNCX19LOTI5T2s3Mi1ITW1yc3B3NjREWnlyZVN3NmtmUWNDZE9GTF9DaVZPeE1jMHFfbUoyTTliWEVrd3V5Z9IB3AFBVV95cUxNem5pR0Y2Y2poSHJiMDFFVU4tUEFqS245cHdoR1o0VUtuanZQLXJFdjhqUWtfUWNucHV3cmt1YUo5NTFFeVVuR1hjOVRFQmZEdlFwVjZUbUtldGkwbnJ6U1FaZzZ2QktSYWExRVE3X3lUcUpMM3d3UElvUHhXVnRQbTBFQjV6VUhsUTB6Wi1NakEzbFNNR3RXNlBGZ1JrdUNndkdfaUtONE1HS2VTYldmLTgwV2hCVkJacmxUS0FlZFRDX05SN0h0a0dCM1FMajg4bG9rWTZEUnFJVVV4?oc=5",
+   "source": "Valor Econômico",
+   "date": "2026-09-28T07:00:00+00:00",
+   "summary": "",
+   "id": "8bf0536c033755",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Financiamento de veículos alcança melhor agosto em 15 anos, segundo a B3",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDdxd2ZfNVJwd0EtWTNNcVJncGdtajRLY0FIMWo1MEthcldrSllGbEdnU2NiNi1tdGI2LTE5RHhxRG5fcUc3b1ZVMGl4TnBCMUJnek91R19nX3JoVnQyOVZSUEdYdEgtQzlraVkzM3JLQ2QweE0wX2pENjQ2SFNnTXNPYWVPbGdGTWFGZ2NIYU80dEFxcldmRXFaV0FCZ3MtWVF5RNIBrAFBVV95cUxOVGRwemxsaVl1UU1uYVhnX25EQ3lnWDE1U0JLQXJGdWwzcW9xamR5SGt1c2RJdVVLVGYtckwzOEhaWHpEc1A1djF6SjNMamVxTTNFWVR5c1pCRncyclVqaXktQU50MFdIN25TYjRfcWwyRW1vQ1A3a01ZdGpBOW1qeUlWanZBOTlOUGR4YkU2d0diR1Z3Y0lnOTN5dTZnRzh0emdFSGQzeGFWOUQx?oc=5",
+   "source": "Business Moment",
+   "date": "2026-09-23T07:00:00+00:00",
+   "summary": "",
+   "id": "367390ae50b564",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Financiamento de veículos sobe 10% em agosto e tem maior volume em 15 anos",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaF91TzVYLVNEV01wUkpNdDVPRFZPa1dKcmJiMEpRT3dybTlvMm1UNWNKbzZoWERnSUtnWkEwRU4yLURFejRWS2xKc003bFpSQ1NrTEF6V1dmVTBocFhZdUxmX2VEd3BqNERndVFFTTZ6S3h4T0xzUDEwb25SbEhxZE1DU2tYWFV0UDNhYzVPc191R0FrSWpkb1h1NFdoSzhUOU0yV2EzcGFtRTNwMWM2akNmcXlKNkRDbndNZXh0R1pWLWZJ?oc=5",
+   "source": "CNN Brasil",
+   "date": "2026-09-23T07:00:00+00:00",
+   "summary": "",
+   "id": "e767a929c0c1a1",
+   "topic": "veiculos"
+  },
+  {
+   "title": "RENAVE agora é obrigatório: o que muda na compra e venda de carros",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONktQY2U4MVpYSjRLSWc1VDZmQS1oaHZZQ2tfb1dfYVU5STlIb1ZuSWp5ZGxBcUdOLWhPWTFMb0w0NkVURGpSNm1tMG44djRPd2d0aURGQ2pORGU3WXZjUGl2RWhzUV9sdnZoNDdvUWJPWUM3Zk9FSVQ0MEFfRFNlYjA4WDRVZHhxZlVHS2JyNUZKeEJSR3BQbWdJTTIySWhkdThoNU10ZmVBV0JmeVJHVjRfOHJHTURxS0E?oc=5",
+   "source": "Vrum",
+   "date": "2026-09-23T07:00:00+00:00",
+   "summary": "",
+   "id": "8cf82e6e97419a",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Financiamento de carros dispara e tem maior volume em 15 anos, apesar de juros altos",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQS2JRR1ZpYzZjVEhkQTZ1d3RMZGwtRTlHcHlCRW92d3dfVUVjOXZvcUl4U285TGluS1B0aXJiZWlvOVFRWkgzdjItcEVGZmN0UnJXTjZUSnBVd09hbVhuanBXTWZBTXFucmFnR3A0b3ZicUZ1TmRPVUtQbkRFRFlCaHR4aUFKNk9QbUhsNjRiQU51TnMwTTFHYkx2OWtHNHRLb0ZBUnMzcEJNQ0M3LVdYcEVHclc0SFU4Wm12cEdFdE9JTkZkOGNEbkkyUVQzZC01cGhGcm9CdDBTZjREWmp6Ym50R0dRYkhFTUpWb3YyNDdJUENKRncw0gGGAkFVX3lxTE1Ddmt5RmU1a2xTd1FvOG82WjRuVUVkTGFDRWRIY1FaWXhCYkdCSXhCUUJLOXNYSFlIMkZwNE1OVlB6YVhDWWZLSmlJT1d5RmtfanpBbXJSQTJVTEhWc3lJY3JhcVI4Y1ZGN1FzUWxVSjBiLUdyakVwVjI0TkhqUWRIYmJOTUhsNUphYUpNdldGOGVzY3dxcHQtRkp5VWd1dFdjODJ0RmRBZ3YtZmdUY0hFOWlCZGNwbVRtLUdIY2lYWm9Bd2tEbC1sdC1JdXZkeHN1WkF4QThOTFVybXY4SWRXV082RWtadDRtTHVwVkdILTVWQy1xUzFkZjBsZHZnaDVLV0dUUXc?oc=5",
+   "source": "Valor Investe",
+   "date": "2026-09-22T07:00:00+00:00",
+   "summary": "",
+   "id": "28258eaae0ca45",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Financiamento de veículos cresce 10% em agosto, aponta B3",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPb0tDdF9DTTA5Rm5helZhS2xqQjd5MnVNcUJZVWJIcy1aS1hBS0w4OTlOT09EOG1LeDhvc2NwdmhjOFQ2cnBsSHhWekNxZWVRYmVRY1lZZmhOLVotTUVsYm9NTm9hcXBtY3JFZ2FwdWpPVkxQS1FWN2lNbk05MGp4dEdRZGNBMkhkczByb19lZzlFWGVhMU94WDlhY1EzUThWaUNXV2JKYjd5eE5udFczZGlVaXl2aHBnWXhnczZtc3EzZFpLNjgwS0NGMNIB2gFBVV95cUxPenptb1lOcFlhTmFxZFJQY1dKRUpvdjJiNE0zUmRzbWNRNTVweDhlMlRFT0pGejZONnhKSGJrS2x3NXQ0OEF3QWN6N2w2THZ0dGoyUkZqZl9VUjljcEJVLUlzeUN3TlBaX2dQNTVIUXpUS01MWUpvVDM5bHlRZklsa1loR05GQVpiYld4bkpsMFBaeUxnbUJIWVU2SEpNR3ZENEhxRWNjS3duYUswSTRZeFZVVkE0dTlyRGdYN1JKVTVCTU9weTN0VnR6U1hXUmRlN3BHWjF6OEc3UQ?oc=5",
+   "source": "Valor Econômico",
+   "date": "2026-09-22T07:00:00+00:00",
+   "summary": "",
+   "id": "3b99a396b2cf3e",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Financiamento de veículos tem melhor mês de agosto desde 2011",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSXYzT193OEd4MklvaXFLR2JheU9CQkN0QkdmSWxfZVFnWE5DVE1tZ0dfWURMUmxuNFNBeXB6cm1MYmxMV2t5MVBKeTYwTkx0TXNmTWgtYkV1QzhQNXNRV1FmNDdvRUtRcFFqSTJ6OFJRejJfN053V041c09YMkpoY0YyRHJuSVJ0M3RSWG1mV1NhU1lLWVRoU1BSOA?oc=5",
+   "source": "viva.com.br",
+   "date": "2026-09-22T07:00:00+00:00",
+   "summary": "",
+   "id": "bb994b009cecbf",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Polícia apura golpe de financiamento habitacional e apreende veículos em Montes Claros",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZEN3d3Z2Y0RVT1lEOTRldkd0VFVPMG16MllERlZhTzEzZHBmZ2lGU3JWQ3dtbDkwMW4yekNSYjhJakdYdl9qdHhNMWhhMk5fclhjMHFxUk9FbkRIcVotN3I4TkJzdE80V05qZ1lUWnNSX3JRSUF1MW16UDFoZ1ZTdjVObGt4QXVFTTZaWnc5d3VCR0FfNlYwQ3g2dmV4SFIxX01DT0JtclhXOTVDOFdCajh0RFUwR2kyQ2lGeUZRbWV6SkJXWVpiWW5VQmJJNVpqLXZ5d2N2enhMTGhvb0RkNUFn0gHwAUFVX3lxTE9IZllvR2NtZ2RraUxZcTMxY0I1UnVxVHNfdmM2YmM4NWpPa3FKal9kR2I0bDktYUZYeVdHSGNsSW5Sa25QRkMyU3JGMnhYbXotTlZRbkkwb1BsZjFZQW9jLTBQMllUWUc4dlZuNnRIbE1fRXIweVkxTkdnZE9rMlpuNzlKQ2I4bmRRZjk5ZFJRRnpCUDRxcm9jbzlEMGRIR0YzT3J1RzJ0ODVrTmpYNEtmY0Y1YnVNeklNYVBadmtCQ0sxRGpNWW5ERXZvMEN2b2dIWE12c3RxNlNTNjNFcWxMMnNNeHhSbExaQlBVRTRBVw?oc=5",
+   "source": "G1",
+   "date": "2026-09-22T07:00:00+00:00",
+   "summary": "",
+   "id": "af23bdebacc931",
+   "topic": "veiculos"
+  },
+  {
+   "title": "XP vê freada no crédito imobiliário como temporária e mantém aposta em baixa renda",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUjNJelFTRnVybkhrdnFNVnZZRWlCNHV3dzhmTVN1RHY3Y0UyY2xQWkNTdFhMaHdpNEgyNkh6bV9lR0ktS3ZvN3ExNmFTdms1X19LSTMyVWFoM2tVMy1SNV96a0ltT0ZqdmRMaENBdXIyR2dyS0hoV3g3S0JTT3lGR0ZnWFNCd3J3ZkEtb1RfRkF5UmYyaHhXU3cxMzZJbHV0OUlGek8wcmNBTzE0ajJtaWhEOHBYam5ySmQ0a2ZR0gHDAUFVX3lxTE9hMUtRV0ZoSFVwTkZNMURxMkRQODE4bUdyQXRmV25iMDJuZS11OEhwMjN5MXhvYWVpcTl6R2N3TkVrbUJFZkZkNUI0OFpSUGNsbVpWU2JVVlc4dnl3eW1GLUlKRFJXSzQxVDY2QkVqSjRORzlFejhZS0t4bE5TdURwUllkN281aGVhNlgwSDY5dl9GbTRTNHQyMTJlVGlJSExmb0gtRVROVnpzVV9MRWlMVVQ5azhVV2dGZm1PUm9Ec2JfNA?oc=5",
+   "source": "InfoMoney",
+   "date": "2026-09-22T07:00:00+00:00",
+   "summary": "",
+   "id": "a922ac59421473",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Além da poupança: novos fundings e imóveis compactos impulsionam alta de 12% no crédito imobiliário no semestre",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVGxqeTdEM29jMFhTRVdDdDdSRkcwdDdxUTh3S1hMeDBxN3hCdVJZR24yNFN4b1pUZzZ6NEZvRzNSM081R29yR2pnVmlhc0xJaEd3Qk5VU2Z6OFZObWRkSER2U2tsSmJBSHY5NFkyTTFGRGcxQjdfNDJfY0kxb004N0hIR2ZOSFR1Rk9mWGg2M3MyWXU4MFJucDVzazRkWUJYQUdiaU5Pb3psNnIzWlgyY21OXzZNbXo5ZHlVcDJsM1p6dmJPdzAzSlQ3eFlzdVhLZGgzRk5Ed3E0dw?oc=5",
+   "source": "RCWTV",
+   "date": "2026-09-22T07:00:00+00:00",
+   "summary": "",
+   "id": "90ba9678f9a961",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Renave: saiba o que é e como ele pode tornar a compra de carros usados mais segura",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTFRjOElmM3hWYzFNNTJ4MGkzUUJpUFFrZHFpeUIycXdRSkF2Q0lTTFhjN21CZFoyMXJHV2pCWXZIbUticXB4Z09GanNReGFTUk45UUYxMUVaZ0ZETXZObDRmMEkxclhEYWlmZVAxQXRRcS1ZNUxHNUktS1lWdnVOSW5WX3prODE1SV9SM3BWbFJJZTFoc2c?oc=5",
+   "source": "Guru dos Carros",
+   "date": "2026-09-20T07:00:00+00:00",
+   "summary": "",
+   "id": "fc7d845ca37270",
+   "topic": "veiculos"
   }
  ],
  "normas": [
