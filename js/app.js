@@ -7,6 +7,7 @@ import * as VP from './views-ponto.js';
 import * as VM from './views-mercado.js';
 import * as VT from './views-trabalho.js';
 import * as VA from './views-ajustes.js';
+import { runOnboarding } from './views-onboarding.js';
 import { ctx } from './ctx.js';
 import { toast, confirmDialog, openDialog, icon } from './ui.js';
 import { esc, dayKey, hhmm, fmtDuration, announce, copyText, debounce, timeToMin, uid } from './util.js';
@@ -36,7 +37,7 @@ function render({ focus = false } = {}) {
     case 'ponto': html = VP.renderPonto(); break;
     case 'mercado': html = VM.renderMercado(sub || 'noticias'); break;
     case 'trabalho': html = VT.renderTrabalho(sub || 'tarefas'); break;
-    case 'ajustes': html = VA.renderAjustes(sub || 'acessibilidade'); break;
+    case 'ajustes': html = VA.renderAjustes(sub || 'presenca'); break;
     default: html = VP.renderHoje();
   }
   main.innerHTML = html;
@@ -166,11 +167,20 @@ const actions = {
   },
   install: async () => { if (!ctx.installPrompt) return; ctx.installPrompt.prompt(); await ctx.installPrompt.userChoice; ctx.installPrompt = null; render(); },
   'a11y-quick': () => { location.hash = '#ajustes-acessibilidade'; },
+  onboarding: () => runOnboarding(),
+  'onboarding-skip': () => { store.update((s) => { s.onboarded = true; }); render(); toast('Sem problemas. A configuração guiada fica em Ajustes → Jornada.'); },
+  'mode-edit': (el) => VA.modeDialog(el.dataset.id || null),
+  'mode-quick': (el) => VA.quickMode(Number(el.dataset.i)),
+  'holiday-del': (el) => { store.update((s) => { s.settings.holidays.extras.splice(Number(el.dataset.i), 1); }); render(); announce('Feriado removido.'); },
 };
 
 function topicTag(t) { return { veiculos: 'Veículos', imoveis: 'Imóveis', regulatorio: 'Regulatório', trillia: 'Dados/Analytics' }[t] || 'Geral'; }
 
 document.addEventListener('click', (e) => {
+  // fecha menus "Mais" abertos ao tocar fora ou escolher uma opção
+  document.querySelectorAll('details.more[open]').forEach((d) => {
+    if (!d.contains(e.target) || e.target.closest('.menu [data-act]')) d.open = false;
+  });
   const el = e.target.closest('[data-act]');
   if (!el || el.closest('#dlg')) return;
   const fn = actions[el.dataset.act];
@@ -206,6 +216,12 @@ const changes = {
     store.update((s) => { s.settings.workDays = days; });
   },
   'set-auto': (el) => store.update((s) => { s.settings.autoDetect = el.checked; }),
+  'presence-type': (el) => { store.update((s) => { s.settings.presence.type = el.value; }); render(); },
+  'presence-pct': (el) => { store.update((s) => { s.settings.presence.pct = Math.min(100, Math.max(0, Math.round(Number(el.value) || 0))); }); render(); announce(`Cota de ${store.get().settings.presence.pct} por cento.`); },
+  'presence-days-week': (el) => { store.update((s) => { s.settings.presence.daysWeek = Math.min(7, Math.max(0, Number(el.value) || 0)); }); render(); },
+  'presence-days-month': (el) => { store.update((s) => { s.settings.presence.daysMonth = Math.min(31, Math.max(0, Number(el.value) || 0)); }); render(); },
+  'mode-on': (el) => { store.update((s) => { s.settings.modes.find((m) => m.id === el.dataset.id).on = el.checked; }); render(); },
+  'mode-counts': (el) => { store.update((s) => { s.settings.modes.find((m) => m.id === el.dataset.id).counts = el.checked; }); render(); announce(el.checked ? 'Passa a contar como presencial.' : 'Deixa de contar como presencial.'); },
   'backup-import': (el) => { if (el.files?.[0]) VA.importBackup(el.files[0]); el.value = ''; },
   'focus-min': (el) => { const f = ctx.ui.focus; f.focusMin = Math.max(5, Number(el.value) || 25); if (!f.running && f.mode === 'foco') f.remaining = f.focusMin * 60; render(); },
   'break-min': (el) => { const f = ctx.ui.focus; f.breakMin = Math.max(1, Number(el.value) || 5); if (!f.running && f.mode === 'pausa') f.remaining = f.breakMin * 60; render(); },
@@ -216,6 +232,7 @@ document.addEventListener('change', (e) => {
   if (!el || el.closest('#dlg')) return;
   const key = el.dataset.change;
   if (key.startsWith('a11y:')) { setA11y(key.slice(5), el.checked); return; }
+  if (key.startsWith('hol:')) { store.update((s) => { s.settings.holidays[key.slice(4)] = el.checked; }); render(); return; }
   changes[key]?.(el, e);
 });
 
@@ -224,6 +241,10 @@ const inputs = {
   'news-q': debounce((el) => { ctx.ui.newsQuery = el.value; render(); }, 300),
   'norms-q': debounce((el) => { ctx.ui.normsQuery = el.value; render(); }, 300),
   'gloss-q': debounce((el) => { ctx.ui.glossQuery = el.value; render(); }, 250),
+  'presence-pct-live': (el) => {
+    const out = document.getElementById('p-pct-out');
+    if (out) out.textContent = `${el.value}%`;
+  },
   'a11y-font-live': (el) => {
     document.documentElement.style.setProperty('--font-scale', el.value);
     const out = document.getElementById('fs-out');
@@ -263,10 +284,14 @@ const forms = {
       s.profile.area = data.area.trim();
       s.settings.workMinutes = Math.round(Number(data.workHours) * 60) || 480;
       s.settings.lunchMinutes = Math.max(0, Number(data.lunch) || 0);
-      s.settings.presencialGoal = Math.max(0, Math.min(7, Number(data.goal) || 0));
       s.settings.radiusDefault = Math.max(50, Number(data.radius) || 150);
     });
     toast('Ajustes salvos.', { kind: 'ok' });
+    render();
+  },
+  'holiday-add': (f, data) => {
+    store.update((s) => { s.settings.holidays.extras = [...(s.settings.holidays.extras || []), { date: data.date, name: data.name.trim() }].sort((a, b) => a.date.localeCompare(b.date)); });
+    toast('Feriado adicionado.', { kind: 'ok' });
     render();
   },
   'feed-url': (f, data) => { store.update((s) => { s.settings.feedUrl = data.url.trim(); }); loadFeed({ force: true }); },
@@ -354,17 +379,12 @@ function checkReminders(now) {
   const key = dayKey(now);
   const nowMin = now.getHours() * 60 + now.getMinutes();
   const list = P.punchesOf(key);
-  const done = {
-    entrada: list.some((p) => p.kind === 'entrada'),
-    almoco: list.some((p) => p.kind === 'pausa_inicio') || !P.isOpen(key),
-    retorno: list.some((p) => p.kind === 'pausa_fim') || !P.onBreak(key),
-    saida: list.some((p) => p.kind === 'saida') || !list.length,
-  };
+  const done = VP.reminderDone(list);
   for (const it of r.items) {
     if (!it.on) continue;
     const t = timeToMin(it.time);
     const logKey = `${key}:${it.id}`;
-    if (nowMin >= t && nowMin <= t + 90 && !done[it.id] && !s.reminderLog[logKey]) {
+    if (nowMin >= t && nowMin <= t + 90 && !done[it.id] && VP.startedBefore(list, it.time) && !s.reminderLog[logKey]) {
       store.update((st) => { st.reminderLog[logKey] = true; pruneLog(st); });
       A.beep('warn'); A.haptic([120, 60, 120]);
       toast(`⏰ ${it.label} (${it.time})`, { kind: 'warn', timeout: 0, action: { label: 'Registrar', fn: () => VP.punchFlow() } });
@@ -431,6 +451,8 @@ function init() {
   setInterval(() => VT.focusTick(), 1000);
   VP.autoDetect();
   VP.updateBadge();
+  const st = store.get();
+  if (!st.onboarded && !st.punches.length && !st.offices.length && location.hash !== '#bater') setTimeout(runOnboarding, 600);
   void uid; void esc; void icon; void openDialog;
 }
 

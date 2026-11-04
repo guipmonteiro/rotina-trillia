@@ -6,10 +6,15 @@ import { ctx } from './ctx.js';
 import { icon, toast, subnav, toggle, segmented, emptyState, confirmDialog } from './ui.js';
 import { esc, WEEKDAYS, shareOrDownload, downloadFile, fmtDistance } from './util.js';
 import { buildICS } from './ics.js';
-import { DEFAULT_KEYWORDS } from './store.js';
+import { DEFAULT_KEYWORDS, TONES } from './store.js';
+import * as P from './ponto.js';
+import { holidaysOf } from './holidays.js';
+import { openDialog } from './ui.js';
+import { uid, dateShort, parseDayKey, dayKey, monthLabel } from './util.js';
 
-export function renderAjustes(sub = 'acessibilidade') {
+export function renderAjustes(sub = 'presenca') {
   const items = [
+    { id: 'presenca', label: 'Presença', icon: 'target' },
     { id: 'acessibilidade', label: 'Acessibilidade', icon: 'a11y' },
     { id: 'lembretes', label: 'Lembretes', icon: 'bell' },
     { id: 'escritorios', label: 'Escritórios', icon: 'building' },
@@ -17,8 +22,8 @@ export function renderAjustes(sub = 'acessibilidade') {
     { id: 'dados', label: 'Dados', icon: 'download' },
     { id: 'instalar', label: 'Instalar', icon: 'phone' },
   ];
-  const titles = { acessibilidade: 'Acessibilidade', lembretes: 'Lembretes de ponto', escritorios: 'Escritórios', jornada: 'Jornada e presença', dados: 'Dados e privacidade', instalar: 'Instalar no celular' };
-  const body = { acessibilidade, lembretes, escritorios, jornada, dados, instalar }[sub] || acessibilidade;
+  const titles = { presenca: 'Cota presencial e modalidades', acessibilidade: 'Acessibilidade', lembretes: 'Lembretes de ponto', escritorios: 'Escritórios', jornada: 'Jornada e presença', dados: 'Dados e privacidade', instalar: 'Instalar no celular' };
+  const body = { presenca, acessibilidade, lembretes, escritorios, jornada, dados, instalar }[sub] || presenca;
   return `
   <header class="page-head"><p class="eyebrow">Ajustes</p><h1 tabindex="-1">${titles[sub] || titles.acessibilidade}</h1></header>
   ${subnav('ajustes', items, sub)}
@@ -197,13 +202,142 @@ function jornada() {
       <div class="grid-2">
         <label class="field"><span>Jornada diária (horas)</span><input type="number" name="workHours" min="1" max="12" step="0.25" value="${st.workMinutes / 60}"></label>
         <label class="field"><span>Intervalo (minutos)</span><input type="number" name="lunch" min="0" max="180" step="5" value="${st.lunchMinutes}"></label>
-        <label class="field"><span>Meta de dias presenciais por semana</span><input type="number" name="goal" min="0" max="7" value="${st.presencialGoal}"></label>
         <label class="field"><span>Raio padrão de novos escritórios (m)</span><input type="number" name="radius" min="50" max="1000" step="25" value="${st.radiusDefault}"></label>
       </div>
       ${toggle({ id: 's-auto', label: 'Verificar localização ao abrir o app', checked: st.autoDetect, act: 'set-auto', hint: 'Sugere registrar entrada ao chegar no escritório e saída ao se afastar.' })}
       <button type="submit" class="btn btn-primary">${icon('check')} Salvar</button>
     </form>
+  </section>
+  <section class="card"><h2>${icon('target')} Cota presencial</h2><p class="muted">A meta de presença e as modalidades ficam em <a href="#ajustes-presenca">Ajustes → Presença</a>.</p>
+  <button type="button" class="btn btn-ghost" data-act="onboarding">${icon('sparkle')} Refazer configuração guiada</button></section>`;
+}
+
+// ---------------- Presença ----------------
+const TONE_LABEL = { azul: 'Azul', violeta: 'Violeta', ambar: 'Âmbar', verde: 'Verde', rosa: 'Rosa', cinza: 'Cinza' };
+const SUGGESTIONS = [
+  { label: 'Viagem a trabalho', short: 'V', desc: 'Deslocamento ou atividade em outra cidade', tone: 'verde', counts: true },
+  { label: 'Cliente / visita', short: 'C', desc: 'Atendimento presencial fora do escritório', tone: 'ambar', counts: true },
+  { label: 'Treinamento / evento', short: 'T', desc: 'Curso, congresso ou evento do setor', tone: 'rosa', counts: false },
+  { label: 'Outro escritório', short: 'O', desc: 'Unidade não cadastrada', tone: 'azul', counts: true },
+];
+
+export function presencePreview() {
+  const q = P.presence(new Date());
+  const cfg = store.get().settings.presence;
+  if (cfg.type === 'pct_mes') return `Em ${monthLabel(new Date())}: ${q.workdays} dias úteis × ${cfg.pct}% = <strong>${q.target} dias presenciais</strong>. Você tem ${q.done}.`;
+  if (cfg.type === 'dias_semana') return `Nesta semana: meta de <strong>${q.target} dias</strong> em ${q.workdays} dias úteis. Você tem ${q.done}.`;
+  return `Em ${monthLabel(new Date())}: meta de <strong>${q.target} dias</strong> em ${q.workdays} dias úteis. Você tem ${q.done}.`;
+}
+
+function presenca() {
+  const s = store.get();
+  const cfg = s.settings.presence;
+  const hol = s.settings.holidays;
+  const year = new Date().getFullYear();
+  const today = dayKey();
+  const upcoming = Object.entries({ ...holidaysOf(year), ...holidaysOf(year + 1) }).filter(([k]) => k >= today).sort().slice(0, 6);
+  return `
+  <section class="card" aria-labelledby="ct-t">
+    <h2 id="ct-t">${icon('target')} Como é a sua cota?</h2>
+    <fieldset class="fieldset"><legend>Tipo de meta</legend>
+      ${segmented('ptype', [{ value: 'pct_mes', label: '% do mês' }, { value: 'dias_semana', label: 'Dias por semana' }, { value: 'dias_mes', label: 'Dias por mês' }], cfg.type, { label: 'Tipo de meta', act: 'presence-type' })}
+    </fieldset>
+    ${cfg.type === 'pct_mes' ? `
+    <div class="field">
+      <label for="p-pct">Percentual presencial exigido: <output id="p-pct-out">${cfg.pct}%</output></label>
+      <div class="input-row">
+        <input type="range" id="p-pct" min="0" max="100" step="5" value="${cfg.pct}" data-input="presence-pct-live" data-change="presence-pct" aria-valuetext="${cfg.pct} por cento">
+        <input type="number" class="num-sm" min="0" max="100" value="${cfg.pct}" data-change="presence-pct" aria-label="Percentual (número)">
+      </div>
+      <p class="hint">Calculado sobre os dias úteis do mês: dias de trabalho menos feriados, férias, folgas e abonos.</p>
+    </div>` : cfg.type === 'dias_semana' ? `
+    <label class="field"><span>Dias presenciais por semana</span><input type="number" min="0" max="7" value="${cfg.daysWeek}" data-change="presence-days-week"></label>` : `
+    <label class="field"><span>Dias presenciais por mês</span><input type="number" min="0" max="31" value="${cfg.daysMonth}" data-change="presence-days-month"></label>`}
+    <p class="preview" id="p-preview">${presencePreview()}</p>
+  </section>
+
+  <section class="card" aria-labelledby="md-t">
+    <h2 id="md-t">${icon('layers')} Modalidades de trabalho</h2>
+    <p class="muted small">Escolha as que você usa e quais contam para a cota presencial. "Presencial" é validada pela localização dos escritórios.</p>
+    <ul class="mode-list">${s.settings.modes.map((m) => `
+      <li class="mode-row ${m.on ? '' : 'disabled'}">
+        <span class="chip-mode tone-${esc(m.tone)}" aria-hidden="true">${esc(m.short)}</span>
+        <div class="mode-info">
+          <p class="mode-name">${esc(m.label)}</p>
+          <p class="muted small">${esc(m.desc || '')}</p>
+          <div class="mode-checks">
+            <label class="check-inline"><input type="checkbox" data-change="mode-on" data-id="${esc(m.id)}" ${m.on ? 'checked' : ''} ${m.id === 'presencial' ? 'disabled' : ''}> Uso esta modalidade</label>
+            <label class="check-inline"><input type="checkbox" data-change="mode-counts" data-id="${esc(m.id)}" ${m.counts ? 'checked' : ''} ${m.id === 'presencial' ? 'disabled' : ''}> Conta como presencial</label>
+          </div>
+        </div>
+        <button type="button" class="icon-btn" data-act="mode-edit" data-id="${esc(m.id)}" aria-label="Editar modalidade ${esc(m.label)}">${icon('edit')}</button>
+      </li>`).join('')}</ul>
+    <p class="small"><strong>Sugestões:</strong></p>
+    <div class="chip-row">${SUGGESTIONS.filter((x) => !s.settings.modes.some((m) => m.label === x.label)).map((x, i) => `<button type="button" class="chip-btn" data-act="mode-quick" data-i="${SUGGESTIONS.indexOf(x)}">${icon('plus')} ${esc(x.label)}</button>`).join('') || '<span class="muted small">Todas adicionadas.</span>'}</div>
+    <button type="button" class="btn btn-ghost" data-act="mode-edit" data-id="">${icon('plus')} Criar modalidade</button>
+  </section>
+
+  <section class="card" aria-labelledby="hl-t">
+    <h2 id="hl-t">${icon('calendar')} Feriados automáticos</h2>
+    <p class="muted small">Feriados não entram como dias úteis na cota nem no banco de horas.</p>
+    ${toggle({ id: 'h-nac', label: 'Feriados nacionais', checked: hol.nacionais !== false, act: 'hol:nacionais' })}
+    ${toggle({ id: 'h-carn', label: 'Carnaval (segunda e terça)', checked: hol.carnaval !== false, act: 'hol:carnaval', hint: 'Ponto facultativo; a B3 não abre.' })}
+    ${toggle({ id: 'h-sp', label: 'Feriados de São Paulo (capital)', checked: hol.sp !== false, act: 'hol:sp', hint: '25/1, 9/7 e Corpus Christi.' })}
+    ${toggle({ id: 'h-b3', label: 'Dias sem pregão na B3', checked: !!hol.b3, act: 'hol:b3', hint: '24/12 e 31/12.' })}
+    <h3>Próximos</h3>
+    <ul class="dist-list">${upcoming.map(([k, n]) => `<li><span>${esc(n)}</span><span>${esc(dateShort(parseDayKey(k)))}</span></li>`).join('') || '<li>Nenhum</li>'}</ul>
+    <h3>Outros feriados ou pontos facultativos</h3>
+    ${(hol.extras || []).length ? `<ul class="dist-list">${hol.extras.map((x, i) => `<li><span>${esc(x.name)} · ${esc(dateShort(parseDayKey(x.date)))}</span><button type="button" class="icon-btn sm" data-act="holiday-del" data-i="${i}" aria-label="Remover ${esc(x.name)}">${icon('x')}</button></li>`).join('')}</ul>` : ''}
+    <form class="grid-3 align-end" data-form="holiday-add">
+      <label class="field"><span>Data</span><input type="date" name="date" required></label>
+      <label class="field"><span>Nome</span><input type="text" name="name" maxlength="50" placeholder="Ex.: emenda de feriado" required></label>
+      <button type="submit" class="btn btn-ghost">${icon('plus')} Adicionar</button>
+    </form>
   </section>`;
+}
+
+export async function modeDialog(id, preset) {
+  const s = store.get();
+  const m = id ? s.settings.modes.find((x) => x.id === id) : (preset || { label: '', short: '', desc: '', tone: 'verde', counts: false, on: true });
+  const r = await openDialog({
+    title: id ? `Modalidade: ${m.label}` : 'Nova modalidade',
+    body: `<form data-dialog-form class="form">
+      <label class="field"><span>Nome</span><input name="label" required maxlength="30" value="${esc(m.label)}" ${m.id === 'presencial' ? '' : 'autofocus'}></label>
+      <div class="grid-2">
+        <label class="field"><span>Letra no calendário</span><input name="short" required maxlength="2" value="${esc(m.short)}"></label>
+        <label class="field"><span>Cor</span><select name="tone">${TONES.map((t) => `<option value="${t}" ${m.tone === t ? 'selected' : ''}>${TONE_LABEL[t]}</option>`).join('')}</select></label>
+      </div>
+      <label class="field"><span>Descrição</span><input name="desc" maxlength="80" value="${esc(m.desc || '')}"></label>
+      ${m.id === 'presencial' ? '<p class="hint">"Presencial" sempre conta para a cota e é validada pela localização.</p>' : `
+      <label class="check-inline"><input type="checkbox" name="counts" value="1" ${m.counts ? 'checked' : ''}> Conta como presencial na cota</label>
+      <label class="check-inline"><input type="checkbox" name="on" value="1" ${m.on ? 'checked' : ''}> Mostrar ao bater o ponto</label>`}
+      <div class="dlg-actions">
+        ${id && !m.builtin ? `<button type="submit" class="btn btn-danger-ghost" data-value="delete" formnovalidate>${icon('trash')} Excluir</button>` : ''}
+        <button type="submit" class="btn btn-primary" data-value="save">${icon('check')} Salvar</button>
+      </div></form>`,
+  });
+  if (!r) return;
+  if (r._action === 'delete') {
+    store.update((st) => { st.settings.modes = st.settings.modes.filter((x) => x.id !== id); });
+    toast('Modalidade removida. Marcações antigas continuam no histórico.');
+  } else {
+    const data = { label: r.label.trim(), short: r.short.trim().toUpperCase(), tone: r.tone, desc: r.desc.trim() };
+    if (m.id !== 'presencial') { data.counts = !!r.counts; data.on = !!r.on; }
+    store.update((st) => {
+      if (id) Object.assign(st.settings.modes.find((x) => x.id === id), data);
+      else st.settings.modes.push({ id: 'm-' + uid(), builtin: false, ...data });
+    });
+    toast(id ? 'Modalidade atualizada.' : `Modalidade "${data.label}" criada.`, { kind: 'ok' });
+  }
+  ctx.render();
+}
+
+export function quickMode(i) {
+  const x = SUGGESTIONS[i];
+  if (!x) return;
+  store.update((st) => { st.settings.modes.push({ id: 'm-' + uid(), builtin: false, on: true, ...x }); });
+  toast(`Modalidade "${x.label}" adicionada${x.counts ? ' (conta como presencial)' : ''}.`, { kind: 'ok' });
+  ctx.render();
 }
 
 // ---------------- Dados ----------------

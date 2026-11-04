@@ -3,7 +3,10 @@
 App pessoal (PWA, instalável no celular) para a rotina de trabalho na Trillia/B3:
 
 - **Ponto com validação de presencial por GPS**: cadastre os escritórios (endereço ou "onde estou") com raio de presença; cada marcação registra se você estava dentro do raio.
-- **Histórico, presença e banco de horas**: calendário mensal (P = presencial, R = remoto, E = externo), meta de dias presenciais na semana, saldo do mês e total, exportação CSV.
+- **Cota presencial configurável**: % dos dias úteis do mês, dias por semana ou dias por mês; feriados nacionais, de São Paulo e Carnaval descontados automaticamente; anel de progresso com quanto falta.
+- **Modalidades personalizáveis**: presencial, remoto, externo e as que você criar (viagem, cliente, treinamento…), escolhendo quais contam como presencial.
+- **Histórico e banco de horas**: calendário mensal com a letra de cada modalidade, saldo do mês e total, exportação CSV.
+- **Configuração guiada** no primeiro uso (refazível em Ajustes → Jornada).
 - **Lembretes diários**: arquivo de calendário (.ics) com alarmes recorrentes (funciona com o app fechado), notificações do app, aviso de pendência e link `#bater` para automações do iPhone (Atalhos → "Chegar" no escritório).
 - **Mercado**: notícias de financiamento de veículos e imóveis, **monitor de normas** (Banco Central/CMN, DOU, Contran/Senatran/Detrans, Câmara, Senado, CVM/CNJ via imprensa), agenda regulatória e indicadores do Banco Central.
 - **Trabalho**: tarefas (dá para criar a partir de uma notícia ou norma), notas com ditado e leitura em voz alta, foco (pomodoro), simulador Price/SAC, glossário do mercado e fontes oficiais.

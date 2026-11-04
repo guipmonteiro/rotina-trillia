@@ -92,11 +92,16 @@ function newsItem(n) {
       ${n.summary ? `<p class="news-sum">${esc(n.summary)}</p>` : ''}
       ${hits.length ? `<p class="kw">${icon('tag')} ${hits.slice(0, 3).map((h) => `<span>${esc(h)}</span>`).join('')}</p>` : ''}
       <div class="item-actions">
-        <button type="button" class="btn btn-sm btn-ghost" data-act="speak-news" data-id="${esc(n.id)}">${icon('speaker')} Ouvir</button>
         <button type="button" class="btn btn-sm btn-ghost" data-act="news-save" data-id="${esc(n.id)}" aria-pressed="${saved ? 'true' : 'false'}">${icon(saved ? 'star-fill' : 'star')} ${saved ? 'Salva' : 'Salvar'}</button>
-        <button type="button" class="btn btn-sm btn-ghost" data-act="share" data-url="${esc(n.url)}" data-title="${esc(n.title)}">${icon('share')} Compartilhar</button>
-        <button type="button" class="btn btn-sm btn-ghost" data-act="news-read" data-id="${esc(n.id)}" aria-pressed="${read ? 'true' : 'false'}">${icon('check')} ${read ? 'Lida' : 'Marcar lida'}</button>
-        <button type="button" class="btn btn-sm btn-ghost" data-act="news-task" data-id="${esc(n.id)}">${icon('plus')} Tarefa</button>
+        <button type="button" class="btn btn-sm btn-ghost" data-act="speak-news" data-id="${esc(n.id)}">${icon('speaker')} Ouvir</button>
+        <details class="more">
+          <summary class="btn btn-sm btn-ghost">${icon('dots')} Mais<span class="visually-hidden"> opções: ${esc(n.title.slice(0, 60))}</span></summary>
+          <div class="menu">
+            <button type="button" data-act="share" data-url="${esc(n.url)}" data-title="${esc(n.title)}">${icon('share')} Compartilhar</button>
+            <button type="button" data-act="news-task" data-id="${esc(n.id)}">${icon('plus')} Criar tarefa</button>
+            <button type="button" data-act="news-read" data-id="${esc(n.id)}" aria-pressed="${read ? 'true' : 'false'}">${icon('check')} ${read ? 'Marcar como não lida' : 'Marcar como lida'}</button>
+          </div>
+        </details>
       </div>
     </article>
   </li>`;
@@ -174,12 +179,18 @@ function normItem(n) {
       ${hits.length ? `<p class="kw">${icon('tag')} ${hits.slice(0, 4).map((h) => `<span>${esc(h)}</span>`).join('')}</p>` : ''}
       ${note ? `<p class="my-note">${icon('edit')} ${esc(note)}</p>` : ''}
       <div class="item-actions">
-        <button type="button" class="btn btn-sm btn-ghost" data-act="norm-status" data-id="${esc(n.id)}" data-st="relevante" aria-pressed="${st === 'relevante'}">${icon(st === 'relevante' ? 'star-fill' : 'star')} Relevante</button>
-        <button type="button" class="btn btn-sm btn-ghost" data-act="norm-note" data-id="${esc(n.id)}">${icon('edit')} Nota</button>
-        <button type="button" class="btn btn-sm btn-ghost" data-act="speak-norm" data-id="${esc(n.id)}">${icon('speaker')} Ouvir</button>
-        <button type="button" class="btn btn-sm btn-ghost" data-act="norm-task" data-id="${esc(n.id)}">${icon('plus')} Tarefa</button>
-        ${isNew ? `<button type="button" class="btn btn-sm btn-ghost" data-act="norm-seen" data-id="${esc(n.id)}">${icon('check')} Vista</button>` : ''}
-        <button type="button" class="btn btn-sm btn-ghost" data-act="norm-status" data-id="${esc(n.id)}" data-st="arquivada" aria-pressed="${st === 'arquivada'}">${icon('archive')} ${st === 'arquivada' ? 'Desarquivar' : 'Arquivar'}</button>
+        <button type="button" class="btn btn-sm btn-ghost" data-act="norm-status" data-id="${esc(n.id)}" data-st="relevante" aria-pressed="${st === 'relevante'}">${icon(st === 'relevante' ? 'star-fill' : 'star')} ${st === 'relevante' ? 'Relevante' : 'Marcar relevante'}</button>
+        ${isNew ? `<button type="button" class="btn btn-sm btn-ghost" data-act="norm-seen" data-id="${esc(n.id)}">${icon('check')} Já vi</button>` : ''}
+        <details class="more">
+          <summary class="btn btn-sm btn-ghost">${icon('dots')} Mais<span class="visually-hidden"> opções: ${esc((n.kind + ' ' + (n.number || '')).trim())}</span></summary>
+          <div class="menu">
+            <button type="button" data-act="norm-note" data-id="${esc(n.id)}">${icon('edit')} ${note ? 'Editar nota' : 'Escrever nota'}</button>
+            <button type="button" data-act="norm-task" data-id="${esc(n.id)}">${icon('plus')} Criar tarefa de análise</button>
+            <button type="button" data-act="speak-norm" data-id="${esc(n.id)}">${icon('speaker')} Ouvir</button>
+            <button type="button" data-act="share" data-url="${esc(n.url)}" data-title="${esc(`${n.kind} ${n.number || ''} — ${n.title}`)}">${icon('share')} Compartilhar</button>
+            <button type="button" data-act="norm-status" data-id="${esc(n.id)}" data-st="arquivada" aria-pressed="${st === 'arquivada'}">${icon('archive')} ${st === 'arquivada' ? 'Desarquivar' : 'Arquivar'}</button>
+          </div>
+        </details>
       </div>
     </article>
   </li>`;

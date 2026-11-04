@@ -1,5 +1,5 @@
 // Service worker: funciona offline, atualiza o feed pela rede e abre o app ao tocar na notificação.
-const VERSION = 'v1.0.0';
+const VERSION = 'v1.1.0';
 const SHELL = `rotina-shell-${VERSION}`;
 const RUNTIME = 'rotina-runtime';
 
@@ -7,7 +7,7 @@ const ASSETS = [
   './',
   'index.html',
   'css/app.css',
-  'js/app.js', 'js/a11y.js', 'js/content.js', 'js/ctx.js', 'js/geo.js', 'js/ics.js',
+  'js/app.js', 'js/a11y.js', 'js/holidays.js', 'js/views-onboarding.js', 'js/content.js', 'js/ctx.js', 'js/geo.js', 'js/ics.js',
   'js/ponto.js', 'js/store.js', 'js/ui.js', 'js/util.js',
   'js/views-ajustes.js', 'js/views-mercado.js', 'js/views-ponto.js', 'js/views-trabalho.js',
   'manifest.webmanifest',

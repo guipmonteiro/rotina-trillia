@@ -12,6 +12,16 @@ export const DEFAULT_KEYWORDS = [
   'Detran', 'Senatran', 'Contran', 'CMN', 'home equity', 'securitização', 'CRI',
 ];
 
+// Modalidades de trabalho. "counts" = conta para a cota presencial.
+export const TONES = ['azul', 'violeta', 'ambar', 'verde', 'rosa', 'cinza'];
+export function defaultModes() {
+  return [
+    { id: 'presencial', label: 'Presencial', short: 'P', desc: 'No escritório (validado pela localização)', tone: 'azul', counts: true, on: true, builtin: true },
+    { id: 'remoto', label: 'Remoto', short: 'R', desc: 'Home office', tone: 'violeta', counts: false, on: true, builtin: true },
+    { id: 'externo', label: 'Externo', short: 'E', desc: 'Cliente, evento ou visita', tone: 'ambar', counts: false, on: true, builtin: true },
+  ];
+}
+
 export function defaults() {
   return {
     version: 1,
@@ -23,7 +33,15 @@ export function defaults() {
     settings: {
       workMinutes: 480,
       lunchMinutes: 60,
-      presencialGoal: 3,
+      presencialGoal: 3, // legado (versão 1)
+      presence: {
+        type: 'pct_mes', // pct_mes | dias_semana | dias_mes
+        pct: 60,
+        daysWeek: 3,
+        daysMonth: 12,
+      },
+      modes: defaultModes(),
+      holidays: { nacionais: true, carnaval: true, sp: true, b3: false, extras: [] },
       workDays: [1, 2, 3, 4, 5],
       autoDetect: true,
       radiusDefault: 150,
@@ -63,6 +81,7 @@ export function defaults() {
     news: { read: {}, saved: {} },
     norms: { seen: {}, status: {}, notes: {}, lastVisit: null },
     reminderLog: {}, // { 'AAAA-MM-DD:entrada': true }
+    onboarded: false,
   };
 }
 
@@ -80,7 +99,21 @@ function merge(base, saved) {
   return saved === undefined ? base : saved;
 }
 
-let state = load();
+let state = migrate(load());
+try { localStorage.setItem(KEY, JSON.stringify(state)); } catch { /* */ }
+
+function migrate(st) {
+  // Garante as modalidades padrão e preserva personalizações
+  const base = defaultModes();
+  const have = new Map((st.settings.modes || []).map((m) => [m.id, m]));
+  base.forEach((m) => { if (!have.has(m.id)) st.settings.modes.unshift(m); });
+  st.settings.modes.forEach((m) => { if (m.id === 'presencial') { m.on = true; } });
+  if (st.settings.presence && st.settings.presencialGoal !== 3 && !st.settings.presence._migrated) {
+    st.settings.presence.daysWeek = st.settings.presencialGoal;
+  }
+  if (st.settings.presence) st.settings.presence._migrated = true;
+  return st;
+}
 const listeners = new Set();
 
 function load() {
@@ -115,7 +148,7 @@ export function subscribe(fn) {
 }
 
 export function replaceAll(data) {
-  state = merge(defaults(), data);
+  state = migrate(merge(defaults(), data));
   save();
 }
 

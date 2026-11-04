@@ -2,6 +2,7 @@
 
 import * as store from './store.js';
 import { dayKey, parseDayKey, addDays, startOfWeek, hhmm, dateShort, fmtDuration, WEEKDAYS } from './util.js';
+import { holidayName } from './holidays.js';
 
 export const KINDS = {
   entrada: { label: 'Entrada', verb: 'Registrar entrada', icon: 'in' },
@@ -10,11 +11,15 @@ export const KINDS = {
   saida: { label: 'Saída', verb: 'Registrar saída', icon: 'out' },
 };
 
-export const MODES = {
-  presencial: { label: 'Presencial', short: 'P', desc: 'No escritório' },
-  remoto: { label: 'Remoto', short: 'R', desc: 'Home office' },
-  externo: { label: 'Externo', short: 'E', desc: 'Cliente, evento ou viagem' },
-};
+// ---------- Modalidades (configuráveis em Ajustes → Presença) ----------
+export function allModes() { return store.get().settings.modes; }
+export function activeModes() { return allModes().filter((m) => m.on); }
+export function modeOf(id) {
+  return allModes().find((m) => m.id === id) || { id, label: id || '—', short: '?', tone: 'cinza', counts: false, on: false };
+}
+export const modeClass = (id) => `tone-${modeOf(id).tone || 'cinza'}`;
+// Compatibilidade: P.MODES[id] continua funcionando
+export const MODES = new Proxy({}, { get: (_, id) => (typeof id === 'string' ? modeOf(id) : undefined) });
 
 export const DAY_STATUS = {
   folga: 'Folga',
@@ -82,14 +87,15 @@ export function onBreak(key = dayKey()) {
   return !!last && last.kind === 'pausa_inicio';
 }
 
-/** Modo do dia: presencial se houve qualquer marcação presencial */
+/** Modalidade do dia: a que conta para a cota tem prioridade; senão, a da primeira marcação */
 export function dayMode(key) {
   const list = punchesOf(key);
   if (!list.length) return null;
-  if (list.some((p) => p.mode === 'presencial')) return 'presencial';
-  if (list.some((p) => p.mode === 'externo')) return 'externo';
-  return 'remoto';
+  const c = list.find((p) => modeOf(p.mode).counts);
+  return (c || list[0]).mode;
 }
+
+export const dayCounts = (key) => { const m = dayMode(key); return !!m && modeOf(m).counts; };
 
 export function dayOffice(key) {
   const p = punchesOf(key).find((x) => x.mode === 'presencial' && x.officeId);
@@ -101,7 +107,41 @@ export function isWorkDay(date) {
   const s = store.get();
   const k = dayKey(date);
   if (s.days[k]?.status) return false;
+  if (holidayName(k)) return false;
   return s.settings.workDays.includes(date.getDay());
+}
+
+export { holidayName };
+
+/**
+ * Cota presencial no período (mês ou semana, conforme o tipo de meta).
+ * Base: dias úteis (dias de trabalho menos feriados, férias, folgas e abonos).
+ */
+export function presence(ref = new Date()) {
+  const cfg = store.get().settings.presence;
+  const today = dayKey(ref);
+  let start; let end;
+  if (cfg.type === 'dias_semana') { start = startOfWeek(ref); end = addDays(start, 6); }
+  else { start = new Date(ref.getFullYear(), ref.getMonth(), 1); end = new Date(ref.getFullYear(), ref.getMonth() + 1, 0); }
+  const days = [];
+  for (let d = new Date(start); d <= end; d = addDays(d, 1)) {
+    const k = dayKey(d);
+    days.push({ date: new Date(d), key: k, work: isWorkDay(d), counts: dayCounts(k), mode: dayMode(k), holiday: holidayName(k), status: store.get().days[k]?.status || null });
+  }
+  const workdays = days.filter((d) => d.work).length;
+  const done = days.filter((d) => d.counts).length;
+  const todayDone = days.find((d) => d.key === today)?.counts;
+  const remaining = days.filter((d) => d.work && (d.key > today || (d.key === today && !todayDone))).length;
+  let target;
+  if (cfg.type === 'pct_mes') target = Math.ceil((Number(cfg.pct) / 100) * workdays - 1e-9);
+  else if (cfg.type === 'dias_semana') target = Number(cfg.daysWeek);
+  else target = Number(cfg.daysMonth);
+  target = Math.min(target, workdays);
+  const needed = Math.max(0, target - done);
+  const pctNow = workdays ? (done / workdays) * 100 : 0;
+  const state = needed === 0 ? 'ok' : needed > remaining ? 'risco' : needed === remaining ? 'justo' : 'andamento';
+  const label = cfg.type === 'pct_mes' ? `${cfg.pct}% dos dias úteis do mês` : cfg.type === 'dias_semana' ? `${cfg.daysWeek} dias por semana` : `${cfg.daysMonth} dias no mês`;
+  return { type: cfg.type, pctGoal: Number(cfg.pct), days, workdays, done, target, needed, remaining, pctNow, state, label, period: cfg.type === 'dias_semana' ? 'semana' : 'mês' };
 }
 
 export function expectedMinutes(date) {
@@ -133,12 +173,12 @@ export function weekSummary(ref = new Date()) {
     const k = dayKey(d);
     days.push({
       date: d, key: k, mode: dayMode(k), worked: workedMinutes(k),
-      status: store.get().days[k]?.status || null, workDay: isWorkDay(d),
+      status: store.get().days[k]?.status || null, workDay: isWorkDay(d), holiday: holidayName(k),
     });
   }
-  const presencial = days.filter((d) => d.mode === 'presencial').length;
+  const presencial = days.filter((d) => d.mode && modeOf(d.mode).counts).length;
   const worked = days.reduce((a, d) => a + d.worked, 0);
-  return { start, days, presencial, worked, goal: store.get().settings.presencialGoal };
+  return { start, days, presencial, worked, goal: store.get().settings.presence.daysWeek };
 }
 
 export function monthSummary(year, month) {
@@ -149,6 +189,7 @@ export function monthSummary(year, month) {
   const last = new Date(year, month + 1, 0);
   const days = [];
   let worked = 0; let expected = 0; let presencial = 0; let remoto = 0; let externo = 0;
+  const byMode = {};
   for (let d = new Date(first); d <= last; d = addDays(d, 1)) {
     const k = dayKey(d);
     const w = workedMinutes(k);
@@ -157,12 +198,13 @@ export function monthSummary(year, month) {
     const exp = past ? expectedMinutes(d) : 0;
     worked += w;
     expected += exp;
-    if (m === 'presencial') presencial++;
+    if (m) byMode[m] = (byMode[m] || 0) + 1;
+    if (m && modeOf(m).counts) presencial++;
     if (m === 'remoto') remoto++;
     if (m === 'externo') externo++;
-    days.push({ date: new Date(d), key: k, worked: w, expected: exp, mode: m, status: store.get().days[k]?.status || null, workDay: isWorkDay(d) });
+    days.push({ date: new Date(d), key: k, worked: w, expected: exp, mode: m, status: store.get().days[k]?.status || null, workDay: isWorkDay(d), holiday: holidayName(k) });
   }
-  return { days, worked, expected, balance: worked - expected, presencial, remoto, externo };
+  return { days, worked, expected, balance: worked - expected, presencial, remoto, externo, byMode };
 }
 
 /** Banco de horas acumulado desde o primeiro registro até ontem (ou hoje, se encerrado) */
@@ -202,7 +244,7 @@ export function toCSV(year, month) {
     sum.push([
       dateShort(d.date), d.mode ? MODES[d.mode].label : '', fmtDuration(d.worked),
       fmtDuration(d.expected), fmtDuration(d.worked - d.expected, { sign: true }),
-      d.status ? DAY_STATUS[d.status] : '',
+      d.status ? DAY_STATUS[d.status] : d.holiday || '',
     ]);
   }
   const csv = (r) => r.map((c) => {

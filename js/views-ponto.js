@@ -19,30 +19,25 @@ export function renderHoje() {
   const s = store.get();
   const now = new Date();
   const key = dayKey(now);
-  const h = now.getHours();
-  const greet = h < 12 ? 'Bom dia' : h < 18 ? 'Boa tarde' : 'Boa noite';
-  const name = s.profile.name ? `, ${esc(s.profile.name.split(' ')[0])}` : '';
-  const week = P.weekSummary(now);
   const tasksToday = s.tasks.filter((t) => t.status !== 'done' && t.due && t.due <= key).slice(0, 4);
   const news = (ctx.feed?.news || []).slice(0, 3);
   const newNorms = countNewNorms();
   const nextAgenda = AGENDA.filter((a) => a.date >= key).sort((a, b) => a.date.localeCompare(b.date))[0];
   const pending = pendingReminder();
   const dayStatus = s.days[key]?.status;
+  const holiday = P.holidayName(key);
+  const list = P.punchesOf(key);
 
   return `
-  <header class="page-head">
-    <p class="eyebrow">${esc(capitalize(dateLong(now)))}</p>
-    <h1 tabindex="-1">${greet}${name}</h1>
-  </header>
+  ${hero(key, now)}
 
-  ${!s.offices.length ? `
-  <section class="card card-accent onboarding" aria-labelledby="ob-t">
-    <h2 id="ob-t">${icon('building')} Cadastre seus escritórios</h2>
-    <p>Para validar o presencial pela localização, informe onde ficam os escritórios. Você pode usar a localização atual quando estiver lá ou buscar pelo endereço.</p>
+  ${!s.onboarded ? `
+  <section class="card card-accent welcome" aria-labelledby="wl-t">
+    <h2 id="wl-t">${icon('sparkle')} Vamos deixar o app com a sua cara?</h2>
+    <p>Em um minuto você define sua cota presencial, as modalidades que usa, a jornada e os lembretes.</p>
     <div class="row-btns">
-      <button type="button" class="btn btn-primary" data-act="office-add-here">${icon('pin')} Usar minha localização</button>
-      <button type="button" class="btn btn-ghost" data-act="office-add">${icon('search')} Buscar endereço</button>
+      <button type="button" class="btn btn-primary" data-act="onboarding">Começar</button>
+      <button type="button" class="btn btn-ghost" data-act="onboarding-skip">Agora não</button>
     </div>
   </section>` : ''}
 
@@ -53,39 +48,18 @@ export function renderHoje() {
       <button type="button" class="icon-btn" data-act="banner-close" aria-label="Dispensar aviso">${icon('x')}</button>
     </div>` : ''}
 
-  ${pending && !ctx.banner ? `<div class="banner banner-warn" role="status">${icon('bell')}<p><strong>Lembrete:</strong> ${esc(pending.label)} (${esc(pending.time)}). ${pending.kind === 'entrada' ? 'Você ainda não registrou a entrada hoje.' : ''}</p>
+  ${pending && !ctx.banner ? `<div class="banner banner-warn" role="status">${icon('bell')}<p><strong>${esc(pending.label)}</strong> — era às ${esc(pending.time)}.${pending.kind === 'entrada' ? ' Você ainda não registrou a entrada hoje.' : ''}</p>
     <button type="button" class="btn btn-sm btn-primary" data-act="punch" data-kind="${esc(pending.kind)}">Registrar agora</button></div>` : ''}
 
-  ${dayStatus ? `<div class="banner banner-info" role="status">${icon('calendar')}<p>Hoje está marcado como <strong>${esc(P.DAY_STATUS[dayStatus])}</strong>.</p><button type="button" class="btn btn-sm btn-ghost" data-act="day-open" data-day="${key}">Alterar</button></div>` : ''}
+  ${dayStatus || holiday ? `<div class="banner banner-info" role="status">${icon('calendar')}<p>Hoje é <strong>${esc(dayStatus ? P.DAY_STATUS[dayStatus] : holiday)}</strong> — não conta como dia útil.</p>${dayStatus ? `<button type="button" class="btn btn-sm btn-ghost" data-act="day-open" data-day="${key}">Alterar</button>` : ''}</div>` : ''}
 
-  ${punchCard(key, now)}
+  ${quotaCard(now)}
 
-  <section class="card" aria-labelledby="loc-t">
-    <div class="card-head">
-      <h2 id="loc-t">${icon('pin')} Onde estou</h2>
-      <button type="button" class="btn btn-sm btn-ghost" data-act="locate">${icon('refresh')} Verificar</button>
-    </div>
-    ${locationSummary()}
-  </section>
-
-  <section class="card" aria-labelledby="week-t">
-    <div class="card-head">
-      <h2 id="week-t">${icon('calendar')} Presença na semana</h2>
-      <a class="link-sm" href="#ponto">Histórico</a>
-    </div>
-    <p class="big-stat"><strong>${week.presencial}</strong> de ${week.goal} dias presenciais <span class="muted">· ${fmtDuration(week.worked)} trabalhadas</span></p>
-    <div class="meter" role="meter" aria-valuemin="0" aria-valuemax="${week.goal}" aria-valuenow="${Math.min(week.presencial, week.goal)}" aria-label="Meta de presença semanal: ${week.presencial} de ${week.goal} dias">
-      <span style="width:${Math.min(100, (week.presencial / Math.max(1, week.goal)) * 100)}%"></span>
-    </div>
-    <ol class="week" aria-label="Dias da semana">
-      ${week.days.map((d) => weekChip(d, key)).join('')}
-    </ol>
-    <p class="legend muted" aria-hidden="true"><span class="chip-mini m-presencial">P</span> presencial <span class="chip-mini m-remoto">R</span> remoto <span class="chip-mini m-externo">E</span> externo</p>
-  </section>
+  ${list.length ? timelineCard(key, list) : ''}
 
   ${tasksToday.length ? `
   <section class="card" aria-labelledby="tk-t">
-    <div class="card-head"><h2 id="tk-t">${icon('check')} Tarefas para hoje</h2><a class="link-sm" href="#trabalho-tarefas">Todas</a></div>
+    <div class="card-head"><h2 id="tk-t">${icon('check')} Para hoje</h2><a class="link-sm" href="#trabalho-tarefas">Ver tarefas</a></div>
     <ul class="list-plain">${tasksToday.map((t) => `
       <li class="task-mini ${t.due < key ? 'late' : ''}">
         <label><input type="checkbox" data-change="task-toggle" data-id="${t.id}"> <span>${esc(t.title)}</span></label>
@@ -94,57 +68,145 @@ export function renderHoje() {
   </section>` : ''}
 
   <section class="card simple-hide" aria-labelledby="mk-t">
-    <div class="card-head"><h2 id="mk-t">${icon('news')} Mercado</h2><a class="link-sm" href="#mercado-noticias">Ver tudo</a></div>
-    ${newNorms ? `<a class="pill-link" href="#mercado-normas">${icon('scale')} <strong>${newNorms}</strong> ${newNorms === 1 ? 'norma nova' : 'normas novas'} para revisar</a>` : ''}
-    ${nextAgenda ? `<p class="agenda-mini">${icon('calendar')} <span><strong>${esc(dateShort(parseDayKey(nextAgenda.date)))}</strong> · ${esc(nextAgenda.title)}</span></p>` : ''}
-    ${news.length ? `<ul class="news-mini">${news.map((n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a><span class="muted"> · ${esc(n.source || '')} ${n.date ? '· ' + esc(relTime(n.date)) : ''}</span></li>`).join('')}</ul>` : `<p class="muted">${ctx.feedLoading ? 'Carregando notícias…' : 'Sem notícias carregadas.'}</p>`}
+    <div class="card-head"><h2 id="mk-t">${icon('news')} Seu mercado hoje</h2><a class="link-sm" href="#mercado-noticias">Ver tudo</a></div>
+    ${newNorms ? `<a class="pill-link" href="#mercado-normas">${icon('scale')} <span><strong>${newNorms}</strong> ${newNorms === 1 ? 'norma nova' : 'normas novas'} para você revisar</span></a>` : '<p class="muted small">Nenhuma norma nova desde a sua última visita.</p>'}
+    ${nextAgenda ? `<p class="agenda-mini">${icon('calendar')} <span>Próximo marco: <strong>${esc(dateShort(parseDayKey(nextAgenda.date)))}</strong> · ${esc(nextAgenda.title)}</span></p>` : ''}
+    ${news.length ? `<ul class="news-mini">${news.map((n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}<span class="visually-hidden"> (abre em nova aba)</span></a><span class="muted small"> · ${esc(n.source || '')}${n.date ? ' · ' + esc(relTime(n.date)) : ''}</span></li>`).join('')}</ul>` : `<p class="muted">${ctx.feedLoading ? 'Carregando notícias…' : 'Sem notícias carregadas.'}</p>`}
   </section>`;
 }
 
-function weekChip(d, todayKey) {
-  const lbl = WEEKDAYS_SHORT[d.date.getDay()];
-  const m = d.mode;
-  const status = d.status ? P.DAY_STATUS[d.status] : '';
-  const spoken = `${WEEKDAYS[d.date.getDay()]} ${d.date.getDate()}: ${m ? P.MODES[m].label : status || (d.key > todayKey ? 'futuro' : d.workDay ? 'sem registro' : 'não útil')}${d.worked ? ', ' + spokenDuration(d.worked) : ''}`;
-  return `<li class="wchip ${m ? 'm-' + m : ''} ${d.key === todayKey ? 'today' : ''} ${!d.workDay && !m ? 'off' : ''}">
-    <button type="button" data-act="day-open" data-day="${d.key}">
-      <span class="wd" aria-hidden="true">${lbl}</span><span class="wl" aria-hidden="true">${m ? P.MODES[m].short : d.status ? '·' : '–'}</span><span class="visually-hidden">${esc(spoken)}</span>
-    </button></li>`;
-}
-
-function punchCard(key, now) {
+/** Cartão principal: saudação, onde você está, relógio e botões de ponto */
+function hero(key, now) {
   const s = store.get();
+  const h = now.getHours();
+  const greet = h < 12 ? 'Bom dia' : h < 18 ? 'Boa tarde' : 'Boa noite';
+  const name = s.profile.name ? `, ${esc(s.profile.name.split(' ')[0])}` : '';
   const list = P.punchesOf(key);
   const next = P.nextKinds(key);
   const worked = P.workedMinutes(key, now);
   const pct = Math.min(100, (worked / Math.max(1, s.settings.workMinutes)) * 100);
   const exit = P.expectedExit(key, now);
   const open = P.isOpen(key);
-  const officeName = (id) => s.offices.find((o) => o.id === id)?.name;
-  const status = !list.length ? 'Você ainda não registrou ponto hoje.'
-    : P.onBreak(key) ? 'Em intervalo.'
-      : open ? 'Expediente em andamento.' : 'Expediente encerrado.';
+  const first = list[0];
+  const last = list[list.length - 1];
+  let msg;
+  if (!list.length) msg = P.isWorkDay(now) ? 'Você ainda não registrou o ponto hoje.' : 'Dia livre por aqui. Se for trabalhar, é só registrar.';
+  else if (P.onBreak(key)) msg = `Em intervalo desde ${hhmm(last.ts)}. Bom descanso!`;
+  else if (open) msg = `Trabalhando desde ${hhmm(first.ts)}${exit ? ` · saída prevista às ${hhmm(exit)}` : ''}.`;
+  else msg = `Dia encerrado com ${fmtDuration(worked)} trabalhadas. Até amanhã!`;
   return `
-  <section class="card punch-card" aria-labelledby="pc-t">
-    <h2 id="pc-t" class="visually-hidden">Registro de ponto</h2>
-    <div class="clock" aria-hidden="true"><span data-tick="clock">${hhmm(now)}</span></div>
-    <p class="punch-status">${esc(status)}</p>
-    <div class="punch-btns">
-      ${next.map((k, i) => `<button type="button" class="btn ${i === 0 ? 'btn-punch' : 'btn-ghost btn-lg'}" data-act="punch" data-kind="${k}">${icon(P.KINDS[k].icon)} ${esc(P.KINDS[k].verb)}</button>`).join('')}
-    </div>
-    <div class="worked">
-      <div class="worked-row"><span>Trabalhado hoje</span><strong data-tick="worked">${fmtDuration(worked)}</strong></div>
-      <div class="meter" role="meter" aria-label="Jornada do dia" aria-valuemin="0" aria-valuemax="${s.settings.workMinutes}" aria-valuenow="${Math.round(worked)}" aria-valuetext="${esc(spokenDuration(worked))} de ${esc(spokenDuration(s.settings.workMinutes))}">
-        <span data-tick="worked-bar" style="width:${pct}%"></span>
+  <section class="hero" aria-labelledby="hero-t">
+    <div class="hero-top">
+      <div>
+        <p class="hero-date">${esc(capitalize(dateLong(now)))}</p>
+        <h1 id="hero-t" tabindex="-1">${greet}${name}</h1>
       </div>
-      ${exit ? `<p class="muted small">Previsão de saída: <strong data-tick="exit">${hhmm(exit)}</strong></p>` : ''}
+      <p class="hero-clock" aria-hidden="true" data-tick="clock">${hhmm(now)}</p>
+    </div>
+    ${locationPill()}
+    <p class="hero-msg">${esc(msg)}</p>
+    <div class="hero-btns">
+      ${next.map((k, i) => `<button type="button" class="btn ${i === 0 ? 'btn-hero' : 'btn-hero-ghost'}" data-act="punch" data-kind="${k}">${icon(P.KINDS[k].icon)} ${esc(P.KINDS[k].verb)}</button>`).join('')}
     </div>
     ${list.length ? `
-    <ol class="timeline" aria-label="Marcações de hoje">
+    <div class="hero-progress">
+      <div class="worked-row"><span>Hoje</span><span><strong data-tick="worked">${fmtDuration(worked)}</strong> de ${fmtDuration(s.settings.workMinutes)}</span></div>
+      <div class="meter meter-hero" role="meter" aria-label="Jornada do dia" aria-valuemin="0" aria-valuemax="${s.settings.workMinutes}" aria-valuenow="${Math.round(worked)}" aria-valuetext="${esc(spokenDuration(worked))} de ${esc(spokenDuration(s.settings.workMinutes))}">
+        <span data-tick="worked-bar" style="width:${pct}%"></span>
+      </div>
+    </div>` : ''}
+  </section>`;
+}
+
+function locationPill() {
+  const s = store.get();
+  if (!geo.supported()) return '';
+  if (!s.offices.length) {
+    return `<button type="button" class="loc-pill" data-act="office-add-here">${icon('pin')} <span>Cadastre seu escritório para validar o presencial</span></button>`;
+  }
+  if (ctx.locError) return `<button type="button" class="loc-pill warn" data-act="locate">${icon('alert')} <span>Localização indisponível · tocar para tentar</span></button>`;
+  const n = ctx.lastLoc?.ranked?.[0];
+  if (!n) return `<button type="button" class="loc-pill" data-act="locate">${icon('pin')} <span>Onde estou? Tocar para verificar</span></button>`;
+  return `<button type="button" class="loc-pill ${n.inside ? 'in' : ''}" data-act="locate" aria-describedby="loc-when">
+    ${icon(n.inside ? 'check' : 'home')} <span>${n.inside ? `Você está em <strong>${esc(n.office.name)}</strong>` : `Fora dos escritórios · ${esc(n.office.name)} a ${fmtDistance(n.dist)}`}</span>
+  </button><span id="loc-when" class="visually-hidden">Verificado ${esc(relTime(ctx.lastLoc.at))}. Toque para verificar de novo.</span>`;
+}
+
+/** Anel da cota presencial */
+export function quotaCard(now = new Date()) {
+  const q = P.presence(now);
+  const frac = q.target ? Math.min(1, q.done / q.target) : 1;
+  const R = 44; const C = 2 * Math.PI * R;
+  const msgs = {
+    ok: `Meta cumprida! Você já tem ${q.done} ${q.done === 1 ? 'dia presencial' : 'dias presenciais'} neste ${q.period}.`,
+    andamento: `Faltam <strong>${q.needed}</strong> ${q.needed === 1 ? 'dia presencial' : 'dias presenciais'} nos ${q.remaining} ${q.remaining === 1 ? 'dia útil' : 'dias úteis'} que restam.`,
+    justo: `Atenção: os ${q.remaining} ${q.remaining === 1 ? 'dia útil restante precisa' : 'dias úteis restantes precisam'} ser presenciais.`,
+    risco: `Não dá mais para bater a meta neste ${q.period}: faltam ${q.needed} e restam ${q.remaining} dias úteis.`,
+  };
+  const spoken = `Cota presencial: ${q.done} de ${q.target} dias${q.type === 'pct_mes' ? `, ${Math.round(q.pctNow)} por cento dos dias úteis` : ''}.`;
+  const week = P.weekSummary(now);
+  return `
+  <section class="card quota quota-${q.state}" aria-labelledby="q-t">
+    <div class="card-head">
+      <h2 id="q-t">${icon('target')} Cota presencial ${q.period === 'mês' ? 'do mês' : 'da semana'}</h2>
+      <a class="link-sm" href="#ajustes-presenca">Ajustar</a>
+    </div>
+    <div class="quota-body">
+      <svg class="ring" viewBox="0 0 100 100" role="img" aria-label="${esc(spoken)}">
+        <circle cx="50" cy="50" r="${R}" class="ring-bg"/>
+        <circle cx="50" cy="50" r="${R}" class="ring-fg" stroke-dasharray="${(frac * C).toFixed(1)} ${C.toFixed(1)}" transform="rotate(-90 50 50)"/>
+        <text x="50" y="${q.type === 'pct_mes' ? 48 : 55}" class="ring-big">${q.type === 'pct_mes' ? `${Math.round(q.pctNow)}%` : `${q.done}/${q.target}`}</text>
+        ${q.type === 'pct_mes' ? `<text x="50" y="66" class="ring-small">meta ${q.pctGoal}%</text>` : ''}
+      </svg>
+      <div class="quota-text">
+        <p class="quota-msg">${msgs[q.state]}</p>
+        <p class="muted small">${q.done} de ${q.target} ${q.target === 1 ? 'dia' : 'dias'} · meta de ${esc(q.label)}${q.type === 'pct_mes' ? ` (${q.workdays} dias úteis)` : ''}</p>
+      </div>
+    </div>
+    <h3 class="week-title">Esta semana</h3>
+    <ol class="week" aria-label="Dias desta semana">
+      ${week.days.map((d) => weekChip(d, dayKey(now))).join('')}
+    </ol>
+    ${modeLegend()}
+  </section>`;
+}
+
+export function modeLegend() {
+  return `<p class="legend muted" aria-hidden="true">${P.activeModes().map((m) => `<span><span class="chip-mini tone-${esc(m.tone)}">${esc(m.short)}</span> ${esc(m.label.toLowerCase())}</span>`).join('')}<span><span class="chip-mini">·</span> folga/feriado</span></p>`;
+}
+
+function weekChip(d, todayKey) {
+  const lbl = WEEKDAYS_SHORT[d.date.getDay()];
+  const m = d.mode;
+  const status = d.status ? P.DAY_STATUS[d.status] : d.holiday || '';
+  const spoken = `${WEEKDAYS[d.date.getDay()]} ${d.date.getDate()}: ${m ? P.modeOf(m).label : status || (d.key > todayKey ? 'ainda não chegou' : d.workDay ? 'sem registro' : 'não útil')}${d.worked ? ', ' + spokenDuration(d.worked) : ''}`;
+  return `<li class="wchip ${m ? P.modeClass(m) : ''} ${d.key === todayKey ? 'today' : ''} ${!d.workDay && !m ? 'off' : ''}">
+    <button type="button" data-act="day-open" data-day="${d.key}">
+      <span class="wd" aria-hidden="true">${lbl}</span><span class="wl" aria-hidden="true">${m ? esc(P.modeOf(m).short) : status ? '·' : d.date.getDate()}</span><span class="visually-hidden">${esc(spoken)}</span>
+    </button></li>`;
+}
+
+function timelineCard(key, list) {
+  return `
+  <section class="card" aria-labelledby="tl-t">
+    <div class="card-head"><h2 id="tl-t">${icon('clock')} Marcações de hoje</h2></div>
+    ${timelineList(list)}
+    <div class="row-btns">
+      <button type="button" class="btn btn-sm btn-ghost" data-act="punch-manual">${icon('plus')} Esqueci de marcar</button>
+      <button type="button" class="btn btn-sm btn-ghost" data-act="day-open" data-day="${key}">${icon('calendar')} Situação do dia</button>
+    </div>
+  </section>`;
+}
+
+function timelineList(list) {
+  const s = store.get();
+  const officeName = (id) => s.offices.find((o) => o.id === id)?.name;
+  return `<ol class="timeline" aria-label="Marcações">
       ${list.map((p) => `<li class="tl-item k-${p.kind}">
+        <span class="tl-dot ${P.modeClass(p.mode)}" aria-hidden="true">${icon(P.KINDS[p.kind]?.icon || 'clock')}</span>
         <span class="tl-time">${hhmm(p.ts)}</span>
         <span class="tl-body"><strong>${esc(P.KINDS[p.kind]?.label)}</strong>
-          <span class="tag m-${esc(p.mode)}">${esc(P.MODES[p.mode]?.label || '')}</span>
+          <span class="tag ${P.modeClass(p.mode)}">${esc(P.modeOf(p.mode).label)}</span>
           ${p.officeId && officeName(p.officeId) ? `<span class="muted"> · ${esc(officeName(p.officeId))}</span>` : ''}
           ${p.noLocation ? '<span class="muted"> · sem localização</span>' : ''}
           ${p.outOfRadius && !p.noLocation ? '<span class="text-warn"> · fora do raio</span>' : ''}
@@ -153,29 +215,14 @@ function punchCard(key, now) {
         </span>
         <button type="button" class="icon-btn" data-act="punch-edit" data-id="${p.id}" aria-label="Editar marcação de ${esc(P.KINDS[p.kind]?.label)} às ${hhmm(p.ts)}">${icon('edit')}</button>
       </li>`).join('')}
-    </ol>` : ''}
-    <div class="row-btns center">
-      <button type="button" class="btn btn-sm btn-ghost" data-act="punch-manual">${icon('plus')} Marcação manual</button>
-      <button type="button" class="btn btn-sm btn-ghost" data-act="day-open" data-day="${key}">${icon('calendar')} Situação do dia</button>
-    </div>
-  </section>`;
+    </ol>`;
 }
 
-function locationSummary() {
-  const s = store.get();
-  if (!geo.supported()) return '<p class="muted">Este navegador não oferece localização.</p>';
-  if (ctx.locError) return `<p class="text-warn">${icon('alert')} ${esc(ctx.locError)}</p>`;
-  const L = ctx.lastLoc;
-  if (!L) return `<p class="muted">Localização ainda não verificada${s.settings.autoDetect ? ' (verificação automática ligada)' : ''}.</p>`;
-  if (!s.offices.length) return `<p>Posição obtida (precisão ±${Math.round(L.acc)} m). Cadastre um escritório para comparar.</p>`;
-  const n = L.ranked?.[0];
-  if (!n) return '<p class="muted">Sem escritórios para comparar.</p>';
-  return `
-    <p class="loc-main ${n.inside ? 'inside' : 'outside'}">${icon(n.inside ? 'check' : 'home')}
-      ${n.inside ? `Você está em <strong>${esc(n.office.name)}</strong>` : `Fora dos escritórios`}
-    </p>
-    <ul class="dist-list">${L.ranked.slice(0, 4).map((r) => `<li><span>${esc(r.office.name)}</span><span>${fmtDistance(r.dist)}${r.inside ? ' · dentro do raio' : ''}</span></li>`).join('')}</ul>
-    <p class="muted small">Atualizado ${esc(relTime(L.at))} · precisão ±${Math.round(L.acc)} m</p>`;
+function punchCard(key, now) {
+  // Versão compacta usada na aba Ponto
+  const list = P.punchesOf(key);
+  return `${hero(key, now).replace('id="hero-t" tabindex="-1"', 'id="hero-t"').replace(/<h1 /, '<h2 ').replace('</h1>', '</h2>')}
+  ${list.length ? timelineCard(key, list) : `<div class="row-btns center"><button type="button" class="btn btn-sm btn-ghost" data-act="punch-manual">${icon('plus')} Esqueci de marcar</button></div>`}`;
 }
 
 export function countNewNorms() {
@@ -190,17 +237,31 @@ export function pendingReminder(now = new Date()) {
   if (!r.enabled || !P.isWorkDay(now)) return null;
   const key = dayKey(now);
   const list = P.punchesOf(key);
-  const done = {
-    entrada: list.some((p) => p.kind === 'entrada'),
-    almoco: list.some((p) => p.kind === 'pausa_inicio'),
-    retorno: list.some((p) => p.kind === 'pausa_fim') || !list.some((p) => p.kind === 'pausa_inicio'),
-    saida: list.some((p) => p.kind === 'saida') || !list.length,
-  };
+  const done = reminderDone(list, now);
   const kindOf = { entrada: 'entrada', almoco: 'pausa_inicio', retorno: 'pausa_fim', saida: 'saida' };
   const nowMin = now.getHours() * 60 + now.getMinutes();
-  const due = r.items.filter((i) => i.on && nowMin >= timeToMin(i.time) + Number(r.tolerance || 0) && !done[i.id]);
+  const due = r.items.filter((i) => i.on && nowMin >= timeToMin(i.time) + Number(r.tolerance || 0) && !done[i.id] && startedBefore(list, i.time));
   const it = due[due.length - 1];
   return it ? { ...it, kind: kindOf[it.id] } : null;
+}
+
+/** Quais lembretes já não fazem sentido hoje */
+export function reminderDone(list) {
+  const key = list.length ? dayKey(new Date(list[0].ts)) : dayKey();
+  return {
+    entrada: list.some((p) => p.kind === 'entrada'),
+    almoco: list.some((p) => p.kind === 'pausa_inicio') || !P.isOpen(key),
+    retorno: list.some((p) => p.kind === 'pausa_fim') || !P.onBreak(key),
+    saida: list.some((p) => p.kind === 'saida') || !list.length,
+  };
+}
+
+/** Intervalo e saída só são cobrados se a entrada foi antes do horário do lembrete */
+export function startedBefore(list, time) {
+  const first = list.find((p) => p.kind === 'entrada');
+  if (!first) return true;
+  const d = new Date(first.ts);
+  return d.getHours() * 60 + d.getMinutes() < timeToMin(time);
 }
 
 // ======================================================================
@@ -225,7 +286,8 @@ export async function punchFlow(kind) {
   const inside = best && best.inside;
 
   let intro = '';
-  let defaultMode = 'remoto';
+  const offMode = P.activeModes().find((m) => m.id !== 'presencial');
+  let defaultMode = offMode ? offMode.id : 'presencial';
   if (err) {
     intro = `<p class="text-warn">${icon('alert')} ${esc(err.message)}</p><p>Você pode registrar sem localização; a marcação fica sinalizada.</p>`;
   } else if (!s.offices.length) {
@@ -239,7 +301,7 @@ export async function punchFlow(kind) {
       ${pos.acc > 150 ? `<p class="muted small">A precisão do GPS está baixa (±${Math.round(pos.acc)} m). Se você está no escritório, tente "Tentar de novo".</p>` : ''}`;
   }
 
-  const modes = Object.entries(P.MODES).map(([v, m]) => ({ value: v, label: m.label }));
+  const modes = P.activeModes().map((m) => ({ value: m.id, label: m.label }));
   const result = await openDialog({
     title: `${kindInfo.label} · ${time}`,
     body: `${intro}
@@ -283,7 +345,7 @@ export async function punchFlow(kind) {
   A.beep('ok');
   A.haptic([30, 40, 30]);
   ctx.banner = null;
-  toast(`${kindInfo.label} registrada às ${hhmm(punch.ts)} — ${P.MODES[mode].label}${oname ? ', ' + oname : ''}.`, { kind: 'ok' });
+  toast(`Pronto! ${kindInfo.label} registrada às ${hhmm(punch.ts)} — ${P.modeOf(mode).label}${oname ? ', ' + oname : ''}.`, { kind: 'ok' });
   updateBadge();
   ctx.render();
   return punch;
@@ -396,7 +458,7 @@ function punchFields({ kind, date, time, mode, officeId, note }) {
         <select name="kind" required>${Object.entries(P.KINDS).map(([k, v]) => `<option value="${k}" ${k === kind ? 'selected' : ''}>${esc(v.label)}</option>`).join('')}</select>
       </label>
       <label class="field"><span>Modalidade</span>
-        <select name="mode" required>${Object.entries(P.MODES).map(([k, v]) => `<option value="${k}" ${k === mode ? 'selected' : ''}>${esc(v.label)}</option>`).join('')}</select>
+        <select name="mode" required>${P.allModes().filter((m) => m.on || m.id === mode).map((m) => `<option value="${esc(m.id)}" ${m.id === mode ? 'selected' : ''}>${esc(m.label)}</option>`).join('')}</select>
       </label>
       <label class="field"><span>Data</span><input type="date" name="date" value="${esc(date)}" required></label>
       <label class="field"><span>Hora</span><input type="time" name="time" value="${esc(time)}" required></label>
@@ -434,8 +496,8 @@ export async function dayDialog(key) {
   const r = await openDialog({
     title: capitalize(dateLong(d)),
     body: `
-      <p><strong>${fmtDuration(worked)}</strong> trabalhadas${P.dayMode(key) ? ` · ${P.MODES[P.dayMode(key)].label}` : ''}${P.expectedMinutes(d) ? ` · esperado ${fmtDuration(P.expectedMinutes(d))}` : ''}</p>
-      ${list.length ? `<ol class="timeline compact">${list.map((p) => `<li class="tl-item k-${p.kind}"><span class="tl-time">${hhmm(p.ts)}</span><span class="tl-body">${esc(P.KINDS[p.kind].label)} <span class="tag m-${p.mode}">${esc(P.MODES[p.mode]?.label || '')}</span>${p.note ? `<span class="tl-note">${esc(p.note)}</span>` : ''}</span><button type="button" class="icon-btn" data-value="edit:${p.id}" aria-label="Editar ${esc(P.KINDS[p.kind].label)} às ${hhmm(p.ts)}">${icon('edit')}</button></li>`).join('')}</ol>` : '<p class="muted">Sem marcações neste dia.</p>'}
+      <p><strong>${fmtDuration(worked)}</strong> trabalhadas${P.dayMode(key) ? ` · ${P.modeOf(P.dayMode(key)).label}` : ''}${P.holidayName(key) ? ` · feriado: ${esc(P.holidayName(key))}` : ''}${P.expectedMinutes(d) ? ` · esperado ${fmtDuration(P.expectedMinutes(d))}` : ''}</p>
+      ${list.length ? `<ol class="timeline compact">${list.map((p) => `<li class="tl-item k-${p.kind}"><span class="tl-time">${hhmm(p.ts)}</span><span class="tl-body">${esc(P.KINDS[p.kind].label)} <span class="tag ${P.modeClass(p.mode)}">${esc(P.modeOf(p.mode).label)}</span>${p.note ? `<span class="tl-note">${esc(p.note)}</span>` : ''}</span><button type="button" class="icon-btn" data-value="edit:${p.id}" aria-label="Editar ${esc(P.KINDS[p.kind].label)} às ${hhmm(p.ts)}">${icon('edit')}</button></li>`).join('')}</ol>` : '<p class="muted">Sem marcações neste dia.</p>'}
       <form data-dialog-form class="form">
         <label class="field"><span>Situação do dia</span>
           <select name="status"><option value="">Dia normal</option>${Object.entries(P.DAY_STATUS).map(([k, v]) => `<option value="${k}" ${cur.status === k ? 'selected' : ''}>${esc(v)}</option>`).join('')}</select>
@@ -470,6 +532,10 @@ export function renderPonto() {
   const ms = P.monthSummary(m.getFullYear(), m.getMonth());
   const total = P.totalBalance();
   const isCurrent = m.getFullYear() === now.getFullYear() && m.getMonth() === now.getMonth();
+  const workdays = ms.days.filter((d) => d.workDay).length;
+  const pctMonth = workdays ? Math.round((ms.presencial / workdays) * 100) : 0;
+  const cfg = s.settings.presence;
+  const usedModes = P.allModes().filter((md) => md.on || ms.byMode[md.id]);
 
   return `
   <header class="page-head">
@@ -492,8 +558,8 @@ export function renderPonto() {
       <div><dt>Trabalhado</dt><dd>${fmtDuration(ms.worked)}</dd></div>
       <div><dt>Esperado</dt><dd>${fmtDuration(ms.expected)}</dd></div>
       <div><dt>Saldo do mês</dt><dd class="${ms.balance < 0 ? 'neg' : 'pos'}">${fmtDuration(ms.balance, { sign: true })}</dd></div>
-      <div><dt>Presencial</dt><dd>${ms.presencial} ${ms.presencial === 1 ? 'dia' : 'dias'}</dd></div>
-      <div><dt>Remoto</dt><dd>${ms.remoto} ${ms.remoto === 1 ? 'dia' : 'dias'}</dd></div>
+      <div class="stat-wide"><dt>Cota presencial</dt><dd>${pctMonth}% <small class="muted">· ${ms.presencial} de ${workdays} dias úteis${cfg.type === 'pct_mes' ? ` · meta ${cfg.pct}%` : ''}</small></dd></div>
+      ${usedModes.map((md) => `<div><dt>${esc(md.label)}</dt><dd>${ms.byMode[md.id] || 0} ${(ms.byMode[md.id] || 0) === 1 ? 'dia' : 'dias'}</dd></div>`).join('')}
       <div><dt>Banco total</dt><dd class="${total < 0 ? 'neg' : 'pos'}">${fmtDuration(total, { sign: true })}</dd></div>
     </dl>
     ${calendarTable(m, ms)}
@@ -525,12 +591,12 @@ function calendarTable(m, ms) {
     rows += '<tr>' + cells.slice(i, i + 7).map((d) => {
       if (!d) return '<td class="empty-cell"></td>';
       const mode = d.mode;
-      const lbl = `${WEEKDAYS[d.date.getDay()]}, ${d.date.getDate()}: ${mode ? P.MODES[mode].label + ', ' + spokenDuration(d.worked) : d.status ? P.DAY_STATUS[d.status] : d.key > today ? 'sem registro (futuro)' : d.workDay ? 'sem registro' : 'dia não útil'}`;
-      return `<td class="${mode ? 'm-' + mode : ''} ${d.key === today ? 'today' : ''} ${!d.workDay && !mode ? 'off' : ''} ${d.status ? 'st' : ''}">
+      const lbl = `${WEEKDAYS[d.date.getDay()]}, ${d.date.getDate()}: ${mode ? P.modeOf(mode).label + ', ' + spokenDuration(d.worked) : d.status ? P.DAY_STATUS[d.status] : d.holiday ? 'feriado, ' + d.holiday : d.key > today ? 'sem registro (futuro)' : d.workDay ? 'sem registro' : 'dia não útil'}`;
+      return `<td class="${mode ? P.modeClass(mode) : ''} ${d.key === today ? 'today' : ''} ${!d.workDay && !mode ? 'off' : ''} ${d.status || d.holiday ? 'st' : ''}" ${d.holiday ? `title="${esc(d.holiday)}"` : ''}>
         <button type="button" data-act="day-open" data-day="${d.key}">
           <span class="visually-hidden">${esc(lbl)}</span>
           <span class="cd" aria-hidden="true">${d.date.getDate()}</span>
-          <span class="cm" aria-hidden="true">${mode ? P.MODES[mode].short : d.status ? '·' : ''}</span>
+          <span class="cm" aria-hidden="true">${mode ? esc(P.modeOf(mode).short) : d.status || d.holiday ? '·' : ''}</span>
           <span class="ch" aria-hidden="true">${d.worked ? fmtDuration(d.worked).replace(' ', '') : ''}</span>
         </button></td>`;
     }).join('') + '</tr>';
@@ -539,7 +605,7 @@ function calendarTable(m, ms) {
     <caption class="visually-hidden">Calendário de ${esc(monthLabel(m))}. Cada dia mostra a modalidade e as horas trabalhadas. Toque para detalhes.</caption>
     <thead><tr>${heads.map((h, i) => `<th scope="col"><abbr title="${full[i]}">${h}</abbr></th>`).join('')}</tr></thead>
     <tbody>${rows}</tbody></table></div>
-    <p class="legend muted" aria-hidden="true"><span class="chip-mini m-presencial">P</span> presencial <span class="chip-mini m-remoto">R</span> remoto <span class="chip-mini m-externo">E</span> externo <span class="chip-mini">·</span> folga/feriado</p>`;
+    ${modeLegend()}`;
 }
 
 export async function exportCSV() {
@@ -559,7 +625,7 @@ export async function copySummary() {
     const list = P.punchesOf(d.key);
     if (!list.length && !d.status) continue;
     const of = P.dayOffice(d.key);
-    lines.push(`${dateShort(d.date)} (${WEEKDAYS_SHORT[d.date.getDay()]}) ${d.status ? '[' + P.DAY_STATUS[d.status] + '] ' : ''}${list.map((p) => `${P.KINDS[p.kind].label.split(' ')[0]} ${hhmm(p.ts)}`).join(' · ')}${d.mode ? ` — ${P.MODES[d.mode].label}${of ? ' (' + of.name + ')' : ''}` : ''} — ${fmtDuration(d.worked)}`);
+    lines.push(`${dateShort(d.date)} (${WEEKDAYS_SHORT[d.date.getDay()]}) ${d.status ? '[' + P.DAY_STATUS[d.status] + '] ' : ''}${list.map((p) => `${P.KINDS[p.kind].label.split(' ')[0]} ${hhmm(p.ts)}`).join(' · ')}${d.mode ? ` — ${P.modeOf(d.mode).label}${of ? ' (' + of.name + ')' : ''}` : ''} — ${fmtDuration(d.worked)}`);
   }
   const ok = await copyText(lines.join('\n'));
   toast(ok ? 'Resumo copiado.' : 'Não foi possível copiar.', { kind: ok ? 'ok' : 'error' });
