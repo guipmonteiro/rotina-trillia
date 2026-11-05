@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-05T17:19:37.310699+00:00",
- "checkedAt": "2026-11-05T17:19:37.310699+00:00",
+ "updatedAt": "2026-11-05T23:34:26.640371+00:00",
+ "checkedAt": "2026-11-05T23:34:26.640371+00:00",
  "fontes": {
-  "Google Notícias": "ok (+46)",
+  "Google Notícias": "ok (+40)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -11,6 +11,24 @@
   "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "Trillia apresenta soluções de inteligência analítica da B3 para subscrição e precificação no mercado de seguros",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMXVQemxzbzA5dWlrUVgyTEhoM25VcHh3dWhOczNrdjVfaHljbk92bVFQS29PRDg0Y0FDZllaMVFhWVItaENBc1FaZXV6VVBNcFVLSUtqM3pma3BZa3RtcFowSnpyN0I5TXhiUDJ2eGwtY2dLZ2RnUnUxUWFSYVBfSHFPT19tZzczRk9PM1preC1HcVBzbDB1bno3WHdJTnZyUDNaY0lXSzRxQWUwNUFueVlxbXFYeVFPQVJwcEdOVVFUdm84RFdSR3hmZnlTM01wWFZqd0hveE4xZw?oc=5",
+   "source": "Brasil Inovador",
+   "date": "2026-11-05T21:25:05+00:00",
+   "summary": "",
+   "id": "913840dd47a236",
+   "topic": "trillia"
+  },
+  {
+   "title": "Bradesco, Itaú e Santander elevam taxas de financiamento imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOR2hybEU2RjQ4MDdyaTRwNGJzS25mMEp1MnlOSU1rNm1Rajg1U1gxcVZGVi04R0NabE83eGNQOWZBVXlCdUY3Z2thclRjRUR0b25JOXJDNUZwS05jQUhqeUowdk9MNE5XQ3ZWUkVTMG9DaFFLZFo4YTc2QTNhQkxra2swZTM2Q0dfNTNiRkdvQlNycS03Vnc?oc=5",
+   "source": "boca.com.br",
+   "date": "2026-11-05T18:04:44+00:00",
+   "summary": "",
+   "id": "f4d2284249f9aa",
+   "topic": "imoveis"
+  },
   {
    "title": "PF no Maranhão: operação mira fraude em financiamento de veículos",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPc0JlUVRaUE5INVVZTFBaaERoVFM1NWVRWWpaMjFNMWcxNjlSRVM5UlNWMmtwd2p5ZWpFcmJMbXZqbmpPUUt2UHhzdUoxblh6WHM4YW9FbUdodzVfYjBnanlBaFh2Rkowa0xfdVFOY3FIc2dDTHd5QTh2SW1wd2ZXaV8zdGhrLTIwdTNYaS1iVXV2NVVJb2Vob0ZISHFKRk01bFdjX2IxTFZnTmVrN09qSXNhUE1zS3ViZE1WSlN2UQ?oc=5",
@@ -72,6 +90,15 @@
    "date": "2026-11-05T09:00:00+00:00",
    "summary": "",
    "id": "e1433db5afbf23",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Minha Casa, Minha Vida 2026: veja quem pode participar, renda exigida, subsídios e como conseguir a casa própria",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbS1tQmZVeHpZWVhoLWl0amhBQWFaZHFiX0NYQXN1b2M0a2YzSlBhaGdCYzNVS0NBOGt5TFUtejloRW1UeXE3bEVTTTltRW93OTVTckhOV2U1SHBHT2RlNTRIN2ZXcUdiZmZrRW1wX2JQbGxZUVU1ZUtGZkd5UERtTWl5cTkzVDk5TGRhb2tOOHpxVmFMYzhFaGNQd2ZmTjZJMXdaV05HZHBZVEZjRngxRFBBSVdlRWkyQ0NXSGNKeXZNSWkycDZXVDJLX1dQZ1NCbzNhZERiTnY?oc=5",
+   "source": "auxilioconcursos.com.br",
+   "date": "2026-11-04T20:16:00+00:00",
+   "summary": "",
+   "id": "55a659b3671597",
    "topic": "imoveis"
   },
   {
@@ -282,15 +309,6 @@
    "topic": "imoveis"
   },
   {
-   "title": "Casa própria mais cara: Bradesco, Itaú e Santander aumentam taxa de juros do financiamento imobiliário",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRGhadDBBc19xNkk2eGhtdXZaZlZJcWs5WVVFSGs5SDhOMmNqcERDcTBaek9yLWdWenlGWGpiT25UZk55cllYVC1JU0hkSkdDZ0VjZHRLQTEwVnhzNERTR3QzX182T0FoS0pBbG5URVpaR29UOUVmWFNSRHpGenRhc3QwQWJUcGNpNHU2TnI5amRMZmdOLXFHWVZKUDdiTVU4MWtPUTJYdWhlbzVWNDJEdjlITUxNVGdSd3dPcGxDenBWZENpVW9TXzJaQUJ5X2RFY09zNk5JcjJyTHdxQTZZRHFpRzI2ZHdfX3lV0gH6AUFVX3lxTE1NeDZjTkVjQjIyNkUtU3VRUGZMN2VSVWJsaHJQV2Nab09EelNyU0QwcFZ5N0RadEJFYjVnV0JYeWZ0M1pya1JNS2JuanRjQXIzS3VIUXNOXzk1NUVMZHJOMExKOFV6MUJwSXpFdGthemFkRzZhcmw1NW5POVBfd3FWN2NnY3VTbmh1MXZDdkdPVG9rOUJhWmVjTEJaWVhSejEtUVgyMl9kN3R0eUhFWUhmTTF6ZTg0MmcyMERXT1pJU2hxdlo4NWVsMDczZjBPWWdzVkpsRGN4cUhGZ0pueU0zYVVIRzdXOGpNakFHQm52NGhQd05KRHhoYlE?oc=5",
-   "source": "Extra online",
-   "date": "2026-10-31T07:00:01+00:00",
-   "summary": "",
-   "id": "d25ad0bcac8533",
-   "topic": "imoveis"
-  },
-  {
    "title": "Home equity cresce entre brasileiros que querem estudar fora",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWmdQQmJmby1wcWtVSzRpcmxKVEhfcjVsRDhZcG92T1F2RzEzX3hkVTdMRDVFREg5Y0hNa3JzOUUyZFdOcUJPUGhhQXVTdDRnU3pBNUR5UW1hTjBhU0Q2Y0pIMXQyR041Tkd2WkVmblZValgwZ1RXQkV6dFJMeS1lTENISXRQdXF4bFVTalotNkNMdnFnOGNqWTRUVVRGOTI5VXU4S0p6RjZOdDkzZXlz?oc=5",
    "source": "Educa Mais Brasil",
@@ -309,30 +327,21 @@
    "topic": "imoveis"
   },
   {
-   "title": "Bradesco, Itaú e Santander sobem juros do financiamento imobiliário; veja quanto a parcela encarece",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTU1yVkctUWVwZHhDQVhQZE9UWE1lVHNfN09VN01oTkVRc2k5RUM3M3Nxakxac20yajdsV2Q1WUl4NjFGNnpOZzg4VTZGbzliZGFBaFgtdVFnTkNJWlBiSmZDaFV3WVhRVnRpaEFHb0VKWDBCYTY3VUc5S1BMb2JTMU4yTENkbjNNQ0JRSi1vZWVnRy0tTDV3TzdaLVh2WTZ0ekRacGlWYkZaOEJibHhtMzJldmlLSk1MNlpubHBmd1J2Wks0aDdNRHR3?oc=5",
-   "source": "BHAZ",
-   "date": "2026-10-30T20:38:50+00:00",
-   "summary": "",
-   "id": "124deba3aa49f4",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Bradesco, Itaú e Santander elevam juros do financiamento imobiliário mesmo com Selic em queda",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUUt3X0VDWk8tM2lfWVk0TWdUendfS2VXdTZ2NFpHMkh5bHBXaEk1aV9tMnhEaDdFMnNiNUtVYXk3aEM2ZFlkVk5HVW9OYmZwNWoxd2I1ekduZHQ4Z19ZaEhtc2FQZHU2S01EaHUzRHpoT05FU2k1QndwQ1Z2RFZ4c2xITnZzM0hrUUlqQ2dUNXlNMVlhZGxlT3Z2UGc5eGk1c1JrZFRTX1ZyeEJCYXJzbE1Tc1JMWGhnSmtxdTR1SlVWVTl2dk1iYV9uckxqM0VKMTNRX1dn?oc=5",
-   "source": "Blog do Valente",
-   "date": "2026-10-30T19:57:04+00:00",
-   "summary": "",
-   "id": "d5c46984df6f10",
-   "topic": "imoveis"
-  },
-  {
    "title": "Financiamento imobiliário não deve aumentar para habitação social, explica especialista",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS20xTlVhNTdMYmRCT0FLZjZvdVNYSlJLd0dkOEdLYk5xelFtem5BNnZnNklSYTlORWxBOE5ZSEJKLVRYOWZPSnhOamVYYkw0ZzFfVHkzZkN4al81YmNfZTMycnhTXzFpaEpZR1AtTFZXdVFRUTZqeFZsY2s2MnpkaW93a2FnYTlaNHdFNWhFLTN0MDFrbWJYeHRqbGswaE5rUlpTSGhHT1R4MHFFajhuaEtSVUFuVm9mMG1PSk5ESDFGTC1IMV9Hdw?oc=5",
    "source": "R7",
    "date": "2026-10-30T19:12:54+00:00",
    "summary": "",
    "id": "5d26d3b0c6eb5a",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Crédito imobiliário encarece com Itaú, Bradesco e Santander",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ON2JfbDhvSE5POVBWa0RTbjc2VFBLdDczSEwxVk5JenhlaTJkRnFDVE8tbnZjVEc3amFIaHMxaG9tTnhvY292Z1lCMXVyX0phMmx5cjlIRVhYOUpuczNWajJkVWZTTjdFMjkwRmNPdmlFbGtoMUI4X25VSQ?oc=5",
+   "source": "SpaceMoney",
+   "date": "2026-10-30T18:33:35+00:00",
+   "summary": "",
+   "id": "5dfcf4443b1612",
    "topic": "imoveis"
   },
   {
@@ -369,15 +378,6 @@
    "date": "2026-10-30T18:00:00+00:00",
    "summary": "",
    "id": "15bee87cbbbce4",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Santander segue Bradesco e Itaú e eleva juros do crédito imobiliário",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxON19TTmstWDNpc25kckp1SXJVeVFzb0FUdlY4bzNwSThldFpqZDJPMU00ZGNvWlI5Vkt2cnhYSWdfdm5CZWZLaml3UW9NbDh1dzM1X2twd1JXYjdONXQ1dXNic3hZbmZqMURfNEpGRzhjMzhUQzE1VW1zQ2xGRV9ndGhqSVRmZXVVYlBmMDdnbml1U01hWUxlR3BIWXAzbHJVTXY1TGs2WFpDSzI1eDFQRUlydw?oc=5",
-   "source": "VEJA",
-   "date": "2026-10-30T17:36:23+00:00",
-   "summary": "",
-   "id": "b4bc3571c7c2b5",
    "topic": "imoveis"
   },
   {
@@ -433,15 +433,6 @@
    "summary": "",
    "id": "5a4e40132f729b",
    "topic": "garantias"
-  },
-  {
-   "title": "Financiamento imobiliário mais caro? Bradesco, Itaú e Santander elevam taxas; Caixa não se manifesta",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdEtoTnA3RFVRWWwwV3M4UTI5aE5TQTBzVGk2RlVFc0JiekxXaWJpTmpwY0ZyVHZybk1zMDVhNVloUXpFcXdYS1dydTE3WVdOcG9wUk9yX2lTaG9RcWlPNF96aEhpNzlWeU1qMzFmQzgyZ1FlbUJocWNIWkxoRy1HaTFYUUI5UUMxMGVldXY5d9IBngFBVV95cUxPUkZ5bzFqcFNLQXFLazRFU2QwYWFFWnM3aHkyd3JYbXFSQXcta21SaTV2T24zczIxMVdlNzZfclRfSVFlamRxUmRKQWE1UmhxdUl5SkxvZDl2TmRhWHJKeFJsYnotSFdmeWhsZjRTZ1dUSzdqcTd4dl9oZzVkMWthYjlCdzRWLURYTGZGMWtQeVNHZl8wSWR6NnZDQ1lHZw?oc=5",
-   "source": "G1",
-   "date": "2026-10-30T08:00:00+00:00",
-   "summary": "",
-   "id": "192249caca868c",
-   "topic": "imoveis"
   },
   {
    "title": "Singapura estende limites de financiamento de veículos a compradores individuais de carros de aluguel privado - Notícias e Estatísticas",
@@ -505,6 +496,15 @@
    "summary": "",
    "id": "1d505c8d33ea65",
    "topic": "veiculos"
+  },
+  {
+   "title": "Itaú segue Bradesco e eleva taxa do financiamento imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPME96Rzl0OTFXblpJMV9WS0dHamEwUEhkd2JWOHVzT095YlI5TzhhRzBjMFYwMmJ4azg2MnZvMHd2Y2RsS3NHSkZKdjMwVTA3TGdjS0F6d3lOODZwX3pjLW9SNzhPaFA0YUs0VlhtWlp3UFZLNl9fMHk3MzBIZEFKNWpFQjZHTHhwRHp2WFZZVUNQV3ZGX1J1RHlxQUJUVUpETlhJRnNjemdoX28tNHR6ckNBeWpreVdWQXc?oc=5",
+   "source": "VEJA",
+   "date": "2026-10-29T14:57:40+00:00",
+   "summary": "",
+   "id": "2d81691333f8fe",
+   "topic": "imoveis"
   },
   {
    "title": "Juro do financiamento imobiliário vai subir em outros bancos? O que se sabe até agora",
