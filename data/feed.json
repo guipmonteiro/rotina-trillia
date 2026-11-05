@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-04T23:35:12.893886+00:00",
- "checkedAt": "2026-11-04T23:35:12.893886+00:00",
+ "updatedAt": "2026-11-05T17:19:37.310699+00:00",
+ "checkedAt": "2026-11-05T17:19:37.310699+00:00",
  "fontes": {
-  "Google Notícias": "ok (+37)",
+  "Google Notícias": "ok (+46)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -11,6 +11,69 @@
   "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "PF no Maranhão: operação mira fraude em financiamento de veículos",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPc0JlUVRaUE5INVVZTFBaaERoVFM1NWVRWWpaMjFNMWcxNjlSRVM5UlNWMmtwd2p5ZWpFcmJMbXZqbmpPUUt2UHhzdUoxblh6WHM4YW9FbUdodzVfYjBnanlBaFh2Rkowa0xfdVFOY3FIc2dDTHd5QTh2SW1wd2ZXaV8zdGhrLTIwdTNYaS1iVXV2NVVJb2Vob0ZISHFKRk01bFdjX2IxTFZnTmVrN09qSXNhUE1zS3ViZE1WSlN2UQ?oc=5",
+   "source": "Diário de Balsas",
+   "date": "2026-11-05T17:04:00+00:00",
+   "summary": "",
+   "id": "2c19c3699ca9a5",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Polícia Federal combate fraudes em financiamentos de veículos em São Luís",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWkgyTk5RUWZWNjQ2eVQwSmlROHpFemh5b3hjbzd5dFNoWnlWOElWOVJ5b0lPdS1RZUZvWFhlN0ZKaDJKcEhLTlNrOGdKcjYyOUo3N1NYRjY5QTIzN0lINHBrVmdFMkhDTUJ3Sk1XMG5MT1ZtSWh5QlBIX3NhWlRTaElMSjczVkR1VEVYOTFuckpZYmgwMVFDa0RmSjIwVzd5am1tajB1bEJxZU1faEdlRWlNSUN5TU9yMDViQzVuNWRGNXczWmEyNUpwWFVza1hpT0ZCbnFlS0REWEFKYWd2V3hR0gHwAUFVX3lxTFA2bDNSM3FVbk93RTdYeWRCRms3VzN0TmZqN0pMMjNZUGxmaDlQd1VfMnQxVWZkYlAtT0JlVFJ5MXlRMXFCWnE3SmZCTHlySDNuR2s5S2s3ZkR3WlB1Y1RVcnFNZ3Zobno2VVBMODdOcmRJcFJNXzB4YUZFVGtjZzFqdlk5WVU5QXJfdzBLcTFKck5PSFUwcGw0bGZrSjZReHdJalZUeE5oY2xOZzVLQlEzZFlZMFFleEhzUEJjZ213LS1ZU1RoNk1yeEpxcm9FU3JEWWI3WlY4MmV3X2E5eHZNcjVzcUk3S1pISzRORThpWQ?oc=5",
+   "source": "G1",
+   "date": "2026-11-05T16:07:12+00:00",
+   "summary": "",
+   "id": "72013b151e7c46",
+   "topic": "veiculos"
+  },
+  {
+   "title": "PF faz buscas contra suspeito de fraudes em financiamento de veículos em São Luís",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMTFObTVyb0lUNGNLWFBtaHFnOENObXhWWTZDSThsUnNUMFRDM2RBY2taQ1E2TndvUHE5RkpQYmhlbFd3OWhuM1B6VkluclNOb3JXaXNuS1kzWUNpNV9udWZ6c3huOWhtLXEwMzJrRk9wZ0xaRmRVeXdPVnFwa0s5b3pMSlQxMzRZbXA3Mk9ibGRNV21BY1Fzem1pRHIyV2JsT0dSRUJKUFJzdVYxQ3JraW1ncjU0QQ?oc=5",
+   "source": "Neto Ferreira",
+   "date": "2026-11-05T14:29:00+00:00",
+   "summary": "",
+   "id": "14c83c27dc6756",
+   "topic": "veiculos"
+  },
+  {
+   "title": "PF cumpre mandado em São Luís contra golpe do financiamento de veículos; falso brinde era usado para roubar biometria",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbXd1aEhiWG5RbndQUkFfbG5zOFZOVzZ5M0ZNQXFoUThZOFZDRS01QlJULV9uQnB3anI3ZEdUSFVDRHJHanBaUFliRTFHS3hVeWl3RkR6aHBnY19LTjREY1ROengybGlRa1lJWGpwTUlveTNreXhOc2FfZk9NdnUyelJsajVRVWtQV1hVVUs2S0dEY1E5aF9sanNUaTBJOC04cF9hMXFXU3dhZzUzdTRtTU9SU0sxLXk2Qlp1T0l1NkJKSUdycmtJQXlSMm1ObnhwQTVUYk8weVpXRExQZkZpaVJWT1M0ZEE1aGxWNWR4NVU?oc=5",
+   "source": "O Imparcial",
+   "date": "2026-11-05T14:21:00+00:00",
+   "summary": "",
+   "id": "477f9e727768c9",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Selic parada em 13,75% não barateia o crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZl9NOHRJei1SUVZYNE5FUEQ5RjhrN1VleG8yNFoxZ2h1UTRLclRZVWZWX2pHajFkYjRMT0d0SlJHQXY2ZElCRzdCLVNjR3VxcFlmUGJDcUJVZWhLTEgwRXJackZMLVJteGhiQ3MyVnJnR2U5YXY3cG1wT0ZpUmx3eWtnWjJjckVNQ3NlM2tQZ3dLTXc?oc=5",
+   "source": "SpaceMoney",
+   "date": "2026-11-05T09:19:30+00:00",
+   "summary": "",
+   "id": "e42c374aa1d4d6",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Selic fica em 13,75%, mas não deve baratear o financiamento imobiliário; entenda",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZWNBZnVuRnFjS3Rpb01UVU5ySTExTVVjUnZXR204T3NUall3R2Vab1RDYlFDRUMtWUF2dG1Fa1V2VG5kQnIycExuNDdNdTA5MnZiemxlX0Rjd254TVJ5UHB6QkVBcGRyRE5BSlV5Mk1TVzZzRWxLdUF1bTNkbEgyaG1UQ3lCcU5aY3FzU1FydmFOUC1Wc3NBY1dWOVV4b19CbkxnR0dQckhhZzFYX0ZLWkVFR000YXVzY1Vua0dod9IBxAFBVV95cUxOXy1tN1hsRDhudjBfdlFQNDJwVEVNZ01aTlNfRmozWXNsRFVqd29MRXhfdFJISDRmUHdBeEpXTTh4dTZsYVloUV9Sc1ViS1hNV3pTSEhPXzB5QmpjNEtFNGRfa2FaSElmOFN0RGdNMTZYaFVQbEpLNDJSdkRNUTNRTUlqd2VhNzcyMVpKckZHdVFOOHBEZ0pXdGZLb0R2UTVEVVpPZUllYzhQVlJRTmNMZW5kRW52YkVLYVhTRlBLOWhFSDk0?oc=5",
+   "source": "InfoMoney",
+   "date": "2026-11-05T09:00:00+00:00",
+   "summary": "",
+   "id": "ffa27984d300d2",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Financiamento imobiliário encarece antes mesmo da decisão do Copom",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTXlFTGdLdDVPN2padDZudElpam5QSHRJWU1oaGprd0haMWlkQVpCR05MMVlfSm11UG1FMGRST0xDcWF6dlhHbEt3RDZfVjRkd1c1WE9xSUFySm9pNmV4M2ZkUnFRRllCZ0xwdmFUbDlVdzBmd2E5eV92Q2owRFNqcVM0SVk2cDM3TWNmcV84RVAySzNxcnozTDB4U1p4ajA?oc=5",
+   "source": "Paraíba Business",
+   "date": "2026-11-05T09:00:00+00:00",
+   "summary": "",
+   "id": "e1433db5afbf23",
+   "topic": "imoveis"
+  },
   {
    "title": "IOF sobre LCI, LCA, CRI e CRA pode encarecer crédito imobiliário e rural",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM3czTzdQUE1lbmlPUVdIUlVnNGFsa1gyMVJKNWVzZGRmS2R2d3pDNjNDRGtCcFFwRkpFTEdvdTgwV21IYzBMMmc1LXF0ZTZkZGFpVVp5NzJjaGIwb1FYa3NGN0ZTWGdfTGJxSFlhZDFmZ25mYlA5ZXJzSUwtTlIzVi1icXBtdmFSSVUtWFE5TjNYRjlrcVZ0N0k5UTN6QVFPU0psdi13?oc=5",
@@ -523,6 +586,15 @@
    "summary": "",
    "id": "66540b924d7964",
    "topic": "garantias"
+  },
+  {
+   "title": "Balcão Virtual do Detran-DF: veja como funciona o atendimento on-line",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNnNCY3N1Q3ZTcUJNRjRDcEstdmMwN2VNNWN6WTBpMkZhcEVfRzN0SFBTR0h4RzRRNHZrSWNSMTB1ZkJYbHRXTXM4OUp3WHZXUnJONnZmdVhtbm9aVGdDbFBGam1ZMEtfdmZVa0NmYjI1aDZwYW5MTjBEbUxONmRHY3VsTW80UlJ3RTBCZTduNC1hMzJoc0NQOVhtb2x2Rl9rdHl6WW9UYzEtT2xBV0x3cldR?oc=5",
+   "source": "Metrópoles",
+   "date": "2026-10-27T07:00:00+00:00",
+   "summary": "",
+   "id": "6bbed55a00ffee",
+   "topic": "veiculos"
   },
   {
    "title": "A Alienação Fiduciária do Pensamento: O Cérebro sob Custódia",
@@ -1657,15 +1729,15 @@
    "label": "CDI anualizado",
    "value": "13,65",
    "unit": "% a.a.",
-   "date": "03/11/2026",
+   "date": "04/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
    "id": "sgs-226",
    "label": "TR (diária)",
-   "value": "0,1695",
+   "value": "0,1696",
    "unit": "% a.m.",
-   "date": "03/11/2026",
+   "date": "04/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
