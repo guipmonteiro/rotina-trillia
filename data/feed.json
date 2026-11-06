@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-05T23:34:26.640371+00:00",
- "checkedAt": "2026-11-05T23:34:26.640371+00:00",
+ "updatedAt": "2026-11-06T16:42:39.721578+00:00",
+ "checkedAt": "2026-11-06T16:42:39.721578+00:00",
  "fontes": {
-  "Google Notícias": "ok (+40)",
+  "Google Notícias": "ok (+38)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -12,6 +12,60 @@
  },
  "news": [
   {
+   "title": "Gestora da Cyrela se aproxima de R$ 1,5 bi no crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcXQ2MTB5RnJGdTFYRE91TGdHZTNDMWFrZ1NmYTRJWjE0eHJtNmwyYld1QnJIWlItN1dCYjR4LUJVSmpDVlZSWmZlUkp5THpwMmxtRG55MTFYS29IMUxSUkg3a25MQ015Z081Z2tWOU5XeVFJdlpUSlJmbC1DSW03UjEyR3NlNk9pWU9nSXAwWkNHV3pjZllTLWZvSHhFQUgxc25lYmZrblkwd2NBZnBVc1FUWdIBwgFBVV95cUxPNHFleXNWQkpkZ2hQdUhma3hRWXlsSUxJdEZuZFJNYnFVeU82dkEwWXNlVWtpTkpaSjI3RlFHX0tFSGlxendYSnNXczBWMDVyQnMyQlR2MlpjRldsOXMyVU5mczR6Zmw5Mnl4V2I2ZzlXVHdrQTkyalYxNkJnenF0YTNZbXh3U2V1a2l5dTltLWNJeGpDUW1oYXhzVVlmVzhKRTM4WWRfWTNOZlFJNUx1UGVZamFfWDA3MzdHczZOcHlZdw?oc=5",
+   "source": "Pipeline",
+   "date": "2026-11-06T13:12:22+00:00",
+   "summary": "",
+   "id": "e23cc91e3f0f24",
+   "topic": "imoveis"
+  },
+  {
+   "title": "VÍDEO: Golpe do falso presente usa fotos do rosto de vítimas para conseguir financiamentos de veículos",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxON3ZCdFZOS2tSMUkyb3dPWnlaM0lxdWlYTmo3bVVCZzE1RkVCZjFUb3JyaU5nTWQxVG5HNGZrdUs2MEl2R3J0RDhsMFZBV2RDdGhraGJmNmlHYk9aZUpaZ3pVWWJKRk9nNERWTlg1MGVyMjdLREVaM0lXcGFSdGJKNXd0MW5halczS3BYdllPUjlwYWZTQ3V1bWp6bUl0ckF3dGMyQXl6Ml81SEdHSENSTy1LbTZHVlpYUHpEVHM1Zlp1NFlQNUgyWG1QdE1ZUQ?oc=5",
+   "source": "Por Dentro de Tudo",
+   "date": "2026-11-06T13:05:00+00:00",
+   "summary": "",
+   "id": "b808c7e0995b64",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Financiamento imobiliário em 2026: como usar o FGTS na compra da casa",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa3YwVnAxQTFDLTRYb0E1ZW1HdVBDclplLWNuc3BMVF9ZZ1p0YjNJYkEzcl8weEI0VVlnRWI4UmdzcnhwY0NZRnROc0RwOGdDVXpPMVpHblhHbDhySWFnVW9kVGZJVE5OSVBubjhUal9YVmhsc09fNEk3R3JhNmhrTThITVBWRWFZTzhtRVk0WjRCZjNRSkVjcm1TVGM3WDFIZml1ZWo3dmVFNjQ?oc=5",
+   "source": "Mix Vale",
+   "date": "2026-11-06T12:32:33+00:00",
+   "summary": "",
+   "id": "ca53831780ffac",
+   "topic": "imoveis"
+  },
+  {
+   "title": "FIIs avançam e poupança perde espaço no crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPc2x1cXZ2SUE0OF9mZ3h1M19sUUREeU5PbTZId2U4S3R3SzBGdk5BdVhoSTZnQVpSZzkzVUpPX2tNTjB3UjNYbnJKTDNnM09ja0VVaEJfalAxVTJxRU05cVAyMDV1WjlfdXRkM3dBRHpGREVycTdNc1JBTDQ4bzRkRWxicF9vaXF3VW1nQTA1NkxmMmlMdDk0RWtzZnVrVG0wSktTZXlqeXY1anVMT3c?oc=5",
+   "source": "SpaceMoney",
+   "date": "2026-11-06T08:19:16+00:00",
+   "summary": "",
+   "id": "8815b76e3ecc4f",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Quem financia os imóveis do Brasil? FIIs e CRIs avançam; poupança perde terreno",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUktiVjlrQV9GMlZpYnRwd2F6cUx0MGFSTlk1b3hvTVVfbUJEY2VWdnN6MENKSWtVazMtUFBPczBwU21XendTMjJHU2JVeVdteXhJN0Q0OUs1eGlxUFNabHFRYU1VZnZReWItZlhjOXplOXBxZVBibEFuelctSzI4eVY2dFZycFRfV3VNZTBhZmMtZlJjXzYwNFl3QmMxYzNFZVJrOVUxbUlhSFFVNEF6U3ZrbnI3dUotUzEwX05B0gHDAUFVX3lxTE1VMlM4aS1MbW94SDBMVmJ2dlZleElQcTFSYk5fSVNzVFBZdUhhYVhxMklvVDEwU3FNUlA0WnEzbFhWdENKcmp2TndrbVBBZXgxM2p4VkRQamwzeHNjcWEtZ3NjYV92UjJUakF6NTU1LWljcUNRbnVCRHFacTZnV2tSLUVxTlpGdjlXa0VhQ25GcXo1OG9YbXJoWmEzVDNDbU9WY19QMXRfazl4M2l4dWNTUzNGZmxZamI3Q2pQUzBETEgzSQ?oc=5",
+   "source": "InfoMoney",
+   "date": "2026-11-06T08:01:00+00:00",
+   "summary": "",
+   "id": "eed71395c697fd",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Em parceria com a Bamaq, GWM lança consórcio 100% digital",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaU12UkUtZF92bllJd2NMY0hiU1JzTFFJMnJjQzBJd2E4VHhrZFlzVkk1R3VwTzZsaHBWd2pWM1pDYTNyM2pPYS1qNEJFV1d3SGE4ZWVhQWJwV3oyeHc1TmlpQktiZVdjenlRbElHRzZ5ME10VjdkZXlvQVNBZmtGbDA0R2tWSU5QLTFwdmZqX2Fta19ETnNPWDNTNkNmNURJdXhfQWZnUdIBpwFBVV95cUxNaU12UkUtZF92bllJd2NMY0hiU1JzTFFJMnJjQzBJd2E4VHhrZFlzVkk1R3VwTzZsaHBWd2pWM1pDYTNyM2pPYS1qNEJFV1d3SGE4ZWVhQWJwV3oyeHc1TmlpQktiZVdjenlRbElHRzZ5ME10VjdkZXlvQVNBZmtGbDA0R2tWSU5QLTFwdmZqX2Fta19ETnNPWDNTNkNmNURJdXhfQWZnUQ?oc=5",
+   "source": "AutoIndústria",
+   "date": "2026-11-05T23:11:56+00:00",
+   "summary": "",
+   "id": "623748dec591dd",
+   "topic": "veiculos"
+  },
+  {
    "title": "Trillia apresenta soluções de inteligência analítica da B3 para subscrição e precificação no mercado de seguros",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMXVQemxzbzA5dWlrUVgyTEhoM25VcHh3dWhOczNrdjVfaHljbk92bVFQS29PRDg0Y0FDZllaMVFhWVItaENBc1FaZXV6VVBNcFVLSUtqM3pma3BZa3RtcFowSnpyN0I5TXhiUDJ2eGwtY2dLZ2RnUnUxUWFSYVBfSHFPT19tZzczRk9PM1preC1HcVBzbDB1bno3WHdJTnZyUDNaY0lXSzRxQWUwNUFueVlxbXFYeVFPQVJwcEdOVVFUdm84RFdSR3hmZnlTM01wWFZqd0hveE4xZw?oc=5",
    "source": "Brasil Inovador",
@@ -19,6 +73,15 @@
    "summary": "",
    "id": "913840dd47a236",
    "topic": "trillia"
+  },
+  {
+   "title": "Move Brasil: veja o prazo do financiamento de carros flex, elétricos e híbridos a etanol",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQkFvdVdldVJhQm5PbHlHUUNpekhEY1J3X0trblJXcGoxYVFxT21TeXBlUEk3UE0yQnJ1S05zSTMxZ0FoLTQwTXZvdDhpakdvSVdpejE5SjJ6d0YxOExodVdTeThEdzFTSU5NY3V0S3NQeWktcG8ydWxRRV9oTXJkVHl3c1RoSkR4azRXdFhKY0V1NnVpNWt2YmNQLVpzMW15MnhBRkVhSXBxZw?oc=5",
+   "source": "Fast Company Brasil",
+   "date": "2026-11-05T21:08:31+00:00",
+   "summary": "",
+   "id": "dd8977724369aa",
+   "topic": "veiculos"
   },
   {
    "title": "Bradesco, Itaú e Santander elevam taxas de financiamento imobiliário",
@@ -189,6 +252,24 @@
    "date": "2026-11-03T14:49:26+00:00",
    "summary": "",
    "id": "6b1240c7b0c095",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Novo crédito imobiliário 2025: entenda como vai funcionar",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsQXo1QUEwVGpYd0F5ckczdHFKWHZRakExN3NQZXRUYnp1aWZjRHhjelQtczM1Ym9iZ3VDSzFCV2ppOVhiU1R5VzVxSTlkV19iNE15c0N6SGNmdy03c3pneTZDOEVBR0Y2Z1JQS2JaanZaZw?oc=5",
+   "source": "Serasa",
+   "date": "2026-11-03T14:00:00+00:00",
+   "summary": "",
+   "id": "71b5c75e4bde15",
+   "topic": "imoveis"
+  },
+  {
+   "title": "SFH: entenda como funciona o Sistema Financeiro de Habitação",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rNG84dWZFM3dwNjhCbHZMZXJCQXJ5dWItRlJNcHBwbS1BSnFKU1I2LVBYUDRyUUNPS0FnOVo1X2p5MURyWmN1LUczZjBXcmx1ZVBrUDhn?oc=5",
+   "source": "Serasa",
+   "date": "2026-11-03T14:00:00+00:00",
+   "summary": "",
+   "id": "0fbf75244a8053",
    "topic": "imoveis"
   },
   {
@@ -882,6 +963,15 @@
    "date": "2026-10-19T07:00:00+00:00",
    "summary": "",
    "id": "e48a89dd89ae35",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Banco é condenado por empurrar seguro em financiamento de veículo em Três Lagoas",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTU81aXR2V29pUDdZdkN4ZWVjNzBoWmtsVlVocjdqa0JvRGhpUE5YdHhtVU5YeDYwRTJzVUY0ejdscUExSmhXeXIyZlhQb0dVczctaTVvUTNGOS1VRUc5ck11cGZCakJ2dGFpYmZab3VRNGFoekVHdlB4Z3prVnZzREhwbWF4NmVXY09EM0pRZzRrZjJCOEcwUEJJSHBTeEpXQVlXVkJwVWZ3R2Z2UlNvRV9rUGd0MHc?oc=5",
+   "source": "Midiamax",
+   "date": "2026-10-19T07:00:00+00:00",
+   "summary": "",
+   "id": "52c67ac473afba",
    "topic": "veiculos"
   },
   {
@@ -1729,15 +1819,15 @@
    "label": "CDI anualizado",
    "value": "13,65",
    "unit": "% a.a.",
-   "date": "04/11/2026",
+   "date": "05/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
    "id": "sgs-226",
    "label": "TR (diária)",
-   "value": "0,1696",
+   "value": "0,1695",
    "unit": "% a.m.",
-   "date": "04/11/2026",
+   "date": "05/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
