@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-06T16:42:39.721578+00:00",
- "checkedAt": "2026-11-06T16:42:39.721578+00:00",
+ "updatedAt": "2026-11-06T23:01:36.198258+00:00",
+ "checkedAt": "2026-11-06T23:01:36.198258+00:00",
  "fontes": {
-  "Google Notícias": "ok (+38)",
+  "Google Notícias": "ok (+34)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -11,6 +11,42 @@
   "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "CashMe lidera ranking das melhores fintechs para home equity de 2026",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZm85aXhEcm45YTdWbm9ZbVI1cVlISzdXcXFYbXNMa01xYjZqblk4Z0N0RUdhUWJDanVkQXBIXzJZV1AwR2FwMDVSZk54ZmdvMFNPRXlDYmxmTjIzdWVxTnJ1TWFHak91RU16RE53V285MUYzaHBVdkFDTEp1eERGNE9lRjB0cjRIZVY5UVlOaU1kbS1STnFYOFJoekpGbUtmbkM3QmxBdGhPWGVl?oc=5",
+   "source": "CPG Click Petróleo e Gás",
+   "date": "2026-11-06T22:03:00+00:00",
+   "summary": "",
+   "id": "0475f0ed15bf1d",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Sicredi Fronteiras lança campanha para financiamento de veículos com c...",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOF81WUk4aTFnNkJkdWhZTXY4YmVpUXE0V0p1VmFma2hxX0VtRmNyd3dFYlpwbVpsWGx1RXhpRk9jZEZyVkRsS2Q0a1RtZWFCTEd1MWZ4RnJMZ0taY1AyTXFKQ01nQTRoREtFWWc1SjV3WEdRaGZaZFdxbWE2a2dsdXR3WWM3ejFMNURLRGhQRDNuV2lXdzBWeVQ3UW9RanF3SnVla3ptd1VScW5vU0FYcndTcmlJQXB5aUczdmJMb0JUSHhQaGRxTThOamQ?oc=5",
+   "source": "Portal Tri Notícias",
+   "date": "2026-11-06T20:07:02+00:00",
+   "summary": "",
+   "id": "6fb9c2f70fad02",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Mudanças no crédito imobiliário e teto de juros",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeXlxb1I1SVlJekpsV3htVFNnY1NJLWpwSEEtaVB4S2JBeDM3OE9Edjl5RWpEd0kyUWxNRjFpQWxPRjNFTThkZXhMRXpRTUl6enFnMG4tMXdSZ3dDUG5rMmU3SzJPSkZXUnJNZVVzY2w3cGRHZ0swSzRLX19wVmRXNDRVZTg?oc=5",
+   "source": "www.guairanews.com",
+   "date": "2026-11-06T19:57:23+00:00",
+   "summary": "",
+   "id": "bcf8f1866ca85e",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Cy Capital capta R$ 165 milhões e mira R$ 1,5 bilhão em crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZTB0SHJlT3QwY1AzUW9NSm5IUnFjaVJWeWZwYW9YTWpKTU1pME9tamtSMlViSHFmSXZxQVVHUkh2R2VsbWJPX2s1QkNzamV3OVprVDY3UFZyQWltaW9jUG1naGFBZ3hNeTJsUU1rU0JfMG1tSkJYelB4TmI5dGxDLUdRZl84RFQtOE9RNGMwRWpmWlg3dVhEdzJpNUpuWjZRMVlRdWFhVS13NTdTV01rWG5kZms2OXpETWc?oc=5",
+   "source": "bra1.com.br",
+   "date": "2026-11-06T16:09:00+00:00",
+   "summary": "",
+   "id": "72d680736d66c1",
+   "topic": "imoveis"
+  },
   {
    "title": "Gestora da Cyrela se aproxima de R$ 1,5 bi no crédito imobiliário",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcXQ2MTB5RnJGdTFYRE91TGdHZTNDMWFrZ1NmYTRJWjE0eHJtNmwyYld1QnJIWlItN1dCYjR4LUJVSmpDVlZSWmZlUkp5THpwMmxtRG55MTFYS29IMUxSUkg3a25MQ015Z081Z2tWOU5XeVFJdlpUSlJmbC1DSW03UjEyR3NlNk9pWU9nSXAwWkNHV3pjZllTLWZvSHhFQUgxc25lYmZrblkwd2NBZnBVc1FUWdIBwgFBVV95cUxPNHFleXNWQkpkZ2hQdUhma3hRWXlsSUxJdEZuZFJNYnFVeU82dkEwWXNlVWtpTkpaSjI3RlFHX0tFSGlxendYSnNXczBWMDVyQnMyQlR2MlpjRldsOXMyVU5mczR6Zmw5Mnl4V2I2ZzlXVHdrQTkyalYxNkJnenF0YTNZbXh3U2V1a2l5dTltLWNJeGpDUW1oYXhzVVlmVzhKRTM4WWRfWTNOZlFJNUx1UGVZamFfWDA3MzdHczZOcHlZdw?oc=5",
@@ -156,6 +192,15 @@
    "topic": "imoveis"
   },
   {
+   "title": "Sicredi promove ação para financiamento de veículos em São Sebastião do Paraíso",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16aXpIRWRuWVNpSm5zbWlqb2pzek52dFRkRzNnTUc1Rm1QOTRhMmhUWW93NE1oX0cyakswbEdSQ1I4STZhRUFSMHQtbnNGQXdIY19kanF4ZF9fUmlEb1d5OWNveGhaY2I5OFVPbWdB?oc=5",
+   "source": "Jornal do Sudoeste",
+   "date": "2026-11-05T08:00:00+00:00",
+   "summary": "",
+   "id": "0184e57de2e698",
+   "topic": "veiculos"
+  },
+  {
    "title": "Minha Casa, Minha Vida 2026: veja quem pode participar, renda exigida, subsídios e como conseguir a casa própria",
    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbS1tQmZVeHpZWVhoLWl0amhBQWFaZHFiX0NYQXN1b2M0a2YzSlBhaGdCYzNVS0NBOGt5TFUtejloRW1UeXE3bEVTTTltRW93OTVTckhOV2U1SHBHT2RlNTRIN2ZXcUdiZmZrRW1wX2JQbGxZUVU1ZUtGZkd5UERtTWl5cTkzVDk5TGRhb2tOOHpxVmFMYzhFaGNQd2ZmTjZJMXdaV05HZHBZVEZjRngxRFBBSVdlRWkyQ0NXSGNKeXZNSWkycDZXVDJLX1dQZ1NCbzNhZERiTnY?oc=5",
    "source": "auxilioconcursos.com.br",
@@ -198,6 +243,15 @@
    "date": "2026-11-04T11:16:00+00:00",
    "summary": "",
    "id": "aec290c015a32a",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Minha Casa, Minha Vida: como funciona, quem tem direito e como participar em 2027",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9HRkZLSE55UTZRRlpkTmpoNGFOaXAyQmJIQWJONWphTkwyVVgtM0JkQUNIMUlyTHFwNjRra3dZS0JJUVNYMEFBQ3ZJUG9aeV9PajdxSXdweXpnYWEyMEY4TVQ5QmFZOEcyT0ZqWTBzZWhTNS1jMmNtLVl0a3Y?oc=5",
+   "source": "QuintoAndar",
+   "date": "2026-11-04T08:00:00+00:00",
+   "summary": "",
+   "id": "63fc2bafd32621",
    "topic": "imoveis"
   },
   {
