@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-06T23:01:36.198258+00:00",
- "checkedAt": "2026-11-06T23:01:36.198258+00:00",
+ "updatedAt": "2026-11-07T15:37:10.339119+00:00",
+ "checkedAt": "2026-11-07T15:37:10.339119+00:00",
  "fontes": {
-  "Google Notícias": "ok (+34)",
+  "Google Notícias": "ok (+30)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -39,12 +39,30 @@
    "topic": "imoveis"
   },
   {
+   "title": "Financiamento imobiliário consome 48% da renda média em Kirov",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS1pxTFNZeW5WdzRXRWpyckpFcTRmNldlQjVlT1I2ZDlnRGY3b2t2VTZ6ZnBNTXdEN0RRcDlscTFVR3A3a0hSakFTZms4Y0UyZ1JhMGowcjdHM1VtdzFBUUlRZjlHb2JZd2Y0TWhnV1BPcmlsUWR0eG43NjZmbVdxRndrRXQ?oc=5",
+   "source": "Правда.Ру",
+   "date": "2026-11-06T17:45:57+00:00",
+   "summary": "",
+   "id": "3bb301e6a84176",
+   "topic": "imoveis"
+  },
+  {
    "title": "Cy Capital capta R$ 165 milhões e mira R$ 1,5 bilhão em crédito imobiliário",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZTB0SHJlT3QwY1AzUW9NSm5IUnFjaVJWeWZwYW9YTWpKTU1pME9tamtSMlViSHFmSXZxQVVHUkh2R2VsbWJPX2s1QkNzamV3OVprVDY3UFZyQWltaW9jUG1naGFBZ3hNeTJsUU1rU0JfMG1tSkJYelB4TmI5dGxDLUdRZl84RFQtOE9RNGMwRWpmWlg3dVhEdzJpNUpuWjZRMVlRdWFhVS13NTdTV01rWG5kZms2OXpETWc?oc=5",
    "source": "bra1.com.br",
    "date": "2026-11-06T16:09:00+00:00",
    "summary": "",
    "id": "72d680736d66c1",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Em meio à restrição das fontes tradicionais de financiamento imobiliário, a Cy Capital, gestora de investimentos imobiliários do grupo Cyrela, acaba de concluir a captação de R$ 165 milhões na segunda emissão de cotas do Cyrela Hedge Fund (CYHF11). C",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBiOFVSb3hrNFRSTUZmYmtoMS1VV1FKemV1UUFIMU8wbGlCd01pZkUzNUdYeTY2d2tQTHdvemk1WHF3Y0d5ai1heXYwdU5FTlUyQUE?oc=5",
+   "source": "Instagram",
+   "date": "2026-11-06T13:27:23+00:00",
+   "summary": "",
+   "id": "8b42fad08c7239",
    "topic": "imoveis"
   },
   {
@@ -1207,6 +1225,15 @@
    "summary": "",
    "id": "376e9f1b481cfa",
    "topic": "imoveis"
+  },
+  {
+   "title": "Como funciona o crédito com garantia e por que essa modalidade oferece vantagens",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUEM1Vm1fTHRLSkswN2JtSGt2LVhTT2JoNGpGbDFyYjlabnZBbTl5X2VUam5XZE9sVjVPTHRXWjVNXzNWNkxEU09OTHdYalN3cUcwZlI4bGI3TVV3VW8tOWxCN2ZjS2lzbXJQU0NKanNXZE5fM1ozSnpSNmVwWVlGSE1DV2tNaXJqRjVFMVJIRkltTE5uVHJsNXl5YXNCOEE0bnlnWXByeEZwYVRFSzVyRVVmN1J2bDJEYVFvd3ZIclhDOU9nVlE?oc=5",
+   "source": "Gazeta do Povo",
+   "date": "2026-10-08T07:00:00+00:00",
+   "summary": "",
+   "id": "228c5591233c31",
+   "topic": "garantias"
   },
   {
    "title": "Detran corta acesso de revendas a emplacamento e transferência de veículos em MT",
