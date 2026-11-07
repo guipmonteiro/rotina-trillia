@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-07T15:37:10.339119+00:00",
- "checkedAt": "2026-11-07T15:37:10.339119+00:00",
+ "updatedAt": "2026-11-07T21:43:42.596968+00:00",
+ "checkedAt": "2026-11-07T21:43:42.596968+00:00",
  "fontes": {
-  "Google Notícias": "ok (+30)",
+  "Google Notícias": "ok (+27)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -1344,6 +1344,15 @@
    "topic": "imoveis"
   },
   {
+   "title": "Financiamento de imóveis pode mudar com a tokenização do crédito",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZTVnS1NmeUFBWmRuNF9xTjZBazlfcXJhYVpud0c0RVhmUTM5Q29VQXRPdmlVZGFzRWpNSnMxcWtEMkc0aWZYOE5JNERmSUZZbVFXUktQTTBORWRya0dHOW9abENxdjdpM2J1d2NSQ1I3WFV6SzNCYTZoV1phUEswWk9qTVY1WFdHY3d4MXhMaW1NUlg5eF80aFp5ME9oZ2hkbGpiQ2FMeW5oaG1tNExYOU9mR1NkalFCdHNBU2wyb3g0WjJ6UktwWTNqWEhQQnV4U1Z1YUdpcUMtaVJ4?oc=5",
+   "source": "Terra",
+   "date": "2026-10-05T07:00:00+00:00",
+   "summary": "",
+   "id": "1e7833e3ea3465",
+   "topic": "imoveis"
+  },
+  {
    "title": "Comprador de imóvel com alienação fiduciária responde por IPTU antes da consolidação da propriedade",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQkxFX1lNMXAtYXp2dkZSTDFUVXFLd0RJSUcwdXZ3WG5oOGg0S3VENDNOQW9EVVNlamcwcDRlU0wxQVQ1TzkwbWRuTjI3OE96LXhpTERaTnpEMHNxY0E3azduNTlaQl9kT0JRd1MxTGt3UE5aUlVpVUROZ19UdzlWWVdOa01ZQlVRMHk3eHZuVkk4d0tfcmZiZmppWHZJVGx6c1ZadkxhdDZhMVA2UHFwWmx5bnhOSVh1Z1Ezd0daaDZkQVB2eEY4SXBpSlU?oc=5",
    "source": "Rota Jurídica",
@@ -1533,21 +1542,12 @@
    "topic": "imoveis"
   },
   {
-   "title": "Financiamento de veículos alcança melhor agosto em 15 anos, segundo a B3",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDdxd2ZfNVJwd0EtWTNNcVJncGdtajRLY0FIMWo1MEthcldrSllGbEdnU2NiNi1tdGI2LTE5RHhxRG5fcUc3b1ZVMGl4TnBCMUJnek91R19nX3JoVnQyOVZSUEdYdEgtQzlraVkzM3JLQ2QweE0wX2pENjQ2SFNnTXNPYWVPbGdGTWFGZ2NIYU80dEFxcldmRXFaV0FCZ3MtWVF5RNIBrAFBVV95cUxOVGRwemxsaVl1UU1uYVhnX25EQ3lnWDE1U0JLQXJGdWwzcW9xamR5SGt1c2RJdVVLVGYtckwzOEhaWHpEc1A1djF6SjNMamVxTTNFWVR5c1pCRncyclVqaXktQU50MFdIN25TYjRfcWwyRW1vQ1A3a01ZdGpBOW1qeUlWanZBOTlOUGR4YkU2d0diR1Z3Y0lnOTN5dTZnRzh0emdFSGQzeGFWOUQx?oc=5",
-   "source": "Business Moment",
-   "date": "2026-09-23T07:00:00+00:00",
+   "title": "Financiamento de veículos bate recorde em agosto e alcança maior volume em 15 anos",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPamJJYmFyY0NubmY0bHBvRmxBOFhaS3NhSkpfNFV2SnEyaUQ0SlRzZ1hUdEtkLXRxa05BWDlJa3VDdU9hUjU0aFVESS1Ra19BTEF5NENBZFZHTEg4MDNnb0dfZ1NiTjRJM0xYamc1cjdXd2N4S0ZxSnZsZXlYSGFIbTNhRGc4TEZHUWdXSHczdWdxeWR6RTFyTEJNM2t1a0d5czJoemlzSXlTMThHMXBPeGVmVVROblVOcUc3NUJabmNmMnY1bkdEYWgydDBlbTMyc2JNSGlsTlQ?oc=5",
+   "source": "O POVO",
+   "date": "2026-09-24T07:00:00+00:00",
    "summary": "",
-   "id": "367390ae50b564",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Financiamento de veículos sobe 10% em agosto e tem maior volume em 15 anos",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaF91TzVYLVNEV01wUkpNdDVPRFZPa1dKcmJiMEpRT3dybTlvMm1UNWNKbzZoWERnSUtnWkEwRU4yLURFejRWS2xKc003bFpSQ1NrTEF6V1dmVTBocFhZdUxmX2VEd3BqNERndVFFTTZ6S3h4T0xzUDEwb25SbEhxZE1DU2tYWFV0UDNhYzVPc191R0FrSWpkb1h1NFdoSzhUOU0yV2EzcGFtRTNwMWM2akNmcXlKNkRDbndNZXh0R1pWLWZJ?oc=5",
-   "source": "CNN Brasil",
-   "date": "2026-09-23T07:00:00+00:00",
-   "summary": "",
-   "id": "e767a929c0c1a1",
+   "id": "0f8f24c3fec58a",
    "topic": "veiculos"
   },
   {
