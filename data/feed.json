@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-11-08T15:55:18.952288+00:00",
- "checkedAt": "2026-11-08T15:55:18.952288+00:00",
+ "updatedAt": "2026-11-08T21:58:00.436444+00:00",
+ "checkedAt": "2026-11-08T21:58:00.436444+00:00",
  "fontes": {
-  "Google Notícias": "ok (+29)",
+  "Google Notícias": "ok (+27)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "ok (6)"
  },
  "news": [
   {
@@ -873,6 +873,15 @@
    "date": "2026-10-23T07:00:00+00:00",
    "summary": "",
    "id": "936d7ac49990ed",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Minha Casa Minha Vida ou Casa Verde Amarela? Os planos de Lula e Flávio Bolsonaro para o mercado imobiliário e a compra da casa própria",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWGl6VDZld2EtdGtNTjZfTmFVM0ppUVMzZHdndkJLdXlRX3VDbG1qTEk4Q01TSFJHWDZZRHVuRHdPZjJkZ2JNa0Zaam14RXpZVjFyRlBVdzNmVDItSnVYa0xsZDlWMVl1UHJGcVduX0Z6Z2tRSW55Z3JPcDl4ZldnWGhzN2tJZ2hEQUxOandVOEdnTk9zNi1ockw2MndsUUI5TVZKR0c3aEQ4SHV2YXRSa3JTV1hnZnVuTzJSUHVSYm9ON2kyRVZ0T2N3azdDRFNtall2am9LOEowYlN3VV9jVDhldTRnMjdxdDV2WklOb25Ndw?oc=5",
+   "source": "Seu Dinheiro",
+   "date": "2026-10-23T07:00:00+00:00",
+   "summary": "",
+   "id": "3a3ddd53adfcc4",
    "topic": "imoveis"
   },
   {
@@ -1929,6 +1938,14 @@
    "unit": "% a.a.",
    "date": "05/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
+  },
+  {
+   "id": "sgs-226",
+   "label": "TR (diária)",
+   "value": "0,1695",
+   "unit": "% a.m.",
+   "date": "05/11/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
