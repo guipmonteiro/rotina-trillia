@@ -1,16 +1,25 @@
 {
- "updatedAt": "2026-11-07T21:43:42.596968+00:00",
- "checkedAt": "2026-11-07T21:43:42.596968+00:00",
+ "updatedAt": "2026-11-08T15:55:18.952288+00:00",
+ "checkedAt": "2026-11-08T15:55:18.952288+00:00",
  "fontes": {
-  "Google Notícias": "ok (+27)",
+  "Google Notícias": "ok (+29)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "ok (6)"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Seguro habitacional quase dobra no Brasil e acompanha avanço do Minha Casa, Minha Vida",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY1U1TDZQa3o2VEVFYnpTNHo1RDNvb3NHTm13Ry0yQkZkR2VTNkF3a0M3YWh0V0JQWVY2UERjeFZBWjhOd3RwaFZ4aWNpb3ZzZW5DR2RNQkRySGkxLWZsLVAzYi1EUmRDdWhSN0ZYaW5US1NEcE1reG9XTC1qMm5HY2JuNjhSMU9XTVBldlU2emlJMmgxV1BheEdmNW1zMXJ2NmZWYmZsZEdqX2FDQlhhWHJ4R0NoMFRQMmxHOA?oc=5",
+   "source": "Agência GBC",
+   "date": "2026-11-08T10:30:00+00:00",
+   "summary": "",
+   "id": "f3109453b9856e",
+   "topic": "imoveis"
+  },
   {
    "title": "CashMe lidera ranking das melhores fintechs para home equity de 2026",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZm85aXhEcm45YTdWbm9ZbVI1cVlISzdXcXFYbXNMa01xYjZqblk4Z0N0RUdhUWJDanVkQXBIXzJZV1AwR2FwMDVSZk54ZmdvMFNPRXlDYmxmTjIzdWVxTnJ1TWFHak91RU16RE53V285MUYzaHBVdkFDTEp1eERGNE9lRjB0cjRIZVY5UVlOaU1kbS1STnFYOFJoekpGbUtmbkM3QmxBdGhPWGVl?oc=5",
@@ -219,6 +228,15 @@
    "topic": "veiculos"
   },
   {
+   "title": "Fenabrave eleva previsão de alta nas vendas de veículos em 2026",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUFlbVA0RlJTbGZjN2pBUWZtQ3FJYmlHWGJ5UlZTSlU3WGFhQWxXWHhOd1ZHakNxd3lIbzVCMFd4dHBteVlQb2xDLXBYT3dlanVWRDZfX1p5SVM0ZnhrVk95SVdObEc5LVRHc2QxMTZUR3NrTk9meGJFM1ZnOTRQRkJXeXctaXdBUm55clZfRXludmRoM3VTMW1SNXZFSDBlcXEzdHFKSFVRcHJ2ejE1ZjRXVWxWVHM?oc=5",
+   "source": "Times Brasil | CNBC",
+   "date": "2026-11-04T22:36:00+00:00",
+   "summary": "",
+   "id": "124358e31ffb8f",
+   "topic": "veiculos"
+  },
+  {
    "title": "Minha Casa, Minha Vida 2026: veja quem pode participar, renda exigida, subsídios e como conseguir a casa própria",
    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbS1tQmZVeHpZWVhoLWl0amhBQWFaZHFiX0NYQXN1b2M0a2YzSlBhaGdCYzNVS0NBOGt5TFUtejloRW1UeXE3bEVTTTltRW93OTVTckhOV2U1SHBHT2RlNTRIN2ZXcUdiZmZrRW1wX2JQbGxZUVU1ZUtGZkd5UERtTWl5cTkzVDk5TGRhb2tOOHpxVmFMYzhFaGNQd2ZmTjZJMXdaV05HZHBZVEZjRngxRFBBSVdlRWkyQ0NXSGNKeXZNSWkycDZXVDJLX1dQZ1NCbzNhZERiTnY?oc=5",
    "source": "auxilioconcursos.com.br",
@@ -279,15 +297,6 @@
    "date": "2026-11-03T22:54:09+00:00",
    "summary": "",
    "id": "339dd7a7ec3ba7",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Seguro habitacional dispara com avanço do Minha Casa, Minha Vida",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQkotTFM3TkMxLVV2VzZJT1NnUVNKUnc4OVE5YkpqZFVrVmgyMlhsT0dIQXdvTUlfM3VES3pyaHI1U1NBUmtaQUd4VnhzSVByeWNmQmxWT00zcmxfZXExdkM5RjVhR09wNzRGMzJiQUJoMUMycXBXUU9mZ20zX1ZUMG00REUyNF9RYTRCbGkwWWs5M05lVFdN?oc=5",
-   "source": "CQCS",
-   "date": "2026-11-03T22:30:45+00:00",
-   "summary": "",
-   "id": "a63f4c9d0f9464",
    "topic": "imoveis"
   },
   {
@@ -1353,6 +1362,24 @@
    "topic": "imoveis"
   },
   {
+   "title": "Trillia aprimora atendimento com Concentrix",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNODk4NTJfeHYtY29wOEt6NzQ4aHpiSmNRd2dYd0hiai0tZzFlbGxMQThJZDZBQWE0ZlVVZGF5ZG1CaHBGdy1RTF9VdXFzeUc4SUNfVFZGRzlfNUlIM3JHQk55LWx0WEpnN0JtQjR6cFJNeGZXUFprVEVza1JqLW0wWWw4QzlnQQ?oc=5",
+   "source": "Baguete",
+   "date": "2026-10-05T07:00:00+00:00",
+   "summary": "",
+   "id": "49467e2a441516",
+   "topic": "trillia"
+  },
+  {
+   "title": "Queda da Selic pode ampliar acesso ao financiamento imobiliário, avalia especialista",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTE1uaGVaTGNnYmZQVWxYdDBFb2dSd2tzRkdMZHd2TDhTeEcyT3gwUlBpSXZGVWp0OGpJblNPOWZMMXk4STUtZHBtcjk4YTlJQTZSM0hqMS1oZ3hZMGx2X3ZpVDVzSlBMUWQ4VGR3YjI3UmpoWnpPbERITEFrNUMyVkVacUNBcjRkSldrWnVEODZ3ZWZfS1FXTmJNd3p0MlNkWXZ6TjB0M2IxbF9TZGNyZzk1WQ?oc=5",
+   "source": "Portal Correio",
+   "date": "2026-10-05T07:00:00+00:00",
+   "summary": "",
+   "id": "5f6f83d9c64b78",
+   "topic": "imoveis"
+  },
+  {
    "title": "Comprador de imóvel com alienação fiduciária responde por IPTU antes da consolidação da propriedade",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQkxFX1lNMXAtYXp2dkZSTDFUVXFLd0RJSUcwdXZ3WG5oOGg0S3VENDNOQW9EVVNlamcwcDRlU0wxQVQ1TzkwbWRuTjI3OE96LXhpTERaTnpEMHNxY0E3azduNTlaQl9kT0JRd1MxTGt3UE5aUlVpVUROZ19UdzlWWVdOa01ZQlVRMHk3eHZuVkk4d0tfcmZiZmppWHZJVGx6c1ZadkxhdDZhMVA2UHFwWmx5bnhOSVh1Z1Ezd0daaDZkQVB2eEY4SXBpSlU?oc=5",
    "source": "Rota Jurídica",
@@ -1902,14 +1929,6 @@
    "unit": "% a.a.",
    "date": "05/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
-  },
-  {
-   "id": "sgs-226",
-   "label": "TR (diária)",
-   "value": "0,1695",
-   "unit": "% a.m.",
-   "date": "05/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
