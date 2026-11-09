@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-08T21:58:00.436444+00:00",
- "checkedAt": "2026-11-08T21:58:00.436444+00:00",
+ "updatedAt": "2026-11-09T19:44:49.243444+00:00",
+ "checkedAt": "2026-11-09T19:44:49.243444+00:00",
  "fontes": {
   "Google Notícias": "ok (+27)",
   "Banco Central": "ok (+0)",
@@ -11,6 +11,51 @@
   "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "Tributação de LCI e LCA pode mudar estrutura de captação",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaXR0dm5WRXhOYnp4MXQtQWwtcndmemVVeDE5X1JuVE1FcTZFbDE1MWhzQjdGaUJXYUJUeTFMa0hMNWNfSS1CZXEwNE16bTNQWWZtbG9ESXhibFJDU3gya20wUW0yZ01IX1E1dTgxYnFYT2NjaTl1cUQtTTNuVWMtc3RKLU9fMDAwenRnN29tNUdkZ3RlY1Z1dTFNMURycXlyRVlqTU1B?oc=5",
+   "source": "Capital Aberto",
+   "date": "2026-11-09T18:20:00+00:00",
+   "summary": "",
+   "id": "3fe002d377eda3",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Alienação fiduciária de imóveis rurais pode colocar pequena propriedade em risco, alerta advogado",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVzdmRUEwYURjaFVYQlktQkpZaWM3VUk4SmR5d3ljX0tENmhteTlISUU1RzV5bHVpTEJYMTNsWHllTTlyQmVpWk9aa1ZtalkyanQ5bE0wbHVaSVpxSHowYXQxVTlEdDcyUjI0eUdRc3dKQXh0VlhoUlY4MTRkeWNZRGRIb1pzdlg2SUlfQ2pvMHczeFlGWUJ1dTRPRGtsb21xWF9feFBFcGhzZ9IBqgFBVV95cUxOVzdmRUEwYURjaFVYQlktQkpZaWM3VUk4SmR5d3ljX0tENmhteTlISUU1RzV5bHVpTEJYMTNsWHllTTlyQmVpWk9aa1ZtalkyanQ5bE0wbHVaSVpxSHowYXQxVTlEdDcyUjI0eUdRc3dKQXh0VlhoUlY4MTRkeWNZRGRIb1pzdlg2SUlfQ2pvMHczeFlGWUJ1dTRPRGtsb21xWF9feFBFcGhzZw?oc=5",
+   "source": "Acrissul",
+   "date": "2026-11-09T17:19:00+00:00",
+   "summary": "",
+   "id": "aa1df0fbf2bb7e",
+   "topic": "imoveis"
+  },
+  {
+   "title": "GWM estuda criar banco próprio no Brasil e já lança consórcio para seus carros",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNTlPM3BGQkRBVlZnVFZLMExjVTkxakcyZERfQ0VVTXU5Sk9QZjVOWjRqY183WFNPS1lZSXpDbjdhNExLa0RWb1JIRHhURmdHei1Zc29TcWdNVnRkUXJFU0JnRmJhRi1JQng5VlpqVmdiUkhJSGxpcjZwSDUwUkc3NzhWZDhySE5wNWc0V3lzT0VqY1dyUkt4Rk5vbEFoLWFsbWc?oc=5",
+   "source": "AUTOO",
+   "date": "2026-11-09T14:22:36+00:00",
+   "summary": "",
+   "id": "330bbc1672435d",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Como o mercado imobiliário brasileiro mudou em mais de 40 anos: do BNH ao crédito imobiliário de hoje",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZVAwQl9LTWZZUmk0LUVTcklCYVlVMWRIMVJqclY0NDBUYVdxV0dWTGJrZ2dXOUlFT05rTk14R1M2RXYzaDNoQ0Qtak9yVnc5bEo0NUwwMHB3MnEyTHZ0eHpjS2tMY3RTbm5CQ19BT0ZlRmVWREVDbUZYZXlMRUxuSkwyVVdnWVo1MDZoeXl5NWFlZllUbE9rVlUxcWRscG9mZS1HR3Y5Q3MtbEN0T1ZTOWlVWmlVelNVcXBTV0VsSTNzQXprQTR4b2wtSnN2TUdlcFlmSVlPa0h1Znl3aHZ1dw?oc=5",
+   "source": "Rádio Itatiaia",
+   "date": "2026-11-09T13:30:35+00:00",
+   "summary": "",
+   "id": "603247d18809c6",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Minha Casa, Minha Vida: financiamento da Caixa com até 35 anos de prazo em 2026",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcUxhQkpFUU52Vm4zUERENGpnMHVSOElFek1NcmJUeXdodjR5QUZDdlBKdEtRLUJhdVkzY0pWMERHRWpQejZZZ0NHMXVhNUhFRjVVZThtWGlUUGdELUg0VW5ybmxuaXVOVHdreFRCdnpiYzN3d08yNTN0eGZSbWVacDdJdVd4aUdKNG1oOEZfY1NQQlZiWEdOd2tKTS1YWWZPV2N1TGo5SDRGUWZh?oc=5",
+   "source": "Mix Vale",
+   "date": "2026-11-09T12:20:15+00:00",
+   "summary": "",
+   "id": "7fce9d96e12447",
+   "topic": "imoveis"
+  },
   {
    "title": "Seguro habitacional quase dobra no Brasil e acompanha avanço do Minha Casa, Minha Vida",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY1U1TDZQa3o2VEVFYnpTNHo1RDNvb3NHTm13Ry0yQkZkR2VTNkF3a0M3YWh0V0JQWVY2UERjeFZBWjhOd3RwaFZ4aWNpb3ZzZW5DR2RNQkRySGkxLWZsLVAzYi1EUmRDdWhSN0ZYaW5US1NEcE1reG9XTC1qMm5HY2JuNjhSMU9XTVBldlU2emlJMmgxV1BheEdmNW1zMXJ2NmZWYmZsZEdqX2FDQlhhWHJ4R0NoMFRQMmxHOA?oc=5",
@@ -1936,15 +1981,15 @@
    "label": "CDI anualizado",
    "value": "13,65",
    "unit": "% a.a.",
-   "date": "05/11/2026",
+   "date": "06/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
    "id": "sgs-226",
    "label": "TR (diária)",
-   "value": "0,1695",
+   "value": "0,1487",
    "unit": "% a.m.",
-   "date": "05/11/2026",
+   "date": "06/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
