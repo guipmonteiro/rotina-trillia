@@ -1,16 +1,43 @@
 {
- "updatedAt": "2026-11-10T03:27:56.765684+00:00",
- "checkedAt": "2026-11-10T03:27:56.765684+00:00",
+ "updatedAt": "2026-11-10T16:59:36.750498+00:00",
+ "checkedAt": "2026-11-10T16:59:36.750498+00:00",
  "fontes": {
-  "Google Notícias": "ok (+23)",
+  "Google Notícias": "ok (+25)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
-  "Câmara": "ok (+0)",
+  "Câmara": "erro: https://dadosabertos.camara.leg.br/api/v2/proposicoes?keywords=financiamento+imobili%C3%A1… -> <urlopen error timed out> (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "ok (6)"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.4389/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Com crédito privado mais caro, Riva, da Direcional, deve priorizar Minha Casa, Minha Vida",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeUVZSzBNMklJWkRnaFlfTm8tVzJ4LVRobUx3dE9qM2MzZ2FoX3lhNW5XMWNQWUJQYXFqOVJPMzBiTTRMZHE0NjFraDQ4T0ZwVENoZmJWcS1sVEIwUFZON2pxMWtlVzdWU0diRExoWWlBUUlUblVGMnI3S3RKRjEzQy1BVFdCYmVjRl94Qk14cURBTUZDS2RPZUhDRHNVQXBRckpNNVliREJ6LTlRN0c4cDNwaE5QYjhMYjVqUjAyU0lTdw?oc=5",
+   "source": "Exame",
+   "date": "2026-11-10T15:47:50+00:00",
+   "summary": "",
+   "id": "cdfdd5b8c2947b",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Manutenção da Selic não reverte alta dos juros do crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQejdNMDQ2QTRNS0lWYTc3N0l3Ykd1QU82MDBGWDdhc0RFcDNjWkc3U3R1UFo4NWlSaUJDQ0NFWU5BU3oxUVk1Y1Z0VXZLVEo2dkJLckxkRHhSWHFVUGRJTFI4Ui1ULWxsN2l3VlhfWkMxUG42YUwzUDVLV0tFUlZSMGNHUXl6RGYtS05ranN0aE1uUG9ISEdvczV2aTZOd0s3V05BVEVzSHZWUDBkajllemxERjJURFE?oc=5",
+   "source": "Imobi Report",
+   "date": "2026-11-10T14:19:36+00:00",
+   "summary": "",
+   "id": "126d90d429cd92",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Alienação fiduciária de imóvel rural exige cautela e pode ameaçar patrimônio familiar, alerta advogado",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZzNNVUU3MkhoU0xocU9ZYkExNEtpNTNHX3phb09QcFNuSVlrTEtXSTRWcC1VWG5oRFJLdW1GS1lES3diT2p6S1UxeVlaRmJQNEc5MVpwd2pXallpbFFyNHpQRldrRDZyRy1qMGhEUksyWXpwcnhadXFJVmltLVE0UF9tX1dXaWlaUkM1UkxzOUpGYTNzMklmVTBNS2RzcVZDN3pxZVdYR2Z1V2gzNEEybEp6cnp3dWZlYVZ5dWFRRmR3cWVMcW9fMlI1ejhvLXZUVEJhLThwX1gyZDRMZWIxN2NyeGxzS1Q4VVNHRUhNU2ZPMmE0N1V0M1lOb1VJZlJoSEU3UTVMNEdRSUsybGlUbw?oc=5",
+   "source": "Portal do Agronegócio",
+   "date": "2026-11-10T13:35:00+00:00",
+   "summary": "",
+   "id": "65266df0477b6a",
+   "topic": "imoveis"
+  },
   {
    "title": "Tributação de LCI e LCA pode mudar estrutura de captação",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaXR0dm5WRXhOYnp4MXQtQWwtcndmemVVeDE5X1JuVE1FcTZFbDE1MWhzQjdGaUJXYUJUeTFMa0hMNWNfSS1CZXEwNE16bTNQWWZtbG9ESXhibFJDU3gya20wUW0yZ01IX1E1dTgxYnFYT2NjaTl1cUQtTTNuVWMtc3RKLU9fMDAwenRnN29tNUdkZ3RlY1Z1dTFNMURycXlyRVlqTU1B?oc=5",
@@ -1986,19 +2013,11 @@
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=13522"
   },
   {
-   "id": "sgs-4389",
-   "label": "CDI anualizado",
-   "value": "13,65",
-   "unit": "% a.a.",
-   "date": "06/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
-  },
-  {
    "id": "sgs-226",
    "label": "TR (diária)",
-   "value": "0,1487",
+   "value": "0,1693",
    "unit": "% a.m.",
-   "date": "06/11/2026",
+   "date": "09/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
