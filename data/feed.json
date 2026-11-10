@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-11-10T16:59:36.750498+00:00",
- "checkedAt": "2026-11-10T16:59:36.750498+00:00",
+ "updatedAt": "2026-11-10T23:12:11.114761+00:00",
+ "checkedAt": "2026-11-10T23:12:11.114761+00:00",
  "fontes": {
-  "Google Notícias": "ok (+25)",
+  "Google Notícias": "ok (+22)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
-  "Câmara": "erro: https://dadosabertos.camara.leg.br/api/v2/proposicoes?keywords=financiamento+imobili%C3%A1… -> <urlopen error timed out> (+0)",
+  "Câmara": "erro: https://dadosabertos.camara.leg.br/api/v2/proposicoes?keywords=gravame&dataApresentacaoIni… -> <urlopen error timed out> (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.4389/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "ok (6)"
  },
  "news": [
   {
@@ -2011,6 +2011,14 @@
    "unit": "%",
    "date": "01/09/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=13522"
+  },
+  {
+   "id": "sgs-4389",
+   "label": "CDI anualizado",
+   "value": "13,65",
+   "unit": "% a.a.",
+   "date": "09/11/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
    "id": "sgs-226",
