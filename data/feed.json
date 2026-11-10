@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-09T19:44:49.243444+00:00",
- "checkedAt": "2026-11-09T19:44:49.243444+00:00",
+ "updatedAt": "2026-11-10T03:27:56.765684+00:00",
+ "checkedAt": "2026-11-10T03:27:56.765684+00:00",
  "fontes": {
-  "Google Notícias": "ok (+27)",
+  "Google Notícias": "ok (+23)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -1297,6 +1297,15 @@
    "summary": "",
    "id": "228c5591233c31",
    "topic": "garantias"
+  },
+  {
+   "title": "R$ 207,9 mil a mais em juros: financiamento imobiliário de R$ 400 mil em 30 anos sai mais caro no Itaú do que na Caixa, pela taxa média do Banco Central",
+   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQSjk3cDZBOHotOWowOGR0Vi1KT1lkQXVJRkZKN0pRbVBIWkUydTVGMUpROVhQcG56U1Z6QzJCOFkyc1RzbnZFbDRybllNbDNvRXJfczhTX3BZTUdGUEVxT18yVU96UUdKTzMwZE5qeWw2dnRnaFNpZ09KTmNqcTR6M2Rxblh5ZWllSVpaZjFzWm1yc1I4TEZpTnFjYjQxaE44R2FQN3Utc2tGWVdyZDhMTHNSeEFsVTQxTjFBUDljRDNWQ2tMeWpibjBjZHRlMTMyV1doX3c2cm9yRml6QWt2RFpwLXN0ZlViXy0ydDdaRlZuTXBnaVkzNXVTRGVMamhLVk9qVlNKNGNXRWpwblozcGQxZ19DZ0ZULUl4TzhwOUI?oc=5",
+   "source": "CPG Click Petróleo e Gás",
+   "date": "2026-10-08T07:00:00+00:00",
+   "summary": "",
+   "id": "a178faffec2afd",
+   "topic": "imoveis"
   },
   {
    "title": "Detran corta acesso de revendas a emplacamento e transferência de veículos em MT",
