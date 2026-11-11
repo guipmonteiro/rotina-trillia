@@ -1,16 +1,106 @@
 {
- "updatedAt": "2026-11-10T23:12:11.114761+00:00",
- "checkedAt": "2026-11-10T23:12:11.114761+00:00",
+ "updatedAt": "2026-11-11T17:03:53.528522+00:00",
+ "checkedAt": "2026-11-11T17:03:53.528522+00:00",
  "fontes": {
-  "Google Notícias": "ok (+22)",
+  "Google Notícias": "ok (+34)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
-  "Câmara": "erro: https://dadosabertos.camara.leg.br/api/v2/proposicoes?keywords=gravame&dataApresentacaoIni… -> <urlopen error timed out> (+0)",
+  "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "ok (6)"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.20749/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "51º Encontro do Registro de Imóveis debate cidadania, inteligência artificial e autotutela registral",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcFJybjZqZ2JucWFhZ1hROVhvVDF4M0R0SXJnOWtPT0cza3gtX0ljNGFhVTV5bU5keXlIUFROc2lZTHk3R0FzMzNoWG05a0QzVVliUy0yM205cG5tOW1iT04xQThZMmxPZVZfaThjeTNHS0J3eFdwdW9sLW5sZV9iZkQwb3VrdnpuNUhqV2NYRHE3a29WZnc4VUpUOWxLYU8tRDU1WVpWY2NfbkVLTDM0Yy1WdThVVGMyN2kzWEpEZGQyU0FWTGttUXhwa2VfS0Jpb1Y4aW1BZTZKUDlvdVI4?oc=5",
+   "source": "tjse.jus.br",
+   "date": "2026-11-11T16:47:00+00:00",
+   "summary": "",
+   "id": "5c34a180d90913",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Banco BV e Zurich lançam proteção para vidros e pequenos reparos para veículos financiados com o banco",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaUxCQ3h4eTBvNWZiMktXdFFvNlIwY2tGZFZTUkVyU1hGcEs3VmFQenhmX0dLMXk0S3JkZXFZeUVuM2JGR3hFVVUtZXV1TUgxcUJTNzZ5ZnJhSlFTY3dhbW1waEtQTDczMzV4TEpJZ0tCRDdBYUlEMEYxQTg5ZWJDLWhob1gtcFdSXzBPMVNheTgtVEh0MjhiYVF5Z3hDUUVCLWF3V1ZmdTJwUVpWZ0hpRG9iakRaUjhkaGpwamNremNQMkJXUnFUODVMWQ?oc=5",
+   "source": "CQCS",
+   "date": "2026-11-11T15:39:32+00:00",
+   "summary": "",
+   "id": "032bbad7005aa3",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Hipotecas em Dubai chegam a AED 150,15 bi em 2026 com queda das vendas na planta - Notícias e Estatísticas",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdGJ1clUtMDVFbS1aQVZnckVOVFF3UDVUYkVWUHBOY0daLWM5cWJXVDhlX3o4RlFYU0s5SDdqbG15UnFheGp3LWdsTGNxTU9yNkNJeHZ0eUZ5YWN6MmFsYzlWdWMtX2xTV3pGcmIzS0hVV1dMM0NvTE1lMi1ybGdfQmxySi1wN0pkdlhTWnJTLUJDdkdEaWc?oc=5",
+   "source": "IndexBox",
+   "date": "2026-11-11T14:21:18+00:00",
+   "summary": "",
+   "id": "b3a9556db84580",
+   "topic": "garantias"
+  },
+  {
+   "title": "Sicredi Conexão oferece condições especiais para financiamento de veículos",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZEJfekxqaXpEMjhJTDM5MVgyWDdMc05jVERtS3Q5YTBqTXVqMXpfQkhoN1V1anZUcHlqRXNMakNCcm42UV9OMldPQnNaRDFmczZqQjh2dFlRMU9RZE1PeGd3RzVmOEFsazZXU0ZDbEswNExLM0dXUVV6WnBBRTFmU2lFdlpFamVKSzFzZDQxc1VScVRNZ2V5dFY2bDk2bDh3d0dDLTY5OXRET1ppQkR5dg?oc=5",
+   "source": "Grupo Chiru",
+   "date": "2026-11-11T14:19:58+00:00",
+   "summary": "",
+   "id": "d467b3457996e8",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Poupança do SBPE perde R$ 7,58 bilhões em outubro e completa cinco meses seguidos de saída líquida",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9nbUJaUHdXc1pzSnBaU29tTThoQmJreWRNT1E1RzhFYzdfcklEYXZaWFQ3a0lMb2lXZEpiLUFSbG1JdkI1bEdwWjBJM0hxZHcxV21JMlNVUS05OW5QU3RFRnBnWElWR1hNOUI4?oc=5",
+   "source": "portas.com.br",
+   "date": "2026-11-11T14:12:10+00:00",
+   "summary": "",
+   "id": "bca48fe1f03be0",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Pilar mira R$ 3 bi com novos fundos e crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM3Y4WUdBV1c3VHdVMzlrdU5QdElXUnpzcFNjMDJmeERsa1Z4SlQtNXNSUXdWelpldUhkT3dsWS1KaDJZSzZpVnZ3UEFTZFJxdGJsWXlpbkRJalN5ME0wM1J6NVBfWGFVWUdsc2lCUGNnQWpqanpiblljV2gteU1ua05aVXNnNllfLWR1VHZVYjZRZFRUTW5OUjloNng1T0pFeUdOWFJjMVp0Vks4b1E?oc=5",
+   "source": "Capital Aberto",
+   "date": "2026-11-11T13:00:00+00:00",
+   "summary": "",
+   "id": "b4d8f45733cd1e",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Sobem taxas do financiamento imobiliário: quando o comprador pode desistir da compra?",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNmRnSVpDOHNpY05EZERnMy14YUFsenNiZDE4V1h4M2lSNW95bUtaejBqR040NnR5T0UwYkVxY0R4eGFmQW9GWUtkN0hyLTRPeXd1aXI3NnBhNmVqSGhFMWlkRGNvVFcyMU10aUpwMzhDRXRTek5HTmVWNllRUHJ0clhCTlVhRTFLRUJjMGZDMHh2aEVkekJ1R0laYllwbFZjWDZOSUZHS0JFbDdlUi03ekljaVJ3UUZENUVneG9mU2ZHbHcxdmtaT3QzeGptRjBTNG9jOTUzQnctMXYyaUdhT2w5Z3o0QWc?oc=5",
+   "source": "Diário do Rio",
+   "date": "2026-11-11T12:00:00+00:00",
+   "summary": "",
+   "id": "bebc04dceb4f21",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Câmara aprova mudanças no financiamento habitacional para policiais",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWUZtdFpETWpfbUlHVTNmUkNEdnVTU3pBVFBsZHQtWFNTdG5zVlI1NFI1M0paeE00UW1xLWlZdlctTUlVdGlUSi15VEIydkhJcDBBcmhRYWlGTHlCcWdyN3dnRE56dHR4WU5mbmtJR1BqUEU0U2ptMGtnUTh4Q2YwVW5qU19BT2NsQ2ZrMUlGSk5LTUMwMUU3OXhjX3NjQjFk?oc=5",
+   "source": "deolhonacidade.net",
+   "date": "2026-11-11T09:34:06+00:00",
+   "summary": "",
+   "id": "0b3b20e171bc48",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Financiamento imobiliário mais caro pode atrasar o sonho da casa própria",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdUM2NUxESzR1QUFkeXZFRWRoZ2V0Ym1hd1pzbldBRURzMGxqTHFlZW1TR2poSTdidFdsSDVCbkNYOHZiS2xBRFNLT0RpOEpwZHMtaV9jTDVSWTFENG5VUUh2a0N4bXRTbmFkZ0gyek5qRGVhOC03aEZYVll6Y2ljYVBuMHNfNHRKczdudThCLXJNTDNaVnJfOXhOWnB2TGtMQ0ZUWjZtYkJfWHp1VktMemtIZU9Ccm80emdTOERTMnQwek5WOV95YWZrSGM5X0N1eXlZ?oc=5",
+   "source": "R7 Entretenimento",
+   "date": "2026-11-11T05:00:01+00:00",
+   "summary": "",
+   "id": "a9ef9c30a3c573",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Câmara aprova projeto que amplia crédito imobiliário no Habite Seguro",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcmQ1QW40MnBHaGNoV2xjYm92cEV0emowaHpocndGMDVQLTl4bTZtOFBIRTdDeWhWR0ZLVTV2aG1YSnhIY3NEb2ZUaU1SRlh3bWFCZmRnUjJfUUY2bGlLd2wzNVRTaVIyMnJnUWRUM2lnUGpvZk12SGVxazFpLVdOUFpsaVZlNG9wRFU1X3NHbXl2eVJiR0NSazZnQ0IwejNVY3E3LTJObHBYZw?oc=5",
+   "source": "conexaoes.com.br",
+   "date": "2026-11-11T00:57:00+00:00",
+   "summary": "",
+   "id": "456fa0e696358c",
+   "topic": "imoveis"
+  },
   {
    "title": "Com crédito privado mais caro, Riva, da Direcional, deve priorizar Minha Casa, Minha Vida",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeUVZSzBNMklJWkRnaFlfTm8tVzJ4LVRobUx3dE9qM2MzZ2FoX3lhNW5XMWNQWUJQYXFqOVJPMzBiTTRMZHE0NjFraDQ4T0ZwVENoZmJWcS1sVEIwUFZON2pxMWtlVzdWU0diRExoWWlBUUlUblVGMnI3S3RKRjEzQy1BVFdCYmVjRl94Qk14cURBTUZDS2RPZUhDRHNVQXBRckpNNVliREJ6LTlRN0c4cDNwaE5QYjhMYjVqUjAyU0lTdw?oc=5",
@@ -513,6 +603,15 @@
    "date": "2026-11-02T12:00:00+00:00",
    "summary": "",
    "id": "f48b4b402950a4",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Juros do financiamento imobiliário sobem e encarecem a compra da casa própria",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdHhNdGd2UlcwMlBCLW1RRE8tYnJiV2FvSGViY0Q0TWNpMDI1ZGVWeTh0dkZQdV9wVDc5aEZYc2NtUkt2ZW5kTjdKYTVmX3BCNExNbkF6MVBmOVVkSWgwUW9EY1FqSFdaNUJXdmYwSkNpb1NpUEt6amhWQk9VeWZ0TjREekdkaHc?oc=5",
+   "source": "Economic News Brasil",
+   "date": "2026-11-02T08:00:00+00:00",
+   "summary": "",
+   "id": "dd36d67373d84e",
    "topic": "imoveis"
   },
   {
@@ -2017,24 +2116,16 @@
    "label": "CDI anualizado",
    "value": "13,65",
    "unit": "% a.a.",
-   "date": "09/11/2026",
+   "date": "10/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
    "id": "sgs-226",
    "label": "TR (diária)",
-   "value": "0,1693",
+   "value": "0,1691",
    "unit": "% a.m.",
-   "date": "09/11/2026",
+   "date": "10/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
-  },
-  {
-   "id": "sgs-20749",
-   "label": "Juros PF – aquisição de veículos",
-   "value": "26,18",
-   "unit": "% a.a.",
-   "date": "01/09/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=20749"
   },
   {
    "id": "sgs-20772",
