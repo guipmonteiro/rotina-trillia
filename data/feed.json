@@ -1,16 +1,34 @@
 {
- "updatedAt": "2026-11-12T17:31:44.517667+00:00",
- "checkedAt": "2026-11-12T17:31:44.517667+00:00",
+ "updatedAt": "2026-11-12T23:31:05.533854+00:00",
+ "checkedAt": "2026-11-12T23:31:05.533854+00:00",
  "fontes": {
-  "Google Notícias": "ok (+26)",
+  "Google Notícias": "ok (+28)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.4389/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Bem de família em garantia: O Tema 1.261 e a alienação fiduciária",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQY3dFRHk4SXFHcHFuaUxzZ0ZrOFpyUzlMbDFhQXphWXgwS29HdFhiTmxoM0RxQ2h3VGt0YmJPNU9BUVZvUTRvRS1vU3hfS1k0cG5uN3ZRRlA1WmxpcHRJVGdpb1VoVzRfUkVTVHpOWE5HNXhpLXRaYnVRT2ZWSU5UVnQ2cktiMDBIMDdpTFR5Q2RUdU5ZRlptakNuTUJBdHAtOVZONzBjNzRsdw?oc=5",
+   "source": "Migalhas",
+   "date": "2026-11-12T20:20:34+00:00",
+   "summary": "",
+   "id": "c246bf36c89847",
+   "topic": "garantias"
+  },
+  {
+   "title": "Bitcoin observa hipotecas a 7,11% nos EUA",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5FdGN4VU9ua1lSVThrVHVncTUwUHVWRGhIcGYyNWlMTlZCdUZrT0RVM204T3djQzV4eThCOU9jbllYVk9COTVoMU9pMGotNDR4c1I0MTlTS2dUbmdMWVljVzFCbTB2ZDUtdWZZYzd5RTNfc28?oc=5",
+   "source": "Webitcoin",
+   "date": "2026-11-12T18:02:11+00:00",
+   "summary": "",
+   "id": "469bb8de52b286",
+   "topic": "garantias"
+  },
   {
    "title": "Consórcio x financiamento: quando a espera compensa",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdTlHMHJ5cS1iRDR4RG9vN3NRTXNUd0R3Wmd6RWlFWEhXSmdaS2FnbGlHeUZmZWlfNkRVSTZ6OXhNUWtlNVNDbWU4MjRXT2RnMkk0Ny1EMGNSYzlzYm9NSzgxNVUxdDh6Z09iUEVGSnJqX3ZxZnVXU29TWGtiQ3N1Q2NfSnpPRTFm?oc=5",
@@ -162,6 +180,15 @@
    "date": "2026-11-11T09:34:06+00:00",
    "summary": "",
    "id": "0b3b20e171bc48",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Rescisão imobiliária e alienação fiduciária no Tema 1.420 do STJ",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQc3dQV3dSaFBURFdxdC1xSGg4bC1aQ1ZEMHRncnlxOXNreTIxVk9iZ3VSbFI3V3VzRl94YTEwS3pWbEhCVldEYjV6dm9ZQW9JR1g4VmtDanJNQjRncXMyckE2djFTaVpFRzRBT1ROWVNmeWxSbDY3dXZQWVhKYzNhWEZOTG9tOVNJTjVWRWtTTWd0Ujg0SzRrR1NCYXQ1YW43cWxwSkFPYkNKcFhLMlBlTnUxWGFoM28yZXhCSkI0U3c2emNPTGhHbnViUWZIdnhRTFk5QmZXaE4?oc=5",
+   "source": "Migalhas",
+   "date": "2026-11-11T08:00:00+00:00",
+   "summary": "",
+   "id": "b75686c43c0e57",
    "topic": "imoveis"
   },
   {
@@ -705,6 +732,15 @@
    "topic": "imoveis"
   },
   {
+   "title": "Trillia é apoiadora Inovação Premium do CQCS Inovação 2026",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeURyUko5SkhWTDFrU2g2a1FTS2tvOV9wVHJpUzFDMWdsTlpqUkliUFNfWUR5Rm9OX1c4UC1BNFVTNERscHNaZkVUUk90bUJKNmJUR1B3alpKZnpZdkRxeUNJYXpoQWE4a3Q3Tkl3bnVmOUNPRFhqaG5sZ2FPZDVYMFlhdHRwU3A5UE1KUURnM0s?oc=5",
+   "source": "CQCS",
+   "date": "2026-11-01T07:00:00+00:00",
+   "summary": "",
+   "id": "63905eddc9f595",
+   "topic": "trillia"
+  },
+  {
    "title": "Bancos privados disputam crédito imobiliário com juros a partir de 11,69% e financiamento de até 90%",
    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNNEFEdkFVV1VmU3ZIelF1amVXdTBKQ215UUZBRE0tZjhscWxlb1J5alZxRDZmSm9tajBCV1Z6dElrclViOUFSX3FLQmE2X2FIeTJPSXFneF9WcHZVUkxGc1Q5Q1Y0WlB3ZU9PMk8tLVRDbkN0SjVnekpxVFZ4UUpqQVpPbzJ1RzBLbjVvV0ZxSnV0YVV6YkZZdmpHeXNWdWdyUXE3bjFtSXZhRzNXSEtkRHFIdzNhaExrUmZQcXRmaW9xcmFVTG15TlM5cng5ZENXN0d5UGMtV25vQU0xUTNhUTYycGNTNVQ2NDdJLWVR?oc=5",
    "source": "A Tribuna",
@@ -1224,6 +1260,15 @@
    "date": "2026-10-22T07:00:00+00:00",
    "summary": "",
    "id": "2200b37df3af0c",
+   "topic": "garantias"
+  },
+  {
+   "title": "Alienação fiduciária e limite de crédito: A excussão exige liquidez",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaUlSTHN3TTlYbWUtZUVCYmJKbjZsRUlOWWdVSnhzNmotU2l1Ym02NngtaFBWNGVpQlp5bXlGNkxELUFNOWs3dWJLWFBmQ1k2TU5TLVBJYXo2dVE1bGlTUmhCM0hYXzFkZUFFcXRwM1NMMGkxaWlOUkVZMVp0WllvSGlTajQ0UjRfUlpqOVRVRzI4bEk3U0JPQlVPaC1NQVJudmE3U0hzUkFwWFc3?oc=5",
+   "source": "Migalhas",
+   "date": "2026-10-22T07:00:00+00:00",
+   "summary": "",
+   "id": "553bb0afa2c3f9",
    "topic": "garantias"
   },
   {
@@ -2195,20 +2240,20 @@
  ],
  "indicadores": [
   {
-   "id": "sgs-432",
-   "label": "Selic (meta)",
-   "value": "13,75",
-   "unit": "% a.a.",
-   "date": "09/12/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
-  },
-  {
    "id": "sgs-13522",
    "label": "IPCA 12 meses",
    "value": "4,63",
    "unit": "%",
    "date": "01/10/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=13522"
+  },
+  {
+   "id": "sgs-4389",
+   "label": "CDI anualizado",
+   "value": "13,65",
+   "unit": "% a.a.",
+   "date": "11/11/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
    "id": "sgs-226",
