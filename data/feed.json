@@ -1,16 +1,52 @@
 {
- "updatedAt": "2026-11-12T00:32:27.667288+00:00",
- "checkedAt": "2026-11-12T00:32:27.667288+00:00",
+ "updatedAt": "2026-11-12T17:31:44.517667+00:00",
+ "checkedAt": "2026-11-12T17:31:44.517667+00:00",
  "fontes": {
-  "Google Notícias": "ok (+31)",
+  "Google Notícias": "ok (+26)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.4389/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Consórcio x financiamento: quando a espera compensa",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdTlHMHJ5cS1iRDR4RG9vN3NRTXNUd0R3Wmd6RWlFWEhXSmdaS2FnbGlHeUZmZWlfNkRVSTZ6OXhNUWtlNVNDbWU4MjRXT2RnMkk0Ny1EMGNSYzlzYm9NSzgxNVUxdDh6Z09iUEVGSnJqX3ZxZnVXU29TWGtiQ3N1Q2NfSnpPRTFm?oc=5",
+   "source": "SpaceMoney",
+   "date": "2026-11-12T16:19:41+00:00",
+   "summary": "",
+   "id": "c86555b579735e",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Hub010 lança Garagem010 e mira crédito para veículos novos",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNM3dYTjViQWNUNFRTajhQS2lrSWcyWndDYjlteXlrZXRmNlRRamJTWFF6bVJmZTFuVWd3YlBBZ0ZxX19zbFVzWngyWGpZR3JwNGREX25yU0c5Q1FYclA2RjJqQncya1prZXlGOVp2RG56Z3ZJQ3RXWnhEcWUzQlVvMG5vZU51ZDdDNHlGUHBST0Nhby1GMUlyRzVLZnlNZmtWYW9KWWVn?oc=5",
+   "source": "Transporte Moderno",
+   "date": "2026-11-12T15:40:33+00:00",
+   "summary": "",
+   "id": "5c4e27bfd42322",
+   "topic": "veiculos"
+  },
+  {
+   "title": "CDHU oferece renegociação de financiamento habitacional sem entrada em Guarulhos",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdUxYYWxvRVlqZjVHRHNuUWZhYWUybGVtZXV5dHp1TUJTQWZ2Wk4yQjhOTUdsVHUyYmFfdGxmX1F5b0lfRnVVUk5CU3ZLTVJXWUtJVGU5MDVpTzEwZlRrcFhhZ2FJYTloTFFQNlQwdFNMRndON2sxU2ZYZFA4Wk1wNk9iTHlSbjBKYkVkV0RIQnZqVTNjU3huTnBjMHpCMHNNeTkwa01NUkdXeFkxMDhoZjA1d3pINEk?oc=5",
+   "source": "Gazeta News Guarulhos",
+   "date": "2026-11-12T12:04:44+00:00",
+   "summary": "",
+   "id": "7e6dc736305e6b",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Sicredi Conexão oferece condições especiais para financiamento de veículos",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaEFPMjZBU21iM1cyTktEaVdRbGVXQWJlemlueDVfaW53YndMLVNaaF9IeHVKUm9oVjJycERaNkh1RV9vVUtlSk8ycHVRMlBRQjR0ZVhBbDR3TWtRZ2V2RmpsejZQTVVicGZ0TnFWSC1xVm9fSXY2MEtGajlEOFhZX2FibF91TnhBVU1ScmxiUFNkSjN5bFdsb244b0kwejh3ejhhQjM3Mlg2UEFrZDR1amN5aw?oc=5",
+   "source": "WH3",
+   "date": "2026-11-12T11:28:00+00:00",
+   "summary": "",
+   "id": "d467b3457996e8",
+   "topic": "veiculos"
+  },
   {
    "title": "Quem financia o setor imobiliário com a poupança em queda? Gestores de FIIs respondem",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYmkyVXJ6cU5QTXhEMXlycXJDaEdrcnRVc2plN1dRY2RLNTRKNi1WM1ZUQ2lHajRxeGo3MnR0WEd1T3h3Z3pwV1E5UEFQVVo3ZHhqb0RseDIxZ2FWTGxFbFZROG9hRWpXcV9TOHAyT3R2YXpIN21qRGk4X2U1SUZFcTFIMTVISlJPWEdPeURVcWR0Y3ZVZXRnbkZ2MWk3dmNNX293blFqd2Y3U28?oc=5",
@@ -72,15 +108,6 @@
    "date": "2026-11-11T15:39:32+00:00",
    "summary": "",
    "id": "032bbad7005aa3",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Sicredi Conexão promove ação com condições especiais para financiamento de veículos",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb0xNeHJ0MGdYb2pBSWNMSmdaSjVLUmNCRGp3VFo4MVV5VEpvWUFzZGc1MU9EU0oyR0I0WlhmTlBiaXM4akJOa0ZjOWx1UXFSM3BYamwyYVVYMTlOZkZweDZOV1hOVDBtYnoyeWNmWFhNbUs3Yko2YWljNk1MTEN5N2l3Z0JvQUhGWUpCQ05EcUZLQjRyc3lvb0FJeklwMUVkeTVQVU5QYnQ0bkVSZm1qWmN4dG9NMlhWQ18zQQ?oc=5",
-   "source": "Grupo Chiru",
-   "date": "2026-11-11T14:24:48+00:00",
-   "summary": "",
-   "id": "eb26eac4226a06",
    "topic": "veiculos"
   },
   {
@@ -1353,6 +1380,15 @@
    "topic": "garantias"
   },
   {
+   "title": "Consórcio imobiliário ganha espaço diante da valorização dos imóveis | SEGS Portal Nacional de Seguros,...",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYV85TkkyNHFOdERLcno2a1ZOd01hSG1XOTRqZUJHR1FWS3k0dm1GMmQ4c1NndjBQRGx4ZUhZelBDZGFWbHo2REtDbDlaVm9kdDBNbnBEYlhjZGtFQ3gyeFgwVWtCeFNILXAydmlPM2lHMWNSLVRiSXVtNVp5MlNsVERaN0diNUdvdGlxUEVjOXVDSHNCcUpEa2xNSEtsNTd3TkszVGZNX082M1HSAbABQVVfeXFMTjN2R2xjSnpGUExDeEJNdzYtQ2hnRGdVRGFIOU04ZmlPWkFBU3RUazFGQ1dmdjBwbFJlcDJOcDFGeGpVclJhQTNlM092Wkt6VkJNbGVCSUhXaVRDWnNWTkpqNklSeE9Pc0wzS2EyWWhyY1pNVGNXTE4zU3pLR1VyM3JzSmNqcUc5eWJEXzZBaTk1UzQwS21YOGkxY05qUWJvMFp5NTh3MXQ4aHNwWmV5dFg?oc=5",
+   "source": "SEGS Portal Nacional",
+   "date": "2026-10-15T07:00:00+00:00",
+   "summary": "",
+   "id": "9fda3a3371fce0",
+   "topic": "imoveis"
+  },
+  {
    "title": "Liminar impede empresa de oferecer renegociação de financiamento de veículos",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNThNdDE5M0ZCOEhXcExrUnJvek4zbU9NbkI2U3lDNTExVUhNQndJMk15M1BGSS1TZDFmR2txY2V6R2UyNkVOSlJDbTNxWUFRQ0dWVU44VGpXOGVhUEl6VktKY3lKQTRYNVI0MldabzExNWp0dnJVTVp3ZGUwX3RQb1pjR3dPUzVnUnFjckFFWHc1bmx0WGZnV3diQkJXZ1h0R2ZBeVdR?oc=5",
    "source": "oreporter.net",
@@ -1369,15 +1405,6 @@
    "summary": "",
    "id": "de26164aaa91db",
    "topic": "veiculos"
-  },
-  {
-   "title": "Consórcio imobiliário ganha espaço diante da alta dos preços dos imóveis | SEGS Portal Nacional de...",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV1F3ckhUVHpMTWFXdXNIODl5TWl6RWV4dVJTQjBQOWtDc3JhQUQ2LU1aTExsV3NiS084SE92cEsxTEprLWo5WmFTT0lrVTZlS1pJWFd1NzZ6UDhiRkZsdF9Zd2lwTjRUN2JjS2pncUxzbDRZWDJhTUFYVFF1cjlydVhPUWRBRUZ2WEg3VlBjV2VQM0JWN0N4cHR5RFBEdzdQWFBiSXVYbVFmNjZxM1EwONIBtgFBVV95cUxQYnBWZ3RELUxsem1kMUQzcmNPejhsUExnb0huNV9rWW9sNGtobllIM1JmVEg5VExUbmw0b1lHSFpQTjJCYVdvc0IyMGQzbGt0U2lYWTk1SktBejc5OExPNENkMXV4OVpBOTFSYWdIbVhoRF9uYWtCVHJNUy1hNHVJVDVRVk9ZVzVLMkFBcmxha2ZmY1M4ZFB5S2RUOV9VLWhGTm9GVFRGVWlEdFIzNFNYU2RVdzlUQQ?oc=5",
-   "source": "SEGS Portal Nacional",
-   "date": "2026-10-14T07:00:00+00:00",
-   "summary": "",
-   "id": "81700189b81383",
-   "topic": "imoveis"
   },
   {
    "title": "Santander oferece financiamento de veículos com juros a partir de 1,29% e viagem à Fórmula 1 na Inglaterra",
@@ -2178,18 +2205,18 @@
   {
    "id": "sgs-13522",
    "label": "IPCA 12 meses",
-   "value": "4,58",
+   "value": "4,63",
    "unit": "%",
-   "date": "01/09/2026",
+   "date": "01/10/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=13522"
   },
   {
-   "id": "sgs-4389",
-   "label": "CDI anualizado",
-   "value": "13,65",
-   "unit": "% a.a.",
-   "date": "10/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
+   "id": "sgs-226",
+   "label": "TR (diária)",
+   "value": "0,1691",
+   "unit": "% a.m.",
+   "date": "11/11/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
