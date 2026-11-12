@@ -1,16 +1,61 @@
 {
- "updatedAt": "2026-11-11T17:03:53.528522+00:00",
- "checkedAt": "2026-11-11T17:03:53.528522+00:00",
+ "updatedAt": "2026-11-12T00:32:27.667288+00:00",
+ "checkedAt": "2026-11-12T00:32:27.667288+00:00",
  "fontes": {
-  "Google Notícias": "ok (+34)",
+  "Google Notícias": "ok (+31)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.20749/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Quem financia o setor imobiliário com a poupança em queda? Gestores de FIIs respondem",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYmkyVXJ6cU5QTXhEMXlycXJDaEdrcnRVc2plN1dRY2RLNTRKNi1WM1ZUQ2lHajRxeGo3MnR0WEd1T3h3Z3pwV1E5UEFQVVo3ZHhqb0RseDIxZ2FWTGxFbFZROG9hRWpXcV9TOHAyT3R2YXpIN21qRGk4X2U1SUZFcTFIMTVISlJPWEdPeURVcWR0Y3ZVZXRnbkZ2MWk3dmNNX293blFqd2Y3U28?oc=5",
+   "source": "SECOVI-SP",
+   "date": "2026-11-11T22:04:12+00:00",
+   "summary": "",
+   "id": "9d3e8990ed2698",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Poupança do crédito imobiliário perde R$ 7,58 bilhões em outubro",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRVY4VmFzSlFabk56bjVWU1FLWUJ0QU83UFpjajBxQTRHTkVFWE9DbE1aYTJyT2pUSHUwbjNEZS1EZ3BJUk1NbGRpZXVKS095RG1DNWRTQ0FFcDd6YkZzOWxIcjd4SnpEckZaOTkydEhUWVJEZ0VPWVJKTE1MMGFhMkNLdW5TSnQxT0p6X1ZWWmNZR2VlVTlEanB3?oc=5",
+   "source": "Paraíba Business",
+   "date": "2026-11-11T22:00:00+00:00",
+   "summary": "",
+   "id": "e7ebe5c8fac16c",
+   "topic": "imoveis"
+  },
+  {
+   "title": "FIEB reúne Judiciário, mercado e setor produtivo para debater impactos do Marco Legal das Garantias",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNUTNsc3BWMXdGbVRORnFhWFpwOWdDcjhVNTd1aF8wUTg4MDVram82SEFtLUhMUHhFMGllZFZpZ0xMTVlNVndJMmhRYm4tSXd2RDJfWS1aT0pacU5UNmZ6R1NWRjIwQm5PMmhLaFZ0cUY1WWhxdEt2eTAxdFhjVTZlNEFpZnM1MEhpV2Y2NUF4Ykh2akNaUUo1bHM5Q2FqMXhhR2l0eFFIOWwzeGpkdHgwLWZfYndXVDFzMFlMbVdzc1h6RXBDUi00S0thNWl6V2l0N1RlbFZNeUl6bVk3SVFZWl9oSWNpUk9HV3E3Q2hwR3Bfa3l5THFZQnp0Rk8xOUV3cmc?oc=5",
+   "source": "Sistema FIEB",
+   "date": "2026-11-11T20:56:43+00:00",
+   "summary": "",
+   "id": "45fbf62b24d526",
+   "topic": "garantias"
+  },
+  {
+   "title": "IPCA de outubro pode indicar por quanto tempo financiamento imobiliário seguirá caro",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQVTRTVHlUc3NaNkhoNC0xNGNBSjlrNElCY3JjZ0VUaTA5ajVHcHlIM09pYWc0WC01YUlhSlNTa19nMTFCd1hKeC1ieXlFVDd4bXVyVjYxTmcyeE9FeW1JYW9rbG1jQ1dGWk52eGZHOEVrWnpKUnliUTdBcmxWTnhTTjRVSzZFNjFkck5vZGZUWnFoM2lFM284b2RxUk9QTFMtcDNuQVM4bWJ0eFlCYXFHZVRPNFl4ZXFoMy1mNnFiVjF3MThVdUE?oc=5",
+   "source": "Canal MyNews",
+   "date": "2026-11-11T19:12:00+00:00",
+   "summary": "",
+   "id": "5f5c4c4348a4c6",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Migração para a renda fixa pressiona a poupança e impulsiona a reestruturação do crédito imobiliário no Brasil",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSlBhOEZzaV9veV9zMm91cnVqOGctTlRvWjI5bGpZcmlaYlBoN3NMbEE3QVk4TTZZOEFWY3l3aTV4dFFrWnU4a0dhSUdvekJwa3RYTjVpWUFVbG9uMDd6SGRNVzJFeWZ0bl9KV2FiazRMa0hub3dBOGF3S2NRUDRCWkJMZVpVVkdyYzRaRGRhamZxUjBvMnNXN0hVYmIzZ3RnNWp4eXJrREpQVUNmMS1zYmFFYnpibFhqb0U4UXNiSzRqSkxqSjJGNEMxOGE4TEd4Um0tZElRWUg?oc=5",
+   "source": "Brasil Inovador",
+   "date": "2026-11-11T16:54:16+00:00",
+   "summary": "",
+   "id": "64da013ab0b0a6",
+   "topic": "imoveis"
+  },
   {
    "title": "51º Encontro do Registro de Imóveis debate cidadania, inteligência artificial e autotutela registral",
    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcFJybjZqZ2JucWFhZ1hROVhvVDF4M0R0SXJnOWtPT0cza3gtX0ljNGFhVTV5bU5keXlIUFROc2lZTHk3R0FzMzNoWG05a0QzVVliUy0yM205cG5tOW1iT04xQThZMmxPZVZfaThjeTNHS0J3eFdwdW9sLW5sZV9iZkQwb3VrdnpuNUhqV2NYRHE3a29WZnc4VUpUOWxLYU8tRDU1WVpWY2NfbkVLTDM0Yy1WdThVVGMyN2kzWEpEZGQyU0FWTGttUXhwa2VfS0Jpb1Y4aW1BZTZKUDlvdVI4?oc=5",
@@ -30,6 +75,15 @@
    "topic": "veiculos"
   },
   {
+   "title": "Sicredi Conexão promove ação com condições especiais para financiamento de veículos",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb0xNeHJ0MGdYb2pBSWNMSmdaSjVLUmNCRGp3VFo4MVV5VEpvWUFzZGc1MU9EU0oyR0I0WlhmTlBiaXM4akJOa0ZjOWx1UXFSM3BYamwyYVVYMTlOZkZweDZOV1hOVDBtYnoyeWNmWFhNbUs3Yko2YWljNk1MTEN5N2l3Z0JvQUhGWUpCQ05EcUZLQjRyc3lvb0FJeklwMUVkeTVQVU5QYnQ0bkVSZm1qWmN4dG9NMlhWQ18zQQ?oc=5",
+   "source": "Grupo Chiru",
+   "date": "2026-11-11T14:24:48+00:00",
+   "summary": "",
+   "id": "eb26eac4226a06",
+   "topic": "veiculos"
+  },
+  {
    "title": "Hipotecas em Dubai chegam a AED 150,15 bi em 2026 com queda das vendas na planta - Notícias e Estatísticas",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdGJ1clUtMDVFbS1aQVZnckVOVFF3UDVUYkVWUHBOY0daLWM5cWJXVDhlX3o4RlFYU0s5SDdqbG15UnFheGp3LWdsTGNxTU9yNkNJeHZ0eUZ5YWN6MmFsYzlWdWMtX2xTV3pGcmIzS0hVV1dMM0NvTE1lMi1ybGdfQmxySi1wN0pkdlhTWnJTLUJDdkdEaWc?oc=5",
    "source": "IndexBox",
@@ -37,15 +91,6 @@
    "summary": "",
    "id": "b3a9556db84580",
    "topic": "garantias"
-  },
-  {
-   "title": "Sicredi Conexão oferece condições especiais para financiamento de veículos",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZEJfekxqaXpEMjhJTDM5MVgyWDdMc05jVERtS3Q5YTBqTXVqMXpfQkhoN1V1anZUcHlqRXNMakNCcm42UV9OMldPQnNaRDFmczZqQjh2dFlRMU9RZE1PeGd3RzVmOEFsazZXU0ZDbEswNExLM0dXUVV6WnBBRTFmU2lFdlpFamVKSzFzZDQxc1VScVRNZ2V5dFY2bDk2bDh3d0dDLTY5OXRET1ppQkR5dg?oc=5",
-   "source": "Grupo Chiru",
-   "date": "2026-11-11T14:19:58+00:00",
-   "summary": "",
-   "id": "d467b3457996e8",
-   "topic": "veiculos"
   },
   {
    "title": "Poupança do SBPE perde R$ 7,58 bilhões em outubro e completa cinco meses seguidos de saída líquida",
@@ -63,6 +108,15 @@
    "date": "2026-11-11T13:00:00+00:00",
    "summary": "",
    "id": "b4d8f45733cd1e",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Financiamento imobiliário nos EUA volta a 7,30%",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVGNyRi1tUE9meE5DSDZUY2N0cjkwTE50M2ZDNHBacVNzR2MyWENxTUYxYy1ZN1NSMWQ4TGpfcG5IMWZqLU53UWR6c3FlV0ZEbGhObF9QY0VlUk9OWjgxZ1ZzSjBoV1l5TTM2cTMyZENhUEZ1aTFhT0ZqcFgyalhKa2tTYTF3WGhjU0kzeFZobVk?oc=5",
+   "source": "SpaceMoney",
+   "date": "2026-11-11T12:48:50+00:00",
+   "summary": "",
+   "id": "7d1c90c427c13e",
    "topic": "imoveis"
   },
   {
@@ -127,6 +181,15 @@
    "summary": "",
    "id": "65266df0477b6a",
    "topic": "imoveis"
+  },
+  {
+   "title": "Solfácil inaugura ponto físico no Shopping Aricanduva para financiamento de veículos elétricos e híbridos",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWk1vSTdMYi1ibUgzTTVxOWZTLVl4UjBVTTRVS1NIM2E1dEZ5aTJOdzEyeUVsZ1BVYVpfV0FCZkhINWZ2LWNaNHhHUXNGakQtR1hqSkp0dmhEVURUaHc3b2xSNldsWEdRdWJlV0hvc2czMmNydXdSb1VyZEpjREhMYkVhZW1jQmlVMmVWa05kX1FyUmhfS3piZVhhMA?oc=5",
+   "source": "Mobilidade Sampa",
+   "date": "2026-11-10T11:52:14+00:00",
+   "summary": "",
+   "id": "2d561d27040de9",
+   "topic": "veiculos"
   },
   {
    "title": "Tributação de LCI e LCA pode mudar estrutura de captação",
@@ -846,6 +909,15 @@
    "date": "2026-10-29T13:39:39+00:00",
    "summary": "",
    "id": "36ad76b257add9",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Governo moderniza sistema de crédito e amplia recursos da poupança para habitação",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOG1SZy1YYm4yWXEyQUtUbHJmXzlVVGZ0MDJLcS13ekViaFo3NmRfaVNNQnhpWVdUdWdaQXNzRkM4VG1qOG9RWWhLN1lhYXZTR3kzWXdkRWh3QnZDU1phZ1Jhd0xHZEpZdVBYaVVyMjREWFdtNC10eVZWelFWQUNmdHVTbUpGWU9ZYm1RZDdUN1pxMk5YVzZ6b3lZZzhXSHlZWWJiUVh3cFFmOXhySTdPRC04cjd5Vy1jaFYyNDlIRDNVZW8?oc=5",
+   "source": "Diário da Guanabara",
+   "date": "2026-10-29T05:47:30+00:00",
+   "summary": "",
+   "id": "b9073086d3b6ee",
    "topic": "imoveis"
   },
   {
@@ -2120,12 +2192,12 @@
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
-   "id": "sgs-226",
-   "label": "TR (diária)",
-   "value": "0,1691",
-   "unit": "% a.m.",
-   "date": "10/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
+   "id": "sgs-20749",
+   "label": "Juros PF – aquisição de veículos",
+   "value": "26,18",
+   "unit": "% a.a.",
+   "date": "01/09/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=20749"
   },
   {
    "id": "sgs-20772",
