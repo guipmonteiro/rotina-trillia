@@ -1,23 +1,113 @@
 {
- "updatedAt": "2026-11-13T17:08:19.501204+00:00",
- "checkedAt": "2026-11-13T17:08:19.501204+00:00",
+ "updatedAt": "2026-11-13T23:28:39.373353+00:00",
+ "checkedAt": "2026-11-13T23:28:39.373353+00:00",
  "fontes": {
-  "Google Notícias": "ok (+30)",
+  "Google Notícias": "ok (+46)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
-  "Senado": "ok (+0)",
+  "Senado": "erro: https://legis.senado.leg.br/dadosabertos/materia/pesquisa/lista?palavraChave=financiamento… -> HTTP Error 400: Bad Request (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "ok (6)"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
   {
-   "title": "A Caixa Econômica Federal estuda reajustar a taxa de juros do crédito imobiliário, segundo informação da vice-presidente de Habitação, Inês Magalhães, divulgada pelo jornal Valor Econômico. Ela afirmou que o banco ainda está fechando o orçamento de",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWZ3Rkcjg5Y2hBcFI3b3lBdG1JUXU0blhhNWw0YS1EM3VPdE1OcXpWY3o2YkhyY1hJOUVDbmYwOF9NOFJucHN1VFJOZjQ4djMyazdnN0J3?oc=5",
-   "source": "Instagram",
-   "date": "2026-11-13T16:17:15+00:00",
+   "title": "Caixa contrata R$ 72,5 bilhões em crédito imobiliário no trimestre e avalia subir juros",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaEFIRWwweDNEWWwySHlIRlBGNDdud3Z4YXRhd1hOQkZCTnF0czJRT01xR0J3MXctSGZyYkNJSVc0OXkxdXU1dVMwUkZoT3JkT2hGckF5dXFtcFlxVDVtWXBaWDAtWGFldGV5Z0NhX2UwcEtXcWdqeUgwcjZwS0dSZXJvWldkVHJXeHo0?oc=5",
+   "source": "portas.com.br",
+   "date": "2026-11-13T22:37:40+00:00",
    "summary": "",
-   "id": "e2930059879e17",
+   "id": "d7260c8f12baec",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Caixa admite que estuda aumentar juros do financiamento da casa própria",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMDlPVWJCeDN0bW1lLWFQSEp4QUxtel9sMl9BejJQbVJjc2NVUmtPRmQ0WGVZc0tXb3ZseGFQZ000dmNUaTZJcGFBQkF3Yk5HNER6OWd1dWhhVnB3cklKQXlObXhkZXNZZEhlUkRFa0g5TVdYRUtjRzRuZDY1ZmxqSFkyX0J4XzA3aUNnajZVUXZldHNlM3YtaXk4N2gtLVFsTGp5Yk5mNjA5RnPSAbABQVVfeXFMTnp3V3FvVVBHQXNTNkY3VGRtSVJNck5PcExheXhfZVctcU5jNmFVZkkwdHAxVXFodUx5RnQ4enZ4OU1BTkpOTU9ZMzJyQlk2NEZBUVdmbTBfRzRHMHAyX3NGeHdZNFZ6OGVmRW1IMjRBOEMxQjd6UDU3UUtfLTFXYnNrbE9SdXk5WTl2S2tWSXd1ZjRwUFprZXNWVDFneFF1WlpHTGhMeklBRkFSblBBTUc?oc=5",
+   "source": "Banda B",
+   "date": "2026-11-13T22:35:00+00:00",
+   "summary": "",
+   "id": "dd1cfccfada7a3",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Vai financiar a casa própria? Caixa avalia aumentar juros do crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQT1NjUlJVbHpsSmVaV05DV3A0QkFhSzJuaVFOWE1BOUJ4bVBDOV9QejJydmdiVGIxWEhpWW9jSGRvaC1ia29ENk5VUG1SMDFnaHhpMGEyaXZpWTBvMGMza3FTS01IMG1VS2pPX2lVOTZLMEd4eExUWU1pZUJBeW5SWVZCLWxkdERvQm9mMk92NHpibGUzWFVaOFQ2bkpFZHczRTFjV2hYUHEwTVhCN3E5REpic0dBc0RHbF9tcDFIMzJhblAwSDVYdl9ZYUdvYXFmS1lMd2pR?oc=5",
+   "source": "Portal N10",
+   "date": "2026-11-13T22:04:18+00:00",
+   "summary": "",
+   "id": "2d8cd85218ece5",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Trillia, da B3, leva mais de 20 empresas do mercado financeiro ao Rec’n’Play",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNU082UFBTeFpmMk5CUlJpTWVYTXhRSmlyZGJ2bjZQU0lvUlp0b3M0VUU5UW5zcnI3Q29nQTR5Q2p1QWY3SWpUNHd3dGYybUk0Z1JRSnMwaE5VV0NJRF9ZeURoeVVuTTVQdEswRk1KTFREWklZLXNHbnFWMnhGb3N5dVQ3OTJKQW1ZYWlHYjY4TmdEM3ZTdWREYVd6MU9mZkZXbUl1TU9GNVdiMlpyN1o3Q2c4WDZqVFNGVXQxeXBMUV9iSHgyVmN6TEt2bEZfX3E0aTJNNGhHamx2Q0dWQTBV?oc=5",
+   "source": "Movimento Econômico",
+   "date": "2026-11-13T21:13:18+00:00",
+   "summary": "",
+   "id": "631fca9fc2952e",
+   "topic": "trillia"
+  },
+  {
+   "title": "Brasileiros nos EUA podem economizar com ampliação de programa de refinanciamento imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPM01HYlF1WGNyU1gzX1F3UlF4c01QSzVYaGsyWVhoSThSZFpMUzMyV240ZS1CanNkMzF3b1BYTTJVSk1PV1k4dFo5dnNnR2xKYU5IYy1ucjRIMGRfZGl5ZjU4cHlhdU9Tc2hmU3FVNG9fYjlmN1FETDlyb3F0SVk4RXZDOVFDRHhTdW9mcE1jSElRU3hraWhZcGl4Tm4yaEo1RW8za0lGY3FzMkVQOFppUXI1MUxCUVM1X3FoSjZsSmFEU2E5dl9PbTAzdmlQdnpncDd3b0M5RFFUZHVTcmhSSHBBcjFRVVBIYmpsUHpZVQ?oc=5",
+   "source": "Jornal de Brasília",
+   "date": "2026-11-13T20:58:03+00:00",
+   "summary": "",
+   "id": "cfc4a203cab8ab",
+   "topic": "imoveis"
+  },
+  {
+   "title": "A Selic alta bateu? Caixa estuda aumentar juros no financiamento imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSWQyQ0pDOVM3NUh3Yks1WV9xYjBCY2dxN2NEbFdEcm9hUW5pN0xoeGlFZXhxTWxhdlllNWZNWXlMSUwzdmVDVFhSbGdFUTE3cUxZZ1NfNU1qU2VXRWM3SVh4dkc1V193Y19VMVhKbERjQzctMk9fbDc5NVk5d1J6cEJqVUdqejA4OWNGWW5BQi02YkVyenpRUll1ZmpHWTA2MHduZ04za29zeFFfaGlnQkdsQjctcF90T2RpVnJsdElUVUFxVWJFSVAyZlU?oc=5",
+   "source": "Seu Dinheiro",
+   "date": "2026-11-13T20:25:12+00:00",
+   "summary": "",
+   "id": "8529a407cdef88",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Caixa estuda reajuste dos juros no financiamento imobiliário, diz executiva do banco",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPY01yNVN1UHU3aGJ1YW9SMGdJMHRvU292WnY3YVJsbXZxaXQ5V0xIU2pXYVlET2E0dVN5UURJVnREU1h3ZmNIck14b1NXa2gwOGlBVGhhU09jWGFheW42S0RBYWs5TDZzTzFqMDFSLVIxb1k5RVNCbEgxQ2FPRC1XUFlVcWVsdVc2RTk2UnRXUV9rUmRpNDJPczJGdnhKNUdENzhBVU1EWTJZVXhyc3pGcWotUHJ3TXFhTk9KSkpGMHZoQ2Iz?oc=5",
+   "source": "R7",
+   "date": "2026-11-13T20:10:35+00:00",
+   "summary": "",
+   "id": "dcb528da517560",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Caixa avalia aumento dos juros no financiamento imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMTZYamxvQVh2b2k0R0lpYzE1dFFjTFpfd29NdG5MR3k3cDZpb3ZWdXdoVjRrOWRfdzg5UG1uVzZndFJfWlZYRVZZaFNuMDBIR2dVbktZbEpTNUdvVkFWQjc4VDdzTHFKLUFSS0dCTXNEbmJtUFZFTUw0LWt6aHZfZHpoR3V1RlF3ZlBUQXVhRE9XZXN3S3pXX01n?oc=5",
+   "source": "Times Brasil | CNBC",
+   "date": "2026-11-13T19:43:00+00:00",
+   "summary": "",
+   "id": "68d53384951d0b",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Caixa ultrapassa R$ 1 trilhão em crédito imobiliário no governo Lula e vê lucro crescer 40%",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOckJzNzZfX1ZlY1VqNzE4aGNubzVYWVhNd09uNkphU19kU19vWnBwVzdDMEtKYk5Vczc2UWczWW9LZVBaVGExQm1mZFRpSU05Zi1ZSVV5ejIzYlc0aEFvLTM5V3RWbE1qYlFyWFp6ZlJSam9JNzdWc2w0RC1VamtNUVRzcw?oc=5",
+   "source": "Revista Fórum",
+   "date": "2026-11-13T19:30:03+00:00",
+   "summary": "",
+   "id": "91f2656b3637dc",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Caixa estuda reajustar juros do financiamento imobiliário, diz vice-presidente de Habitação",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMk1LeUx1Y1VsT1FDYUNuREY2MlVRcENDTzJQZDFwTFNXRnp2cFl6aF9FUU5zUU1valdrNGVfSWpmTG11QmZPaXpmZU5WaGlhUGVpbmVUakJBeFludVJoOUsxR19tQmhjb2pnWUNBWnFjcFlHLVlqZlJkZWlCNG16R3BtamtMbFBXbFg2eQ?oc=5",
+   "source": "A Crítica de Campo Grande",
+   "date": "2026-11-13T19:16:00+00:00",
+   "summary": "",
+   "id": "2b7fdf395d18e4",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Caixa pode aumentar juros no financiamento imobiliário, afirma Inês Magalhães",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMkFrdlkxZHBfNTdpQURmSmZjdzBWb1R0SXhzUTA4aE9UejFvV1FDR3VfME9ma3dtTjlxdV8wUFg4eEhBNkRQMC1QM2QxdWVtdmtyOWMxV3dsMXM0eFBnNFg1NGcxUWdibTNUbEpJeno3bFRfU0l0Y0lLMENLZS1TbjJuejhJbTZDNzZFNFdCdTV1WnZPdGNWSWNwejN5RUg4cnBhejhKbEo5X1RqQjE4OUF6WTFDNW1KVWhTc0hLcW9nVi1GdDRZakMyUHdVbGMxUXc?oc=5",
+   "source": "Tribuna do Sertão",
+   "date": "2026-11-13T19:16:00+00:00",
+   "summary": "",
+   "id": "ef02cfc9158a18",
    "topic": "imoveis"
   },
   {
@@ -1900,96 +1990,6 @@
    "summary": "",
    "id": "f0b4bb90c1d9d4",
    "topic": "imoveis"
-  },
-  {
-   "title": "Crédito imobiliário cresce 46,6% em agosto e soma R$ 132,5 bilhões no ano",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZzBwa1NOZzVIdjZBbHVQTTVBUnhFNlhGWVZ4bzJUVXlndFQ5dzl5VFR6N3FoZmQtMkdJLVNKaXYtTk9FM0d5Y2VkQ0I0RjZzbFhrY0owTTJGNk11RFF1NC0xUnlmZlJGYVFUZ2tLYjZ0Mi1xMjQ1eG5WTW1vMTRZR25yQkdta09sV185bjhMd1dOSmhmMXBqX2lyS25kQ3ctaDI0?oc=5",
-   "source": "Paraíba Business",
-   "date": "2026-09-30T07:00:00+00:00",
-   "summary": "",
-   "id": "512d6847a9ba22",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Crédito imobiliário ganha novas fontes no ES; confira",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5PZ0c4alB1NnI4M283WTc0MTE5UC1WTnNYUEZEXzdxdW1UQ3o0Rmc3TFg1Q0JRYWVzY3Nrd3Fka2d3Q2l5YzhaWXdpNkctNFRLQWU2UFp1Z2VEc2x1Vy00NEU1OXZXZGFZSEpQNDNYMldRVGJiS1p4Vg?oc=5",
-   "source": "ES Brasil",
-   "date": "2026-09-29T07:00:00+00:00",
-   "summary": "",
-   "id": "53a8bebb428548",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Cresol oferece financiamento de veículos para taxistas e motoristas de aplicativo em Camaquã",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSWZKVXJGVEZETUNSZXprMUJacGtDaE5jYW1VUGVfbGY3ZGpLZjJQUUtIREJfQ2JTWk9jNXdqZzhzbWY5VFowZ1oxRERlOHItRnA3RGhlYWF0ZGhyNUJEUHVtSUFCckpSbVpkSHJCNEpBXzh2RzVlSmJNSml3b2pYZzAzNFFQRHFjaGV3SWx5T0xPbDM4dGl1RFZ0MHFmUU9JZ1pwbjJEZ2dkSDZKTHZLRXVDdnF4ZnlCUkhkNncwVW4?oc=5",
-   "source": "Clic Camaquã",
-   "date": "2026-09-28T07:00:00+00:00",
-   "summary": "",
-   "id": "e6b6449dfe1af9",
-   "topic": "veiculos"
-  },
-  {
-   "title": "RENAVE torna-se obrigatório nacionalmente. Saiba o que muda para lojistas e consumidores",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTzVIZ3hJMWZQb2RGazNXTzdoTzZHTk9PZzVwXzNZSjJxNDc5UW1UQXNhVmtsVjQwNWVaZ3FMOGUwUG9DYU56TFJZbG1JUFA2Y2FOaEYyQXNydWZOa1lyVXBMMlRJUURHY1lVSmRsUGVMVmFUbTRVdjRseGV0dGVhb1RhaFhMU2ZkeDVBWG40aEdkdGhJV1VubVFrVndMMDJfZHRyc1JPbmdkN3VTRHRGSFRXbW1aT1daX0IzY0VyRVNiUG1JdVFkOEp0MlQ4UdIB0wFBVV95cUxNM3JTcVdDUGlHUzVCUXpuN1laOFRPeEFyQnNWTWNKNnRTaFFrZjVqSHNKbGVCeFJuQ1lMVDhPUVBmYjBlU2tCbzRkX0taVGJLdkdJR3NaYjh6M2FFSGN4dnJWQ3B6SVVKakdkMms2UERLS1Z6dWM2bXo0R1RPV09QNDVuVnljZzM4YWJIc1JNZFBjbVpuRi1Ka1BqYTJiV29nRURLd1ZLU0xBM2NMVGRkdVk1dWZ3QWM1R3hyZGYybmJrWXN1S3JPZVdUVHp2NjRnS1Jz?oc=5",
-   "source": "Portal do Trânsito",
-   "date": "2026-09-28T07:00:00+00:00",
-   "summary": "",
-   "id": "8a11819b39cc6b",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Fundador de empresa de crédito imobiliário põe culpa em banco por colapso",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNd0xTOHdOTFM5d1RzUjFMV1RRYVdhUG5PN3BYMGNjR2QwLVd6eWItN2FDXzNySnNfRXVDXzg1N1JEXzlhd0lrR3kzTWh5M3pieWV1di1TTjBuRUdta2hxUkJCTEZZd2UzQVNfSlFTRl9DZDl4RFhhVmJjVlBmandIVlhzLTF3MTd3NmU0bVBrWGNCX19LOTI5T2s3Mi1ITW1yc3B3NjREWnlyZVN3NmtmUWNDZE9GTF9DaVZPeE1jMHFfbUoyTTliWEVrd3V5Z9IB3AFBVV95cUxNem5pR0Y2Y2poSHJiMDFFVU4tUEFqS245cHdoR1o0VUtuanZQLXJFdjhqUWtfUWNucHV3cmt1YUo5NTFFeVVuR1hjOVRFQmZEdlFwVjZUbUtldGkwbnJ6U1FaZzZ2QktSYWExRVE3X3lUcUpMM3d3UElvUHhXVnRQbTBFQjV6VUhsUTB6Wi1NakEzbFNNR3RXNlBGZ1JrdUNndkdfaUtONE1HS2VTYldmLTgwV2hCVkJacmxUS0FlZFRDX05SN0h0a0dCM1FMajg4bG9rWTZEUnFJVVV4?oc=5",
-   "source": "Valor Econômico",
-   "date": "2026-09-28T07:00:00+00:00",
-   "summary": "",
-   "id": "8bf0536c033755",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Financiamento de veículos bate recorde em agosto e alcança maior volume em 15 anos",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPamJJYmFyY0NubmY0bHBvRmxBOFhaS3NhSkpfNFV2SnEyaUQ0SlRzZ1hUdEtkLXRxa05BWDlJa3VDdU9hUjU0aFVESS1Ra19BTEF5NENBZFZHTEg4MDNnb0dfZ1NiTjRJM0xYamc1cjdXd2N4S0ZxSnZsZXlYSGFIbTNhRGc4TEZHUWdXSHczdWdxeWR6RTFyTEJNM2t1a0d5czJoemlzSXlTMThHMXBPeGVmVVROblVOcUc3NUJabmNmMnY1bkdEYWgydDBlbTMyc2JNSGlsTlQ?oc=5",
-   "source": "O POVO",
-   "date": "2026-09-24T07:00:00+00:00",
-   "summary": "",
-   "id": "0f8f24c3fec58a",
-   "topic": "veiculos"
-  },
-  {
-   "title": "RENAVE agora é obrigatório: o que muda na compra e venda de carros",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONktQY2U4MVpYSjRLSWc1VDZmQS1oaHZZQ2tfb1dfYVU5STlIb1ZuSWp5ZGxBcUdOLWhPWTFMb0w0NkVURGpSNm1tMG44djRPd2d0aURGQ2pORGU3WXZjUGl2RWhzUV9sdnZoNDdvUWJPWUM3Zk9FSVQ0MEFfRFNlYjA4WDRVZHhxZlVHS2JyNUZKeEJSR3BQbWdJTTIySWhkdThoNU10ZmVBV0JmeVJHVjRfOHJHTURxS0E?oc=5",
-   "source": "Vrum",
-   "date": "2026-09-23T07:00:00+00:00",
-   "summary": "",
-   "id": "8cf82e6e97419a",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Financiamento de carros dispara e tem maior volume em 15 anos, apesar de juros altos",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQS2JRR1ZpYzZjVEhkQTZ1d3RMZGwtRTlHcHlCRW92d3dfVUVjOXZvcUl4U285TGluS1B0aXJiZWlvOVFRWkgzdjItcEVGZmN0UnJXTjZUSnBVd09hbVhuanBXTWZBTXFucmFnR3A0b3ZicUZ1TmRPVUtQbkRFRFlCaHR4aUFKNk9QbUhsNjRiQU51TnMwTTFHYkx2OWtHNHRLb0ZBUnMzcEJNQ0M3LVdYcEVHclc0SFU4Wm12cEdFdE9JTkZkOGNEbkkyUVQzZC01cGhGcm9CdDBTZjREWmp6Ym50R0dRYkhFTUpWb3YyNDdJUENKRncw0gGGAkFVX3lxTE1Ddmt5RmU1a2xTd1FvOG82WjRuVUVkTGFDRWRIY1FaWXhCYkdCSXhCUUJLOXNYSFlIMkZwNE1OVlB6YVhDWWZLSmlJT1d5RmtfanpBbXJSQTJVTEhWc3lJY3JhcVI4Y1ZGN1FzUWxVSjBiLUdyakVwVjI0TkhqUWRIYmJOTUhsNUphYUpNdldGOGVzY3dxcHQtRkp5VWd1dFdjODJ0RmRBZ3YtZmdUY0hFOWlCZGNwbVRtLUdIY2lYWm9Bd2tEbC1sdC1JdXZkeHN1WkF4QThOTFVybXY4SWRXV082RWtadDRtTHVwVkdILTVWQy1xUzFkZjBsZHZnaDVLV0dUUXc?oc=5",
-   "source": "Valor Investe",
-   "date": "2026-09-22T07:00:00+00:00",
-   "summary": "",
-   "id": "28258eaae0ca45",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Financiamento de veículos cresce 10% em agosto, aponta B3",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPb0tDdF9DTTA5Rm5helZhS2xqQjd5MnVNcUJZVWJIcy1aS1hBS0w4OTlOT09EOG1LeDhvc2NwdmhjOFQ2cnBsSHhWekNxZWVRYmVRY1lZZmhOLVotTUVsYm9NTm9hcXBtY3JFZ2FwdWpPVkxQS1FWN2lNbk05MGp4dEdRZGNBMkhkczByb19lZzlFWGVhMU94WDlhY1EzUThWaUNXV2JKYjd5eE5udFczZGlVaXl2aHBnWXhnczZtc3EzZFpLNjgwS0NGMNIB2gFBVV95cUxPenptb1lOcFlhTmFxZFJQY1dKRUpvdjJiNE0zUmRzbWNRNTVweDhlMlRFT0pGejZONnhKSGJrS2x3NXQ0OEF3QWN6N2w2THZ0dGoyUkZqZl9VUjljcEJVLUlzeUN3TlBaX2dQNTVIUXpUS01MWUpvVDM5bHlRZklsa1loR05GQVpiYld4bkpsMFBaeUxnbUJIWVU2SEpNR3ZENEhxRWNjS3duYUswSTRZeFZVVkE0dTlyRGdYN1JKVTVCTU9weTN0VnR6U1hXUmRlN3BHWjF6OEc3UQ?oc=5",
-   "source": "Valor Econômico",
-   "date": "2026-09-22T07:00:00+00:00",
-   "summary": "",
-   "id": "3b99a396b2cf3e",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Financiamento de veículos tem melhor mês de agosto desde 2011",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSXYzT193OEd4MklvaXFLR2JheU9CQkN0QkdmSWxfZVFnWE5DVE1tZ0dfWURMUmxuNFNBeXB6cm1MYmxMV2t5MVBKeTYwTkx0TXNmTWgtYkV1QzhQNXNRV1FmNDdvRUtRcFFqSTJ6OFJRejJfN053V041c09YMkpoY0YyRHJuSVJ0M3RSWG1mV1NhU1lLWVRoU1BSOA?oc=5",
-   "source": "viva.com.br",
-   "date": "2026-09-22T07:00:00+00:00",
-   "summary": "",
-   "id": "bb994b009cecbf",
-   "topic": "veiculos"
   }
  ],
  "normas": [
@@ -2271,14 +2271,6 @@
    "unit": "% a.a.",
    "date": "12/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
-  },
-  {
-   "id": "sgs-226",
-   "label": "TR (diária)",
-   "value": "0,1691",
-   "unit": "% a.m.",
-   "date": "12/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
