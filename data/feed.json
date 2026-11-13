@@ -1,16 +1,70 @@
 {
- "updatedAt": "2026-11-12T23:31:05.533854+00:00",
- "checkedAt": "2026-11-12T23:31:05.533854+00:00",
+ "updatedAt": "2026-11-13T17:08:19.501204+00:00",
+ "checkedAt": "2026-11-13T17:08:19.501204+00:00",
  "fontes": {
-  "Google Notícias": "ok (+28)",
+  "Google Notícias": "ok (+30)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "A Caixa Econômica Federal estuda reajustar a taxa de juros do crédito imobiliário, segundo informação da vice-presidente de Habitação, Inês Magalhães, divulgada pelo jornal Valor Econômico. Ela afirmou que o banco ainda está fechando o orçamento de",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWZ3Rkcjg5Y2hBcFI3b3lBdG1JUXU0blhhNWw0YS1EM3VPdE1OcXpWY3o2YkhyY1hJOUVDbmYwOF9NOFJucHN1VFJOZjQ4djMyazdnN0J3?oc=5",
+   "source": "Instagram",
+   "date": "2026-11-13T16:17:15+00:00",
+   "summary": "",
+   "id": "e2930059879e17",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Caixa avalia alta de juros no crédito imobiliário com carteira de R$ 1,04 tri",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXJPb1I3Uy1XaEpoeVB1R21jVjRJR2dCaTdZdzVZeUZHb1FOckNVdXpxRFdRMy1FczZnNU9NRElVUV92REVPZkpWbk5jWUpTcUdJeVRMd0FVNzhoZjlrLVlXREZ4dUFBbUtLSDhYeFhnVVFiMWJabm5VN0hubEY2YUVCdWRDLTZoQTlnX292NXRPZTZrY1ZOSHRpNnlteXBFQ014ekdxcGd2T2xVWU1ya0dfSGRiT1pUT3dMdXNpSQ?oc=5",
+   "source": "ativovirtual.com.br",
+   "date": "2026-11-13T16:10:29+00:00",
+   "summary": "",
+   "id": "c2a2218d889edb",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Após bancos privados, Caixa faz as contas para subir taxa de juros do crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOX0t2VVFjM1JNcEx4ZVREOU5hSG12NlNsTWk2eWJSNWxUM3BESlo2WlplOGM5WEdtc0R5S3pDcWZPc2p5OEl6Rmh3V2FENzd4WFlEcGl6WGlWM1BxN053V29nWTlBS2luNlZaVGlSSklXdmJrb1RtSExFZDNnNFFiZnRfMnlBNlBJXzhqeFUwYlRrMXRKNmJ3bkVpbVdlWnBhak1sMUs0eFZkNVoxUmpEOHhMb0NrRHc4bmQ1MnRlX1ByaHZVbEhtck9rZVI4UGN5TV8zRXowS1NaTzVZYmVsZmZidkIxZUxBMVlR?oc=5",
+   "source": "Repórter PB",
+   "date": "2026-11-13T16:09:00+00:00",
+   "summary": "",
+   "id": "7fd96757fc574a",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Sicredi Fronteiras oferece condições especiais para financiamento de veículos em Bom Jesus do Sul",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9tRE5Ca1ZnYlNhU3Q4aXc4a2M4ZlkxMkVDdi1QZWxFbmVfZTEwS05NaXJ4VWVhNlBCb09pZE5TR0V0ZTUwYUhOc3FEZTZGcTZDSVFVVGxKUTNIN3lMUW5LUDlvbms0aHFEbkp0eGczQ0RsWHdxMFE?oc=5",
+   "source": "Jornal da Fronteira",
+   "date": "2026-11-13T12:14:28+00:00",
+   "summary": "",
+   "id": "86555da584f925",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Crédito imobiliário está mais sensível à Selic, mas é cedo para falar em retração, diz Abecip",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcXVTNEJ6M3d3cmNubHFsTWQ1c3c3QU9WLS1IbEZvWmhjTGQ0d3M5a3FwXzMxZVMtaVZ2SkZNVm9SMlVtVFR3OFRsOHJ2YXk2eGFNNXVycUJfOXhveEJOT3FMWVhKNTVrdjhDWk5QaTIzbkxJNm9xZHhaRzNRSnRmd0IxcTZMaXMyMERzUDNpdm51Wl9RWFFabjVRMVBPYWJfaXczUWM5OFFoeHN6U3RRX1JQdGlsNFJPbXFtSVNfcm0?oc=5",
+   "source": "portas.com.br",
+   "date": "2026-11-13T09:00:00+00:00",
+   "summary": "",
+   "id": "02aa77f73b0d8d",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Caixa lucra R$ 3,5 bi no trimestre e mantém liderança absoluta no financiamento da casa própria",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeGpFRi1qSFRLalVTUzU1Zl9HZzBoUmcweE9QTzYtanM0MUhQNHliNzJCY3pfTEg0LWZQLWNXUHl5MzFRYVdWVTNaaXo0SGhTUkJvYzFTUDhMYnBNWEZXc1FfSnhDbVE2NU5EMmpYYWlfYlFnUlRoSUdzSEtxamtxNXc0ZXpaalVtTnI2M25BSkw2VFA3amVpdWJwZm9qa1dtaXRqbGhqSm5YRkRwa2hCV1lTNUNmakxlRC1qQmU2S2lodE1TWlFuR3hIU2FzUW5Ec3EybzNvOA?oc=5",
+   "source": "Plantão Brasil",
+   "date": "2026-11-13T00:00:54+00:00",
+   "summary": "",
+   "id": "252482680ce34b",
+   "topic": "imoveis"
+  },
   {
    "title": "Bem de família em garantia: O Tema 1.261 e a alienação fiduciária",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQY3dFRHk4SXFHcHFuaUxzZ0ZrOFpyUzlMbDFhQXphWXgwS29HdFhiTmxoM0RxQ2h3VGt0YmJPNU9BUVZvUTRvRS1vU3hfS1k0cG5uN3ZRRlA1WmxpcHRJVGdpb1VoVzRfUkVTVHpOWE5HNXhpLXRaYnVRT2ZWSU5UVnQ2cktiMDBIMDdpTFR5Q2RUdU5ZRlptakNuTUJBdHAtOVZONzBjNzRsdw?oc=5",
@@ -55,15 +109,6 @@
    "summary": "",
    "id": "7e6dc736305e6b",
    "topic": "imoveis"
-  },
-  {
-   "title": "Sicredi Conexão oferece condições especiais para financiamento de veículos",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaEFPMjZBU21iM1cyTktEaVdRbGVXQWJlemlueDVfaW53YndMLVNaaF9IeHVKUm9oVjJycERaNkh1RV9vVUtlSk8ycHVRMlBRQjR0ZVhBbDR3TWtRZ2V2RmpsejZQTVVicGZ0TnFWSC1xVm9fSXY2MEtGajlEOFhZX2FibF91TnhBVU1ScmxiUFNkSjN5bFdsb244b0kwejh3ejhhQjM3Mlg2UEFrZDR1amN5aw?oc=5",
-   "source": "WH3",
-   "date": "2026-11-12T11:28:00+00:00",
-   "summary": "",
-   "id": "d467b3457996e8",
-   "topic": "veiculos"
   },
   {
    "title": "Quem financia o setor imobiliário com a poupança em queda? Gestores de FIIs respondem",
@@ -1945,42 +1990,6 @@
    "summary": "",
    "id": "bb994b009cecbf",
    "topic": "veiculos"
-  },
-  {
-   "title": "Polícia apura golpe de financiamento habitacional e apreende veículos em Montes Claros",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZEN3d3Z2Y0RVT1lEOTRldkd0VFVPMG16MllERlZhTzEzZHBmZ2lGU3JWQ3dtbDkwMW4yekNSYjhJakdYdl9qdHhNMWhhMk5fclhjMHFxUk9FbkRIcVotN3I4TkJzdE80V05qZ1lUWnNSX3JRSUF1MW16UDFoZ1ZTdjVObGt4QXVFTTZaWnc5d3VCR0FfNlYwQ3g2dmV4SFIxX01DT0JtclhXOTVDOFdCajh0RFUwR2kyQ2lGeUZRbWV6SkJXWVpiWW5VQmJJNVpqLXZ5d2N2enhMTGhvb0RkNUFn0gHwAUFVX3lxTE9IZllvR2NtZ2RraUxZcTMxY0I1UnVxVHNfdmM2YmM4NWpPa3FKal9kR2I0bDktYUZYeVdHSGNsSW5Sa25QRkMyU3JGMnhYbXotTlZRbkkwb1BsZjFZQW9jLTBQMllUWUc4dlZuNnRIbE1fRXIweVkxTkdnZE9rMlpuNzlKQ2I4bmRRZjk5ZFJRRnpCUDRxcm9jbzlEMGRIR0YzT3J1RzJ0ODVrTmpYNEtmY0Y1YnVNeklNYVBadmtCQ0sxRGpNWW5ERXZvMEN2b2dIWE12c3RxNlNTNjNFcWxMMnNNeHhSbExaQlBVRTRBVw?oc=5",
-   "source": "G1",
-   "date": "2026-09-22T07:00:00+00:00",
-   "summary": "",
-   "id": "af23bdebacc931",
-   "topic": "veiculos"
-  },
-  {
-   "title": "XP vê freada no crédito imobiliário como temporária e mantém aposta em baixa renda",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUjNJelFTRnVybkhrdnFNVnZZRWlCNHV3dzhmTVN1RHY3Y0UyY2xQWkNTdFhMaHdpNEgyNkh6bV9lR0ktS3ZvN3ExNmFTdms1X19LSTMyVWFoM2tVMy1SNV96a0ltT0ZqdmRMaENBdXIyR2dyS0hoV3g3S0JTT3lGR0ZnWFNCd3J3ZkEtb1RfRkF5UmYyaHhXU3cxMzZJbHV0OUlGek8wcmNBTzE0ajJtaWhEOHBYam5ySmQ0a2ZR0gHDAUFVX3lxTE9hMUtRV0ZoSFVwTkZNMURxMkRQODE4bUdyQXRmV25iMDJuZS11OEhwMjN5MXhvYWVpcTl6R2N3TkVrbUJFZkZkNUI0OFpSUGNsbVpWU2JVVlc4dnl3eW1GLUlKRFJXSzQxVDY2QkVqSjRORzlFejhZS0t4bE5TdURwUllkN281aGVhNlgwSDY5dl9GbTRTNHQyMTJlVGlJSExmb0gtRVROVnpzVV9MRWlMVVQ5azhVV2dGZm1PUm9Ec2JfNA?oc=5",
-   "source": "InfoMoney",
-   "date": "2026-09-22T07:00:00+00:00",
-   "summary": "",
-   "id": "a922ac59421473",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Além da poupança: novos fundings e imóveis compactos impulsionam alta de 12% no crédito imobiliário no semestre",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVGxqeTdEM29jMFhTRVdDdDdSRkcwdDdxUTh3S1hMeDBxN3hCdVJZR24yNFN4b1pUZzZ6NEZvRzNSM081R29yR2pnVmlhc0xJaEd3Qk5VU2Z6OFZObWRkSER2U2tsSmJBSHY5NFkyTTFGRGcxQjdfNDJfY0kxb004N0hIR2ZOSFR1Rk9mWGg2M3MyWXU4MFJucDVzazRkWUJYQUdiaU5Pb3psNnIzWlgyY21OXzZNbXo5ZHlVcDJsM1p6dmJPdzAzSlQ3eFlzdVhLZGgzRk5Ed3E0dw?oc=5",
-   "source": "RCWTV",
-   "date": "2026-09-22T07:00:00+00:00",
-   "summary": "",
-   "id": "90ba9678f9a961",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Renave: saiba o que é e como ele pode tornar a compra de carros usados mais segura",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTFRjOElmM3hWYzFNNTJ4MGkzUUJpUFFrZHFpeUIycXdRSkF2Q0lTTFhjN21CZFoyMXJHV2pCWXZIbUticXB4Z09GanNReGFTUk45UUYxMUVaZ0ZETXZObDRmMEkxclhEYWlmZVAxQXRRcS1ZNUxHNUktS1lWdnVOSW5WX3prODE1SV9SM3BWbFJJZTFoc2c?oc=5",
-   "source": "Guru dos Carros",
-   "date": "2026-09-20T07:00:00+00:00",
-   "summary": "",
-   "id": "fc7d845ca37270",
-   "topic": "veiculos"
   }
  ],
  "normas": [
@@ -2240,6 +2249,14 @@
  ],
  "indicadores": [
   {
+   "id": "sgs-432",
+   "label": "Selic (meta)",
+   "value": "13,75",
+   "unit": "% a.a.",
+   "date": "09/12/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
+  },
+  {
    "id": "sgs-13522",
    "label": "IPCA 12 meses",
    "value": "4,63",
@@ -2252,7 +2269,7 @@
    "label": "CDI anualizado",
    "value": "13,65",
    "unit": "% a.a.",
-   "date": "11/11/2026",
+   "date": "12/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
@@ -2260,7 +2277,7 @@
    "label": "TR (diária)",
    "value": "0,1691",
    "unit": "% a.m.",
-   "date": "11/11/2026",
+   "date": "12/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
