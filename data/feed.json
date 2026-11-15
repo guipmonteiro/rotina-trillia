@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-11-14T22:16:26.617016+00:00",
- "checkedAt": "2026-11-14T22:16:26.617016+00:00",
+ "updatedAt": "2026-11-15T16:17:40.175712+00:00",
+ "checkedAt": "2026-11-15T16:17:40.175712+00:00",
  "fontes": {
-  "Google Notícias": "ok (+45)",
+  "Google Notícias": "ok (+36)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
   {
@@ -684,6 +684,15 @@
    "date": "2026-11-05T08:00:00+00:00",
    "summary": "",
    "id": "0184e57de2e698",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Melhor Consórcio de Carros | Compare Opções [2026]",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95VDc4YWNGSFlzb252YWdFOTkyYWdmQTZtM3BrUlpkbE1ucWRicmxRMTdXMnRITUtGMlVtdEllNXJHNW5iZnFLVkNoU2VqZUNvMmpuMm5iVlo3RnZTVEw2T1pURHB3NUxBN0lsRW1lN295MFlFNFpVRnlOSnlFVFE?oc=5",
+   "source": "iDinheiro",
+   "date": "2026-11-05T08:00:00+00:00",
+   "summary": "",
+   "id": "ec7654951951fb",
    "topic": "veiculos"
   },
   {
@@ -1981,15 +1990,6 @@
    "summary": "",
    "id": "866ac5556eedaf",
    "topic": "imoveis"
-  },
-  {
-   "title": "Crédito imobiliário pela poupança avança 37,5% de janeiro a agosto, confirmando tendência de alta em contratações em 2026",
-   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOYnpTQWxFZDY3TTduU09tVjZfMHhnNk4td25HRVF4T1dZbTVZVUhTY0dGYlhDaE9fdXUzYTlnRHdxdUpfSWVzTkhpWk1QLVdIRVJfOUZpMjM4bkhSLTFKV0RxbWNFaHhiN3NkM2JCZFY1X0FnZ3d2UDkxUEY5Wk1uSjlyWTd6Z3FCSm1iQ2xuRElDUmE5cEpXUGR3M2tmcGJaNXRac0xCMTM1V1MzUWFqV2UwNHJDQkJFbzI5UV9wRTVKUGU1VTBpTmVoR3Uyck83aTZkTWw4MlZMRklwODBKSHVrSW5TOVd0S0tJMTIzcVgyMGQwcWZqNGh2NE0zSUNtTG1lY1ZZRktVMy1POFlpdEQ0Z3JoTWt6YjZVWE9B0gGsAkFVX3lxTFAyOEY1NXNuZVVMVXBrQlFKUHV4UU4zM2tJdVZYRVRBeVBDSUliRk8tY1hYUFhtZHhHeGRLWW1feUJfVlBTMVJycEFfYVhjQUxXd21NUlVkeDcwX1JqcTB4WDJZd3RLeTRRVWxYdTd6N3RSbzF4WVluTGhVMnhrUE5ZeUVVdE9td3VSV2VkNW1fNDhRMjhGMkEwaUNkNkZyUzg0NDBvOE9GY2FyazE3M1UzMF8yY0VCbDJhN2trNEVqTnE1X2R2RWYyS0JrVmFBU3FuYWxxRnpTa1VoS2UySGhhNEZmUlROc2hYQzMxTERfNVF4VEVPS1pzTEZ2TDBWc3dGYktzY2lHclJUUFE4WXlmRDA3MnJjLWZIZUpJYTBFZUlaQ19hLWlhUGhNWA?oc=5",
-   "source": "O GLOBO",
-   "date": "2026-10-01T07:00:00+00:00",
-   "summary": "",
-   "id": "c38ce0948be935",
-   "topic": "imoveis"
   }
  ],
  "normas": [
@@ -2249,14 +2249,6 @@
  ],
  "indicadores": [
   {
-   "id": "sgs-432",
-   "label": "Selic (meta)",
-   "value": "13,75",
-   "unit": "% a.a.",
-   "date": "09/12/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
-  },
-  {
    "id": "sgs-13522",
    "label": "IPCA 12 meses",
    "value": "4,63",
@@ -2271,6 +2263,14 @@
    "unit": "% a.a.",
    "date": "12/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
+  },
+  {
+   "id": "sgs-226",
+   "label": "TR (diária)",
+   "value": "0,1691",
+   "unit": "% a.m.",
+   "date": "12/11/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
