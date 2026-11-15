@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-11-15T16:17:40.175712+00:00",
- "checkedAt": "2026-11-15T16:17:40.175712+00:00",
+ "updatedAt": "2026-11-15T22:44:34.170607+00:00",
+ "checkedAt": "2026-11-15T22:44:34.170607+00:00",
  "fontes": {
-  "Google Notícias": "ok (+36)",
+  "Google Notícias": "ok (+37)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "ok (6)"
  },
  "news": [
   {
@@ -2248,6 +2248,14 @@
   }
  ],
  "indicadores": [
+  {
+   "id": "sgs-432",
+   "label": "Selic (meta)",
+   "value": "13,75",
+   "unit": "% a.a.",
+   "date": "09/12/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
+  },
   {
    "id": "sgs-13522",
    "label": "IPCA 12 meses",
