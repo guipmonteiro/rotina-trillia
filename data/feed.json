@@ -1,16 +1,25 @@
 {
- "updatedAt": "2026-11-15T22:44:34.170607+00:00",
- "checkedAt": "2026-11-15T22:44:34.170607+00:00",
+ "updatedAt": "2026-11-16T19:30:46.805309+00:00",
+ "checkedAt": "2026-11-16T19:30:46.805309+00:00",
  "fontes": {
-  "Google Notícias": "ok (+37)",
+  "Google Notícias": "ok (+36)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
-  "Câmara": "ok (+0)",
+  "Câmara": "ok (+2)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "ok (6)"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.4389/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Criminosos aplicam golpe com falsa promessa de quitar financiamento de veículos",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZDJDWmNlellwbXBNNUIzTnh1VWJHVW80T3E2ZldpbkIwcC15UC03blBTNHYyZnV5ZFgwcFRVZ2p3ajM1YmFaZi1pYmF3eHVJcFB2bTd6b01KM2pyT2RnMjhaaDh3bFB4d1dTWi10QjJiWGtDR0JPNWlybFRXTDVPUF9rdlROc1BtNjdlWEFjZG1mdzZlZjk5aWt3Ri1qWUUwTkNLN0gtTjExR2xJcG5HVTk4aDV6dDJ1c2hoY2hteVZXeWhoeUFqQk9TQXdoOU9hS3p3dktkMDV4dkp3QjV1TThn0gHwAUFVX3lxTE5UcGRNcmdobGxZdXl5dXExRlk3eXhjVTZDd1F0NngtU25BRkdPclN1UFY0OHRRRG9jcEdWM0pXZkp0SVptUHpHbk5RTkhWLXYxeE04eWpSV0UtN3IxM2t1QVJTVS1CTEJHdFBoLVN6WXNCOUtlNkdvWmRuNTMxd0Q4NEU1dVNud3QxVDFUaHA3dldIend2dERTeTNKRDNtUFk5SHdPMHFkTkt3d1pkNnIzQjlHeEdxZ0tuU1VSWXpJN3N3TXhEVTlmTW96YTc5dklWTXhfVWRLd3RYUjZETFZzZEd4MVl3Rmx0V2Z6QkpIQQ?oc=5",
+   "source": "G1",
+   "date": "2026-11-16T11:31:22+00:00",
+   "summary": "",
+   "id": "99a9f5697f1197",
+   "topic": "veiculos"
+  },
   {
    "title": "Financiamento da casa própria pode ficar mais caro com reajuste estudado pela Caixa",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZFllT211emU0NVljR3dKSHFIbWZHejRzalk1OW1URXd0akdPdWRxNTB0QXlWellXQVp5VGRwYnQwWGVpUjBmRmdtSHowbUp0RTJTU2RhbG12LUxsM2VfLXlvOHdhdkpRbGdRdFdndEtXZkt5WnllSWI1U2k5Z0FlZFdaUExkVXNVWE96alpvQVFTdV9Ub3pYbFNQN1diT3k0QVMzdnNJNlNWNmdnNUdQanRvb0otM3dxWTZrb09n?oc=5",
@@ -1981,18 +1990,33 @@
    "summary": "",
    "id": "e1098c609a657d",
    "topic": "imoveis"
-  },
-  {
-   "title": "Crédito imobiliário cresce 37,5% mesmo com brasileiros sacando R$ 47 bilhões da poupança",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSWU3b1BQY2xvcUN3NUhoUTVPUDZ4TG11bUhmbVk3UmxIZ2hKeWFRQTdzMmJZWUlyQzI0elBweU85RjN3MUZfS0ltNDIyS0R1VlRvWFRVV1lRTVdzRnNKekhBUWZIVndqSFhMUXNVNnpkM0o4V2RrNm9iQXlyM2x1QUx6UUJiRWRtUVNocVJrY09RV1NsVEV2WlZ2WnlFQVNpWnd2M3FNTEhQazR5bXh1R0tweUZLR2hDS0twZ3Z3?oc=5",
-   "source": "VEJA",
-   "date": "2026-10-01T07:00:00+00:00",
-   "summary": "",
-   "id": "866ac5556eedaf",
-   "topic": "imoveis"
   }
  ],
  "normas": [
+  {
+   "id": "camara-2653184",
+   "kind": "PL",
+   "number": "5837/2026",
+   "title": "Altera a Lei nº 9.514, de 20 de novembro de 1997, para estabelecer prazos e obrigações nas operações de financiamento imobiliário, disciplinar a cobrança de encargos, o fornecimento do termo de quitação e a atuação de intervenientes quitantes, e tornar obrigatória a notificação do devedor nas operaç",
+   "date": "2026-11-12",
+   "status": "",
+   "url": "https://www.camara.leg.br/propostas-legislativas/2653184",
+   "source": "Câmara dos Deputados",
+   "topic": "imoveis",
+   "firstSeen": "2026-11-16T19:30:46.805309+00:00"
+  },
+  {
+   "id": "camara-2653185",
+   "kind": "PL",
+   "number": "5838/2026",
+   "title": "Institui o Sistema Nacional de Acompanhamento de Operações de Financiamento Imobiliário (SNAFI) e estabelece mecanismos de transparência, rastreabilidade e fiscalização das operações de financiamento imobiliário.",
+   "date": "2026-11-12",
+   "status": "",
+   "url": "https://www.camara.leg.br/propostas-legislativas/2653185",
+   "source": "Câmara dos Deputados",
+   "topic": "imoveis",
+   "firstSeen": "2026-11-16T19:30:46.805309+00:00"
+  },
   {
    "id": "n-9bd6f685da4f8d",
    "kind": "Resolução Contran",
@@ -2249,14 +2273,6 @@
  ],
  "indicadores": [
   {
-   "id": "sgs-432",
-   "label": "Selic (meta)",
-   "value": "13,75",
-   "unit": "% a.a.",
-   "date": "09/12/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
-  },
-  {
    "id": "sgs-13522",
    "label": "IPCA 12 meses",
    "value": "4,63",
@@ -2265,19 +2281,11 @@
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=13522"
   },
   {
-   "id": "sgs-4389",
-   "label": "CDI anualizado",
-   "value": "13,65",
-   "unit": "% a.a.",
-   "date": "12/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
-  },
-  {
    "id": "sgs-226",
    "label": "TR (diária)",
-   "value": "0,1691",
+   "value": "0,1456",
    "unit": "% a.m.",
-   "date": "12/11/2026",
+   "date": "13/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
