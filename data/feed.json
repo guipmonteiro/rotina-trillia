@@ -1,16 +1,43 @@
 {
- "updatedAt": "2026-11-16T19:30:46.805309+00:00",
- "checkedAt": "2026-11-16T19:30:46.805309+00:00",
+ "updatedAt": "2026-11-17T03:43:40.820153+00:00",
+ "checkedAt": "2026-11-17T03:43:40.820153+00:00",
  "fontes": {
   "Google Notícias": "ok (+36)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
-  "Câmara": "ok (+2)",
+  "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.4389/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "Onze entregadores do iFood assinaram financiamento imobiliário durante Feirão em São Paulo",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaGxDYVgxaVd4TExiSUNBNzhmZFBnUmQ3YldYNHpvNmd1Nk1pUFpfR2JwUmZuRmVvUzdGRUktS1BqOTJsWGoxWUx3aV9feDlTVGI3OWR1UFZkSU12OFR4c2I1cWxTUlJwR3BUNUJuOEZhelVvOTlPbGdDdktwSjl2bU1tODJzUHBUSndVWjlsQmpwNUhOTWowejZHbENUazVEU2VFMURUY1F0a09ndEo0LWExV2YzaEdCVW5RVW5Sek9wQQ?oc=5",
+   "source": "55content",
+   "date": "2026-11-16T23:20:00+00:00",
+   "summary": "",
+   "id": "aac228320c914c",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Minha Casa Minha Vida lidera lançamentos em SP",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9NTVQxRVBQcndlTTZPOGdHYVl0RERaNFZhMmE5YlhPNVc3VDVCVC1oWGlCWFBUN09zaFBjVDBFb3ItNEpWem94RTRteEdvVVlvdnJsVG1KUkpYRTNDYk1yei16aS1GVngwbXBfUWZOeFlVT2Y5X1NYX2x3?oc=5",
+   "source": "Seu Crédito Digital",
+   "date": "2026-11-16T21:00:00+00:00",
+   "summary": "",
+   "id": "04342526077bad",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Banco BV e CashMe fecham parceria para oferta de crédito com garantia imobiliária",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR0R3RHpUOTJ2dUoyZkFmZXRqdGdFWGNjUE5FT3c0X0I0RmdSUjhxX2dJN2pQbTRTZHBhaEZCdnZ6cExyN1ZHOUh1WUU3TmFlUm1USjNZRXZaMFFJNW5JZEN3ZFlDMENtSmhrMXN6MVlmZVJxOGRxQTZZallYQkY4cFF4RGM0Rm9Ud2hYOHE4SWltaThvWGtSTDg2Q2R6V3A0RXo2c2Z5QVVRZ2ZBTEhIbk1R?oc=5",
+   "source": "Brasil Inovador",
+   "date": "2026-11-16T20:55:05+00:00",
+   "summary": "",
+   "id": "ad5ce7b0ffc058",
+   "topic": "imoveis"
+  },
   {
    "title": "Criminosos aplicam golpe com falsa promessa de quitar financiamento de veículos",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZDJDWmNlellwbXBNNUIzTnh1VWJHVW80T3E2ZldpbkIwcC15UC03blBTNHYyZnV5ZFgwcFRVZ2p3ajM1YmFaZi1pYmF3eHVJcFB2bTd6b01KM2pyT2RnMjhaaDh3bFB4d1dTWi10QjJiWGtDR0JPNWlybFRXTDVPUF9rdlROc1BtNjdlWEFjZG1mdzZlZjk5aWt3Ri1qWUUwTkNLN0gtTjExR2xJcG5HVTk4aDV6dDJ1c2hoY2hteVZXeWhoeUFqQk9TQXdoOU9hS3p3dktkMDV4dkp3QjV1TThn0gHwAUFVX3lxTE5UcGRNcmdobGxZdXl5dXExRlk3eXhjVTZDd1F0NngtU25BRkdPclN1UFY0OHRRRG9jcEdWM0pXZkp0SVptUHpHbk5RTkhWLXYxeE04eWpSV0UtN3IxM2t1QVJTVS1CTEJHdFBoLVN6WXNCOUtlNkdvWmRuNTMxd0Q4NEU1dVNud3QxVDFUaHA3dldIend2dERTeTNKRDNtUFk5SHdPMHFkTkt3d1pkNnIzQjlHeEdxZ0tuU1VSWXpJN3N3TXhEVTlmTW96YTc5dklWTXhfVWRLd3RYUjZETFZzZEd4MVl3Rmx0V2Z6QkpIQQ?oc=5",
@@ -315,6 +342,15 @@
    "date": "2026-11-11T15:39:32+00:00",
    "summary": "",
    "id": "032bbad7005aa3",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Sicredi Conexão promove ação com condições especiais para financiamento de veículos",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb0xNeHJ0MGdYb2pBSWNMSmdaSjVLUmNCRGp3VFo4MVV5VEpvWUFzZGc1MU9EU0oyR0I0WlhmTlBiaXM4akJOa0ZjOWx1UXFSM3BYamwyYVVYMTlOZkZweDZOV1hOVDBtYnoyeWNmWFhNbUs3Yko2YWljNk1MTEN5N2l3Z0JvQUhGWUpCQ05EcUZLQjRyc3lvb0FJeklwMUVkeTVQVU5QYnQ0bkVSZm1qWmN4dG9NMlhWQ18zQQ?oc=5",
+   "source": "Grupo Chiru",
+   "date": "2026-11-11T14:24:48+00:00",
+   "summary": "",
+   "id": "eb26eac4226a06",
    "topic": "veiculos"
   },
   {
@@ -1954,42 +1990,6 @@
    "summary": "",
    "id": "972669294b28ce",
    "topic": "veiculos"
-  },
-  {
-   "title": "Quarta Turma reforma decisão que aplicou a Súmula 308 à alienação fiduciária de imóvel",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNR3dhci1IU2h4YzcxS1B6MmJIWWlFTEplV3ZXNk1jNklGNFdYdHg0dFQySkE1T1p4ci1aQ2hoYWRvd2JHYlZUcTlmdEtRV0JYTUE2SC1jRWJsWUFwZ3ZfUUJDeVBVdFc0SjktUEdlSVFlWnJaN2ZjMWtJdUdtd3VhV1dyX2J5TmdvQTQyVU5OejVWOVdPNERQLXluMFMxVU1tcFZtTk9uUjJ5T2tuRXpST3JvV3JoRkg4cG9HYzd2ZzFwVHYwU3ZKeGpINNIBywFBVV95cUxNbE5mSDRQNEJNaHpsUEtfb195N0VqQXN3R3FfaDFjMTRsbHVzUU15WTdzX3VhMHdFMGJfVWY5SVNZa0pOMVVGdHRGX0c3c2tKMUVEeDF4YVdhcnQ0X2E1c1d0NnpMVWh1M1RxaVVlOEtiTV81ZHBLV00teDhSalRrZG5uME53cmRBclpvbElvcG9BVWNDMUlnOHhFd1c3R2t4NlpfSHNzVklEdnpfUGVoaDFKRFE2SndwX2RDa05oZkk2Q2FXeEFNVEVuMA?oc=5",
-   "source": "Cassilândia Notícias",
-   "date": "2026-10-02T07:00:00+00:00",
-   "summary": "",
-   "id": "abea8b27fcdc47",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Edital de Alienação Fiduciária",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uOWV6OVhOTU8wWEtWNzBGLXdTRWpJZjFzQ1ZIWXZJOExOLUpYdEhHd2Y2ZFFPOTBSMzk5YjdDQWN5bDNmWC11VDFLYnhob2Q4d2Qzb2xrbFlEVE04cmtkMUlXV0ctNW43U0hPUmtUY0JhZ0M3dVZ6RA?oc=5",
-   "source": "AU ONLINE",
-   "date": "2026-10-02T07:00:00+00:00",
-   "summary": "",
-   "id": "07e22ebf1a8edd",
-   "topic": "garantias"
-  },
-  {
-   "title": "Poupança libera quase R$ 17 bilhões para a casa própria",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaFZCRE4zR0RsWFJLZjdnVWpXVnljVWV1SEluRkhSVkxrbGZOQ1JtVVNiOUV6eEZWYW0xbGV5aVRFa1NXZUtoYkZmcEhOSG5EbnZmWDZ1YnBxWjdwNUw3Rlh6VlpTOVFFMjY1Wlp1WVdyUkhNLVpZYmpxN2dhQzdDSTRLRHM3WmdqWU1GcEpEQWhzU3I2eS1Yb09RTGEtZHdmdTdlVkxMVVIyUktxWUlYY3FxNS1QRDNyRElZNXVQWGpldEJiaElv0gHMAUFVX3lxTE9zME9iYXJDcTRqVk5KWGREaGlrLWpOQ0tXM1VOdmxPV3F0eU5lWWdJd1lnbmQwTklueE1RQTJtaFFWVVBQaERWM19kRDM1UFRTYXZ5cFI1NUtCaFZERVRvTXpNMzMxN2xtNlJyU1dsMGRuNlZ4cms1aGJDSjlxbE9LWk9tVmdHekF2QUZUYUNQUktQak0xbjBRZ3lhdlItX0VaOXYxcHpFMFdGbTRsZVluTEpsMkxmWkM1X2VDeHNUVVdTdlpDdXh3dEs3Qg?oc=5",
-   "source": "O Dia",
-   "date": "2026-10-02T07:00:00+00:00",
-   "summary": "",
-   "id": "d2da031b7c5b95",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Crédito imobiliário com recursos da poupança cresce 46,6% em agosto",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWFMwSnNPRVlnTmtXc0tiY3BiMjJ4N1JRazZIWktxT1VIdU1iWlY2N2tCVjYwcW5YZTV1blBQNTlRbVlXN0d5SmUwNUNodWJGNjhHdWZPOXVMdTlOSlhwTmtnbmFfZEwwMEpXeWlyRThYMjhpNGt0OWhSdk5YMTZWWTE5Yw?oc=5",
-   "source": "Diário do Comércio",
-   "date": "2026-10-01T08:35:00+00:00",
-   "summary": "",
-   "id": "e1098c609a657d",
-   "topic": "imoveis"
   }
  ],
  "normas": [
@@ -2273,12 +2273,28 @@
  ],
  "indicadores": [
   {
+   "id": "sgs-432",
+   "label": "Selic (meta)",
+   "value": "13,75",
+   "unit": "% a.a.",
+   "date": "09/12/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
+  },
+  {
    "id": "sgs-13522",
    "label": "IPCA 12 meses",
    "value": "4,63",
    "unit": "%",
    "date": "01/10/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=13522"
+  },
+  {
+   "id": "sgs-4389",
+   "label": "CDI anualizado",
+   "value": "13,65",
+   "unit": "% a.a.",
+   "date": "13/11/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
    "id": "sgs-226",
