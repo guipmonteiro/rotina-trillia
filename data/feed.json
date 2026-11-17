@@ -1,14 +1,14 @@
 {
- "updatedAt": "2026-11-17T03:43:40.820153+00:00",
- "checkedAt": "2026-11-17T03:43:40.820153+00:00",
+ "updatedAt": "2026-11-17T18:28:46.613624+00:00",
+ "checkedAt": "2026-11-17T18:28:46.613624+00:00",
  "fontes": {
-  "Google Notícias": "ok (+36)",
+  "Google Notícias": "erro parcial: https://news.google.com/rss/search?q=inadimpl%C3%AAncia+financiamento+ve%C3%ADculos+when%3… -> HTTP Error 503: Service Unavailable",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
-  "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "ok (6)"
+  "Atos na imprensa": "erro: https://news.google.com/rss/search?q=sanciona+lei+financiamento+OR+garantias+OR+aliena%C3%… -> HTTP Error 503: Service Unavailable (+0)",
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
   {
@@ -2281,27 +2281,19 @@
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
   },
   {
-   "id": "sgs-13522",
-   "label": "IPCA 12 meses",
-   "value": "4,63",
-   "unit": "%",
-   "date": "01/10/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=13522"
-  },
-  {
    "id": "sgs-4389",
    "label": "CDI anualizado",
    "value": "13,65",
    "unit": "% a.a.",
-   "date": "13/11/2026",
+   "date": "16/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
    "id": "sgs-226",
    "label": "TR (diária)",
-   "value": "0,1456",
+   "value": "0,1692",
    "unit": "% a.m.",
-   "date": "13/11/2026",
+   "date": "16/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
