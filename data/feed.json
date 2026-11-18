@@ -1,16 +1,115 @@
 {
- "updatedAt": "2026-11-17T18:28:46.613624+00:00",
- "checkedAt": "2026-11-17T18:28:46.613624+00:00",
+ "updatedAt": "2026-11-18T02:51:12.601535+00:00",
+ "checkedAt": "2026-11-18T02:51:12.601535+00:00",
  "fontes": {
-  "Google Notícias": "erro parcial: https://news.google.com/rss/search?q=inadimpl%C3%AAncia+financiamento+ve%C3%ADculos+when%3… -> HTTP Error 503: Service Unavailable",
+  "Google Notícias": "ok (+47)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
-  "Atos na imprensa": "erro: https://news.google.com/rss/search?q=sanciona+lei+financiamento+OR+garantias+OR+aliena%C3%… -> HTTP Error 503: Service Unavailable (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Atos na imprensa": "ok (+0)",
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Caixa estuda elevar juros do financiamento imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMWNCTHlJaGJEMERWeXZsbFh5SzExanpqMXl4REQ4aHFIeTdWN0pVeDBKSXRITkthd2tmNmdZMUhNdnJWZ3FSVVZBbEswQmNtTXZFM0FPeWU4YnZtLVd5Uk9ybE9BRXFwQmY0X2NBX25VUlM2MG0zWnllWDgtbUQ3dWtoWTllRlRpR2phMWpkdnU?oc=5",
+   "source": "Monitor Mercantil",
+   "date": "2026-11-17T23:39:34+00:00",
+   "summary": "",
+   "id": "7754dc5ce12a8f",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Campanha do Sicoob Credibam oferece taxas reduzidas para consórcios de veículos e imóveis",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdVVlWllyWW5wMGhzVlNSVXlXN29LRnI1eGNTUm80Um5OY2RFZUJVUk42Q1FFS0N4WldERWVWVFZfM1l1SHFRbkppVnk4MFFHU2lwZm5mRldqMkNWbjdKcVhOTHNFWk1QT0NXbG40UmJzLUlDUVZEWUt1dUNVYlJGaGJDUkFTSUZ3VlRla3I1NlYtemc5U3c5MWJzTnZrdzVTUXVMbHRSZGdYYjBtQUtyRURZQVNVRmo1WjVnN2p5aDd2OTB4WWczamhPZE8yZzA?oc=5",
+   "source": "Tapiraí TV",
+   "date": "2026-11-17T21:33:20+00:00",
+   "summary": "",
+   "id": "9f1647d5ca181e",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Detran promove ação itinerante de veículos no município de Acará",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMkJ1VUlVZUs3MjJ6TVo4TmtSZHFlcjJCaTF6bmFtLVpHVTV3cDhRUHlpeDRQbUxXdE9Vd0pzSFJoSmJmRTJia2hsQ3RwS0lwbDMxTVo5M1FyUGhNRHRQZ2VXYjBkN0FMOEFMbmxCYnpvc00xWFBXVVVER1RVc0NRWjh6X0Q1SnVnblNjVDlndC0xZklTcm9mQ2pWMHA5SHExOGxaZWZpRQ?oc=5",
+   "source": "www.giroes.com.br",
+   "date": "2026-11-17T21:31:23+00:00",
+   "summary": "",
+   "id": "6446ee6b79c997",
+   "topic": "veiculos"
+  },
+  {
+   "title": "CBIC destaca papel estratégico do FGTS para a habitação durante sessão solene na Câmara dos Deputados",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVHJLdXZUYmE5WHhIbTNIN3V2aF9qMm1WQjlQM1FMWDdaa1NwaHlIVEVoOGVQazVxc3A5TWE1NE1HcVU3dmVmLWxYTUg4bWFYcC1SUUhfOHNQSHpOZ1ZfblFnT2J6STVLMlpJVUNUZ2tWOUF3SHdaX2R0OE5jRF9KZ3U5TEZDWFZJbkk1YzNyTUIzbU9GNkRHUHYxTE4zbTVXVnRKTFpkd3FGQnZrVzZrNXI3QnBjZjdTSDgwajB0dw?oc=5",
+   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
+   "date": "2026-11-17T17:56:19+00:00",
+   "summary": "",
+   "id": "2d7a3cb5b6093c",
+   "topic": "imoveis"
+  },
+  {
+   "title": "FGTS destinará R$ 144,5 bilhões para financiamento habitacional em 2027",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd2c5SjRIUUZjZzNFWFJmUVJEUTZXM251RER1U3hMcHVaZ1h2Q005dEJHYTRITmFEUDBYdk1WTkRRcjlDRWY2cFRhMzJ1cFI4VU02cHd0RDBHbjNjYmtMTm8tN29YUXhjNF9mZlhhQThuMS01UG82Mk5qVHFWT19mQ1Q1TGdnQzVhcS12V2pQMjFwc0dUNWh6cHNFUQ?oc=5",
+   "source": "BA de Valor",
+   "date": "2026-11-17T17:51:19+00:00",
+   "summary": "",
+   "id": "40efec24e786b1",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Último do ano: Feirão de Imóveis “Semana Minha Casa Minha Vida” tem mais de 5 mil unidades, com entrada a partir de R$200",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTW1rXzBkSWhSbjY3c0hGZjNGRnBaR3B5OUIxTXVwVEdUS3NNekhuam5Bano0TU00T3ZnNjhPZ1Q1ZGU3UEd6bjBiT19kYTNwd2hxNjR5QTRRN3dSMm90eS1wRXFEenkxTDByWjIwOVptNHlkdDhFaVUxNGpZdkJ4Y0ZnVEUtNENZV3F6OEhQcEpXc3VUdjktdlJMdF9aM2NLVHJScmxSQ3RiZ215VERWRXE3VWdxVzdjWmFFWGN1RzV6ei01eGxrcE9tdEUtSlVNT3NjbXJETWotdmFUR0JzaQ?oc=5",
+   "source": "Boca News",
+   "date": "2026-11-17T17:42:32+00:00",
+   "summary": "",
+   "id": "4cd3cc395bca21",
+   "topic": "imoveis"
+  },
+  {
+   "title": "RENAVE: Como as novas regras afetam revendas, bancos e consórcios",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU0tKQjNiZVFla1ZsclhDWnRYZVhjVmNVcDlkejVodWFvcUQtejNkRE1vNHlxTkdTZDBzZkRJc0I4Y0dOX3lfWHR5QWd5OHRocC1TM1BJUTBacTJITDJHUGNjTHFKRHh5WHBwXzJmV3BLZHN1M2dKSV95UlpiMXVVOXBjeDNqU1QwbEU1NFF5RQ?oc=5",
+   "source": "Motor Mais",
+   "date": "2026-11-17T14:12:20+00:00",
+   "summary": "",
+   "id": "e4b87b3825c3a5",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Crédito com garantia de imóvel pode financiar energia solar",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSTFNdFNBQUU2ZW5HYVRtQkFKeDRxYzAta0FvaG9XZlN2bkF3WUM4Y19JWnYtNDlhYVdfU2FMSEw4WlZnSXNBV1Fzend1amJrLTgtUmNaQkttMzdLdGVfM3lGTjNURzh3MXRsTHJ1akNiQWRFdWwtMndfYjFsUVVMcm1PRWh0cVRHQWJOa08wM3dBdnVWdGxkY3FMOG5ZMU9fT3R6SGdndWk0U1h5aHd6X2YteERZZ05rWG45TkxWX2VVVGxuM0HSAdQBQVVfeXFMTzhJcnduTlV2eEFEckl5d3RXcVkxVThIMjRLampuNWc0ZUhobXVXc0QzV3VieC1oYndCcWZwVnB6YkgyaXdOLUlvUElCUEhaaHREQ2szZE5CU2ZScFRVejc3S0hVN01pZklDLTUybVJRU3hPUThERjZQbEUwLUozMzl6ZjZVeXBWeF9BQ1NHTDNRdXNLUWhiRVpBTFFJcWdZRGZVdnNRZW9vVmZLM2lKbExfTmpaeGNIY1FJYkpybUJ4MGVTRWtOeFFFZm53cmNSdFptcjk?oc=5",
+   "source": "Valor Econômico",
+   "date": "2026-11-17T13:51:31+00:00",
+   "summary": "",
+   "id": "a846c8866503ef",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Corregedora do TJBA cria novas regras para leilões de imóveis e uso de bens já financiados como garantia",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWjd2ZUVnVmN2c3RmRnBaenVUU0VHWDRFdDRBb0ROY3drS1pmTG94LWdtSUZQRkloU0xIQlJtajdlaDh5UzNsUHVPNC1IcnVyZWZwUW15M205U0NBOVpJREJZX0dhVDR2enhfTC1NckJRUnVob0tpN3QtTzV2dDRaOFMwYXhOT2UxZ3dSRHU3bkJsUG4wNE9IVzVuZG1HSEJjUnhGQXhRc3NqUXBmcURXVWsyY2Jaa1ZuSHhrOHkyRnl4Y3UyZ1c3REZad3hRMUxvUG9qSTJxRi1yNEUxbUp4bkZFVDd0OFRZR09BSkg1d1Y3QTJYLUhxUNIB_gFBVV95cUxPV2pDWnhNM0wyUDZIY0FPS2hKZjVTWVZTVUtzRDJNdGdzT2RyeVBfblk1d2FJN2VBejNqQURsTXdDdWpqR05oczVEbTdLNXVXOFdTQjR2YzluWFlvcVhFNXRLZXdhdE1xSC1RcWtyWmw0T0NaNldnakZZbmJYaTE2d1NKTkw1YXJrQkVCYlh3b0xwcXh4WXc5SjFlZk5Wbk5QajVnYUpOQy0zVlpaOGQ4NlZNRm5PMU1ZQTR2eWpudXEtY3Y3U1F2UEduZkpyZWI2Rm1vaEViRG1ST2FXZVhNZVFZNnhwTFhkTXItSHcyaVRxZ2xBbktPZm9RWnJFQQ?oc=5",
+   "source": "Bnews",
+   "date": "2026-11-17T13:30:00+00:00",
+   "summary": "",
+   "id": "ceaee652edce4e",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Caixa avalia seguir bancos privados na elevação dos juros do financiamento",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcGRrc0NFWU02STVpelg3Z2RhSnVLUzVMWUZ1WFItVUV3Vm9mNlNySWhtTktCTFo3QmhoNWs3QzUtRU1BOFRxTkdNajA1a3lzUFNmbVJudEE3UjZpZDQ1cHJ4dk9ETld5alFlN0hTdmgxV1AxeWlOV2xGTC1sTU84R05MTFBnRXBtMEpkZWN2NmtuanF4a3R5R3Q5VktSSzFxN0dMWHB4U2JQaEs0RmpMWlYtd2ZYa2lwOFFQWFk5aw?oc=5",
+   "source": "Imobi Report",
+   "date": "2026-11-17T10:00:00+00:00",
+   "summary": "",
+   "id": "8d58efaa974840",
+   "topic": "credito"
+  },
+  {
+   "title": "Quais são as taxas de juros de hipoteca vigentes em novembro de 2026?",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR2lvTm5sMjlDZTlXa3UtcWF3cHdmTzBDb29PWUZCVlB5NjM2aGMzSkxOTVd5eTJUWDZZbHJFTUg0XzQzejNwR1lkQ2RmWW5CcnNSaVdpYzJmX21BX2tfcjM3WTlPazFrMmRLLTNEQWVIb29rUUo4Z2FTVUtveEFwMVp5ckxVMEl1?oc=5",
+   "source": "Vietnam.vn",
+   "date": "2026-11-17T04:31:25+00:00",
+   "summary": "",
+   "id": "0a9d69bf141af2",
+   "topic": "garantias"
+  },
   {
    "title": "Onze entregadores do iFood assinaram financiamento imobiliário durante Feirão em São Paulo",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaGxDYVgxaVd4TExiSUNBNzhmZFBnUmQ3YldYNHpvNmd1Nk1pUFpfR2JwUmZuRmVvUzdGRUktS1BqOTJsWGoxWUx3aV9feDlTVGI3OWR1UFZkSU12OFR4c2I1cWxTUlJwR3BUNUJuOEZhelVvOTlPbGdDdktwSjl2bU1tODJzUHBUSndVWjlsQmpwNUhOTWowejZHbENUazVEU2VFMURUY1F0a09ndEo0LWExV2YzaEdCVW5RVW5Sek9wQQ?oc=5",
@@ -57,48 +156,12 @@
    "topic": "imoveis"
   },
   {
-   "title": "Caixa estuda reajuste dos juros no financiamento imobiliário, diz executiva do banco",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQzRzS2RiS09WQlVueDQ0cmN5T1o2RDc5OTREVTFFZGJwQ1pJSDV2RTF1anBpY1hMQ1VDeTJubWttWjRkVkJJQ2N3aXNCSDJrMXNCeFkwaFk2NHl4R3I0NzZQdXhzTmVaMEgwN1B4aWxidDdDd3h0TWNsVEg1Uko1MUV0cjlUcFBrcjFTTDBtLUFxd0FYZkQwYTZ2dnM0Q2xoYnpwWjR3dnJiRDZCaGQ1dmNnRQ?oc=5",
-   "source": "Portal NN1",
-   "date": "2026-11-14T14:23:27+00:00",
-   "summary": "",
-   "id": "dcb528da517560",
-   "topic": "imoveis"
-  },
-  {
    "title": "Financiamento imobiliário exige cautela após pausa do Copom e alta de juros bancários, avalia especialista",
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVzF0WWtRZmFNNV9qQ3VJVWJpdXE4WDBSSUtIUVBXM3poQmhidWY2dlFJX3g4RHhiUEQyS1N2MndvWEw1dVRjdGd0R0p2RkhBQWJldW1udXEwaDhONWxUbTAxaHNKYkpESXRmajYxWWRoWWZxdEg2TktNS2xwTldxMHpwTnk0X0RrcmVwWTBNYXhHY0N2ZkpkMWZEUDNxVTBkTU9ra1dkSGt6dXd1ZDg2X0RmQ0VMekNrX3N2R1dZd2VqVHh5ai0zT1VkcUEyZUNiV2c?oc=5",
    "source": "Brasil Inovador",
    "date": "2026-11-14T14:20:06+00:00",
    "summary": "",
    "id": "5056a6d79952d6",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Caixa avalia aumento dos juros do financiamento imobiliário",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYk9udHJMQUk2ZThSbzdRNXpnb0Q4Y29YVDJ6UFBvSEwxeHdPUWpKVHBSazdyS3ZCaGZLbkY1NEJFY3dxUGg5aUhidWpJOTlXUC1yLVBCZ0xCZVNQOVhfU0hYLVBrSEZTOWh1RlpEQ0M1cF9qWG5MUlpQTWFLSmFFeVRfdThxQWFZWDJOVXRhNlgwakNfdkNxbHhkOWhlZFNYdktaTUYwYWlaSEh4TEN6MUEyZ0J5eENKMzV3VVVUUVNXUzZNT1lxeg?oc=5",
-   "source": "sampi.net.br",
-   "date": "2026-11-14T12:03:38+00:00",
-   "summary": "",
-   "id": "c805d5c6fe1c97",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Caixa estuda subir juros do financiamento imobiliário após lucro cair 7,4% no 3T26",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSjlmZFdMS3h4WS1Ea0RLNnpCc0RLRFRkYTRORnVaT2Vlc3J1MkxnQllDbjJvMnpDN0FwbGlRMlFjLTQ4cVlWTzFnTnR3UG13TFl6TGNrMDY2cGhQUjE2dWY1dDRiZE9OZy1WQmJEekNTNHNZUHNCaEhVazN3S05BaDJObldhZEVPY1E?oc=5",
-   "source": "melhorinvestimento.net",
-   "date": "2026-11-14T11:04:07+00:00",
-   "summary": "",
-   "id": "e79fca02e5a7da",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Caixa estuda aumentar os juros do financiamento imobiliário, sem data nem taxa definidas",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNamFXQUpfSmRTbjFlS1U0cDROTGwzU3BCVy1vWTltLUptZ3RMLXBUbExNZ3ZBUHYtWVJIMUg0MnQ3U3RpaGNFQzJjc0dySl8xSXpLcnZzZjR6d05EeEJfaExYWUhILXJCZTZSakNZZDJnLXZ3VGxmMHN3VmtMMTZUX3ZRQ0o?oc=5",
-   "source": "soubrasilia.com",
-   "date": "2026-11-14T10:36:58+00:00",
-   "summary": "",
-   "id": "c94a0a6c3e4afb",
    "topic": "imoveis"
   },
   {
@@ -147,30 +210,12 @@
    "topic": "imoveis"
   },
   {
-   "title": "A Selic alta bateu? Caixa estuda aumentar juros no financiamento imobiliário",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSWQyQ0pDOVM3NUh3Yks1WV9xYjBCY2dxN2NEbFdEcm9hUW5pN0xoeGlFZXhxTWxhdlllNWZNWXlMSUwzdmVDVFhSbGdFUTE3cUxZZ1NfNU1qU2VXRWM3SVh4dkc1V193Y19VMVhKbERjQzctMk9fbDc5NVk5d1J6cEJqVUdqejA4OWNGWW5BQi02YkVyenpRUll1ZmpHWTA2MHduZ04za29zeFFfaGlnQkdsQjctcF90T2RpVnJsdElUVUFxVWJFSVAyZlU?oc=5",
-   "source": "Seu Dinheiro",
-   "date": "2026-11-13T20:25:12+00:00",
-   "summary": "",
-   "id": "8529a407cdef88",
-   "topic": "imoveis"
-  },
-  {
    "title": "Caixa ultrapassa R$ 1 trilhão em crédito imobiliário no governo Lula e vê lucro crescer 40%",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOckJzNzZfX1ZlY1VqNzE4aGNubzVYWVhNd09uNkphU19kU19vWnBwVzdDMEtKYk5Vczc2UWczWW9LZVBaVGExQm1mZFRpSU05Zi1ZSVV5ejIzYlc0aEFvLTM5V3RWbE1qYlFyWFp6ZlJSam9JNzdWc2w0RC1VamtNUVRzcw?oc=5",
    "source": "Revista Fórum",
    "date": "2026-11-13T19:30:03+00:00",
    "summary": "",
    "id": "91f2656b3637dc",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Caixa estuda reajustar juros do financiamento imobiliário, diz vice-presidente de Habitação",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMk1LeUx1Y1VsT1FDYUNuREY2MlVRcENDTzJQZDFwTFNXRnp2cFl6aF9FUU5zUU1valdrNGVfSWpmTG11QmZPaXpmZU5WaGlhUGVpbmVUakJBeFludVJoOUsxR19tQmhjb2pnWUNBWnFjcFlHLVlqZlJkZWlCNG16R3BtamtMbFBXbFg2eQ?oc=5",
-   "source": "A Crítica de Campo Grande",
-   "date": "2026-11-13T19:16:00+00:00",
-   "summary": "",
-   "id": "2b7fdf395d18e4",
    "topic": "imoveis"
   },
   {
@@ -1362,6 +1407,15 @@
    "topic": "imoveis"
   },
   {
+   "title": "Detran fiscaliza revendas de veículos em Araçatuba e Birigui",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTjhtQ21YUlBtWGxqOFBnUHJ6WGJfaXd4cVVqZURpY0E1THRXVDBLa2NVcnROcFl2VXA0ZFZrdjJUUWRrZHhTMGhJenROYmpIOTFTUnVFRG1pbWJ2eEZOSkhEY2lJa1Zob1VNcFo3X3hSQWRZcGhqOVdCVTgzZ1E5angxVTljdjI1T2VqdEt3Nkoza2NXOUo5bDdEYlRmandIaFRLSzhKb2Z3QjVOMUZzMnVwWG5qbVk?oc=5",
+   "source": "Hojemais.com.br",
+   "date": "2026-10-26T07:00:00+00:00",
+   "summary": "",
+   "id": "ba64d8ea209e73",
+   "topic": "veiculos"
+  },
+  {
    "title": "Financiamento de veículos bate recorde e alcança maior volume em 15 anos",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVFNINnY4TlFwZlE2WS11VU9HYlR2VVRMLUNhMk1zQmFQS1NUU3FkRkxvZlNYRzFtYV9HME0yeWx2dUpRUENtTlRraTFQMy1QZlRBd19JOTJsQjJSX0RFSlpzSXRlV0hRa0JoaGo3RFlYZWhXWllBQlAtOFdfVmxjS0I2ckdoYnlqMlZKQmtiTFV5d2JWMHRtQU13VGlnOUcwdkh4eEVuZFhra1Nh?oc=5",
    "source": "negociosba.com.br",
@@ -1594,6 +1648,15 @@
    "summary": "",
    "id": "544c6c11daa0bd",
    "topic": "garantias"
+  },
+  {
+   "title": "Crédito imobiliário cresce 37,5%; especialista explica como aluguel e valorização podem ampliar retorno de investidores",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPRHdwZWdjQ0VDUW96cm9rODFkRUhTQ05JaGZfV2tZTmFfeE43eVlTZDk2ZVZlQ2d3TlhCV1NvRUNwV2dyTkVlelRQenBJeHhmYmFXOW5fckFveVBHTVRuTExKVFRMSFI5dkl5cFJDMjZsTC1xbHBMU3ZuQ0dIQXVyVFBoTnFNVThZWm1RY2RJQmlrYWtLb1l2MFFuWFRlbHNreHVHZUY0VFo4VnJwUk0zZGhlMV9hZVVsVWlFa2pWTk9yVXBPQkFnVDRQc3VRUGJFV2FiWVFnM3VyWGEzYUxqYXB1dGxZeEhIb2xnRi1venN4X1p6QnJqTllvcXF3Zmc0Y0U0aEQxNA?oc=5",
+   "source": "Tribuna Hoje",
+   "date": "2026-10-20T07:00:00+00:00",
+   "summary": "",
+   "id": "f3e37c23498851",
+   "topic": "imoveis"
   },
   {
    "title": "Financiamento para motorista de aplicativo: veja opções para comprar um carro",
@@ -1927,69 +1990,6 @@
    "summary": "",
    "id": "3aa729f0e87ff6",
    "topic": "imoveis"
-  },
-  {
-   "title": "Financiamento de imóveis pode mudar com a tokenização do crédito",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZTVnS1NmeUFBWmRuNF9xTjZBazlfcXJhYVpud0c0RVhmUTM5Q29VQXRPdmlVZGFzRWpNSnMxcWtEMkc0aWZYOE5JNERmSUZZbVFXUktQTTBORWRya0dHOW9abENxdjdpM2J1d2NSQ1I3WFV6SzNCYTZoV1phUEswWk9qTVY1WFdHY3d4MXhMaW1NUlg5eF80aFp5ME9oZ2hkbGpiQ2FMeW5oaG1tNExYOU9mR1NkalFCdHNBU2wyb3g0WjJ6UktwWTNqWEhQQnV4U1Z1YUdpcUMtaVJ4?oc=5",
-   "source": "Terra",
-   "date": "2026-10-05T07:00:00+00:00",
-   "summary": "",
-   "id": "1e7833e3ea3465",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Trillia aprimora atendimento com Concentrix",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNODk4NTJfeHYtY29wOEt6NzQ4aHpiSmNRd2dYd0hiai0tZzFlbGxMQThJZDZBQWE0ZlVVZGF5ZG1CaHBGdy1RTF9VdXFzeUc4SUNfVFZGRzlfNUlIM3JHQk55LWx0WEpnN0JtQjR6cFJNeGZXUFprVEVza1JqLW0wWWw4QzlnQQ?oc=5",
-   "source": "Baguete",
-   "date": "2026-10-05T07:00:00+00:00",
-   "summary": "",
-   "id": "49467e2a441516",
-   "topic": "trillia"
-  },
-  {
-   "title": "Queda da Selic pode ampliar acesso ao financiamento imobiliário, avalia especialista",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTE1uaGVaTGNnYmZQVWxYdDBFb2dSd2tzRkdMZHd2TDhTeEcyT3gwUlBpSXZGVWp0OGpJblNPOWZMMXk4STUtZHBtcjk4YTlJQTZSM0hqMS1oZ3hZMGx2X3ZpVDVzSlBMUWQ4VGR3YjI3UmpoWnpPbERITEFrNUMyVkVacUNBcjRkSldrWnVEODZ3ZWZfS1FXTmJNd3p0MlNkWXZ6TjB0M2IxbF9TZGNyZzk1WQ?oc=5",
-   "source": "Portal Correio",
-   "date": "2026-10-05T07:00:00+00:00",
-   "summary": "",
-   "id": "5f6f83d9c64b78",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Com fim da greve na Caixa, prazos para processos de financiamento imobiliários levam 10 dias",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYlQwYlBFeS01Q0hobUs0T2VaaEhrbEhWVUhaN3NBcnBlOUhVRXF6dEo2NmotM0FWUm1nQnNKa2xWYmNTUmdkRUpSUlR3RnRYcVFzcTFuWXlVa1BfR2JwUjZtWGR5MmlnUW5nYjBsNGJ5RmhMUTFkN0dqR1lzN21POGxJR2xGN2NCdDJSanVCeFlHQmN0WFpUTmM0SDJHTl9GRThFdmdXek1DN2VrSm5lR0FRS0cwWlRDRExVSTNFajlZTGJjSTAtWFQ4bmFJa2NVUmh4a2FISGFsMmwyaUpaeGczMmxWa2xFR0E?oc=5",
-   "source": "Jornal do Comércio",
-   "date": "2026-10-05T07:00:00+00:00",
-   "summary": "",
-   "id": "736d3164b731dd",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Comprador de imóvel com alienação fiduciária responde por IPTU antes da consolidação da propriedade",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQkxFX1lNMXAtYXp2dkZSTDFUVXFLd0RJSUcwdXZ3WG5oOGg0S3VENDNOQW9EVVNlamcwcDRlU0wxQVQ1TzkwbWRuTjI3OE96LXhpTERaTnpEMHNxY0E3azduNTlaQl9kT0JRd1MxTGt3UE5aUlVpVUROZ19UdzlWWVdOa01ZQlVRMHk3eHZuVkk4d0tfcmZiZmppWHZJVGx6c1ZadkxhdDZhMVA2UHFwWmx5bnhOSVh1Z1Ezd0daaDZkQVB2eEY4SXBpSlU?oc=5",
-   "source": "Rota Jurídica",
-   "date": "2026-10-03T07:00:00+00:00",
-   "summary": "",
-   "id": "cde765c65b077d",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Financiamento imobiliário na Caixa: o que fazer após a greve?",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQblJTNGthWG1zMFVzNXo4NDh0RHpKWTBlTF90QmpQd0xlTUFOa0ItWC1qTVRiU0JUVWVzUTMwQWRMZzFKd3dyOENEdms5eEpYQjlIbnB5aldjc2tEQTZDd2pVMUFGSHhjMnRqeUhjbnJYcWZyZ25aVDV5VWd4dXp1YTNPVmdXX1liMXNzZDZCa2JNTHlKcjRPcnNUNTZPTDBhZTZpdmNkenI2V2FtS2c?oc=5",
-   "source": "portas.com.br",
-   "date": "2026-10-02T07:00:00+00:00",
-   "summary": "",
-   "id": "123b3585a425cf",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Jornalistas do ‘Estadão’ vencem prêmio Abecip de Jornalismo; jornal vence como veículo do ano",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa1NSX05UcnZmTk1GdkZYaXcyaDQ2SHhOV0V6SzZQSHJISmZDbEZhNXVCMjR3SHU0emFkd3RTLTRhMGxnemtjUW45VzV1QWxCNkRHM3ZhSHBxMGdpUGJwRXQ4WUdHOV8xT2c5T05KR2NYczcyUEpVTWtQZnlZVTZzY2xReW8yM2x5TW1lR2tJYWlkcWQ5ZVR5elZJOUNvMmM2aG9WVnJQV1ZoV0loNTk1QW44d3RrTERfUzd4TG1kc1d6ZjREWVNzaUE1NExqbHVON2fSAdcBQVVfeXFMUEs5dHAtZWp0Ul9YenFWbzRNZkphRUEtZWRMN0xudy1Gc2pZaHBFNDhkSkRWdF9uX1E3cC1Sb2NyR1BsbldzdEJWM25sbUpsdTZoTTVyQ3libFBmWVFjNDlmNS1ieW5rWnUzLUluam95SjBaaHVFN1RuaFcyMU5PdzVuVGJMbmZ2NHkxRzc5eFZZcmVkdGxyM3pzM2lJZUNjaG1lZWstOFVrcUNhTmhscGlEX00xWnRNVVFQMTE3YnRLc1ZPZ1BhNVl2aXhYbTUxOHQ4ZmgzUmM?oc=5",
-   "source": "Estadão",
-   "date": "2026-10-02T07:00:00+00:00",
-   "summary": "",
-   "id": "972669294b28ce",
-   "topic": "veiculos"
   }
  ],
  "normas": [
@@ -2281,20 +2281,12 @@
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
   },
   {
-   "id": "sgs-4389",
-   "label": "CDI anualizado",
-   "value": "13,65",
-   "unit": "% a.a.",
-   "date": "16/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
-  },
-  {
-   "id": "sgs-226",
-   "label": "TR (diária)",
-   "value": "0,1692",
-   "unit": "% a.m.",
-   "date": "16/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
+   "id": "sgs-13522",
+   "label": "IPCA 12 meses",
+   "value": "4,63",
+   "unit": "%",
+   "date": "01/10/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=13522"
   },
   {
    "id": "sgs-20749",
