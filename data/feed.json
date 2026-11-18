@@ -1,16 +1,61 @@
 {
- "updatedAt": "2026-11-18T02:51:12.601535+00:00",
- "checkedAt": "2026-11-18T02:51:12.601535+00:00",
+ "updatedAt": "2026-11-18T17:57:48.749116+00:00",
+ "checkedAt": "2026-11-18T17:57:48.749116+00:00",
  "fontes": {
-  "Google Notícias": "ok (+47)",
+  "Google Notícias": "ok (+39)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "Caixa de Financiamento Imobiliário da Aeronáutica celebra 47 anos de criação",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNamp5M09uUWtIWS0xaVctOXRkanE0d18yS0RGMkFnQ05QbUt0eUt3bXVhYTdEZU11cm8wblhmcGhhQTlHRUhUbGRmRzdhVEV6NUlwVURieEpkMFU0M0hoUlZzRTZxMFM5NERldXFMSUEzYVo0dTN6Nk5yVVd1bExESUY4QjdDeXJmS1AtSFFVUlJRaFNYM05YRVNHbnpSNkdGNlo0dGhGdFR4UmhScTd0NzhyeEtYbWdBMkZXLV8tOTA3Y285LTY2T1UzV2RmUVV0YVk0?oc=5",
+   "source": "Força Aérea Brasileira",
+   "date": "2026-11-18T14:59:56+00:00",
+   "summary": "",
+   "id": "a3af0eb7403deb",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Judiciário, mercado e setor produtivo debatem na FIEB os desafios e oportunidades do Marco Legal das Garantias",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOblJwVXZaNU9CalFKeXdDdnJmMmRIN3VXQ21wVGtOSHlqNXVETU1HWmdRdHBXcWdFOHNvcnBmU0d6VWUwb2IzdkY4VVdlODA1cWxuSGVsX29xVzN2NlJLTW1DdE4zb3lEckFIZHMtOEVMNERlRmtSeHdKYUJJcU9Sd3dFVmREeXJUYVJSSWpWX3h1ZFpnQkZ1MlRuWHBORGFzREUtN3ljRE9xLW9oRHFmYzVqZWxBbmtZc1JKalZEU1ZEQ04yeHVWNzdVSWtqU1RBNWxmQ1ZQZnZmRW8?oc=5",
+   "source": "Sistema FIEB",
+   "date": "2026-11-18T12:45:52+00:00",
+   "summary": "",
+   "id": "a9187c4d46b7a1",
+   "topic": "garantias"
+  },
+  {
+   "title": "Operação Gravame Oculto mira empresário suspeito de fraudar veículos de 81 clientes em Cuiabá",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYTk3d1p3ZXNZb25BMUNxZTRDM2lMNGQ2REMxM0Rkak1oNzlFdkx3LXRaRDVOUk9SWk5kNDlzMXAzWWo0Wm5pbG9YZnI3ZUZxOG5aS0c4TGc1a0lIUE54eGUtVmVlQXJjbDZqM2hYdXV2ck4zNDd3ZFlndDNiaUNuZE1UOHVTZk53WkQ4TklYdGpaX0ZXVkhzbUMtR2t6RS1tUm9kUHY2V19QUHFwVzBWRmhqeE1qSGZkVUladE9VdzhqS2d2UGVMVnNSVkRQRGFsSUE?oc=5",
+   "source": "Infoverus",
+   "date": "2026-11-18T12:19:00+00:00",
+   "summary": "",
+   "id": "eb5534cceb5c7f",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Polícia Civil deflagra operação em Cuiabá contra esquema de fraudes na venda e financiamento de veículos",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRWdLdTJnTm42cFYxRVpoUzJENHpBSWwtRHViVWVKemFsRkpITjkxZjQtcVFLMkw3U2o5R0d6dVhIZVg5eUNDMGNReDFfclFxZFpjNjdrUjREVmN5YW9YZXdpSGZEX21XZG1LSE9fSWNjTDhmMjYtS3VDclNaRkl5am55ZkdfVzhVSnFMVDFoSHVMRTdTcXlWaDhHTHlKTFhROEhDNUJMLTJ4UQ?oc=5",
+   "source": "CenárioMT",
+   "date": "2026-11-18T11:40:57+00:00",
+   "summary": "",
+   "id": "baf53c478fa6b9",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Esquema de fraude em consignado e financiamento de carros atingiu pelo menos 80 pessoas",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVzlTTVBFNWRZU0VzVEtVVVpiNnNBVmRmWWNzTm1UVEhZYmxTdzZhc3pyUlJBbE94ejBfMXFfMUdXUGZvNFhETXVFUWYyTnZsUEp1dndIWng3akhqNkFQb2ZueFRLNGUyRHlveFR0dkJZZjBtYnRrM2hYemdFZE5ZZU4tR29GRHhJNVFiQ053SUZBNGVmZ1BQbUtSOWdmLVZwbDZocEpId1pqQ3Bwb213VDUtUjlxdVhOVldz?oc=5",
+   "source": "PHD News",
+   "date": "2026-11-18T11:00:27+00:00",
+   "summary": "",
+   "id": "0b6bb033cbe23e",
+   "topic": "veiculos"
+  },
   {
    "title": "Caixa estuda elevar juros do financiamento imobiliário",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMWNCTHlJaGJEMERWeXZsbFh5SzExanpqMXl4REQ4aHFIeTdWN0pVeDBKSXRITkthd2tmNmdZMUhNdnJWZ3FSVVZBbEswQmNtTXZFM0FPeWU4YnZtLVd5Uk9ybE9BRXFwQmY0X2NBX25VUlM2MG0zWnllWDgtbUQ3dWtoWTllRlRpR2phMWpkdnU?oc=5",
@@ -36,6 +81,15 @@
    "date": "2026-11-17T21:31:23+00:00",
    "summary": "",
    "id": "6446ee6b79c997",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Polícia Civil deflagra Operação Gravame Oculto e desarticula esquema de estelionato em revendedora de veículos em Cuiabá",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTElmSkJ3dko0bXVuaFZwNWt0X1Y3dWxYYUZ5MnV5YzBIZTRUcDdkSGpoeHZZa2M5RjN5SHdJLU1CelRxSVZFSm81OUdrMDI4RWtNa00xbTZNaHAtOUpha0JrZXpoS3VUYmpfUFdzWTc5eTFZcWhxaTBVNDR6U2RTc1RXYUZuVkZRRkpLanRLM1VUdFFLVzdDT0c2bFRHaFBmaDdlQzZCbHdfeUg2TURDNldfbFlrMmRhRTB3dzZXM2N6OWlfRl85M0o3UWJQRngtNWRYMmtmRVY5NWs?oc=5",
+   "source": "O Livre",
+   "date": "2026-11-17T19:00:00+00:00",
+   "summary": "",
+   "id": "9e8ea487250b58",
    "topic": "veiculos"
   },
   {
@@ -343,15 +397,6 @@
    "summary": "",
    "id": "e7ebe5c8fac16c",
    "topic": "imoveis"
-  },
-  {
-   "title": "FIEB reúne Judiciário, mercado e setor produtivo para debater impactos do Marco Legal das Garantias",
-   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNUTNsc3BWMXdGbVRORnFhWFpwOWdDcjhVNTd1aF8wUTg4MDVram82SEFtLUhMUHhFMGllZFZpZ0xMTVlNVndJMmhRYm4tSXd2RDJfWS1aT0pacU5UNmZ6R1NWRjIwQm5PMmhLaFZ0cUY1WWhxdEt2eTAxdFhjVTZlNEFpZnM1MEhpV2Y2NUF4Ykh2akNaUUo1bHM5Q2FqMXhhR2l0eFFIOWwzeGpkdHgwLWZfYndXVDFzMFlMbVdzc1h6RXBDUi00S0thNWl6V2l0N1RlbFZNeUl6bVk3SVFZWl9oSWNpUk9HV3E3Q2hwR3Bfa3l5THFZQnp0Rk8xOUV3cmc?oc=5",
-   "source": "Sistema FIEB",
-   "date": "2026-11-11T20:56:43+00:00",
-   "summary": "",
-   "id": "45fbf62b24d526",
-   "topic": "garantias"
   },
   {
    "title": "IPCA de outubro pode indicar por quanto tempo financiamento imobiliário seguirá caro",
@@ -783,6 +828,15 @@
    "date": "2026-11-05T08:00:00+00:00",
    "summary": "",
    "id": "ec7654951951fb",
+   "topic": "veiculos"
+  },
+  {
+   "title": "PF investiga esquema de fraude em financiamento de veículos no MA",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVnNNOG9ER201ZVAzLVoyR01EZjd3TjdTUVZZWkxYWlFKZk1IN05YWmc3TXkyc0VlTEY4OVMxWXdlSk81VkM3VW5oTmd2SE5yLTJRYWpXUm9TVjV5YXJoQV9CWDljTkpteG51a24taGZqcklZWEttYU96ZGFtcEJsSEJPSU9iaDRHVHBaZ0ZZbEtzTmFpYlRrVDFjc29Nd2NyZ3J5ZVExNnROQ1VZRFdzMldibG9yajNnYXVzYXRNVW1qbXdNVk1fdg?oc=5",
+   "source": "G1",
+   "date": "2026-11-05T08:00:00+00:00",
+   "summary": "",
+   "id": "b7acb019d62aa5",
    "topic": "veiculos"
   },
   {
@@ -1936,60 +1990,6 @@
    "summary": "",
    "id": "c5bcda5074653e",
    "topic": "garantias"
-  },
-  {
-   "title": "Vitória na Justiça suspende busca e apreensão de 5 máquinas agrícolas no Tocantins",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNHBEa3lLdHpUZkRvX3MtbWxBUkoxY1RndDAzVjZxZUZ2WnM3SnFMZnYwMmNmblg3RGlYWnB4UkZWTkttVVpJZ3FsUno2cjhMU2FnejYyaGNVRmVoSUR6Qkw1ZmJtT1B3ZzA1QmZGOEh4cVk5eDQ1WjFVU3Z6S0t0cW1QNm4tUTV2VUNSR1FkcnFVbkZ6dG9WcnpPQnNxWDNGTll4LVJWVnNEV2hyakZyaw?oc=5",
-   "source": "CompreRural",
-   "date": "2026-10-06T07:00:00+00:00",
-   "summary": "",
-   "id": "51fa0ef30bbd2a",
-   "topic": "garantias"
-  },
-  {
-   "title": "Bancos automatizarão financiamento de imóvel",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObjBJamdmaXlUZFFwMXRxcmpoZXNGaHZqMk1yS1BFeHFGWEFEVEVSTkVKRDVlZDEzU0hlVHFYcmRMbm5iblNFVHZpYzljMDRQbER2ZGpxMEk0ODE5Rm9FRzZWdzBtQWtFeXNhQUstcHJtelU2TE5TMGdmM3I1WnNZTExjMVEyam5ZdFRiV0tObWRmMDJtbXlmRUJ0QXNQU1NLTkpkcm10ONIBtgFBVV95cUxQX1RHcXJRV2lsdmphLUV2WU1MNnVNWlg5cW40YXZhSmh1cUVZeGp0STd1bTlwMkczSG5zcjFRczBKc2hqS0NtN1FLclZZeFd5bTFVVVpGQlBNS3oyNEhQYVFSYi1BU0xyMElraW5wOGxlaVVZc1BIei05bGRPZWN3WDdZTndIQ2h0OUdTMVlwY0tFLTVPbEZ4amNSUTM5VXlGeXNmNWljckFuTlFINlFNN1lMbkI4dw?oc=5",
-   "source": "Valor Econômico",
-   "date": "2026-10-06T07:00:00+00:00",
-   "summary": "",
-   "id": "9088eb286fd620",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Crédito imobiliário cresce 23%, mas comprador deve ficar atento aos custos antes do financiamento",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT09hWE8teG5WRFNKSGpSdDROZFpzZmk3TWhPOE82MHUyd0xjc0xlVnYtSVkwekdFTTBTZF9YNW9rZlhjSVJxa2dBMWNhTlVwMnFiUFpvX1k3UnpGbXZ3WlhyaWJuYURqVWdQN1QzNDdORFN1SVhsTHJIUUplMGpUM2hZZTh6SElGS0FEay1fa1E5WkVKSUFTREw3TTgwd012dk9kUFAxelJsVF9zU2RiSU5GM0trcGVtNmhQbmNlUUxMOF9P?oc=5",
-   "source": "Debate Jurídico",
-   "date": "2026-10-06T07:00:00+00:00",
-   "summary": "",
-   "id": "066670d0be199b",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Quase 2 em cada 3 veículos financiados no Brasil são seminovos em 2026",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ1J5MzNPWWNVOUFlVmJEWWlVNC12emZ6Y040Q01VQjBwbk1XZ2dkVWFfM1ZIajVLNy1mTG8wU085OGNxdHQwQ1lXalBKUThwcTRQRlUyTFBPMzVRem5ha191Nm02SDI4SXBBeUFwYXdXaWJxeURFNFRYQ2ZpRS11VjRJUXo?oc=5",
-   "source": "Economic News Brasil",
-   "date": "2026-10-05T07:00:00+00:00",
-   "summary": "",
-   "id": "4519b6f96973ae",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Nova lei destina R$ 30 bilhões para financiamento de veículos a profissionais do transporte",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYlRsVEI4UThLYW8zdGUzeHZuRlEwcFU1MWpTRy1fSnJJWUhydTNxaTNRbk9CQUtTWGwydTA5dHIwWm92c0dDVmV0QWZLa0duWTBVMWREMGlibGFzbmxGYm5tUks3U3d5TEpFeXFLdmg5SDVtNUxDNFVMWDkwVzZZc0xxaFNIVmMwX3N1UmJydHhqUFE?oc=5",
-   "source": "Folha Vitória",
-   "date": "2026-10-05T07:00:00+00:00",
-   "summary": "",
-   "id": "5061db5bc9e225",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Crédito imobiliário avança no digital e Murilo Arjona amplia atuação",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdzdPMU1QeXo2eW1TallBWkRtYWc3OGduaGI3MzlqT2dNMDVSY0lSY09rakY2ZFViNlNTQndCdXBqY1otVU5ER3RwYlFTQ295ZlB3bkFCX2NPVlpqQUN4NjNPazZ5MzI0bVFpdkFDNWxwdWE2anpvZkI2WWpYUy1OYi1wbmtEeVozcjJxeVUtdV9ZblJBeG5YZldyOXJraFlxV01SZmRyMWZIRWZ0UHVUZ2VSVU80c0Y2T3VLalVHbnZIdVVaYWd2MW43OE1PRVI4OU8yNlFR0gHbAUFVX3lxTE11RTZBcnN1azdCdTdnbzdTelY3SnJud0Foc1Nua1NiMkJEdVNNZjZiOE9paUJyQ0VVRW5ORXlhTTJkc2x2d01uSUxYYkZsdHdyb1A2S2ktam1MMWxHN082R2tuS3d0aGNZd1pCZy10cXIwZDhDdnBmdW0ySnJOYXJ5cGxRU0c1LXFTZy1XTW1zM2t3cFJzQjd0ZkxBeFlIY1d6cTNfMy1xano3Sl9rQ0dGX01BUmktR01Ba0NCdWs0RTlzV0p2cmtGUnd3VDFCbFJZeGZrN0tCZ0pwcw?oc=5",
-   "source": "Estado de Minas",
-   "date": "2026-10-05T07:00:00+00:00",
-   "summary": "",
-   "id": "3aa729f0e87ff6",
-   "topic": "imoveis"
   }
  ],
  "normas": [
@@ -2287,6 +2287,22 @@
    "unit": "%",
    "date": "01/10/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=13522"
+  },
+  {
+   "id": "sgs-4389",
+   "label": "CDI anualizado",
+   "value": "13,65",
+   "unit": "% a.a.",
+   "date": "17/11/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
+  },
+  {
+   "id": "sgs-226",
+   "label": "TR (diária)",
+   "value": "0,1693",
+   "unit": "% a.m.",
+   "date": "17/11/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
