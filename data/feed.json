@@ -1,16 +1,43 @@
 {
- "updatedAt": "2026-11-19T00:15:40.661737+00:00",
- "checkedAt": "2026-11-19T00:15:40.661737+00:00",
+ "updatedAt": "2026-11-19T18:10:56.079370+00:00",
+ "checkedAt": "2026-11-19T18:10:56.079370+00:00",
  "fontes": {
-  "Google Notícias": "ok (+38)",
+  "Google Notícias": "ok (+39)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
-  "Câmara": "erro: https://dadosabertos.camara.leg.br/api/v2/proposicoes?keywords=garantias&dataApresentacaoI… -> HTTP Error 504: Gateway Timeout (+0)",
+  "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "Operação em Brotas prende trio por oferecer consórcio disfarçado de financiamento imobiliário em Salvador",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbjNPcU1zVWRGMm9lVldJdng1YkFtdEUwc3lJMW5MSGpFUjRGU29WWUkyc3pIU1BScm5FOFBKbUNDNmo5cHkxNFM1WVBwNWplZl8xWUR5MEVVbGMyNHM5VFJoVmJBR01jWjBPUk16S2gtOFFmLWZrNldXdkt1aGtnalpoM01aMjFSM3JzaWx0TDE2bjVPWW5BcGdtOTVyTEtWNVVhQ2JJeW93SC1DdURwWW82Tm85NDBwcUdHMTFLZVJ3TnFzN253WU5uWWQwUExHb3pNZC1kRXR3SVFkUnJQcGg4RGZfWHNvZkw5QWZiNE5valdp?oc=5",
+   "source": "brado jornal",
+   "date": "2026-11-19T15:17:21+00:00",
+   "summary": "",
+   "id": "9fc9c952a5b07c",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Novas regras do RENAVE mudam rotina de revendas, bancos e consórcios na venda de veículos usados",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVml1S2Yzd0V4WFJWTjJrTHJGeXpqM0NFM3pxQU1fQi1tckY2bjFfXzNaeVFxd0gzeEgxR1QweGN5cWlMRHJOTmtnRjkxaVl4bXlTX0hnNDBrdE9HcTRjYUI0Yi1vNDAtMmVoQkZCQ1UzLV9nemJMM0xqUkUzalFwX0EyRk9uSlIyX2k3Qi1yVkNGRWdXZm9OZ3JTQlJEUW5vN0hIenFDdk5VVFBOcXlaalc4LXhfVkt2TG5nVk9ER3hsY1hKZWZaTEJn?oc=5",
+   "source": "CenárioMT",
+   "date": "2026-11-19T13:46:39+00:00",
+   "summary": "",
+   "id": "2e533e8a09b6e9",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Operação prende suspeitos de enganar clientes com falsas ofertas de financiamento imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM2JwVTg3LXpGR2M0MDdRSVdqUExaN3lPU0dGYXZYcmthRHZyNC1zVEpMdmV6TDFJTmZPbFYtdTNjbHduUExDT1FkM0pGU2ZqdHNqcTVCdDNiQ2o5LWgzQmNKeU5JNTF4WGVvZjFKQXpkMlRSLW16b29yaGJnN1p3emd5U0hUdWs2bzJFekVfVzJKUzM3U3o2aHdRWWtsTS11bEswNmZ2MzRSb2ptNGlhVUc2NFVwbjZRbFpoa3ZaTkp4XzdWNF9VQ0FwTzlHUE1YaV9ST2VKZ01LQQ?oc=5",
+   "source": "Rádio Metrópole",
+   "date": "2026-11-19T10:45:00+00:00",
+   "summary": "",
+   "id": "b8fad9df682042",
+   "topic": "imoveis"
+  },
   {
    "title": "A garantia que não garante: Terra familiar e alienação fiduciária",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRmJRMXJhY0pHenBMWmh4dEpUTFhEblRYd2p0TlN0akxpV2poSFYxZUNlckNQZlJIZFFfT1FSX1lZUGo4WlA5Mng3VTdNUGNWUnM1cE43c2x0c2tzajAyQk5WZG14cVIzNzJGMk15eFNaRmZQcFZzSEc1ZHpOLS1lb2Nfc29hSTFEZkdOMEZabFRtTEo2Zy15X19UNklPYmlMZEt3QU8yM3Vmdw?oc=5",
@@ -147,13 +174,13 @@
    "topic": "imoveis"
   },
   {
-   "title": "RENAVE: Como as novas regras afetam revendas, bancos e consórcios",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU0tKQjNiZVFla1ZsclhDWnRYZVhjVmNVcDlkejVodWFvcUQtejNkRE1vNHlxTkdTZDBzZkRJc0I4Y0dOX3lfWHR5QWd5OHRocC1TM1BJUTBacTJITDJHUGNjTHFKRHh5WHBwXzJmV3BLZHN1M2dKSV95UlpiMXVVOXBjeDNqU1QwbEU1NFF5RQ?oc=5",
-   "source": "Motor Mais",
-   "date": "2026-11-17T14:12:20+00:00",
+   "title": "Banco Bari e Porto Bank ampliam parceria para oferta de Home Equity",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUU9PNnZ3QVpYcWFROVEtSGhLRXFITW1MeWdKZnNkalVmOUphUmlDVmY3VXpnaWFlMkxXLVF2M2lYQjlWT2JYVGJoS1cyQkpJenB0OE5VZnptRXM4d0VjR2YxREVsNHJPRnBPckxmWnBCVkg0ZGxRUjhCbTVBVWhWREdyQmpvSFZXSFBIQm5ianF1N2lpVFJZNk9yeTh0TnNvWnU1T2NjWFlqdldLbG9KOEpMaGRaaWtzSldvWS13?oc=5",
+   "source": "Sala da Notícia",
+   "date": "2026-11-17T17:03:38+00:00",
    "summary": "",
-   "id": "e4b87b3825c3a5",
-   "topic": "veiculos"
+   "id": "91bb8a3b4f3deb",
+   "topic": "imoveis"
   },
   {
    "title": "Crédito com garantia de imóvel pode financiar energia solar",
@@ -225,6 +252,15 @@
    "date": "2026-11-16T11:31:22+00:00",
    "summary": "",
    "id": "99a9f5697f1197",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Governo amplia Move Brasil e agora libera financiamento de carros seminovos; veja as novas regras",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQa25YOEkzcWhINGVhaWV2czdWNGZGZWZmNkVqTGZlVkZnMHFBR1h6UG5xV2VNUUl1ekxDbnhNQWlWcW9NQUNOWWRsMFc1REF3c0huYzMtYUdjeC1raG9zWVBmUF9fUmpGeWt2MXFOODdIN2RsWVRlbXhEQjFXOVJzTTJsVWp3cHd6S0JCZDY5M1VMMXViS2dJTUdZSHlRU0tteGo1dF9UQVQ3NG5hbkJlaThLOV9SSFRZaVRybjV6T3VhREtGVV9HWFNnQjhnWUZvelgyc0JkbTdHYy1hWHNHcmtCNFNQU0xCZ3JaMVJPdXdKUWcwajdQTGlCWUlDQ29vYkZBNjByV09Udw?oc=5",
+   "source": "Terra",
+   "date": "2026-11-16T08:00:00+00:00",
+   "summary": "",
+   "id": "5c427ec1ffe7a5",
    "topic": "veiculos"
   },
   {
@@ -1128,6 +1164,15 @@
    "topic": "imoveis"
   },
   {
+   "title": "Santander segue Bradesco e Itaú e eleva juros do crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxON19TTmstWDNpc25kckp1SXJVeVFzb0FUdlY4bzNwSThldFpqZDJPMU00ZGNvWlI5Vkt2cnhYSWdfdm5CZWZLaml3UW9NbDh1dzM1X2twd1JXYjdONXQ1dXNic3hZbmZqMURfNEpGRzhjMzhUQzE1VW1zQ2xGRV9ndGhqSVRmZXVVYlBmMDdnbml1U01hWUxlR3BIWXAzbHJVTXY1TGs2WFpDSzI1eDFQRUlydw?oc=5",
+   "source": "VEJA",
+   "date": "2026-10-31T07:00:00+00:00",
+   "summary": "",
+   "id": "b4bc3571c7c2b5",
+   "topic": "imoveis"
+  },
+  {
    "title": "Home equity cresce entre brasileiros que querem estudar fora",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWmdQQmJmby1wcWtVSzRpcmxKVEhfcjVsRDhZcG92T1F2RzEzX3hkVTdMRDVFREg5Y0hNa3JzOUUyZFdOcUJPUGhhQXVTdDRnU3pBNUR5UW1hTjBhU0Q2Y0pIMXQyR041Tkd2WkVmblZValgwZ1RXQkV6dFJMeS1lTENISXRQdXF4bFVTalotNkNMdnFnOGNqWTRUVVRGOTI5VXU4S0p6RjZOdDkzZXlz?oc=5",
    "source": "Educa Mais Brasil",
@@ -1152,15 +1197,6 @@
    "date": "2026-10-30T19:12:54+00:00",
    "summary": "",
    "id": "5d26d3b0c6eb5a",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Crédito imobiliário encarece com Itaú, Bradesco e Santander",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ON2JfbDhvSE5POVBWa0RTbjc2VFBLdDczSEwxVk5JenhlaTJkRnFDVE8tbnZjVEc3amFIaHMxaG9tTnhvY292Z1lCMXVyX0phMmx5cjlIRVhYOUpuczNWajJkVWZTTjdFMjkwRmNPdmlFbGtoMUI4X25VSQ?oc=5",
-   "source": "SpaceMoney",
-   "date": "2026-10-30T18:33:35+00:00",
-   "summary": "",
-   "id": "5dfcf4443b1612",
    "topic": "imoveis"
   },
   {
@@ -1317,15 +1353,6 @@
    "topic": "veiculos"
   },
   {
-   "title": "Itaú segue Bradesco e eleva taxa do financiamento imobiliário",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPME96Rzl0OTFXblpJMV9WS0dHamEwUEhkd2JWOHVzT095YlI5TzhhRzBjMFYwMmJ4azg2MnZvMHd2Y2RsS3NHSkZKdjMwVTA3TGdjS0F6d3lOODZwX3pjLW9SNzhPaFA0YUs0VlhtWlp3UFZLNl9fMHk3MzBIZEFKNWpFQjZHTHhwRHp2WFZZVUNQV3ZGX1J1RHlxQUJUVUpETlhJRnNjemdoX28tNHR6ckNBeWpreVdWQXc?oc=5",
-   "source": "VEJA",
-   "date": "2026-10-29T14:57:40+00:00",
-   "summary": "",
-   "id": "2d81691333f8fe",
-   "topic": "imoveis"
-  },
-  {
    "title": "Juro do financiamento imobiliário vai subir em outros bancos? O que se sabe até agora",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMzR4VVBOeFNuenpXQ0gxZG0xOEhXZXBlN0hMUFRza1dKNnQ0OEVneVJrOVBhM0xEZFhxeXU5cVhHRGpzb3h1MDc4MGo5WThKTUEyanNsQUlzczRoMEFua2luWTdCMmJZanJyTlNfN3ZBcy1zcEpPYWxvNnZqcTV0a3NGbzF1LUN5VjVvX0F3RzZiRUtjRzd5dGw3dkdqaV9vemNOUXdrSS1hanhKVUJWazBBZHA5QUNIZ29KR1ZkeHM?oc=5",
    "source": "Exame",
@@ -1398,15 +1425,6 @@
    "topic": "credito"
   },
   {
-   "title": "Bradesco eleva taxa do crédito imobiliário após disparada dos juros",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaVNrUFpfbEtkZzJ6NWVtT3ZzUTRnTk44OGxqQWtmWTFYLU5LQmZnT2lVQnRrOGJhQm9xWkVrYXgzWDhoQmwxTHhLdVMwdktRblVQY3NMRWM5MUYyUXpZazBDYzVHRkxST1VneTdLcnFyaFhaVUcxTWdqMkotT3QtbU9ua3dMcFRLQlN0OG05dTVObDNMeFdBR1FkTngxcWZvaGxzT05n?oc=5",
-   "source": "VEJA",
-   "date": "2026-10-28T07:00:00+00:00",
-   "summary": "",
-   "id": "c177c828c52022",
-   "topic": "imoveis"
-  },
-  {
    "title": "Hipoteca e alienação fiduciária na falência: a mesma dívida, dois destinos",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY0VNSHJud096Q2tRRWtua0FlNEFqSVVQdWhJQ0RpYWQxS2xpRUFHeG04MC1LdkNJRGphcUpJZ255eWNMQm1PM2x1VWxtaWNUaHBuYVl3ejVrM0ZXNnBLZHN1Y2JmQ3hCRWpobTVfUGlJUUN0bXNmUi13ekxSQ3A5Mng1NzdiekJsMFdMdjBEc01XbV9aNG1aWXdaNUZ0MHJRNGN3U1pDUmhmNGM?oc=5",
    "source": "Consultor Jurídico",
@@ -1423,6 +1441,15 @@
    "summary": "",
    "id": "6bbed55a00ffee",
    "topic": "veiculos"
+  },
+  {
+   "title": "Bradesco eleva juros do crédito imobiliário e acende alerta para construtoras",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON2g4WUFxR2RxTEUtZTB3bGhKYXByMW5MMWdoc1F5elg5OWRlZGFUNW1RbXRNNFdRNmFIVm9UcktKSDM5YjdWRlhQQnFUZjdRU0V4Y0lwR3JRcnNzakd6OEd2dlFyS2tld2NZSHBPdVpuczEydHNzdmYzSXBUOTl5aEZiZHVmaS1LMGRDZEx2d1lOMUVnOTA2aURhd1NDTVY1NG01NHZVekxBTG1mYTh4TFc4ajA?oc=5",
+   "source": "EuQueroInvestir",
+   "date": "2026-10-27T07:00:00+00:00",
+   "summary": "",
+   "id": "b72280d3bd89fd",
+   "topic": "imoveis"
   },
   {
    "title": "A Alienação Fiduciária do Pensamento: O Cérebro sob Custódia",
@@ -1963,33 +1990,6 @@
    "summary": "",
    "id": "a9f3d1888f71bd",
    "topic": "veiculos"
-  },
-  {
-   "title": "Bancos e cartórios preparam automação do financiamento imobiliário",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZVB5WFBYLS1zOUx4S2lNZEswRHpaaS12TmktQ1p4eDF6Q2hmQnpxWXRSTTVWVDNKRktqcHN1Qkg3Q2x1N2IzTk44MWQ4bGdGVVN4NUlnbkFsMkhyaXNUQU5manNfdUQ5a2ZnLTVLUGtrQnk1aFdqU0I3X2ZDcHBUQUZqRl9NZmtpOG5PcWNiSVJNaWE3bXp6UGRzaE9Fa1k?oc=5",
-   "source": "portas.com.br",
-   "date": "2026-10-07T07:00:00+00:00",
-   "summary": "",
-   "id": "d3af0a4e1d2a38",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Crédito imobiliário cresce apesar dos saques de poupança e FGTS",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPanNQYWJFc1ZfaUZ0a0pBdDBqbDN4bnZGcXJLbFZGR1otd2hFUzRKdGRyMk5OenMzSGRDU2RGOXNTOTJwT19wOXZhM2w4SlhBR2JlRVd4Z25YdUNIanZrR0JqSnN5dE5XeFV2ZV85clA0cGdSSHFYanIybWxvZGNUNVNpRm43N0FFWXJHNFZONkpidjFLdC1KeTZXaHlOd3hGQ2JQQUhLLTlrVGkxZVoyTQ?oc=5",
-   "source": "Imobi Report",
-   "date": "2026-10-07T07:00:00+00:00",
-   "summary": "",
-   "id": "c00e85a4770372",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Tecnobank estreia programa Camada Zero para debater bastidores regulatórios e infraestrutura do crédito automotivo",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTndHU3NMTGZUM3dxdU0wSW9GTERCSmZiT3VrUTdORGVOZ2NYaEx4RG00ZFpGV2Ztb2d5OEQ2RjBsR2pVUjg0c3V2MlQ4Rzg1bExMVE5XTzlWYzlCNGw0dGdRZFNtUnBNSjdweHZLTDRQTm5vZjYzSFN2SlRHcWlvcnNDREM5ZV9ibFhmVjJBMGhhcEd0YzVsM3JSYjNPQXlKWjlUWkI2VWkzdENld2hWYmNORWpjYzhTWi16dlRsZjY4VDFQUTAxVEYxbWJsVnNhZ25kUnNPaWJ5RWUxbnc?oc=5",
-   "source": "Brasil Inovador",
-   "date": "2026-10-07T07:00:00+00:00",
-   "summary": "",
-   "id": "7640de5b2e0c3f",
-   "topic": "veiculos"
   }
  ],
  "normas": [
@@ -2293,8 +2293,16 @@
    "label": "CDI anualizado",
    "value": "13,65",
    "unit": "% a.a.",
-   "date": "17/11/2026",
+   "date": "18/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
+  },
+  {
+   "id": "sgs-226",
+   "label": "TR (diária)",
+   "value": "0,1693",
+   "unit": "% a.m.",
+   "date": "18/11/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
