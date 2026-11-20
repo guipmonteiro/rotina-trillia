@@ -1,16 +1,25 @@
 {
- "updatedAt": "2026-11-20T17:44:06.378086+00:00",
- "checkedAt": "2026-11-20T17:44:06.378086+00:00",
+ "updatedAt": "2026-11-20T23:56:47.609740+00:00",
+ "checkedAt": "2026-11-20T23:56:47.609740+00:00",
  "fontes": {
-  "Google Notícias": "ok (+38)",
+  "Google Notícias": "ok (+36)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.20772/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Além da Caixa e do Banco do Brasil, Itaú passa a oferecer financiamento imobiliário pelo Minha Casa, Minha Vida para Faixa 3 e renda de até R$ 12 mil",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbWh6ZFpRNmpUTDlxdXpYZHYwdWxtOEVJN21oR2lZQ0dVWGV3OEh1bDhQR0VGOVJnZTZMcXNZaldDVmFfblFtbXc4cktFQ2VzeE1lYW1aMjlZNFlHZVZSTGlCdVZweU12MW5UTklRbEswLUNQaE5lNkhVTk1EOENfN2ZKRlNPbS1aanVoREM5NVk0clRYbzFZeWZtbG5WdUFadlN0TTdsZVlBUQ?oc=5",
+   "source": "ND Mais",
+   "date": "2026-11-20T19:13:33+00:00",
+   "summary": "",
+   "id": "9228836f5d44db",
+   "topic": "imoveis"
+  },
   {
    "title": "Itaú vai financiar imóveis pelo Minha Casa Minha Vida; veja regras",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOTUtbkdiWTJtQ2hTNDQ5c2RLY3BjWlVNLWhDdmJfOFMyaGFXeVpHMFFkYm9tSEQzZlQtby1UZEJfWGJwcE5jVjFwTkNUaUlqSml1OVpBSzlwWnJ4Tm5WaDFTSFc2aklGSDFTdWd6TEdFXzlLcGZHYURYU0JMR3RxVEpSWVpQaG5PQlNrQ3pEUURIeUR4SGpuRkNnbXlVNFRrc0VuMDZuODdkd3c2OTB5ZnB6bGl2RkJpQllDNE9yUDQ1b0tpcXVIVGg5MFpFbFk2VHlactIB4wFBVV95cUxON0FhMlVlUW9mOUlySnZTT09WRjVnUUVkZDNROGIta3RhMGExSmpWLW1EalpfV1hTTUYxMUNKTWNUV2x4SmI4ME5sTy1DSTBoa0h3dlFoTlBSeEdzdklwWEtUa21CQXhKNkZMSnI2OUtpeFFmdFBhcGNOczJoX0dBTnRrUUxRWmluTThxd2tkM1A4ai1XSDNONWMzUjVzeXgtalpLOF9oWnd2aW1EOW9OenFFNnpjZ3E1RFRGTkRIaXJGN1BLOU9mVkxKQkk3UHJLZ1lzUzU3WWgtVzY3M0hlbGc3Zw?oc=5",
@@ -27,6 +36,15 @@
    "date": "2026-11-20T15:00:42+00:00",
    "summary": "",
    "id": "61d1f570f8a029",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Revista de imprensa de 20 de novembro: Crédito habitação, rendas e OE2027",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRDR2Z0RrYW1NemtCdkdGeE5BQWdhcm5vMlhYX1FFVjlLbWNDRGdqNFg1VGdYZlZyanp6U083anlKcm95Q29TamJvX2ZZZ0paT0pweW9jZ0kwNkZXVUYzLS1GUlROVm1WclcwTGduV1IxZUxVVFVkQy1HWWZpN3lCanVjdXE3cUxfVFlBTVpHYUh3V2ZwaUxNUFVocGJHNnVZazh2M1B4aHJEbXZwdG1UM3ZlZUNFRy1sWHpFZElpbUJxVW5KY25Yb2Y2VDNFS1lIamFB?oc=5",
+   "source": "Contas Poupança",
+   "date": "2026-11-20T09:17:54+00:00",
+   "summary": "",
+   "id": "ba6cf85b8620e7",
    "topic": "imoveis"
   },
   {
@@ -738,6 +756,15 @@
    "date": "2026-11-08T10:30:00+00:00",
    "summary": "",
    "id": "f3109453b9856e",
+   "topic": "imoveis"
+  },
+  {
+   "title": "FlowCredi amplia acesso ao crédito com garantia de imóvel",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbHFrMjlrdXVmUHJLTlQ3VDY5c1Jwc2JETmN6cnBlT21DcnVoMmJOOFI1bDR5NnRDYkM3Mzg2elBkT1lBT085dEg3MHNIcGNiZmdOazhDOUI5U0ZjSkE3OUozd0I3UnFxVlFoajlaTWxUS2lSRmF1dlYyM3lqWnI5LWs5eDJjVEdyNjNF?oc=5",
+   "source": "Let's Money",
+   "date": "2026-11-08T08:00:00+00:00",
+   "summary": "",
+   "id": "7b45193454334d",
    "topic": "imoveis"
   },
   {
@@ -1963,33 +1990,6 @@
    "summary": "",
    "id": "acd8813f25b927",
    "topic": "imoveis"
-  },
-  {
-   "title": "Poupança do SBPE tem saída de R$ 6,19 bilhões em setembro",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9wRG0tdDR1djcxSFpFS0hjYWY3YWFMQ3ZPaDcyb29UVGhsOG15LWxNNUJicEhPdFlQZm1KM1NqOEh1dldoalY3WFhfaDdWWk5ka1p3cW9aUmtpbFRqdVRkRldhWTNUZnZ3amhOOVp3NGE4V3NRbkRSSmtkaw?oc=5",
-   "source": "portas.com.br",
-   "date": "2026-10-09T07:00:00+00:00",
-   "summary": "",
-   "id": "5b9ebe45fa2c32",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Operação mira fraude no financiamento de veículos",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ1BpRTJDTDkyaHllOFFjZXhLdmtTcmM5UlNxcVA2aVRPY3VxYWJsRXhTMDRGSjZVT3ltSVpFT3N3cGhLbGJMS2tjQTRZc3M4RVBwVEF2bmRvNm1JSkt1Qm5QZWtNdU9pTnJ0N3ZoS0dDcWVlS3FNaDhlbGRTeDBjN1piWUczd2o0QVdHMjBTcWZULUxGVFN6WFNKT1VPWlFyNlN1MExjaF83bVNuWkl5eNIBvwFBVV95cUxPNW52bDhCNUc1N2tPT19rTW1QR2kzQVhXOExFWV92elNSQVg3UWpCTmhhckFUT2M2YmR0U0NCb3Zabi1QVGpqS2s2WjlZZ3JVeWJlOW5HUjVybE5GRWw3VzZpdm9qSHh5b3RNMFFsSkFLSHRvcUxyRnc1OEN4MjMxUW9wdG5VTTZpX3B2SGFNaWNlX3c5OENDaVNaZWc5RDAyYW9vRWFzS3BKVGZ6TXZjLXAyazMwOXJIUC1FWkRpNA?oc=5",
-   "source": "G1",
-   "date": "2026-10-08T07:00:00+00:00",
-   "summary": "",
-   "id": "82d0b30aee741c",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Avelloz lança operação de financiamento de motos com infraestrutura da QI Tech",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVlNBVHZFNFZrUXZ2NGVYVlpoMHJGLVpTek5NcDM1TEswUVhRZzMyTzNnbk9aYm9vbE1wWXNWaEZkVkdxVV96d21SQkY0S3QtSWVqUmt5eE1Nc0lzb2VOYktXWnJhdlRoTV9oNzFzLU5sYktSWmtYazJGVTdkY2NqeHZqbzVieVNMOW4yZGJEb3FuVE1TRC1qekwxcnVhdzg3Y3NxeElGOVZsNVhoeVk1Wg?oc=5",
-   "source": "Brazil Journal",
-   "date": "2026-10-08T07:00:00+00:00",
-   "summary": "",
-   "id": "b4d901ce902ddb",
-   "topic": "veiculos"
   }
  ],
  "normas": [
@@ -2303,6 +2303,14 @@
    "unit": "% a.a.",
    "date": "01/09/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=20749"
+  },
+  {
+   "id": "sgs-20772",
+   "label": "Juros PF – financiamento imobiliário (mercado)",
+   "value": "14,20",
+   "unit": "% a.a.",
+   "date": "01/09/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=20772"
   }
  ],
  "agenda": []
