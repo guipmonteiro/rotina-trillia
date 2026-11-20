@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-19T18:10:56.079370+00:00",
- "checkedAt": "2026-11-19T18:10:56.079370+00:00",
+ "updatedAt": "2026-11-20T02:14:31.331776+00:00",
+ "checkedAt": "2026-11-20T02:14:31.331776+00:00",
  "fontes": {
-  "Google Notícias": "ok (+39)",
+  "Google Notícias": "ok (+43)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -11,6 +11,24 @@
   "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "Condições de crédito ficam mais restritivas no 3º trimestre, diz BC; só o financiamento imobiliário escapa",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS1Uwa1h6dG44VmtKLURVQW1tMmU2SHN6S2ZkQUZQNEJjMnBndnV1VmJpM3dNaUJmMlNaZXRYY0FiZFBGYlpqblk3U1l0MHJpeTloR19hQklxd1lYSGRTN2c5UE1ndUFkeThLTWgxNWNOaGhQaHpYWUpGRWVjcFdtbTF2ZHZHZG8?oc=5",
+   "source": "melhorinvestimento.net",
+   "date": "2026-11-19T22:58:57+00:00",
+   "summary": "",
+   "id": "f245fa47d99aea",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Juros elevados dificultam financiamento de imóveis na planta",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQmhjREpWSG5BaWJZUGtBb0xHYWZnX1NQVE9nb1hVMnhKNjRXRi0ydEd3X1hTaW44OWotQzhwQ0N3Sl9VYkVfdGh3Xy1teWtzVF9DVWZJeThTajNWVU04MDNXcm9taGMtZHE3Uk1SUDFKTTdWR0tZWENXT09zSDh5X3BtaXBZRlh3SFJvU1JvTU16akV2aXg2M2hITHV2TVdE?oc=5",
+   "source": "Mirian Gasparin",
+   "date": "2026-11-19T19:27:20+00:00",
+   "summary": "",
+   "id": "87566367743eed",
+   "topic": "imoveis"
+  },
   {
    "title": "Operação em Brotas prende trio por oferecer consórcio disfarçado de financiamento imobiliário em Salvador",
    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPbjNPcU1zVWRGMm9lVldJdng1YkFtdEUwc3lJMW5MSGpFUjRGU29WWUkyc3pIU1BScm5FOFBKbUNDNmo5cHkxNFM1WVBwNWplZl8xWUR5MEVVbGMyNHM5VFJoVmJBR01jWjBPUk16S2gtOFFmLWZrNldXdkt1aGtnalpoM01aMjFSM3JzaWx0TDE2bjVPWW5BcGdtOTVyTEtWNVVhQ2JJeW93SC1DdURwWW82Tm85NDBwcUdHMTFLZVJ3TnFzN253WU5uWWQwUExHb3pNZC1kRXR3SVFkUnJQcGg4RGZfWHNvZkw5QWZiNE5valdp?oc=5",
@@ -30,6 +48,15 @@
    "topic": "veiculos"
   },
   {
+   "title": "Falsos corretores são presos por fraude em financiamentos de imóveis em Salvador",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbm1wRnJjYmRNWHFvdUlsZXJfTHYyNGZJN1V1X1pLalR6UUFwdE9UdDljLS1EN3BVdDZPZms3UHl3ZFI4UWxnZWRBZzZvUVg1RnNTc1RQN1kwUUsxbG1aM200WXBoTC1UZmViWVNvREk3NW0ya2VQTXJDRWhzX3dEdTV4cjFoYlZnX0xHcVZzcWlCVXVxaGstcEM5NXlrLVhteGQwZTlCakxlUU9JVTJsZVlXOG94dUM1RDljOVBRSElRSzF2MGEw?oc=5",
+   "source": "Jornal Correio",
+   "date": "2026-11-19T10:49:08+00:00",
+   "summary": "",
+   "id": "f68d32a6c757a5",
+   "topic": "imoveis"
+  },
+  {
    "title": "Operação prende suspeitos de enganar clientes com falsas ofertas de financiamento imobiliário",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM2JwVTg3LXpGR2M0MDdRSVdqUExaN3lPU0dGYXZYcmthRHZyNC1zVEpMdmV6TDFJTmZPbFYtdTNjbHduUExDT1FkM0pGU2ZqdHNqcTVCdDNiQ2o5LWgzQmNKeU5JNTF4WGVvZjFKQXpkMlRSLW16b29yaGJnN1p3emd5U0hUdWs2bzJFekVfVzJKUzM3U3o2aHdRWWtsTS11bEswNmZ2MzRSb2ptNGlhVUc2NFVwbjZRbFpoa3ZaTkp4XzdWNF9VQ0FwTzlHUE1YaV9ST2VKZ01LQQ?oc=5",
    "source": "Rádio Metrópole",
@@ -37,6 +64,15 @@
    "summary": "",
    "id": "b8fad9df682042",
    "topic": "imoveis"
+  },
+  {
+   "title": "Festival Automotivo Sisprime 2026 tem condições especiais para financiamento de veículos",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUlB3YjhwdlAwQi1jQzZESjJNUk13cVcyZDNlOVV3cFhiTExnalBjaHpJSGFUOVVBU0tvXzZnNzlvSC0yb3JlUTM4bi1nVW11QU5LR19YclFmeFdIaS0zMVktR2pacXkwTDFsSElmZ0paRTRlWUFPSHZlNGt3ck1UWE54TFNjZWZmRmNUeS02SXZGeW9mZ3MyQWwzRXJsd1BtVlBXdldVY3JVRVY5NVNua25vNDVDUXZrQjJfRVRZQXc3UkZPMmVWMTZTSEQ3Z3NSOHJB?oc=5",
+   "source": "Sistema OCEPAR",
+   "date": "2026-11-19T10:14:20+00:00",
+   "summary": "",
+   "id": "6f95b54d8c3020",
+   "topic": "veiculos"
   },
   {
    "title": "A garantia que não garante: Terra familiar e alienação fiduciária",
@@ -1074,6 +1110,15 @@
    "topic": "imoveis"
   },
   {
+   "title": "Crédito imobiliário cresce apesar dos saques de poupança e FGTS",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPanNQYWJFc1ZfaUZ0a0pBdDBqbDN4bnZGcXJLbFZGR1otd2hFUzRKdGRyMk5OenMzSGRDU2RGOXNTOTJwT19wOXZhM2w4SlhBR2JlRVd4Z25YdUNIanZrR0JqSnN5dE5XeFV2ZV85clA0cGdSSHFYanIybWxvZGNUNVNpRm43N0FFWXJHNFZONkpidjFLdC1KeTZXaHlOd3hGQ2JQQUhLLTlrVGkxZVoyTQ?oc=5",
+   "source": "Imobi Report",
+   "date": "2026-11-03T08:00:00+00:00",
+   "summary": "",
+   "id": "c00e85a4770372",
+   "topic": "imoveis"
+  },
+  {
    "title": "Alta dos juros empurra crédito para o SFI e trava uso do FGTS na casa própria",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNM19pQ1U4RVQ5RWc0SDc1dkUwUUZqQWNLZXVId0Nwd3EwM19oWXRJbUpnMFVVZElXaTBGY0RDWU1PR2hMTkR3Q0kwMDBTbGtYc0k1VWJfdGxBak4tN0lxYUppOVFsNEVvSXNWNEx2UEtXY1BVWnNmQjNfSlFWZkZwSXB1UDFFVkV0T25GRGpvc3hWOGJ0U1NadzF4aWtyNUhmSm9VXzBpLU9IYjZSZXp2NFRjbnNqcEJOMDRmUHYwbTVZbnRXOWd2NEJMZzA0dmxyOW5CNQ?oc=5",
    "source": "JC",
@@ -1944,51 +1989,6 @@
    "date": "2026-10-08T07:00:00+00:00",
    "summary": "",
    "id": "221cf14318c73f",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Juiz manda Detran informar contratos de aporte com empresa ré pelo desvio de R$ 7,4 milhões",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYVNkdXB2T0lvQ3FZa1Q4R01hX3duVWl5bXBaQ1RHSWJ0UUZNN2lEWUpjZFFlSmI4OFBSN3ZMVGtMV3g1Tnl1ak0zZFAzLVhfbUZJNTVjQk12N21vRE44aHo2MmFpSVhwSE5EVHR6Sm00UllteXUxa29kSy1jRHA4OHk4Ry1xRVlDUU1zZkowOTVQeHdIbWYtNS1TSUNfMThfbnExOUo0czRQeHVvdnViVVV6N2RCaGsxMmw0eHh4NmhIX2ptTEgw?oc=5",
-   "source": "O Jacaré",
-   "date": "2026-10-08T07:00:00+00:00",
-   "summary": "",
-   "id": "2ea9399dee4d16",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Financiamentos imobiliários do SBPE somaram R$ 17 bilhões em agosto, diz Abecip",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa2I5UHBTRW0tSjRUS0Fubnp1RjhncnRHNEFDRnNSenp5SnNIZzF5TFo2dkwzeEVrV1ZqclV4dzB5RnREX05HUElKVnJPTG5iVWdSR0tBa214RlM2OFI2TE40Y2tIREFubm85YmVOeVJaSnNPUTdfVkk4TEZRRlFVTkZRU3AzdkhyY0FEXzVEYXNrUEpHUDdjOVoxWHNMQXNqZVFtZnR30gGrAUFVX3lxTE5kVVZPb3BzV09tcm40MWVaR1VDNzBydm84emZILVEyX3EtY1RUdmFvM1owTTNTMVUwMElVNHJEMTRaWG5SZnNsVXYzVE9VaFpha0cwd29wWVZaMkQySTViU1N2OGR2V21pYTc1UXQ0YlM3N2xUS05LZTRsQ3F5Y0laSVUwTy1oZkJOUFJGWmFDSFFIQWNQVHYyUFMyYXV4TWpkV0xnTXJhc3ZkUQ?oc=5",
-   "source": "Livecoins",
-   "date": "2026-10-08T07:00:00+00:00",
-   "summary": "",
-   "id": "376e9f1b481cfa",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Como funciona o crédito com garantia e por que essa modalidade oferece vantagens",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUEM1Vm1fTHRLSkswN2JtSGt2LVhTT2JoNGpGbDFyYjlabnZBbTl5X2VUam5XZE9sVjVPTHRXWjVNXzNWNkxEU09OTHdYalN3cUcwZlI4bGI3TVV3VW8tOWxCN2ZjS2lzbXJQU0NKanNXZE5fM1ozSnpSNmVwWVlGSE1DV2tNaXJqRjVFMVJIRkltTE5uVHJsNXl5YXNCOEE0bnlnWXByeEZwYVRFSzVyRVVmN1J2bDJEYVFvd3ZIclhDOU9nVlE?oc=5",
-   "source": "Gazeta do Povo",
-   "date": "2026-10-08T07:00:00+00:00",
-   "summary": "",
-   "id": "228c5591233c31",
-   "topic": "garantias"
-  },
-  {
-   "title": "R$ 207,9 mil a mais em juros: financiamento imobiliário de R$ 400 mil em 30 anos sai mais caro no Itaú do que na Caixa, pela taxa média do Banco Central",
-   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQSjk3cDZBOHotOWowOGR0Vi1KT1lkQXVJRkZKN0pRbVBIWkUydTVGMUpROVhQcG56U1Z6QzJCOFkyc1RzbnZFbDRybllNbDNvRXJfczhTX3BZTUdGUEVxT18yVU96UUdKTzMwZE5qeWw2dnRnaFNpZ09KTmNqcTR6M2Rxblh5ZWllSVpaZjFzWm1yc1I4TEZpTnFjYjQxaE44R2FQN3Utc2tGWVdyZDhMTHNSeEFsVTQxTjFBUDljRDNWQ2tMeWpibjBjZHRlMTMyV1doX3c2cm9yRml6QWt2RFpwLXN0ZlViXy0ydDdaRlZuTXBnaVkzNXVTRGVMamhLVk9qVlNKNGNXRWpwblozcGQxZ19DZ0ZULUl4TzhwOUI?oc=5",
-   "source": "CPG Click Petróleo e Gás",
-   "date": "2026-10-08T07:00:00+00:00",
-   "summary": "",
-   "id": "a178faffec2afd",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Detran corta acesso de revendas a emplacamento e transferência de veículos em MT",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQamZCQkRWTmhSb240a3NtZXItaEZxZUFwWkxZYTBUM05rM1VnNzNubU5qOWU1RTdWekN2TXFSVTd1VEFqVnFvTXQ4Zk1uUVJsbzluSm5vWmFwNXFYcEVWTlJ5ekRERGdPVXFQYkd5VU1rTWhUcVUybVpHVEJFRy1pY0NYUEJBcTVwcGQycHRkQnp5bTN4ZjNiSUl0aUdnSEdJaE4td2F0MUpDdmppVUlPTDZYbjNGbldvTUpxZkNWNUVBZHdHS2hCZWtHTzJHU1k?oc=5",
-   "source": "Fatos de Mato Grosso",
-   "date": "2026-10-07T07:00:00+00:00",
-   "summary": "",
-   "id": "a9f3d1888f71bd",
    "topic": "veiculos"
   }
  ],
