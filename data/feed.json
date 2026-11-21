@@ -1,16 +1,61 @@
 {
- "updatedAt": "2026-11-20T23:56:47.609740+00:00",
- "checkedAt": "2026-11-20T23:56:47.609740+00:00",
+ "updatedAt": "2026-11-21T16:44:15.588304+00:00",
+ "checkedAt": "2026-11-21T16:44:15.588304+00:00",
  "fontes": {
-  "Google Notícias": "ok (+36)",
+  "Google Notícias": "ok (+44)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Itaú vai financiar imóvel pelo Minha Casa, Minha Vida",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1XZkFoeWFPa3dEUEFHaVpQZDQydDI2MS1sSkhFZDl6T2VfTWp2N29mNm1IbE9IU1BDTVIxRjdJR1dveVZ1WDBYdmg0LUpKWHpoVWNGZllpcnV1Njh1U0VkSE1SX0hwM0RkUjNSOE5CVjVuLUZITE1uNHBsRTA?oc=5",
+   "source": "Let's Money",
+   "date": "2026-11-21T11:03:16+00:00",
+   "summary": "",
+   "id": "21a2af462dd9cc",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Bancos esperam crédito imobiliário estável no 4º tri, diz BC",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTURIdG5kR0ZYTnJzQTYwYWpucU44MVBVaUd6eE1ZTWd4WlQwQW80clc1bzMtUWQtVllXZWNTeXo4RGxlMjdILVRjaF9TVVVzQU5iLUJ0aWZFWGR1MmZ2Znl5eWJWZkh5azVuVVlzMFh1eWpGODlWcmJhWV9pYTlSM3BVQVBUVlVj?oc=5",
+   "source": "Let's Money",
+   "date": "2026-11-21T11:00:21+00:00",
+   "summary": "",
+   "id": "201ad98105eaa0",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Lei do Renave: o que muda para lojas e bancos na negociação de usados",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNVN5dHhJSDlRZWRUd19KQVdOZ0JtOFk2c2MxTS1aSkZGNGNZbVY5a0IyLWY4N21FaG1Ob3hHREZfQ2RfVDl1WW5DT25UekQxSk5TU3ZUMVE2Z1ZfWTVVbFZuU3JrcGlBdE9mV0ltZUEyUnRYOEFnSjFxWkhnQnNZU0NZMl9id2JEclV6N2RseVlfLTlWYnZ2YXNQXzlIWnVvN0Q3dGdQekxZVU81MmhBX3hfakdGcTZBTE9ERXRhYw?oc=5",
+   "source": "R7",
+   "date": "2026-11-21T03:35:44+00:00",
+   "summary": "",
+   "id": "804ddc7457d344",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Famílias com renda de até R$ 5 mil podem receber desconto na compra da casa própria pelo Minha Casa, Minha Vida e reduzir o valor da entrada e das parcelas",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONGpVaHhXVElqZEFYcXRWOGxhc1p2cEItUnBsaEtzZE5FcV9PYVB5NDZBTHBTbHdCQi1fSVdxWk1RQVEtcHFFNDlPMzJHWl9RdW80RjlSUjB6QjlnNjJYWmh4RWV3ZnZsVi1pbEhpeVg5aFJEV0RJOTZ4Rk5aWGJmUXhOR01VTlAydmNHWl9YSWFOcXdNRlVlUzNXUHBNWkJJZC11NDRxZ1RpeVJ6ZEI3Q2pGWlBsaWJaUkwxSEc2R2dOTXNH?oc=5",
+   "source": "Brasil 247",
+   "date": "2026-11-21T00:25:00+00:00",
+   "summary": "",
+   "id": "970bef04d3e1d3",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Cancelamento de imóveis chega a 25% e expõe entraves no financiamento habitacional",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeVpJRHF0bXFRTHMwVmJmREZWRW94WW4zdzgtNUh5dUE0bkJrWm1HcHVQaml0VWRDaEN3T1FDdGJlN1g1TzNLcUtLbk5QS19jTWdwbmJ5cnExM0FCYVNoMmZBWVluUDJ2MENlTG9laVptV0FxVUxxcU8yY0t6OTlLOWtSeHlpbDI0RUFSZFMwa214QQ?oc=5",
+   "source": "Economic News Brasil",
+   "date": "2026-11-20T20:39:00+00:00",
+   "summary": "",
+   "id": "9f5d164446b574",
+   "topic": "imoveis"
+  },
   {
    "title": "Além da Caixa e do Banco do Brasil, Itaú passa a oferecer financiamento imobiliário pelo Minha Casa, Minha Vida para Faixa 3 e renda de até R$ 12 mil",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbWh6ZFpRNmpUTDlxdXpYZHYwdWxtOEVJN21oR2lZQ0dVWGV3OEh1bDhQR0VGOVJnZTZMcXNZaldDVmFfblFtbXc4cktFQ2VzeE1lYW1aMjlZNFlHZVZSTGlCdVZweU12MW5UTklRbEswLUNQaE5lNkhVTk1EOENfN2ZKRlNPbS1aanVoREM5NVk0clRYbzFZeWZtbG5WdUFadlN0TTdsZVlBUQ?oc=5",
@@ -18,15 +63,6 @@
    "date": "2026-11-20T19:13:33+00:00",
    "summary": "",
    "id": "9228836f5d44db",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Itaú vai financiar imóveis pelo Minha Casa Minha Vida; veja regras",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOTUtbkdiWTJtQ2hTNDQ5c2RLY3BjWlVNLWhDdmJfOFMyaGFXeVpHMFFkYm9tSEQzZlQtby1UZEJfWGJwcE5jVjFwTkNUaUlqSml1OVpBSzlwWnJ4Tm5WaDFTSFc2aklGSDFTdWd6TEdFXzlLcGZHYURYU0JMR3RxVEpSWVpQaG5PQlNrQ3pEUURIeUR4SGpuRkNnbXlVNFRrc0VuMDZuODdkd3c2OTB5ZnB6bGl2RkJpQllDNE9yUDQ1b0tpcXVIVGg5MFpFbFk2VHlactIB4wFBVV95cUxON0FhMlVlUW9mOUlySnZTT09WRjVnUUVkZDNROGIta3RhMGExSmpWLW1EalpfV1hTTUYxMUNKTWNUV2x4SmI4ME5sTy1DSTBoa0h3dlFoTlBSeEdzdklwWEtUa21CQXhKNkZMSnI2OUtpeFFmdFBhcGNOczJoX0dBTnRrUUxRWmluTThxd2tkM1A4ai1XSDNONWMzUjVzeXgtalpLOF9oWnd2aW1EOW9OenFFNnpjZ3E1RFRGTkRIaXJGN1BLOU9mVkxKQkk3UHJLZ1lzUzU3WWgtVzY3M0hlbGc3Zw?oc=5",
-   "source": "Valor Investe",
-   "date": "2026-11-20T16:05:04+00:00",
-   "summary": "",
-   "id": "ab1b0655a2d3ca",
    "topic": "imoveis"
   },
   {
@@ -82,6 +118,15 @@
    "summary": "",
    "id": "9fc9c952a5b07c",
    "topic": "imoveis"
+  },
+  {
+   "title": "Financiamentos e alienações fiduciárias levantam dúvidas sobre a responsabilidade pelo pagamento do IPVA",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZVNaUjh3UGZEWlZkNk96NTYzb0FNZ1hPaWFRalVZX3JzblAxNHdvNGVPQllrbTRMSG0yMXA4d1R4aEhYMGFrMVUzV2l6OHYxMUZOb0NmUTNRR3Vqb3drQW9LOWVzb2NJd3hSdGpqRFRzOTVwc1Z2OVJib2E0TS1uOUJ2a2dIZlVVeDd3ZWRUM3FQaDlSNWdFSjJ3?oc=5",
+   "source": "Patos Notícias",
+   "date": "2026-11-19T13:54:00+00:00",
+   "summary": "",
+   "id": "e2b1cdfd235d07",
+   "topic": "garantias"
   },
   {
    "title": "Novas regras do RENAVE mudam rotina de revendas, bancos e consórcios na venda de veículos usados",
@@ -1945,51 +1990,6 @@
    "summary": "",
    "id": "b06310695070e9",
    "topic": "veiculos"
-  },
-  {
-   "title": "Recorde no crédito para veículos ganha destaque na Expofest 2026",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWVA4SEtrcVdFYUo3TTVRVTVNSExpbFRhMHdaR2pTME1BMHpqY1FsZi15TkZwWDVQcHB0X2RNcElSSmpGRGdpd2NaeFNsVDkwQk1zLXRjLUJYbVAtZm9DdURDei1UTkpNa2RYTXNWNEJxczgxbU9heXJ4Qk5pYkMxYnQ5Y0Y1cnJxYkM0TW5NR3lCSUw3YmRqQnlEd1E5cVpscU5qZnRwaW9XTkRjQURhVl9yZG55VTNBV2FqVTQtYS1rM0hOYzFJbjR6VnZlNUFkVGc?oc=5",
-   "source": "Sicredi",
-   "date": "2026-10-14T07:00:00+00:00",
-   "summary": "",
-   "id": "de26164aaa91db",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Santander oferece financiamento de veículos com juros a partir de 1,29% e viagem à Fórmula 1 na Inglaterra",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZ0ZPMnFrNVJ0UGhpX0J4QWNDWFZRY0k5ZXJKQm9veHBuYllkeU43Tk5Edi1jcFBBWFN3YzFMT0pEVTN4VnFpUVVBY1NubVFuMEJQeDVEU3hwcW1USE5rcms5YzVYQzNBaE4zdC14eUJDSlgzWnVRRzZrdjRHamVFclROSUprcEFPQXJPdnlaMFJIaF9taW5yV1FqTm1YbEdBVTdhOGdTRndpQ2djbzEtVm9ITnotSVZpNWk4RXFJNTB4T2RIMU42eg?oc=5",
-   "source": "AcreNews",
-   "date": "2026-10-13T07:00:00+00:00",
-   "summary": "",
-   "id": "102ce17c028869",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Vem aí a nova regra da Poupança, que vai mudar de novo para a classe média",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNFFsRlhSVzdLV0hDVVBqUEhsSnU1aGRwX3J6YlZ1V1J1MUtQTS1xRWVMODZ1WXpEOGdocXNHSjR1WUo3Wlh3Um1QaHpTV1ZZSlpSQVF0LUx4ZmlmdlVFeGJaVWgybDJzSlpMZFYyZnFpcUxEUjhnR0tSWnoycFpyc0hvcVk2Y3FJSTRZZ29WZEpES29sdjcyVmVJRGc2NFFWSzVPTWdlWmtDU2hSaVFMdml2aXRjR2h0VnZfS2lNUTVQb1dYNG1KTFhiYjhMNE0?oc=5",
-   "source": "JC",
-   "date": "2026-10-11T07:00:00+00:00",
-   "summary": "",
-   "id": "3f132415b84d61",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Bancos veem juros menores como chave para ampliar financiamento imobiliário",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTENSR0JjS1R5YnFSb0I5Q2x3aXR4RG1vV1lMd1VqdUtDNXBzeGJKcFhYUTROV2dEU1NHdnpfQm50cWRMUHpBQVR0RlVmNUJpRnZLbXpGVnM1NGQyUmJobXpBcVZTRkdaT3VJdXZKS1N5Z2ZBbjRYcFZwQjJOYW1uYUEtV0ZUVmdkc184TkgtVW8zTk53NUZyQ2t2MG5sZw?oc=5",
-   "source": "portas.com.br",
-   "date": "2026-10-10T07:00:00+00:00",
-   "summary": "",
-   "id": "8dfe521d7c731e",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Financiamento imobiliário: saiba o que fazer para evitar atrasos na compra da casa própria",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQandNcHNXTXFPeVJQRHhMTTVnMkZDTy1uQjgzZlNSZENvcXlPeVpiS0xLN2p5ODVWOHpFQlVQQ2dhdFVuNUF4Nm1OS3VINF82RTluYVhvZHhKWEdjR1RuUXNvX3NKVTNUamR2MXRLZThwM0hTekJUNWhvYnJ6ZEU5S0dta2tpeXdxWUM0dHVfWXc1NWlCT2w5dTl2dmhnV2RqbzBCMml1eFlLOXpaXzNJUlg4WUR3Zml5cXdzOHNJMnRyVDZXQW40cWh3cnZGNjVsWlBiaWFNOENaakZvR2hiWWFjTU0yUjhSZUpJUVpTd20?oc=5",
-   "source": "A Tribuna",
-   "date": "2026-10-10T07:00:00+00:00",
-   "summary": "",
-   "id": "acd8813f25b927",
-   "topic": "imoveis"
   }
  ],
  "normas": [
@@ -2273,6 +2273,14 @@
  ],
  "indicadores": [
   {
+   "id": "sgs-432",
+   "label": "Selic (meta)",
+   "value": "13,75",
+   "unit": "% a.a.",
+   "date": "09/12/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
+  },
+  {
    "id": "sgs-13522",
    "label": "IPCA 12 meses",
    "value": "4,63",
@@ -2287,14 +2295,6 @@
    "unit": "% a.a.",
    "date": "19/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
-  },
-  {
-   "id": "sgs-226",
-   "label": "TR (diária)",
-   "value": "0,1693",
-   "unit": "% a.m.",
-   "date": "18/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
