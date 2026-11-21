@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-21T16:44:15.588304+00:00",
- "checkedAt": "2026-11-21T16:44:15.588304+00:00",
+ "updatedAt": "2026-11-21T23:05:43.209100+00:00",
+ "checkedAt": "2026-11-21T23:05:43.209100+00:00",
  "fontes": {
-  "Google Notícias": "ok (+44)",
+  "Google Notícias": "ok (+37)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -163,6 +163,15 @@
    "summary": "",
    "id": "6f95b54d8c3020",
    "topic": "veiculos"
+  },
+  {
+   "title": "Insurance Summit Trillia reúne lideranças do mercado de seguros para discutir futuro e transformação do setor",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbFQ3cFVYcENUd2RUVm40VjJiMEVNbGw2NUlBcUUyTTIxSkVueHlwdTgyMWotU0FyYkc1ZWwweDdkNzdpOUdmSFE4WGVQb2ZQWjl6SFBHa0NZNzk4ZGhfS2hpVVVwa1gtV2kwVmQyTE1DNkhRcXVJWVNydERoc01mMFhuamRSc1MwcTBNNDFYRFphMndDQ0Z1elNzV1F3eDVOT2JiZ1B6aFhCQ0FXLXRzTzBxQjFBNW51RHV3MjFiQnl0bzV2RnZZRGpXQWxIVm9vQzlhag?oc=5",
+   "source": "CQCS",
+   "date": "2026-11-19T08:09:13+00:00",
+   "summary": "",
+   "id": "0736ba98461edd",
+   "topic": "trillia"
   },
   {
    "title": "A garantia que não garante: Terra familiar e alienação fiduciária",
@@ -1981,15 +1990,6 @@
    "summary": "",
    "id": "9fda3a3371fce0",
    "topic": "imoveis"
-  },
-  {
-   "title": "Liminar impede empresa de oferecer renegociação de financiamento de veículos",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNThNdDE5M0ZCOEhXcExrUnJvek4zbU9NbkI2U3lDNTExVUhNQndJMk15M1BGSS1TZDFmR2txY2V6R2UyNkVOSlJDbTNxWUFRQ0dWVU44VGpXOGVhUEl6VktKY3lKQTRYNVI0MldabzExNWp0dnJVTVp3ZGUwX3RQb1pjR3dPUzVnUnFjckFFWHc1bmx0WGZnV3diQkJXZ1h0R2ZBeVdR?oc=5",
-   "source": "oreporter.net",
-   "date": "2026-10-14T13:51:38+00:00",
-   "summary": "",
-   "id": "b06310695070e9",
-   "topic": "veiculos"
   }
  ],
  "normas": [
@@ -2279,22 +2279,6 @@
    "unit": "% a.a.",
    "date": "09/12/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
-  },
-  {
-   "id": "sgs-13522",
-   "label": "IPCA 12 meses",
-   "value": "4,63",
-   "unit": "%",
-   "date": "01/10/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=13522"
-  },
-  {
-   "id": "sgs-4389",
-   "label": "CDI anualizado",
-   "value": "13,65",
-   "unit": "% a.a.",
-   "date": "19/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
    "id": "sgs-20749",
