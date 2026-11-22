@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-22T17:03:51.885015+00:00",
- "checkedAt": "2026-11-22T17:03:51.885015+00:00",
+ "updatedAt": "2026-11-22T23:33:19.197135+00:00",
+ "checkedAt": "2026-11-22T23:33:19.197135+00:00",
  "fontes": {
-  "Google Notícias": "ok (+42)",
+  "Google Notícias": "ok (+40)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -11,6 +11,15 @@
   "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "Itaú entra no Minha Casa, Minha Vida e começa a oferecer financiamento imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTHpIT3pjajMyQXpOdnQtLTNHa2xKNGN6TFRuYzFlOVE0MmExTXljbXM1OXRiVUVrNWtERWEtY0VYVVRRUURjZ2tJeXlUQlNtRnVUbXZFUi13U24yOE00V2xRNjVUa2RHejAxd09na1Q1cWlHZE1LR01KMmFLNmllaWo4bk01b3NOd1c3X0xHN0FRZzZoX2dJcGZPQlVwdE9LX1dCRjNBR1NXaE9LdFJjbE44bWJBczA?oc=5",
+   "source": "Agência GBC",
+   "date": "2026-11-22T21:00:00+00:00",
+   "summary": "",
+   "id": "81faa6bdef967f",
+   "topic": "imoveis"
+  },
   {
    "title": "Fintech ‘copia’ modelo do Minha Casa, Minha vida para crédito imobiliário",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNb0VDcm1ZZXdNSThhUktjdEg4TnhNN3NjYVI2cGZ4SGtZMVl3UjZwZnM3YU1DWkZGRThZNEVOZmN5TVFnaFRYZ3l3UHJNRU9XYmhURU5udEdkbG9XcW9YS0RmZXB1WWFDc2otRnVQTHpiNFdtQXduNWNrclhjUHMyOWJTQ2NmWGpVUEJyVkI5RUNVSkZQc2lJSlc2clpGVlRxeDcyM1kxMEpOSUhZb283bHFsbjFqZGZhNW1Wa0RON0nSAcYBQVVfeXFMUHhXMDNsdG1fZVNiQ3hRa1Awb2VmMVlOU0FCSHJWamNLdWprNThHME1ISEpCM1RoVlFnVEM3MGV5ck5ET3BkdjJFcURzLVdQZmI5UTJDZWpYUmdRclgyOWFyejRiLUFxeDNuTXJ0RmhBemVRYllrd0tDVElwdFcwTXJpencxT24xczFkaWhKVHNxcTVKeURra29aS0xmWU1BVERKa2RuaGRhM3JqNHlhSGhjRTg2cW9oTjNyQkw4bjQxeTN3cnhR?oc=5",
@@ -63,15 +72,6 @@
    "date": "2026-11-20T20:39:00+00:00",
    "summary": "",
    "id": "9f5d164446b574",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Além da Caixa e do Banco do Brasil, Itaú passa a oferecer financiamento imobiliário pelo Minha Casa, Minha Vida para Faixa 3 e renda de até R$ 12 mil",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbWh6ZFpRNmpUTDlxdXpYZHYwdWxtOEVJN21oR2lZQ0dVWGV3OEh1bDhQR0VGOVJnZTZMcXNZaldDVmFfblFtbXc4cktFQ2VzeE1lYW1aMjlZNFlHZVZSTGlCdVZweU12MW5UTklRbEswLUNQaE5lNkhVTk1EOENfN2ZKRlNPbS1aanVoREM5NVk0clRYbzFZeWZtbG5WdUFadlN0TTdsZVlBUQ?oc=5",
-   "source": "ND Mais",
-   "date": "2026-11-20T19:13:33+00:00",
-   "summary": "",
-   "id": "9228836f5d44db",
    "topic": "imoveis"
   },
   {
