@@ -1,16 +1,25 @@
 {
- "updatedAt": "2026-11-21T23:05:43.209100+00:00",
- "checkedAt": "2026-11-21T23:05:43.209100+00:00",
+ "updatedAt": "2026-11-22T17:03:51.885015+00:00",
+ "checkedAt": "2026-11-22T17:03:51.885015+00:00",
  "fontes": {
-  "Google Notícias": "ok (+37)",
+  "Google Notícias": "ok (+42)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "Fintech ‘copia’ modelo do Minha Casa, Minha vida para crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNb0VDcm1ZZXdNSThhUktjdEg4TnhNN3NjYVI2cGZ4SGtZMVl3UjZwZnM3YU1DWkZGRThZNEVOZmN5TVFnaFRYZ3l3UHJNRU9XYmhURU5udEdkbG9XcW9YS0RmZXB1WWFDc2otRnVQTHpiNFdtQXduNWNrclhjUHMyOWJTQ2NmWGpVUEJyVkI5RUNVSkZQc2lJSlc2clpGVlRxeDcyM1kxMEpOSUhZb283bHFsbjFqZGZhNW1Wa0RON0nSAcYBQVVfeXFMUHhXMDNsdG1fZVNiQ3hRa1Awb2VmMVlOU0FCSHJWamNLdWprNThHME1ISEpCM1RoVlFnVEM3MGV5ck5ET3BkdjJFcURzLVdQZmI5UTJDZWpYUmdRclgyOWFyejRiLUFxeDNuTXJ0RmhBemVRYllrd0tDVElwdFcwTXJpencxT24xczFkaWhKVHNxcTVKeURra29aS0xmWU1BVERKa2RuaGRhM3JqNHlhSGhjRTg2cW9oTjNyQkw4bjQxeTN3cnhR?oc=5",
+   "source": "Estadão",
+   "date": "2026-11-22T08:00:00+00:00",
+   "summary": "",
+   "id": "15819010fd0f66",
+   "topic": "imoveis"
+  },
   {
    "title": "Itaú vai financiar imóvel pelo Minha Casa, Minha Vida",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1XZkFoeWFPa3dEUEFHaVpQZDQydDI2MS1sSkhFZDl6T2VfTWp2N29mNm1IbE9IU1BDTVIxRjdJR1dveVZ1WDBYdmg0LUpKWHpoVWNGZllpcnV1Njh1U0VkSE1SX0hwM0RkUjNSOE5CVjVuLUZITE1uNHBsRTA?oc=5",
@@ -1443,6 +1452,15 @@
    "topic": "garantias"
   },
   {
+   "title": "Juros do financiamento imobiliário aumentam e encarecem compra de imóveis no Brasil",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON1NTZFh5SXRzQTJHbVpvcjFERUdLM0lMUGRjN1UtdVoySGxydl9XNUJDelBreDU1WXNiVFVVRWJhRUZEb0NhQlA2OGtsb1l6OWFfamk1MzZxaFduRmRYTzU2Z3NqeElqcmk5dVM0TFloYWJFUjhJd2xlRUxUYWp0Z0xBYzJqRnhoVmcyb3pRQzJReFNkU3htUDh2VUI4bFNzRUdmX3dSLTdBOW00NlVvTks3Q0pyRGhuUG5yTkp1MA?oc=5",
+   "source": "Grande Ponto",
+   "date": "2026-10-30T07:00:00+00:00",
+   "summary": "",
+   "id": "9d06e3462c612f",
+   "topic": "imoveis"
+  },
+  {
    "title": "Singapura estende limites de financiamento de veículos a compradores individuais de carros de aluguel privado - Notícias e Estatísticas",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQm9ZY0E5OW5MYnhRS3Y5c2ZvYW1EVlZaSXM1ZTFaRU51SlE1ejI5ZDJRSWV2ZjlCQ2p3aU8xZHRWTXd1ZUd4QmpXR0JZSk5PUFdIdGZ3YXZKMGhNVHhzRXVCLTNFV3k3MGJDOFlDUWdkOS02V1pqcEV2SWV2RWNJbTcxc196dHRpU2pYR0VUWEs2OXJDTTBoSWk2MHUzSmctbTc2blBYU0RSQ0xxbFBMV3J2Z05CNmtqSDB1Sm5DRHpZZ0JkZ2pzdjQ1c19TSExHaXdfX3cyTDVVVGp0aTRhbA?oc=5",
    "source": "IndexBox",
@@ -1920,6 +1938,15 @@
    "topic": "imoveis"
   },
   {
+   "title": "Ademicon participa da Feira do Empreendedor 2026 e posiciona consórcio como mecanismo de expansão",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPcFY5aVV3MTRoT0FaSFdzWGh2ZkFNbkloczFmQlliXzZEOWM4YjlReFh2VDJLalhYTHBXa2R6RXBSMVFqZzdCazJkLWpRZHVSS0tDdkV5WlJHY2pwbGdvdkVzMU9tYzYwbWtDTnNEc2JWbEpiOVdXZlJZYWI2Q2hWYUM2ZkVMeTF1X284dVhPQkhKOGJRVDB2OEctSlh0Y2JpTGEwLUJjX1VscE8tcWpRcTdYVlNfYnNVbk1jcHFLSDRWdEVZa2trdWVPcmJmcmJBTEtZa1BOTElJOHc1U1N6anNsdU9HYUpxaUVacHVtdlB1NXNuUVRNcS14eV9KMHhyWkswZ3VqdDR6eVQtUmc?oc=5",
+   "source": "Brasil Inovador",
+   "date": "2026-10-20T07:00:00+00:00",
+   "summary": "",
+   "id": "227462e0ae81fc",
+   "topic": "imoveis"
+  },
+  {
    "title": "Financiamento para motorista de aplicativo: veja opções para comprar um carro",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbHpJR3hOcVVBeWZJZTU5SUVuYmFaQ2pfemNYaGhMN0x2Rk1tWU9DRktqb2c0eXc3aTU2TVNiTWpERXNtb1ZrRzg3VkxNSU95Z1BSNkJpb29TSDVsY3NZeTQ1cDRudURxajVrU2F6SHJINVlVNmlKSzFLNm9oeHhhWnQ4OFg0X185NVltbnJNam8yN3BJbHZubU55ZjktamU2dlVOMnZJUFJCaFR1c0R0TFhSUE84VE5hdllYSmp0bG1zaTk1aXZpN1hR0gHYAUFVX3lxTE1BbUlZMlUyenp4VWhDcXdlRVAxbG5id1oyeFJsTGZvVmRxbjJMLXFac2dCWkp0RUJ4ZkQ4WTd5THV6bzhiZVVOS2RvcUJVdnh1U1ZUNzc5Wm9taWVUSkVXUDYxZzFhRldJWGUxR0JkbkdPNlJzakE4QXhZaG5STjg2bFZveFRybllpNXpaLVItSFdTRHVfeEtfeXBjM092YkFCUGVfakg5cjdVc0lrUWFjYmtXOUlBSGllUTFFckRxeGY0eFVHaTVrV2MtSG1jUFZpUVNvcXozcg?oc=5",
    "source": "TechTudo",
@@ -1963,33 +1990,6 @@
    "summary": "",
    "id": "caca747bb9f317",
    "topic": "veiculos"
-  },
-  {
-   "title": "Desistência na alienação fiduciária: O inadimplemento do devedor fiduciante",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUlBZLVVLSFBWSjM5YndKcDhlVXVUcXRPZmZYeTNqOGVjcG1zUThZMFpFYmJ4cl81eGR5OS1CWlplVUpfVlNUOWFmQ1FmRWkwUEVrcFRqQTd4TFVuZUZUVTFrTlNpdW8yUTNBY2tobENfWFZYdjROelFHY3pxRXVRNmw2UG05alVfVUNtNHlFTnE3R19nVnlSenlpdlNmSzdsTmFtbDRNOGdwcjd1c1ZxNnVfaFJxR3ZNTTFUVE1SdjdHQlBXSGM0ai1R?oc=5",
-   "source": "Migalhas",
-   "date": "2026-10-15T07:00:00+00:00",
-   "summary": "",
-   "id": "141d01da87525c",
-   "topic": "garantias"
-  },
-  {
-   "title": "A terceira praça no leilão de consolidação da propriedade fiduciária",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTGRYTGZCc1ZYVS1xU0JNRmpLLXZOYkp1cXdUSXdwYXItemZsMkFZdl8xam5YclNURUZ6aGJVZVpUNW1tcC1KTjkyNm5WSUNBTFhhM3hfcko2NjdPa2hUa21HSXg4bjJmTEVkRF9Pbk1XN2NQQ0dVQnVwbFV2a3dWdGlJanhJSC0zazlueERWM3VOckZTTVlONVBJb2pSTlQydjRvM3dmSVBEbmZlN2FR?oc=5",
-   "source": "Migalhas",
-   "date": "2026-10-15T07:00:00+00:00",
-   "summary": "",
-   "id": "ba92f1f5ebb88d",
-   "topic": "garantias"
-  },
-  {
-   "title": "Consórcio imobiliário ganha espaço diante da valorização dos imóveis | SEGS Portal Nacional de Seguros,...",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYV85TkkyNHFOdERLcno2a1ZOd01hSG1XOTRqZUJHR1FWS3k0dm1GMmQ4c1NndjBQRGx4ZUhZelBDZGFWbHo2REtDbDlaVm9kdDBNbnBEYlhjZGtFQ3gyeFgwVWtCeFNILXAydmlPM2lHMWNSLVRiSXVtNVp5MlNsVERaN0diNUdvdGlxUEVjOXVDSHNCcUpEa2xNSEtsNTd3TkszVGZNX082M1HSAbABQVVfeXFMTjN2R2xjSnpGUExDeEJNdzYtQ2hnRGdVRGFIOU04ZmlPWkFBU3RUazFGQ1dmdjBwbFJlcDJOcDFGeGpVclJhQTNlM092Wkt6VkJNbGVCSUhXaVRDWnNWTkpqNklSeE9Pc0wzS2EyWWhyY1pNVGNXTE4zU3pLR1VyM3JzSmNqcUc5eWJEXzZBaTk1UzQwS21YOGkxY05qUWJvMFp5NTh3MXQ4aHNwWmV5dFg?oc=5",
-   "source": "SEGS Portal Nacional",
-   "date": "2026-10-15T07:00:00+00:00",
-   "summary": "",
-   "id": "9fda3a3371fce0",
-   "topic": "imoveis"
   }
  ],
  "normas": [
@@ -2279,6 +2279,30 @@
    "unit": "% a.a.",
    "date": "09/12/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
+  },
+  {
+   "id": "sgs-13522",
+   "label": "IPCA 12 meses",
+   "value": "4,63",
+   "unit": "%",
+   "date": "01/10/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=13522"
+  },
+  {
+   "id": "sgs-4389",
+   "label": "CDI anualizado",
+   "value": "13,65",
+   "unit": "% a.a.",
+   "date": "19/11/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
+  },
+  {
+   "id": "sgs-226",
+   "label": "TR (diária)",
+   "value": "0,1693",
+   "unit": "% a.m.",
+   "date": "18/11/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
