@@ -1,8 +1,8 @@
 {
- "updatedAt": "2026-11-22T23:33:19.197135+00:00",
- "checkedAt": "2026-11-22T23:33:19.197135+00:00",
+ "updatedAt": "2026-11-23T21:14:44.499726+00:00",
+ "checkedAt": "2026-11-23T21:14:44.499726+00:00",
  "fontes": {
-  "Google Notícias": "ok (+40)",
+  "Google Notícias": "ok (+47)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
@@ -11,6 +11,105 @@
   "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "Dá para usar o mesmo imóvel como garantia em mais de um empréstimo? Entenda o que mudou com o Marco Legal das Garantias",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQNWl0ZDlVbThqeGxMSHJlcDkzSDF1TEZlWlRrdFltZWdJU1lEdk9oOG1QZGJBSTh3ekpoUk9kUjNuc3QxN2lRMVFLNkd3cTlYeXBqa0JXWFk4dWJKZWlSbFNJSnlnMk1ZVGZMR2lZaC1FOVhZc25SQ3FONjV4enhtYXhQQjMyQms4RnhSamJTSzlIN1dXcnhnYm9qc2xxejB4ajdDdWo1dWcwb0FZSGtZUXRMMFg2ZzFiUFl4NWNIZExLSjVfQjA3RHV5OW9WNmh2Q09Bclp4TFFtR1EzSVhMQVgxVXRmY1AzM3hTajZVNVRzWTc1UmE5UmVVVTdjendiLS15MEJR?oc=5",
+   "source": "Portal UAI",
+   "date": "2026-11-23T19:28:46+00:00",
+   "summary": "",
+   "id": "3d24413fb74538",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Detran-MS dá 10 dias para retirar veículos apreendidos antes de leilão",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWl2NmRxcXhJdzZ3bXJmMWN2VmtFcDdmdUQ3eGE2Vl9QYnpqRm5tMkI4RmpLNkxheWJ0Tkg5YTBiMGVfeHg5VkxtcXZ2cERjUk9jTjdXb0RHRGJmZmItMm82MzNvenE4d0RDYTNXSUM5b0FYREhoUDB6cDMyeFhXNHIybHRGQmxjNkp6b3JhWnBaSnBCZnAxU2Q1Z1M5TV9n?oc=5",
+   "source": "Midiamax",
+   "date": "2026-11-23T18:35:00+00:00",
+   "summary": "",
+   "id": "c7ec351d788f88",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Rádio Cultura - Advogado Leonardo Rafael Fornara Lemos explica diferenças entre compra e venda direta e financiamento bancário com alienação fiduciária de imóveis",
+   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQclJGaGY4OEFINUJSQ3pMS1A4Vmx0NlZybFlZaThjWHA5TWJaZEkwRnVxWVdTVkloZ2huUVBwSmtZX2hxalkzX1JnTmVHTEtDcGhqUU1sTHZpOHpMX1pqRklHR0xlbGtvZXk4TW9OaDlJeWxObmtMNkhMRGNoRWZ0QWdzWE5WbHNOWkUzX2F0QmhxZkx3RXZIX2NQa2dyOElxYUdwaklTTm40OXJQVjB4NHJuVkNBajU2Wi11SEFBRUtXN2ljQ21URDBDRXhaLTZha0xCaGJ0MERJN1B5b3IyLWlxODRycjVBQURJb3E0OXhMV2tGSzBLdzhLak9WWXJQZEhzeTByZU5ObmJWYi1CS09DaHl2NHpKQjBWZm5B?oc=5",
+   "source": "Rádio Cultura Campos Novos",
+   "date": "2026-11-23T18:20:54+00:00",
+   "summary": "",
+   "id": "a7844a9840906f",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Itaú passa a financiar imóveis pelo Minha Casa, Minha Vida",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5oNy1VR0dIZ25ZWTluNnBJaFRyWVB4THI2TmdrVXRzMHZXQmt6VW9OVVhMdTlTSEt0bC1GNGJ5N2RId2RBQnNRdmVacXg3MTRzY1JRNmZTRUJKbnFHUVIweERfNHdKR1RkZjktSmIxOFBITnJzME42eWhaNzF6OXM?oc=5",
+   "source": "Seu Crédito Digital",
+   "date": "2026-11-23T17:00:00+00:00",
+   "summary": "",
+   "id": "708af03e31cec5",
+   "topic": "imoveis"
+  },
+  {
+   "title": "A venda foi assinada, mas o financiamento imobiliário não saiu | #SBTNews",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1TNjNLQndBWkRRXzFONEdBbWdYWlNUZnhVQ0RmU0xmei11NTc1ZUpobFJFOUJieVFtYXEySm96ZDMtRzJILWFITmg5TWl1Z1RFcXY3cDJDZm4?oc=5",
+   "source": "SBT News",
+   "date": "2026-11-23T16:25:58+00:00",
+   "summary": "",
+   "id": "1095d04c061478",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Minha Casa, Minha Vida concentra 58,6% dos lançamentos de imóveis no Brasil",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObm9XSnJwVHdPOGhJVnhZZkpqbmNEbXd0TlJ6LWI0UlFzdS1sT2RiTEl5cGxSaTlVV3VyV1JmdTltWjBPZ0MwQ2xGOTFZOHZndllZd1ppNTJqaEVHcUJxTWQ1QXNpVTVSVnBFNm9UZkEzNzRHLVN5Y0M3Z1FiOWlLclVIeElkVkMyeldkd1dVWEVVZk9GdUY4SnNGRllfMTZqbkJkRmwwRQ?oc=5",
+   "source": "Diário da Manhã",
+   "date": "2026-11-23T16:24:00+00:00",
+   "summary": "",
+   "id": "5ee38713b0723f",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Nem à vista nem financiado: como os ricos usam o consórcio para comprar sua Mercedes",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQ29PRnNFZ0JBcVNBLXN1Zl9ZMnQ3cHpFVlJua2xFakFGaExIaWVKNG5DQjZ6Nm5Ra1RiZ1RSQ2Z4YmZUOFQwYWl0MGNDXzdFZl95Ry1qSlJQeW1rUHd4ZWRwb0NLTDlKajVqMkJ4dlM3bmMxMV9ETHJ4Sm9WSHNwNzhGZ3ZnQmpiaExMd25pazVDRnFraHMxSjV4UjNSVk8yckQwQ3oxZXp6RWNyd0EtVWl6a2dwTVFXVlRzVk4tVld2SFE?oc=5",
+   "source": "Exame",
+   "date": "2026-11-23T16:14:23+00:00",
+   "summary": "",
+   "id": "f887e19a87df07",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Estudo aponta Consórcio QuintoAndar como a rota mais vantajosa para realizar o sonho da casa própria",
+   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOTTJfVDBQemZiSkZWOUdyNTk2TnY1Z1JGa05FZ2RPTkhadXdZM3FIVjU1aHRzZEZ6cEpzQUpybDFHbDh4eG8wOUJZV1AzVVk5TThsUjdVRHFtSVVWbTc4ODRnc2xkaDVVZzVxRnJHSmxaZHRXQ0JPVjRsMHRSa1R6QUpqZlc3bEJiYzlSdnNUMUVKb3RnS3FRc19oUGdHMW12TDRnRl8xY2JBLWc5cmkzSWJNRkNrUXJaOEZmS1puQW82NVZXV0FmV2szZFF2aGFtTEpLY3dzSkhodHFpSXJSdDFRclVVbG5UYzVBYjZVbHZ6V1Z6OTJEanlJdTU2NElMQjhsT25NdUZJQmR60gGbAkFVX3lxTFBsOEpsUXFhSm1KTkU2dU51dFpkTUd5cGhvNzVvTGdJcmYwR3liV2JRaDJwY2M5bi1lRW1SSUo1d0s4dnFrR2x3Rmo4UGdTWEdZZUd5UnRxUGVPNG9renRsUnQ3N3Z4Y2NsOEhXSWRwX3JncDJ5aGhaYm9zYWRjbk5ScV85bFpBbk5VcV9tY2JwbmRpOHdUN3VpOU1mM3ZUb2lKempkSE5UYW00M1pyNkdZcEN0NUU1OU1zNjRGaklyY0NreHlKYWhlc3Fub1FGR1l5U25uN1pUX2tOdEZiakpiWkQxTkxWb3JLT1RMQ1dhT0V6eWxZNzdtR3k4NlhyajExUXZaRkV1UVFhRV9BV1AzWFJMS1hVdnFhZDQ?oc=5",
+   "source": "G1",
+   "date": "2026-11-23T15:30:25+00:00",
+   "summary": "",
+   "id": "5cefb638745549",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Agência de Comunicação - CashMe recomenda consolidar dívidas com crédito imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdFFMenB4OGhpbDhVM1dHNzFXOGYyUWtNaExsWU5KV1Z5aklKZ29LMFp1Ym5zS2k2dXhPbmRSemE2RWctRjUxNkhoZTBOR3Njek1PdHhER3gyWDhGdWlVLXVCZHRoTVRZS1RlUXlULXduSWVFNWxoNXpwV01WSE85SUZzcVBXc1VaTU9pUE51Y2hldTA1WDI3NjdmcnUxOXhncFBGZk1mdDFERDNRVkdYTVFfaUg4b0gtT3dMOUYyRlNGZ0ZNWWd6Vw?oc=5",
+   "source": "Estadão Blue Studio",
+   "date": "2026-11-23T14:49:22+00:00",
+   "summary": "",
+   "id": "d3ebca622f0ef8",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Minha Casa Minha Vida: quem está com o nome sujo pode conseguir uma casa pelo programa?",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeUNIaWJuWVVlamZHRm5uUnNkbEZ2TjJWUHdJRlNhbl9WSU50ZE9td3Q1VkFTd005YkN0QzRhS0RCV05iTnJqOWNFUXd0REtYTHp0TXNNNm9sWmNfSnF0dlhWSko0UWZfUTlyNlgxZU1ZVFBoUFp5TDdoX0E5TzB4d0VDMk1PV3g4QXA5LUNBdXVDVEgwRzQ1UVFmaHNWd2MxeTRwTzc3em9oZUw4OG9oRnQxdW9rcURBckhGTA?oc=5",
+   "source": "Agência GBC",
+   "date": "2026-11-23T11:21:57+00:00",
+   "summary": "",
+   "id": "302e777ec933a9",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Nova lei do Renave já está valendo: veja o que muda para lojas e bancos",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYll1ZGdlUUtJZHFpYnhJMW44ZFZfSURIYk5WOU5vMXBUNGJoMWUzTnFuZFlvcGJoLVVtQ0ltUV9iUFFHLWNJeVBVc0dwak05d1hBWmRKYzQwUWV1Zmk5ZVRESzVjLWptWVUzc1V3YXJtQXdBYUdDVnlQd2tjUUJieEU4b1B6UXV1WlpWR1dyQjdDM2t0Mm5SY3pWUzJOWW95RVRiVlAxdFl5NHA3VVZ3OEJGMlhJcHBfdnNyZGdCR1E?oc=5",
+   "source": "autoshow.com.br",
+   "date": "2026-11-23T11:21:14+00:00",
+   "summary": "",
+   "id": "82a6b08fda7c80",
+   "topic": "veiculos"
+  },
   {
    "title": "Itaú entra no Minha Casa, Minha Vida e começa a oferecer financiamento imobiliário",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTHpIT3pjajMyQXpOdnQtLTNHa2xKNGN6TFRuYzFlOVE0MmExTXljbXM1OXRiVUVrNWtERWEtY0VYVVRRUURjZ2tJeXlUQlNtRnVUbXZFUi13U24yOE00V2xRNjVUa2RHejAxd09na1Q1cWlHZE1LR01KMmFLNmllaWo4bk01b3NOd1c3X0xHN0FRZzZoX2dJcGZPQlVwdE9LX1dCRjNBR1NXaE9LdFJjbE44bWJBczA?oc=5",
@@ -30,15 +129,6 @@
    "topic": "imoveis"
   },
   {
-   "title": "Itaú vai financiar imóvel pelo Minha Casa, Minha Vida",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1XZkFoeWFPa3dEUEFHaVpQZDQydDI2MS1sSkhFZDl6T2VfTWp2N29mNm1IbE9IU1BDTVIxRjdJR1dveVZ1WDBYdmg0LUpKWHpoVWNGZllpcnV1Njh1U0VkSE1SX0hwM0RkUjNSOE5CVjVuLUZITE1uNHBsRTA?oc=5",
-   "source": "Let's Money",
-   "date": "2026-11-21T11:03:16+00:00",
-   "summary": "",
-   "id": "21a2af462dd9cc",
-   "topic": "imoveis"
-  },
-  {
    "title": "Bancos esperam crédito imobiliário estável no 4º tri, diz BC",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTURIdG5kR0ZYTnJzQTYwYWpucU44MVBVaUd6eE1ZTWd4WlQwQW80clc1bzMtUWQtVllXZWNTeXo4RGxlMjdILVRjaF9TVVVzQU5iLUJ0aWZFWGR1MmZ2Znl5eWJWZkh5azVuVVlzMFh1eWpGODlWcmJhWV9pYTlSM3BVQVBUVlVj?oc=5",
    "source": "Let's Money",
@@ -46,15 +136,6 @@
    "summary": "",
    "id": "201ad98105eaa0",
    "topic": "imoveis"
-  },
-  {
-   "title": "Lei do Renave: o que muda para lojas e bancos na negociação de usados",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNVN5dHhJSDlRZWRUd19KQVdOZ0JtOFk2c2MxTS1aSkZGNGNZbVY5a0IyLWY4N21FaG1Ob3hHREZfQ2RfVDl1WW5DT25UekQxSk5TU3ZUMVE2Z1ZfWTVVbFZuU3JrcGlBdE9mV0ltZUEyUnRYOEFnSjFxWkhnQnNZU0NZMl9id2JEclV6N2RseVlfLTlWYnZ2YXNQXzlIWnVvN0Q3dGdQekxZVU81MmhBX3hfakdGcTZBTE9ERXRhYw?oc=5",
-   "source": "R7",
-   "date": "2026-11-21T03:35:44+00:00",
-   "summary": "",
-   "id": "804ddc7457d344",
-   "topic": "veiculos"
   },
   {
    "title": "Famílias com renda de até R$ 5 mil podem receber desconto na compra da casa própria pelo Minha Casa, Minha Vida e reduzir o valor da entrada e das parcelas",
@@ -369,15 +450,6 @@
    "date": "2026-11-16T23:20:00+00:00",
    "summary": "",
    "id": "aac228320c914c",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Minha Casa Minha Vida lidera lançamentos em SP",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9NTVQxRVBQcndlTTZPOGdHYVl0RERaNFZhMmE5YlhPNVc3VDVCVC1oWGlCWFBUN09zaFBjVDBFb3ItNEpWem94RTRteEdvVVlvdnJsVG1KUkpYRTNDYk1yei16aS1GVngwbXBfUWZOeFlVT2Y5X1NYX2x3?oc=5",
-   "source": "Seu Crédito Digital",
-   "date": "2026-11-16T21:00:00+00:00",
-   "summary": "",
-   "id": "04342526077bad",
    "topic": "imoveis"
   },
   {
@@ -1918,78 +1990,6 @@
    "summary": "",
    "id": "2bbf04febc245b",
    "topic": "garantias"
-  },
-  {
-   "title": "Presidente do TJ/SP aponta impasses da alienação fiduciária no STJ",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ2pBWW05LS1BWHJRbG5telpEQzNDNnNuQ21PaGdWcS1vM0g2YXpKMzdQVGRBMFJ0OGI0MUE1c0R6ZzFQYUZTeTkwR0JORERNQjRKMGl1ZURMR1liZk9UY1Z0Vk9jczR3UkllTTFfczRDbkRDWFZXX1EzZkw4RU9qeWN4dDZIQnhQSy1HYkQ2WjNSQlVHUzRPR0k3QmpROHNTQl9RMmkzemkwdHoxU3c?oc=5",
-   "source": "Migalhas",
-   "date": "2026-10-20T07:00:00+00:00",
-   "summary": "",
-   "id": "544c6c11daa0bd",
-   "topic": "garantias"
-  },
-  {
-   "title": "Crédito imobiliário cresce 37,5%; especialista explica como aluguel e valorização podem ampliar retorno de investidores",
-   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPRHdwZWdjQ0VDUW96cm9rODFkRUhTQ05JaGZfV2tZTmFfeE43eVlTZDk2ZVZlQ2d3TlhCV1NvRUNwV2dyTkVlelRQenBJeHhmYmFXOW5fckFveVBHTVRuTExKVFRMSFI5dkl5cFJDMjZsTC1xbHBMU3ZuQ0dIQXVyVFBoTnFNVThZWm1RY2RJQmlrYWtLb1l2MFFuWFRlbHNreHVHZUY0VFo4VnJwUk0zZGhlMV9hZVVsVWlFa2pWTk9yVXBPQkFnVDRQc3VRUGJFV2FiWVFnM3VyWGEzYUxqYXB1dGxZeEhIb2xnRi1venN4X1p6QnJqTllvcXF3Zmc0Y0U0aEQxNA?oc=5",
-   "source": "Tribuna Hoje",
-   "date": "2026-10-20T07:00:00+00:00",
-   "summary": "",
-   "id": "f3e37c23498851",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Ademicon participa da Feira do Empreendedor 2026 e posiciona consórcio como mecanismo de expansão",
-   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPcFY5aVV3MTRoT0FaSFdzWGh2ZkFNbkloczFmQlliXzZEOWM4YjlReFh2VDJLalhYTHBXa2R6RXBSMVFqZzdCazJkLWpRZHVSS0tDdkV5WlJHY2pwbGdvdkVzMU9tYzYwbWtDTnNEc2JWbEpiOVdXZlJZYWI2Q2hWYUM2ZkVMeTF1X284dVhPQkhKOGJRVDB2OEctSlh0Y2JpTGEwLUJjX1VscE8tcWpRcTdYVlNfYnNVbk1jcHFLSDRWdEVZa2trdWVPcmJmcmJBTEtZa1BOTElJOHc1U1N6anNsdU9HYUpxaUVacHVtdlB1NXNuUVRNcS14eV9KMHhyWkswZ3VqdDR6eVQtUmc?oc=5",
-   "source": "Brasil Inovador",
-   "date": "2026-10-20T07:00:00+00:00",
-   "summary": "",
-   "id": "227462e0ae81fc",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Financiamento para motorista de aplicativo: veja opções para comprar um carro",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbHpJR3hOcVVBeWZJZTU5SUVuYmFaQ2pfemNYaGhMN0x2Rk1tWU9DRktqb2c0eXc3aTU2TVNiTWpERXNtb1ZrRzg3VkxNSU95Z1BSNkJpb29TSDVsY3NZeTQ1cDRudURxajVrU2F6SHJINVlVNmlKSzFLNm9oeHhhWnQ4OFg0X185NVltbnJNam8yN3BJbHZubU55ZjktamU2dlVOMnZJUFJCaFR1c0R0TFhSUE84VE5hdllYSmp0bG1zaTk1aXZpN1hR0gHYAUFVX3lxTE1BbUlZMlUyenp4VWhDcXdlRVAxbG5id1oyeFJsTGZvVmRxbjJMLXFac2dCWkp0RUJ4ZkQ4WTd5THV6bzhiZVVOS2RvcUJVdnh1U1ZUNzc5Wm9taWVUSkVXUDYxZzFhRldJWGUxR0JkbkdPNlJzakE4QXhZaG5STjg2bFZveFRybllpNXpaLVItSFdTRHVfeEtfeXBjM092YkFCUGVfakg5cjdVc0lrUWFjYmtXOUlBSGllUTFFckRxeGY0eFVHaTVrV2MtSG1jUFZpUVNvcXozcg?oc=5",
-   "source": "TechTudo",
-   "date": "2026-10-19T07:00:00+00:00",
-   "summary": "",
-   "id": "e48a89dd89ae35",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Banco é condenado por empurrar seguro em financiamento de veículo em Três Lagoas",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTU81aXR2V29pUDdZdkN4ZWVjNzBoWmtsVlVocjdqa0JvRGhpUE5YdHhtVU5YeDYwRTJzVUY0ejdscUExSmhXeXIyZlhQb0dVczctaTVvUTNGOS1VRUc5ck11cGZCakJ2dGFpYmZab3VRNGFoekVHdlB4Z3prVnZzREhwbWF4NmVXY09EM0pRZzRrZjJCOEcwUEJJSHBTeEpXQVlXVkJwVWZ3R2Z2UlNvRV9rUGd0MHc?oc=5",
-   "source": "Midiamax",
-   "date": "2026-10-19T07:00:00+00:00",
-   "summary": "",
-   "id": "52c67ac473afba",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Juíza veta juros de 3,2% ao mês em financiamento de veículo",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdUl2T1NHdjhtc1ctMk05NmJDaHZrOVFiNFB3YW9iSUlKczV1U3VZTHliNlZxaXdSNEx1RDIxdmRjNVBBMnl3OFplVVNsQkZNTW1DcEZlRER5cHVYRGt0SnJ5aExvNDBnTW1mcWlwd3RWVlZiS1dVYXI3Z1hXRndyNm51ZExiNGFVWGNKTUxJaWtBUnBTREF0eFNjRkYxclEtLUhr?oc=5",
-   "source": "Consultor Jurídico",
-   "date": "2026-10-18T07:00:00+00:00",
-   "summary": "",
-   "id": "c879b10178d75e",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Banco PAN é condenado a revisar financiamento de moto após cobrança de juros 115% acima da média",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZFlGZmxIandGcG9lM0RwNmRQZDRldHVjc19kcDA5NXVNSXhLdnhjQmhsU0s4TWFxQkExOE9TM1NNblBQYVREQ3BPMGVNZFhPR214Q0lBa2w3dkhiQ2c3U2Nqc195a1JRZzdDVXlhMkI3VUw4XzRfMlBtc3NqQi1Yd0tTWmc5bVBQS0gwN0dOOGVfOWRZZnl1cy1LSG5YbjQyU1BIcmtEaXVUTGZlbnNobVMwVHlheWNNczdweFFYejRvSFVwRy1LMnN1SWJEcjhKLU8wbFNCcXc4QUdfeEsw?oc=5",
-   "source": "O Bom da Notícia",
-   "date": "2026-10-16T07:00:00+00:00",
-   "summary": "",
-   "id": "daeff03403b208",
-   "topic": "credito"
-  },
-  {
-   "title": "Financiamento de veículos em alta: o que acontece se atrasar as parcelas?",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdXQ4VGtCVUdXR2RJSlNaeHdpQ0FDZDFPYkZvUURDcHVYOHZMXzVGdTd3M29abnA1dzNvd3E0M3RRcE1sOFFQVVIxOVZyRjFjQnd2ZTJDajF2MkU2ZDllVHZZVlNBdkdxS3AzS0FXdTB4blhEV2lVTk9kR3g0LVNGUlRRaDB2cFpGX2k5bzB5TDFVOEw0RkpxeUl4MHExdXlaOEdGclhlMk9QcUgxUmRaanBZcUF3ME9kRVJpWkpJcjB6QQ?oc=5",
-   "source": "Vrum",
-   "date": "2026-10-15T07:00:00+00:00",
-   "summary": "",
-   "id": "caca747bb9f317",
-   "topic": "veiculos"
   }
  ],
  "normas": [
@@ -2301,7 +2301,7 @@
    "label": "TR (diária)",
    "value": "0,1693",
    "unit": "% a.m.",
-   "date": "18/11/2026",
+   "date": "19/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
