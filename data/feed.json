@@ -1,16 +1,61 @@
 {
- "updatedAt": "2026-11-24T20:06:13.749470+00:00",
- "checkedAt": "2026-11-24T20:06:13.749470+00:00",
+ "updatedAt": "2026-11-25T04:06:08.259062+00:00",
+ "checkedAt": "2026-11-25T04:06:08.259062+00:00",
  "fontes": {
-  "Google Notícias": "ok (+62)",
+  "Google Notícias": "ok (+74)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.20772/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "3tentos usa barter e alienação fiduciária de grãos para reduzir risco com produtores",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTFVaaENEVFZCT3JTR0xxMEVnUEk0QjRYTXROUHd0emtvSUpIeVdFMjBZXzNFSkNQZTBCQ3NiS2E5TEhQQjVzb3RBb1hKX05CRWlMOWVGeVZTSnR1LVVYa3hMX0VSYXozVkZYdWtpY0hFZERNcjNYTnpzWTlqTGhia3NRQjJrOG5QNTRDNlVlSlJ1dVdMb3JvNUFvOWxRU2hFNlcwSUFjaHZjWnM5Y2g1Q3hLRmVxS01hWEVlQWhkNEZLQdIB1gFBVV95cUxOdl9kakE2a05NeXA1aEhjZ2dELUFrQUhTbGpaV3hTcmNhYXU5TlBRaWlva1poU2hQOHJmOTk3VDNPWl95dTlucV8wM1NxNXVOQTdxemNJVGV6bFZ3OFI1MGFrTjNoZkxDR2JVVnZ1b3BzWDl0YWtHd2JuX3hGY19BMDRDUTk4SzZNdUlsNDFfcjl3aGhsakMtWVlfWm5tMlFiSUZfVl9oSjQ0RW11cE5XNDZLNWVJQVBSWlNOdGljYXZOeGtyLWFsSGlLSm1LbV9mYTdsQXRB?oc=5",
+   "source": "Bloomberg Línea Brasil",
+   "date": "2026-11-25T03:09:17+00:00",
+   "summary": "",
+   "id": "bdbcf49f0a4cea",
+   "topic": "garantias"
+  },
+  {
+   "title": "Financiamento de veículos pode triplicar com retomada extrajudicial",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1laWkVHekQtaV9OTWxuNk9TVm9fYWxNcVItcWJRNlFQWW00ZVdxODdfbWFxalF4NTFjWWVoNElmNDJrY29JbkQ0bHc3dzdFLXBZYUxkNnA5czNwMG1GeWMwYWdfOHdyMTBBeC1OU0xFN2ZmTHg5MDRuQ2JSTV8xQW9fWjdnQ0xySGFQZTloOVRTV3B3S0p4eTdYSW9JRllNVFhZcFdNRlE2VmtZNzJzTw?oc=5",
+   "source": "Poder360",
+   "date": "2026-11-25T03:02:09+00:00",
+   "summary": "",
+   "id": "c5d6dc4d05edc4",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Financiamento de veículos soma 671 mil unidades em outubro, queda de 3,8%, aponta B3",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZWl3eDlYNzg5YXJmVHFGaXY3YVJsZ3dtcld4Z21pdVIyNFgyVzI1MW13RFdXQUVRUkdoNVRIMEJHbVlMaVptRkl1SmxGbHpyRUFSc1FIMEQwTVZQZ0VMeERvM0Qzck9BaXd4RXlwLUphcXg4ZDRIX1FsaERBby02YnpZMWcxWlp2OVp5N1BTbXlTd1JUZ0xVZk1ROTMtLW9DYWc3SF9VLVpjTGxYTUtTazYwdnlha0tEazNzcFlRM1A0eHdEWnJUd21ETVJ0YzU2LTBkRnFHdHpzUy1hX1HSAewBQVVfeXFMTlJpdW5zcHJJOGFfOURwOGFUS0c5NVNzb1dFM05ZMUc4Zk82YWxhNHVOeUdkUXc0SS1ER25NYnJiU0c5ZEhEM2htWlJrU1Ftb1Z5QWZSTW9fVGtnREc5RG9WTVdQMnRGUmJreEVvLXJVZlo3ZVdoQUgzTUxUcDRkcmJZWFBpNzByZWlLa0w3bFhXMlVuc0NzLUh6TnQxR2VDUjBjUkpRVnYyOFFJS3NaZnNVZUVEYTZqYnpmYTQyckpOVGZHMnBPNU8tWERDaGYyVzUwekJjRlFmdEI1VEh4NHdNdVpGb0IzLVNYTkg?oc=5",
+   "source": "Valor Econômico",
+   "date": "2026-11-24T22:44:27+00:00",
+   "summary": "",
+   "id": "ca115d2ecb0905",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Feirão do Sicredi oferece financiamento de veículos com taxas a partir de 1,29% ao mês",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbXRPb1RXMmhTNk1NYmI5TW5URUQ0S3N4SjkzNnhvOWFhaVhxSEt6Q1k4LUE0aVdnZlh6SVZYQzY0WEJmRnFZbVpDQWJoZTdhd1dJb3d0M0E2MzlxOFpqRUVCVUprdzgtbVQ5eVNKWVZMSkRocGp5aDZYbFlUcnhVWWhfSmZhNk9TcjI1SGVJYnR6UQ?oc=5",
+   "source": "YacoNews",
+   "date": "2026-11-24T20:36:56+00:00",
+   "summary": "",
+   "id": "338f487c9683f7",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Financiamento de veículos elétricos e híbridos cresce 142,5% no Brasil em 2026",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMHNVell3c0JTSHl6UnAyV3U4ZmxScEJoRGtMN0RheTdzTWZMUlNfa0h1MnE0enFzSWxLUGZsM0hGSDR0ZmRmWVRwMHk3bHJveFN5NWoyc3c4YmU4R24xWHZ4cUZmSWxnNFRCSmJDbmk3M3VIRDN5MVBwVndDTVd1NHJWRkJwTFVxMWlCQUFoaUR3WlBPS1NENmcyZml5ajhLeFNuS3UtX2ZwalZyZ3NPVHdxX2Rnb0w1aDZKNzlrYXJoZGFoQ2fSAcsBQVVfeXFMTWxtbFhkSEFZNHRSVjY5aUZVNlkwRWJ5a050QXB1VEJOc18xNFBuLUU0WnktZEhvODhjN21HLXhxSWs3c3FwVWxvMGVHallfZFJZdFdmNWJoamU0NUhkRGpBdEpHSnpPd1dyVVU2dTBXSGhlemxzZWRJRDR5ZmN2R0JaSTRTRzhWaW9RYkM0ZjBYNzJUSTVXd3VMbUI0NXhoTl9ZdkRjTmJ3aUVCS25DQXpycUVZTmswNXhaV0gyZlllZ1VaZlUwaTZVTWM?oc=5",
+   "source": "Cruzeiro FM",
+   "date": "2026-11-24T19:34:39+00:00",
+   "summary": "",
+   "id": "51a229f0bffa03",
+   "topic": "veiculos"
+  },
   {
    "title": "Financiamento de veículos cresce com usados e projeta recorde em 2026",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeFloOXBtSkV5eGp4TDBxdURWVlpyWGZtLUVzS284LTVwajBVaFQ0QWFyRDhvblVYa1RkVVVyaFBSYkl0OXI1RGtGbXBaQWNfWkhmTkdNQXBRTDNNMlg2UFdyUU9mWEJLeUh3Y212NlpiQ1FnaS1uM1R3NmF3bW1oQXRlX0daQzRxcGNsN1VpWm1HRl9XYXg3VTZnLVF1Y2NFam5UY3V4Yk9oTUpEdlQyUndoM0RiMnk2bFlGc0NvZW8?oc=5",
@@ -19,6 +64,15 @@
    "summary": "",
    "id": "65ae44ba7f5c9e",
    "topic": "veiculos"
+  },
+  {
+   "title": "Bancos não confirmam aperto no crédito imobiliário e esperam estabilidade até o fim de 2026",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa1Y1SVAyUjU3REk2bU5DZERUMzlGYVd2Q0syOVNVejlEbjE1dWI5djdkelA4OEpwVHBBNGM5d3NiQWN4SEszMkFPX1R3VXFoYTZVRkF1S2dpbnVwbkNub1lNQ2NVc29WakNvTVljOEdEeFVobjBqcnZCaS1oRW5kZDF3RWRkNDhNbjczWmNMSHp0QnlI?oc=5",
+   "source": "portas.com.br",
+   "date": "2026-11-24T17:43:46+00:00",
+   "summary": "",
+   "id": "070362c5885a43",
+   "topic": "imoveis"
   },
   {
    "title": "Financiamento de veículos cresce 9,7% em Pernambuco, impulsionado pelos pesados",
@@ -1677,6 +1731,15 @@
    "topic": "imoveis"
   },
   {
+   "title": "FGTS libera R$ 144,5 bilhões para financiamento de imóveis em 2027",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOHRXSWpRRldlWnFlUWFwNlRwYS1OSXV1ZHJIdFo0N0ZnUk1nZEluNXBQenhtbUxBNm54cUIwcXdncmtaOU55UENFUUJHVFFReUgyNVhtZmxfUDRKaVlDQ1RTZHVtOHh6T0NxMVh1MUg0bm9NM3dPWUJ6WU1Fc2xIdGJ4SlZzeVNMSG40M2FTREhwWXl5dW4ydThPLTVMRzlVQlktdjlVMC1IeHpJWEh2NlJn0gG3AUFVX3lxTE5rY3lhTGpvU3BkUTZPampwOEpuN2R6ODlROE5IRjZXYmw2dGVMY0VWblJDeGliRDBSTS1XU01WZmx4S0Q5OFlxOVVPVFRxV1JEUTlWR2FrcEh2cU9HOFJlX25jNXVFbks2MWVSV3hZS09ldm5qdUkybnYwUkhMUlJtMk1tb1NCSVByTHpqVXFPVlB5eFJvYmNkSDFXMjdrMzAzVlBaMDhKeWZEUzdyYThyZllVNEYyaw?oc=5",
+   "source": "Tribuna do Paraná",
+   "date": "2026-10-29T07:00:00+00:00",
+   "summary": "",
+   "id": "dd225d8c29021e",
+   "topic": "imoveis"
+  },
+  {
    "title": "Governo moderniza sistema de crédito e amplia recursos da poupança para habitação",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOG1SZy1YYm4yWXEyQUtUbHJmXzlVVGZ0MDJLcS13ekViaFo3NmRfaVNNQnhpWVdUdWdaQXNzRkM4VG1qOG9RWWhLN1lhYXZTR3kzWXdkRWh3QnZDU1phZ1Jhd0xHZEpZdVBYaVVyMjREWFdtNC10eVZWelFWQUNmdHVTbUpGWU9ZYm1RZDdUN1pxMk5YVzZ6b3lZZzhXSHlZWWJiUVh3cFFmOXhySTdPRC04cjd5Vy1jaFYyNDlIRDNVZW8?oc=5",
    "source": "Diário da Guanabara",
@@ -1738,6 +1801,24 @@
    "summary": "",
    "id": "2cf031ca9304de",
    "topic": "credito"
+  },
+  {
+   "title": "Bradesco (BBDC4) eleva juros do financiamento imobiliário para 15% após disparada dos juros; veja o que muda nos bancos",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQa3NwX0lLOVNDN19mTHFPeXQ0eWhYWEVyRFpsLU1ONjE5Y3VlRW5vYUtmX0IzT1FsdWxLTTdWd2FkTnRQLXdwTmo2NVRpSVp4TnRGSVM4Tm9VVnYzbGJqbnQ4Q3hQRzlQNHZpbTFpRUl1OFFqWmJUUnRnVERodnRpRzVyRG1MSWhfY0ZydWlTS2VZQ3lmQXFlYWk0R3NzOHYxS00wWWNqTE9tM09fdXdlR3hMSDFSX19HSFZ0TFNXdnY2cGdaMzdnOTVacUUyYmFhQjdPQjJ0RVVlcXlGbXVjU20yTjNjOVB1X0liZQ?oc=5",
+   "source": "Guia do Investidor",
+   "date": "2026-10-28T07:00:00+00:00",
+   "summary": "",
+   "id": "fd5574ccd4c3ce",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Tudo Sobre Financiamento Imobiliário com Ricardo Feitosa",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE83bkt6RllXSU55YUcxa3U2MjYtSS0zQjZGdlFHaDduTi1rM1RjQml5dTJSUW80UVhGcENILTV5c09HME9LUko5aGZCWGlBdw?oc=5",
+   "source": "Portal NN1",
+   "date": "2026-10-28T07:00:00+00:00",
+   "summary": "",
+   "id": "0701a4a47d4391",
+   "topic": "imoveis"
   },
   {
    "title": "Hipoteca e alienação fiduciária na falência: a mesma dívida, dois destinos",
@@ -1909,87 +1990,6 @@
    "summary": "",
    "id": "936d7ac49990ed",
    "topic": "imoveis"
-  },
-  {
-   "title": "Minha Casa Minha Vida ou Casa Verde Amarela? Os planos de Lula e Flávio Bolsonaro para o mercado imobiliário e a compra da casa própria",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWGl6VDZld2EtdGtNTjZfTmFVM0ppUVMzZHdndkJLdXlRX3VDbG1qTEk4Q01TSFJHWDZZRHVuRHdPZjJkZ2JNa0Zaam14RXpZVjFyRlBVdzNmVDItSnVYa0xsZDlWMVl1UHJGcVduX0Z6Z2tRSW55Z3JPcDl4ZldnWGhzN2tJZ2hEQUxOandVOEdnTk9zNi1ockw2MndsUUI5TVZKR0c3aEQ4SHV2YXRSa3JTV1hnZnVuTzJSUHVSYm9ON2kyRVZ0T2N3azdDRFNtall2am9LOEowYlN3VV9jVDhldTRnMjdxdDV2WklOb25Ndw?oc=5",
-   "source": "Seu Dinheiro",
-   "date": "2026-10-23T07:00:00+00:00",
-   "summary": "",
-   "id": "3a3ddd53adfcc4",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Unicred anuncia financiamento de veículos com taxas a partir de 1,30% e até 120 dias para começar a pagar",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVHk3em1TUDdGWVBiQVJaZXMxODhYbGRFQzZBaTVlelNHdV80eTlHV25NcE9fc2swOFBGeWdxOEtuRFBMaTM1QTh2enRtWXdXUmVyb0JOZnY4Wks1LWdPU19tNXowOGJRQlhrUmdRdUFQYlBJVTZIVDgyNTZTNlV3RXBERV9ScFVKLWltc2U0MkRYTkxDcUljTWRiT25iMjJhZ2NITzFLX214cjhHUEhTbjdOTlh2U25Yb1ZMYUFmYnBocTdWVjBJVzZEdS1tQ3BQSU00TzJVaW9ZRmVJVmxjVUNRcExZOVNvLXVtaHkwUm5DOHhkQXZxb3Mwbw?oc=5",
-   "source": "Clic Camaquã",
-   "date": "2026-10-22T21:09:38+00:00",
-   "summary": "",
-   "id": "c572d03a0f2347",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Volume de veículos financiados em setembro bateu recorde",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLVRLT3EzdFdhWFM0R3NVeTV1aXZOaGFiRGkzU2s1VWZ4eDJkUmprMzhBdkY0SzVSTFRkd0FvaVFIZE1paU9Eem8wRmFDaEROSUNGbWgzbEZlNXNfTVFfajlRZFhhX1ZiVGRiZXFicXpRQV9YMllUdFBLRm11TGpKY2Vmei1GT19KdkhRai1kX2xyV0h2NEdfQ0MtZzFpN1Y2M3FkQ2xCMDczQ1dqa0dtMzJn?oc=5",
-   "source": "Automotive Business",
-   "date": "2026-10-22T20:16:28+00:00",
-   "summary": "",
-   "id": "0daef477cf1737",
-   "topic": "veiculos"
-  },
-  {
-   "title": "CII debate financiamento habitacional, Reforma Tributária e perspectivas do mercado imobiliário",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd1U0QzBpenhLSHEtN1hYTElFM3dwb0ltQ204V2J4eUJ0UmFLTDNwNFd3WGk3OGo1TDlzejZQOGhmU0NLX3h4Q1F0N2hVc3BtWjU3RTY2TFp5WGc3THZFUlBtWUNOT29IRzBHalB3UVBLS3hTa19nSWJVRmdwSG1uLTk1aHhZczRwU0F4Skpnc1U0Wi13dW1rYlgtRmNaajNzQ0JEckVHN2lyY1VpbHBmdkw4MUZ4Zw?oc=5",
-   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
-   "date": "2026-10-22T07:00:00+00:00",
-   "summary": "",
-   "id": "1fd7fb40f244a2",
-   "topic": "imoveis"
-  },
-  {
-   "title": "CBIC debate inflação, crédito imobiliário e os impactos para a construção em 2027",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQjdBbDVUNzdMWURlbFRTRUJtczZIZXRRendXdlVoUzRwUlZQUzVBWTMyNzRFakFIMXJDR0NuWUZJWmxPcDdob01Scm90RjlrVUxsemhMbWdfTVV0dGVwbFlaMkdibXEtd1k3Wjl5WnpCMGZOcW5HUEJ0dk5TXzhNMmIzUDM3QWdVUHhpZVVUTXlQR0EwNFdsSlBYQU4xbkVweGpF?oc=5",
-   "source": "CBIC - Câmara Brasileira da Indústria da Construção",
-   "date": "2026-10-22T07:00:00+00:00",
-   "summary": "",
-   "id": "98039bb148256e",
-   "topic": "imoveis"
-  },
-  {
-   "title": "A Caixa fechou a torneira do Minha Casa, Minha Vida? Vendas do programa perdem fôlego",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUlBIdE5MT2tKOU9UV0dZVVQ4azNfdjVFeUNXMVNhMVo2RzV6NTVnemVoM0JMOVhNODhwOC1FOWw1Qm1rY2FBSU5nUXUzc3ZOSzZjSG5mWnJTb3V3U3BEQWdEbjJ6emhYam45bktCRFJ6Nnlia2hFYkZEcXpPaXZtWGhPZnBkS2lRRVNPZlZEbmw3dU5ST2JyQVhwcEsyY1R1ZU52bEtnOFkta3p3dFlpTmVTVlpoQnBBUWlZQU5YZw?oc=5",
-   "source": "Exame",
-   "date": "2026-10-22T07:00:00+00:00",
-   "summary": "",
-   "id": "3c9d3b4e4dd905",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Alienação fiduciária imobiliária não registrada: Reflexões a partir do Tema 1.420 do STJ",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa2E2R2UtR2Q4R0xsdTM0Y1FVb1E0R05UMU50T1ZMeVV4U0RSb1ZNbHJIZ0ZTY3BOSnlnOGpUb2lHdlAxR2tzQTFRRmlDOWNVd0xlSFNhY2JnSno2NEpWdG0wYzJDdVd2NXZfckZiNXd3M000U2NtMGxhV19FSmNMQ2xjWUVBd05RenIyV19UMXowcDR3OERfV3JBeTh2ZFBHQVU1OHZpMTZUODRpSkhDZVhqemcxcEtIaDhuakFTRUlRbTNOT0pz?oc=5",
-   "source": "Migalhas",
-   "date": "2026-10-22T07:00:00+00:00",
-   "summary": "",
-   "id": "a65ce997f2b17c",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Crédito rural: Federarroz alerta para risco de perda da safra em contratos com alienação fiduciária",
-   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPcktkTmp4RTZDNnJRbFg0Tm9Manl0Qm9mV2tBVmttSUxFN1V2V0hpdy1BcGFYZlVleVZJbzlFeXVSU2RfT29Sb2hLeWVReGpXU19TVjhuZnFMSmdHMk5CUHZqVU1vekZpMXh2S25SRWtIR2FvZmlnMWtmeE9hc2d2Y3lnWGV2cG5hQ0pvZEdMZ3UyazRDeEdZWEMtQm5IYnFJZVRjUU9pd2kwMmF2TjdTRTM5VEdjaHlWRTJHcWlUVUhtU09XVFg2THRVTWJZZ19kYzBaZEpUcWZrdUI3NDQ3WjhsSTJ5LUZwSXVDZlJPOTctcUh1UDZn?oc=5",
-   "source": "Portal do Agronegócio",
-   "date": "2026-10-22T07:00:00+00:00",
-   "summary": "",
-   "id": "33634c8a43c018",
-   "topic": "garantias"
-  },
-  {
-   "title": "Alienação fiduciária: O STJ protegeu o pequeno produtor. E o médio?",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa1pLUElTc2ZpYmc2ZmNRNE0yNGlRbDZpMFFnekhyWEJiekgyM2RuYWhJSm9JcFc1THE2dlZkRkZXa2dsLUo5Q29sUlBVMVRuSVl6OEZ5U3JlZWRVdi10elJ0UWJ2R0k1UEI1V3BUX1FQaW1seTdGM0xoWFpSNmMwLUJBRXh3OTdNaGVGYmxxQWttZmV6UDQ2YTZfQk4ybWNVMERpTHpaLVRYZw?oc=5",
-   "source": "Migalhas",
-   "date": "2026-10-22T07:00:00+00:00",
-   "summary": "",
-   "id": "2200b37df3af0c",
-   "topic": "garantias"
   }
  ],
  "normas": [
@@ -2311,6 +2311,14 @@
    "unit": "% a.a.",
    "date": "01/09/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=20749"
+  },
+  {
+   "id": "sgs-20772",
+   "label": "Juros PF – financiamento imobiliário (mercado)",
+   "value": "14,20",
+   "unit": "% a.a.",
+   "date": "01/09/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=20772"
   }
  ],
  "agenda": []
