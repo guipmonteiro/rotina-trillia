@@ -1,16 +1,70 @@
 {
- "updatedAt": "2026-11-25T19:09:12.182153+00:00",
- "checkedAt": "2026-11-25T19:09:12.182153+00:00",
+ "updatedAt": "2026-11-26T03:29:24.865656+00:00",
+ "checkedAt": "2026-11-26T03:29:24.865656+00:00",
  "fontes": {
-  "Google Notícias": "ok (+78)",
-  "Banco Central": "ok (+0)",
+  "Google Notícias": "ok (+71)",
+  "Banco Central": "ok (+2)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Financiamento de veículos elétricos e híbridos avança 142,5% e atinge 27% dos carros novos no Brasil",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ01kVGZ2SG0zdWpkMjl6U09zaTFFdGx3OWN4VE5EeXlKbWQwS1NMSEpWRjZmRlRVQ1gyT0tSTm1ueV90OFItMW1SRmtndzJDRW9EVXJYUGJQN2dDbWV1WjdQLUd3Mkh2ejREVzU1QjJPY2sydFZva0ctU0M3dE00RV9FZThPUzU0VVQxblc0VGNGaDgyT2RKb21BMC1ja0ptNnZNd0hMSE1WUjV3X1hBRW1uLVBaV2FCWTF0QjBtLXkyc1pzUlQw?oc=5",
+   "source": "Brasil Inovador",
+   "date": "2026-11-26T02:59:57+00:00",
+   "summary": "",
+   "id": "ae6acae4e45d8b",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Financiamento de veículos cresce 4,9% no Ceará e supera 220 mil operações realizadas em 2026",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSnk3TldjQmpWYjRNRTdCRkVRSXRXb3ExQ2xyOUZIVllkbkJrQUJzSlVTWjN1aWdmV1JZblFza0RfWXF2dnZjamtucjNnSFNzYl85Ulg3QVdwMk5WYkJxdXdpTE5tdmZVdVRHZUc3N3QxMnlic25MbUJ5LW5PLVVVZWJtdHFfb3VYSld0eUtDUGRNdE15UTJxTVRwR3p1NURTeGg5akZVb3g5SjdaM0YxbFE1SjBnNWtPR1UxSzhlN25aU29yM3RB?oc=5",
+   "source": "Portal IN - Pompeu Vasconcelos",
+   "date": "2026-11-25T20:15:00+00:00",
+   "summary": "",
+   "id": "381306a6a69399",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Itaú vai financiar imóveis pelo Minha Casa, Minha Vida, começando pela Faixa 3 e pelo Pró-Cotista",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaFRJZmU2R2FtTFJHaXJkeUZVYTRLVFBFTDBBVng0R2F4a0xydG11bFVBZ0lGYnhUUnlhdWZOSkhSQkRoclNPM1Y2c2RfZE1UUU85enRwU1hSQkpIMXllVWdmbVR2aFhhNmY0ZEhnbHc4YWpzNE5Vd3BGT0dfRkgwUkVmaTZUYUw2SXRVMXd2RGZEZFgyaGljVXJPdERGM1NRSDhiUEpTV2NIRVdma2x2VTZhVUxHZlZRX2JiWllHS3hvRjg?oc=5",
+   "source": "Diário do Pará",
+   "date": "2026-11-25T20:12:11+00:00",
+   "summary": "",
+   "id": "3c7b8e2488097a",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Alienação fiduciária, doença grave e leilão: Dra. Tatiane Garcia revela como salvar o imóvel",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM0ZfVlBXV3FPVXI3QVdscmFQY3Buai0yMkhra25PcU1XbkhDekltY3RiNy1hWEtNZUFsY2ZQZk0ybUhWMDVrMnJFVE9YbnpJQnpvb3RwX0Flekp5QTRsZ1lNV28xOTNhaE1SMVNhVnpzT2pnd1VuelFSQW5sd1JMbGlkVVJnYnEwVFNFVzFR?oc=5",
+   "source": "SB24HORAS",
+   "date": "2026-11-25T19:53:00+00:00",
+   "summary": "",
+   "id": "85522266edbbff",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Justiça ordena busca e apreensão de veículo de produtora ligada a filme sobre Bolsonaro",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObnBSZW5meXZyQUM4Y1pBZ2o1Z1p2Qi1rclotUGdLUVFIeFd3ODB4N2txZ0lrVXV5bVRpWmVIV3A1R1NJS0kzbXZYbUZ2c0JwRi15dTRqdjVJaHBqUjIweGtWVVNhTE1jZDVlVjluV0s5dmtiZkpoeXhITk1qb2x0alE2NkFvcGIyRk15YlNLNTZqR1l1Tk5XVEVSbTltMzh4UVEwdG5JeVdXQkxIRU5yc29ka09ReWlvUmM5Z2IyN3pqYlRUT21ibHJ3c1NKQQ?oc=5",
+   "source": "Plantão Brasil",
+   "date": "2026-11-25T19:24:53+00:00",
+   "summary": "",
+   "id": "ae9878fc167d35",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Alienação fiduciária, doença e leilão extrajudicial: Dra Tatiane Garcia explica como proteger o patrimônio familiar",
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPOWJSMFJSbnBoeFJRdWpXTTdlbmd2bWUtN2JmV2ZvVXFmR3J5S1dxTmhUTlFLZ2E4SVZaZGt1aVhNVlNnYm92UUZ4cnV0X1BwazNub2t6dmJCa2Z6WjUzVTlDemRkNmdHMW5FMGROYVJPOVRVT0taTlN5VHpXcDVOeWpVWVJZR2RjcGs4NFRhQXdMdGNpblFjNVBrU2pXNl9majJGZnowaVo4NzNJcUxsU3lLdnR5M3JpMVVzb1NCVGtrSU9xbkprMVRNYmRTbFJaMThnWTYyVzVfZTVfMERVVTJhdmVZeXhNTno5TE5VWlZldDJacDBfamhGQlI3d0R3WkRGVFJwYzZQQQ?oc=5",
+   "source": "Jornal de Brasília",
+   "date": "2026-11-25T19:21:05+00:00",
+   "summary": "",
+   "id": "7b9eb829ac9263",
+   "topic": "garantias"
+  },
   {
    "title": "Financiamento de carros elétricos e híbridos mais que dobrou em 2026, diz estudo",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRTZSenQtRnItYkMzR2R5VHgtaUpRUDNvRm9qeF9QOG95TU1PLWhNbVVkTWRRblpBbFdZVUJybnotN2pIcjNBeUtDQlhYNDd5WFFOWjdwZHNTcTlhRWFNejdNUVJyVDBzRld5VVFfWEZvVXMxblJMck9CTVpFb1o0bDZiNVNnZ19KZHdsM0s1blV1cXZwaU1pWmtvaGdFNnp4cm9KZzBnVktrb2QxbjlmemtFZw?oc=5",
@@ -84,15 +138,6 @@
    "topic": "garantias"
   },
   {
-   "title": "Justiça ordena busca e apreensão de carro de produtora ligada a filme sobre Bolsonaro",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUUw0SlZhWHdTV0NVVXA0TzFxZVNMRFRkTDVxdVRRREktM25XVjgxMkxtWDV1VWx6OFFSV1JqbTdVZDNtWnhuVldkcHdOTVFjejA3XzVWbFY0dkh2ZFhBa25DUmppSFgxeUI3WGE0WkF4US1KUDhOMXZYVGFBYnRWQTZUOFNoU2sxcEVweWdqbmVidDBub1hDLWgwOU0tVy1YNjZRUWZXTDBZcFRJeFlJVm1TUWFMdUtaay1ld0dmT2VlZnNtZWFFY0VlVQ?oc=5",
-   "source": "Plantão Brasil",
-   "date": "2026-11-25T15:59:53+00:00",
-   "summary": "",
-   "id": "26604342e7ebd2",
-   "topic": "veiculos"
-  },
-  {
    "title": "Teto de juros do financiamento imobiliário \"vai ser resolvido\", acredita presidente do Bradesco",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM3JsRjdzUnBLQ0IxZmxMR1I0MnlaZGlmMmU3WWxZbGJGb2JScXQ5Y09qY1VROVFtN1VEQzNDTnVUb3ZLdUpHTnAtSFpxTTBkN2hpM1J3SUd4TjNzXzA0UWhhNi1xQ1V5MVdnMkVrMUZrT1J5aUl4UDBmQnh2Sm02eHZRZDltUUFJSHBreFNmT0JzcF93Ti1rdnBwYlBWSVlRU05jU3hrdnlTWl9vcEhjUGo5VkVOQQ?oc=5",
    "source": "SECOVI-SP",
@@ -108,6 +153,15 @@
    "date": "2026-11-25T15:21:47+00:00",
    "summary": "",
    "id": "d4a7848e88db19",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Hipoteca entre construtora e banco não atinge comprador que quitou imóvel",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV3NPUGZ1dURzV1N0M1E2QVZ6UmpMWE90TE1aaS1Pc3FCY2p3SkFHQ1VoZDZfTldoMDdkWk1UN0NicHV1aGxoZFh6OTR5YnlMdHE0TlczREk1U1JWYnZMT01NWS1vd2k3RlNELVQxSzBvUFNLVHlya3NfTUhFNW5mZm5VSDctVm5LRUJLSGNjd0ExUGJfZGhJQkc4THhJdk1FWWF4QUFIWGM?oc=5",
+   "source": "Consultor Jurídico",
+   "date": "2026-11-25T15:17:21+00:00",
+   "summary": "",
+   "id": "1aa917aca3a042",
    "topic": "imoveis"
   },
   {
@@ -156,6 +210,15 @@
    "topic": "veiculos"
   },
   {
+   "title": "Financiamento de veículos pode saltar para r$ 1,5 trilhão no país",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVUxJVDVGSlhSaHpkTG5TdXZMOGd2YUUwVkp1aXpfUjFxZHZibVZ1Tjg0dWJPUUZkbk9nUmNHRmQ0TjdjSnhQbUN2bm81Q2RGcWVPdlVGWDc1UnIzN2dQcjdZNUVkTzlObUpXSnpNbi03cE4wUUJHUElXblRfZGpzRFZhNEVVSWw1WERVdXY2OHcwV1I3QWV2UzNKajY3eXpZYk5vUTFB?oc=5",
+   "source": "Agora Litoral",
+   "date": "2026-11-25T05:47:15+00:00",
+   "summary": "",
+   "id": "09e36a93c33791",
+   "topic": "veiculos"
+  },
+  {
    "title": "3tentos usa barter e alienação fiduciária de grãos para reduzir risco com produtores",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTFVaaENEVFZCT3JTR0xxMEVnUEk0QjRYTXROUHd0emtvSUpIeVdFMjBZXzNFSkNQZTBCQ3NiS2E5TEhQQjVzb3RBb1hKX05CRWlMOWVGeVZTSnR1LVVYa3hMX0VSYXozVkZYdWtpY0hFZERNcjNYTnpzWTlqTGhia3NRQjJrOG5QNTRDNlVlSlJ1dVdMb3JvNUFvOWxRU2hFNlcwSUFjaHZjWnM5Y2g1Q3hLRmVxS01hWEVlQWhkNEZLQdIB1gFBVV95cUxOdl9kakE2a05NeXA1aEhjZ2dELUFrQUhTbGpaV3hTcmNhYXU5TlBRaWlva1poU2hQOHJmOTk3VDNPWl95dTlucV8wM1NxNXVOQTdxemNJVGV6bFZ3OFI1MGFrTjNoZkxDR2JVVnZ1b3BzWDl0YWtHd2JuX3hGY19BMDRDUTk4SzZNdUlsNDFfcjl3aGhsakMtWVlfWm5tMlFiSUZfVl9oSjQ0RW11cE5XNDZLNWVJQVBSWlNOdGljYXZOeGtyLWFsSGlLSm1LbV9mYTdsQXRB?oc=5",
    "source": "Bloomberg Línea Brasil",
@@ -198,15 +261,6 @@
    "date": "2026-11-24T20:36:56+00:00",
    "summary": "",
    "id": "338f487c9683f7",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Financiamento de veículos elétricos e híbridos cresce 142,5% no Brasil em 2026",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMHNVell3c0JTSHl6UnAyV3U4ZmxScEJoRGtMN0RheTdzTWZMUlNfa0h1MnE0enFzSWxLUGZsM0hGSDR0ZmRmWVRwMHk3bHJveFN5NWoyc3c4YmU4R24xWHZ4cUZmSWxnNFRCSmJDbmk3M3VIRDN5MVBwVndDTVd1NHJWRkJwTFVxMWlCQUFoaUR3WlBPS1NENmcyZml5ajhLeFNuS3UtX2ZwalZyZ3NPVHdxX2Rnb0w1aDZKNzlrYXJoZGFoQ2fSAcsBQVVfeXFMTWxtbFhkSEFZNHRSVjY5aUZVNlkwRWJ5a050QXB1VEJOc18xNFBuLUU0WnktZEhvODhjN21HLXhxSWs3c3FwVWxvMGVHallfZFJZdFdmNWJoamU0NUhkRGpBdEpHSnpPd1dyVVU2dTBXSGhlemxzZWRJRDR5ZmN2R0JaSTRTRzhWaW9RYkM0ZjBYNzJUSTVXd3VMbUI0NXhoTl9ZdkRjTmJ3aUVCS25DQXpycUVZTmswNXhaV0gyZlllZ1VaZlUwaTZVTWM?oc=5",
-   "source": "Cruzeiro FM",
-   "date": "2026-11-24T19:34:39+00:00",
-   "summary": "",
-   "id": "51a229f0bffa03",
    "topic": "veiculos"
   },
   {
@@ -378,15 +432,6 @@
    "date": "2026-11-22T08:00:00+00:00",
    "summary": "",
    "id": "15819010fd0f66",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Itaú vai financiar imóvel pelo Minha Casa, Minha Vida",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1XZkFoeWFPa3dEUEFHaVpQZDQydDI2MS1sSkhFZDl6T2VfTWp2N29mNm1IbE9IU1BDTVIxRjdJR1dveVZ1WDBYdmg0LUpKWHpoVWNGZllpcnV1Njh1U0VkSE1SX0hwM0RkUjNSOE5CVjVuLUZITE1uNHBsRTA?oc=5",
-   "source": "Let's Money",
-   "date": "2026-11-21T11:03:16+00:00",
-   "summary": "",
-   "id": "21a2af462dd9cc",
    "topic": "imoveis"
   },
   {
@@ -1945,54 +1990,31 @@
    "summary": "",
    "id": "b07bb3a06f9741",
    "topic": "imoveis"
-  },
-  {
-   "title": "Acima da Selic: Bradesco eleva juros do financiamento imobiliário para 15% ao ano",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS3REem9Gc3VCWEFwWFljM3ozbTBwRmVkbHRzbF9ZeGdhVEJzM19pMUdYUjFZXzM0RVFfNkZHazVoQXV0dTNLMzlLRWNBUGNPaU5LWHZuaUlwYmJKSEZyYlljdDJZMWFFdFJFZXBkOGNiMDQ5LXBWbnJ4R3ZEMWlRdGlIZnhBLTJPMHB0MFktaHFpTENjVzZ1eXpqTnNGTVM5RTAwcm9XdVVYc3pHQVplNXJ5WG1nenVKT3JZY1lETEJuMTBpVmZn0gHHAUFVX3lxTE5LdER6b0ZzdUJYQXBYWWMzejNtMHBGZWRsdHNsX1l4Z2FUQnMzX2kxR1hSMVlfMzRFUV82RkdrNWhBdXR1M0szOUtFY0FQY09pTktYdm5pSXBiYkpIRnJiWWN0MlkxYUV0UkVlcGQ4Y2IwNDktcFZucnhHdkQxaVF0aUhmeEEtMk8wcHQwWS1ocWlMQ2NXNnV5empOc0ZNUzlFMDByb1d1VVhzekdBWmU1cnlYbWd6dUpPclljWURMQm4xMGlWZmc?oc=5",
-   "source": "Investidor10",
-   "date": "2026-10-28T13:01:45+00:00",
-   "summary": "",
-   "id": "d441e8c155d08c",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Financiamento imobiliário: o que fazer quando o banco não aprova a proposta de imediato",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcUVaTHFlWFhHcE9KWnJ0aFJEY0lMOHlBQmY0VVl2cVZXR1BEN2RjRXpwZDNwVUh4VzhTRWVCakk3SlhOeTY4TGZEcl96VlVmNWp6NHBUWmJPVFlyYkNobFNjREZleHNuWFVoT3lsMjVGeWMtTnJJVFVlY2hQd0RtbnVBSk55R2U4Y3I0TUIyMnE1cThoaktLVUZ3M0thTHAwV1VPZ1c1SlhXcWlsNkN4dmM3SzNSWjllTUF6ZXhSc0t6R1BJUktzd1VLQQ?oc=5",
-   "source": "Jornal Correio",
-   "date": "2026-10-28T08:30:00+00:00",
-   "summary": "",
-   "id": "3efc62c7601540",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Consórcio de Carro Com a Menor Taxa | Ranking 2026",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUUVZOGFzaDROaVhoZUM2TkxfNUxIYnpXUlV5UFhEQ1Q3WFZIVlc2TzF4VzNPS0lJNVladVh2czNqQ1lSeFBYaVFxd01fQlRvQUtZN1hPU2IxVnZVNnhfVmFESS1kQ0o5VnlEWTV0azNKV0FXdlF2amZqVHUxWjdLdFVqbDN5Ri02dUE?oc=5",
-   "source": "iDinheiro",
-   "date": "2026-10-28T07:00:00+00:00",
-   "summary": "",
-   "id": "0f1ed6a53c88f5",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Melhor consórcio do Brasil: ranking 2026 e como escolher!",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxbFc0YXRyNnNnbnRyWWFjMVZDQTlYQ1otTkR5dk1aYnhPVHZZaU9yM1JfREZReEU4bm0wR19WWXpjTTU4MVN6Yk1LS3FBYTRoQTFoMGlpSTNnak1jSURmMjhQTHE0b0xhUkUyVEtPQlpINDhvREE?oc=5",
-   "source": "iDinheiro",
-   "date": "2026-10-28T07:00:00+00:00",
-   "summary": "",
-   "id": "2cf031ca9304de",
-   "topic": "credito"
-  },
-  {
-   "title": "Bradesco (BBDC4) eleva juros do financiamento imobiliário para 15% após disparada dos juros; veja o que muda nos bancos",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQa3NwX0lLOVNDN19mTHFPeXQ0eWhYWEVyRFpsLU1ONjE5Y3VlRW5vYUtmX0IzT1FsdWxLTTdWd2FkTnRQLXdwTmo2NVRpSVp4TnRGSVM4Tm9VVnYzbGJqbnQ4Q3hQRzlQNHZpbTFpRUl1OFFqWmJUUnRnVERodnRpRzVyRG1MSWhfY0ZydWlTS2VZQ3lmQXFlYWk0R3NzOHYxS00wWWNqTE9tM09fdXdlR3hMSDFSX19HSFZ0TFNXdnY2cGdaMzdnOTVacUUyYmFhQjdPQjJ0RVVlcXlGbXVjU20yTjNjOVB1X0liZQ?oc=5",
-   "source": "Guia do Investidor",
-   "date": "2026-10-28T07:00:00+00:00",
-   "summary": "",
-   "id": "fd5574ccd4c3ce",
-   "topic": "imoveis"
   }
  ],
  "normas": [
+  {
+   "kind": "Resolução CMN",
+   "number": "5350",
+   "title": "Altera a Resolução CMN nº 5.004, de 24 de março de 2022, que dispõe sobre os requisitos a serem observados na oferta, na contratação e na prestação de serviços de operações de crédito e de arrendamento mercantil financeiro.",
+   "date": "2026-11-25",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o+CMN&numero=5350",
+   "source": "Banco Central",
+   "id": "n-4f89bc40b1811e",
+   "topic": "credito",
+   "firstSeen": "2026-11-26T03:29:24.865656+00:00"
+  },
+  {
+   "kind": "Resolução conjunta",
+   "number": "22",
+   "title": "Estabelece condições para a negociação de direitos creditórios por instituições financeiras, sociedades de arrendamento mercantil e instituições autorizadas a funcionar pelo Banco Central do Brasil e dispõe sobre as obrigações relativas à prestação de informações ao Banco Central do Brasil e ao aten",
+   "date": "2026-11-25",
+   "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o+Conjunta&numero=22",
+   "source": "Banco Central",
+   "id": "n-f4a1d845f100ba",
+   "topic": "credito",
+   "firstSeen": "2026-11-26T03:29:24.865656+00:00"
+  },
   {
    "id": "camara-2653184",
    "kind": "PL",
@@ -2273,6 +2295,14 @@
  ],
  "indicadores": [
   {
+   "id": "sgs-432",
+   "label": "Selic (meta)",
+   "value": "13,75",
+   "unit": "% a.a.",
+   "date": "09/12/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
+  },
+  {
    "id": "sgs-13522",
    "label": "IPCA 12 meses",
    "value": "4,63",
@@ -2287,14 +2317,6 @@
    "unit": "% a.a.",
    "date": "24/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
-  },
-  {
-   "id": "sgs-226",
-   "label": "TR (diária)",
-   "value": "0,1710",
-   "unit": "% a.m.",
-   "date": "24/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
