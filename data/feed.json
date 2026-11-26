@@ -1,16 +1,61 @@
 {
- "updatedAt": "2026-11-26T03:29:24.865656+00:00",
- "checkedAt": "2026-11-26T03:29:24.865656+00:00",
+ "updatedAt": "2026-11-26T18:57:21.946272+00:00",
+ "checkedAt": "2026-11-26T18:57:21.946272+00:00",
  "fontes": {
-  "Google Notícias": "ok (+71)",
-  "Banco Central": "ok (+2)",
+  "Google Notícias": "ok (+72)",
+  "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.20772/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Financiamento de carros elétricos e híbridos mais que dobra em 2026",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1INWJtSzJTWnRqZUlkWlJfOVh5Uko3bEV4ODNiOEJnMEdvcG9BZ2cwTThfTy1sWmszMXJfdThVNk9VUU1DM0NxZll5aXZldDNPN285cENmRnN1cjE4b2RxV2JFTFl6LXVpWTVPS1Z0UEFBZHM?oc=5",
+   "source": "Canal VE",
+   "date": "2026-11-26T18:19:58+00:00",
+   "summary": "",
+   "id": "5ab31efb83717d",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Crédito para financiamento de veículos pode triplicar e alcançar R$ 1,5 trilhão, aponta estudo",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNT0w4bDBmek1acld1NjM3Sjl0TlJ6UnVZYndrOXNWM2dPRmpKQ0dVektELTV5bkFZUWlGSnZWQ1pKZ3NYbWZfQnlsLUdZbVNYLThHdXA5anVfcFdGNzJRQ3o4aUxfbGVvS21vV1hOaG1LeTl0ZC12NUJqdDV5UXBrYmp2Q3JsZEpDMjl5MUNIbExIQXpUMjJaQ01jd2JiSk1XeTJCYjBUVnpjeXJQb2JBVXBYSWsxaTRTblJxblN1YnBqRXhpTUg1NQ?oc=5",
+   "source": "Gazeta de São Paulo",
+   "date": "2026-11-26T17:05:18+00:00",
+   "summary": "",
+   "id": "98d84b0dcd4854",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Rádio Decidendi discute IPTU em imóvel com alienação fiduciária",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ3BpUFk4WWpOZWlsRWpIQXpya01NUV9VamVMVDEzX2ZaSXh5OVhaRHZKSmRJUnFEakJCTnBHUHp3ZkltQlREcjVjS0I1bDlrLTZPNmUzamFVZUFZMWRWb3E0WWVWaGJLenloVUJTQ3dvb0VxWUdCdjYtYU1ZM0dCMlYyVHlmNVRIT0NLYzlZWnd0dTBrb2lRQTVrZzZ6WkoxYzNn?oc=5",
+   "source": "Grupo Portal de Notícias",
+   "date": "2026-11-26T15:12:33+00:00",
+   "summary": "",
+   "id": "63822a8cefa540",
+   "topic": "imoveis"
+  },
+  {
+   "title": "O financiamento de veículos atinge novos níveis recorde",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTEdqcWVfWmRHd0xuMXNhYkRoVEpXS3JWWnI0NG9vRFRDNXNXeHVIcjdZaEIxR0hxajNTYWFCMGNpemJ3bHNBT3Q5RW94S21Kdl93UGVRY1dxLWVEaWNGVXBmM0t3X3pCRWRVN1J2aGllT081eWlwVjRoRzVKNDJQcldodlBoaGZYTWI2OS1nd0FBSlBjNWxVeGFKaW0zRENUdjZPS2E5UTBmdnZTNWFBeVg5Z2pVMm5XQ1E?oc=5",
+   "source": "The Portugal News",
+   "date": "2026-11-26T10:54:42+00:00",
+   "summary": "",
+   "id": "20b70c69a8271d",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Órgão regulador do Reino Unido identifica erros no cálculo da indenização por financiamento de veículos",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CbTR5X1FlS1ROWXJ1blpldXExLWVid1NrZ2gzSWxDNkVULXp2b2dwZ1VBWjJOX0xxV0huNTZhVlgzRnhseTNTVmlkVDdTS2tCN2JuTEpSdTRTc180cWY0VFlzdGdfN3p2OWI2cnhzd3NCY3dTMGNv?oc=5",
+   "source": "TradingView",
+   "date": "2026-11-26T07:10:00+00:00",
+   "summary": "",
+   "id": "52c402c9b89677",
+   "topic": "veiculos"
+  },
   {
    "title": "Financiamento de veículos elétricos e híbridos avança 142,5% e atinge 27% dos carros novos no Brasil",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ01kVGZ2SG0zdWpkMjl6U09zaTFFdGx3OWN4VE5EeXlKbWQwS1NMSEpWRjZmRlRVQ1gyT0tSTm1ueV90OFItMW1SRmtndzJDRW9EVXJYUGJQN2dDbWV1WjdQLUd3Mkh2ejREVzU1QjJPY2sydFZva0ctU0M3dE00RV9FZThPUzU0VVQxblc0VGNGaDgyT2RKb21BMC1ja0ptNnZNd0hMSE1WUjV3X1hBRW1uLVBaV2FCWTF0QjBtLXkyc1pzUlQw?oc=5",
@@ -39,6 +84,15 @@
    "topic": "imoveis"
   },
   {
+   "title": "Recuperação de crédito imobiliário: Impactos da alienação fiduciária e a proteção das cooperativas",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNU2JSRDROTGpZOWNBbjZVUXRXcEUtcU1OLXVud1hjSHNPbEFHdTVpODlkb0ZxaWgtRUt3bDBJSUs3ZWxSSTlITFhYcU5QUW1YWHNKZ3dwM2hZNGQwYUl0RGhSRUtpSEdGWFQxMjJSbWZ6akh1VDZKNFk1NXNrV2tsc1dXWVktTnVUTEN2OFVSZDI0WlJWMHd3eGhubkxIbUVpbGhWWG55YUtyZno2b2c1MndGcXVqMkM3TktMOFlPcjdkM2xKS2E4RlVEQVV3S25qeVBlQlBn?oc=5",
+   "source": "Debate Jurídico",
+   "date": "2026-11-25T20:00:00+00:00",
+   "summary": "",
+   "id": "7f622e21fb6ed6",
+   "topic": "imoveis"
+  },
+  {
    "title": "Alienação fiduciária, doença grave e leilão: Dra. Tatiane Garcia revela como salvar o imóvel",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM0ZfVlBXV3FPVXI3QVdscmFQY3Buai0yMkhra25PcU1XbkhDekltY3RiNy1hWEtNZUFsY2ZQZk0ybUhWMDVrMnJFVE9YbnpJQnpvb3RwX0Flekp5QTRsZ1lNV28xOTNhaE1SMVNhVnpzT2pnd1VuelFSQW5sd1JMbGlkVVJnYnEwVFNFVzFR?oc=5",
    "source": "SB24HORAS",
@@ -64,15 +118,6 @@
    "summary": "",
    "id": "7b9eb829ac9263",
    "topic": "garantias"
-  },
-  {
-   "title": "Financiamento de carros elétricos e híbridos mais que dobrou em 2026, diz estudo",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRTZSenQtRnItYkMzR2R5VHgtaUpRUDNvRm9qeF9QOG95TU1PLWhNbVVkTWRRblpBbFdZVUJybnotN2pIcjNBeUtDQlhYNDd5WFFOWjdwZHNTcTlhRWFNejdNUVJyVDBzRld5VVFfWEZvVXMxblJMck9CTVpFb1o0bDZiNVNnZ19KZHdsM0s1blV1cXZwaU1pWmtvaGdFNnp4cm9KZzBnVktrb2QxbjlmemtFZw?oc=5",
-   "source": "Rádio Itatiaia",
-   "date": "2026-11-25T18:40:51+00:00",
-   "summary": "",
-   "id": "d41b1af4361627",
-   "topic": "veiculos"
   },
   {
    "title": "Financiamento de carros elétricos dispara 142% no Brasil e derruba preço de usados",
@@ -198,15 +243,6 @@
    "date": "2026-11-25T12:51:00+00:00",
    "summary": "",
    "id": "2367197690c818",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Crédito para financiamento de veículos pode triplicar com retomada extrajudicial, aponta estudo",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdUMtanlUbUlJek1hdks1MXo5aVRqcWtoWl9aUzA4NU0wVFpNUkxWaVNfWUR0UGpqS1dEeGdDSmdQU1lmcFV5Ui1sT2hYNGRFZGhqdTFGZFV5SXJKdUhfck5pa0NLWi1WRFhXSnAxWUpOaWs5X1hSQVBxcXRKNzJ0Z2hRS2p2X3ZXRTlPMHBER3NTeUtwMmZ1dWJ4TWx4Vnowd1Uwcl9IcjZyOVloYl91ejRyVnJtclN4WGwyV250V2FzUWxWby11bjFFcHlSSFZmN1J3?oc=5",
-   "source": "Canal MyNews",
-   "date": "2026-11-25T10:00:00+00:00",
-   "summary": "",
-   "id": "59353157b82e2e",
    "topic": "veiculos"
   },
   {
@@ -1954,42 +1990,6 @@
    "summary": "",
    "id": "36ad76b257add9",
    "topic": "imoveis"
-  },
-  {
-   "title": "FGTS libera R$ 144,5 bilhões para financiamento de imóveis em 2027",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOHRXSWpRRldlWnFlUWFwNlRwYS1OSXV1ZHJIdFo0N0ZnUk1nZEluNXBQenhtbUxBNm54cUIwcXdncmtaOU55UENFUUJHVFFReUgyNVhtZmxfUDRKaVlDQ1RTZHVtOHh6T0NxMVh1MUg0bm9NM3dPWUJ6WU1Fc2xIdGJ4SlZzeVNMSG40M2FTREhwWXl5dW4ydThPLTVMRzlVQlktdjlVMC1IeHpJWEh2NlJn0gG3AUFVX3lxTE5rY3lhTGpvU3BkUTZPampwOEpuN2R6ODlROE5IRjZXYmw2dGVMY0VWblJDeGliRDBSTS1XU01WZmx4S0Q5OFlxOVVPVFRxV1JEUTlWR2FrcEh2cU9HOFJlX25jNXVFbks2MWVSV3hZS09ldm5qdUkybnYwUkhMUlJtMk1tb1NCSVByTHpqVXFPVlB5eFJvYmNkSDFXMjdrMzAzVlBaMDhKeWZEUzdyYThyZllVNEYyaw?oc=5",
-   "source": "Tribuna do Paraná",
-   "date": "2026-10-29T07:00:00+00:00",
-   "summary": "",
-   "id": "dd225d8c29021e",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Governo moderniza sistema de crédito e amplia recursos da poupança para habitação",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOG1SZy1YYm4yWXEyQUtUbHJmXzlVVGZ0MDJLcS13ekViaFo3NmRfaVNNQnhpWVdUdWdaQXNzRkM4VG1qOG9RWWhLN1lhYXZTR3kzWXdkRWh3QnZDU1phZ1Jhd0xHZEpZdVBYaVVyMjREWFdtNC10eVZWelFWQUNmdHVTbUpGWU9ZYm1RZDdUN1pxMk5YVzZ6b3lZZzhXSHlZWWJiUVh3cFFmOXhySTdPRC04cjd5Vy1jaFYyNDlIRDNVZW8?oc=5",
-   "source": "Diário da Guanabara",
-   "date": "2026-10-29T05:47:30+00:00",
-   "summary": "",
-   "id": "b9073086d3b6ee",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Mercado defende limitar tributação de títulos isentos a LCI e LCA; governo estuda IOF nesses papéis, dizem fontes",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQaEdiaVhDMHN2dUlwYXFTejBHR0lIZnVMLWE3XzREUmNVRVY3d1pnb1FpejJpeUZSQko4cXFWOUw3aENyTmJHYnBiT0NsWmtSVDB4bEFzNVRCMnJXVGRhcDgtZV95LUV0dUdURkRrUU5ieGNreDJJR185Z0cyMEpWTldYLThaOE45Z214Q0c2Tzk5Mk9QNjF4T1dYamRET18zcHM4d1B2cUo5VnB4NS1Yd1dISTJmMTVma0NnZV9GNG5yUWU1VFN1OEVRQnh0NTNvYklvRGw4YnFfbC1MS1poNkVVVmVoWEZzOFFhTjRtVmxUcHM3NWw2dNIBhwJBVV95cUxOYVdpa1ZrZHRsc1F4SnhreFFkTm00LU1yYzZaVEl0X1BfbXI4YTFKZEdkeXMxTTZURVgtZ0QtemxLaU40dWhpbnFVcU9lM25nTnFzZnVGNFplNk56OVZCbGpnSl9VOFkwbXhqdFA0UG9VdWhEU2p0bjZmb3JWcWpJeTNmOHNnbTJIVEpxZ0tEV3IzV2FqWEdyZ1hXTG9TY2wycFhvTHhyakhjRGJaa2lPcm4yLVg1WDRqWnVxWUoxMzI1NW81dEVnZUVkT2NwYnU2M2pzanlybl9EU1pGV1lkWlFwRVRCc0VCZk1Qc1d0NXM2clczSk9kRmNNZEd1NThpUkthSFNaaw?oc=5",
-   "source": "Valor Econômico",
-   "date": "2026-10-28T18:12:54+00:00",
-   "summary": "",
-   "id": "86a53e32979311",
-   "topic": "imoveis"
-  },
-  {
-   "title": "BCP reorienta financiamento imobiliário para construção a custos moderados e está aberto a soluções com municípios",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORUZxMm1YZjVJZ2N3VFNpSDEzcV9sTld5dXNXRDdIU19SLUdFSmpmWVRUQ2I4ZGVieUszd0tKTkktYUxOTHpiR1Z6aTlyU1dISGFWVWF2YWNmNzZycWdWY3JQdFh3amFtNEZlNld3U2FWRXJLZlFRdjZUUk13bmlIZ2lKOG5tUjA2NmtORWIwVVpZXzVVZ1hEYzRUUy1nZGt6S3hkeU14cDRQQ3ZLYU1HeFZ6SExYcTdyd2pCVHlPVG1jOXhJU0ZmNkNmbkZ2S0RTbi1UVWFrRDFaYWg3YWZpb1R4M3QzaXozb1dheQ?oc=5",
-   "source": "Jornal Económico",
-   "date": "2026-10-28T17:58:00+00:00",
-   "summary": "",
-   "id": "b07bb3a06f9741",
-   "topic": "imoveis"
   }
  ],
  "normas": [
@@ -2315,8 +2315,16 @@
    "label": "CDI anualizado",
    "value": "13,65",
    "unit": "% a.a.",
-   "date": "24/11/2026",
+   "date": "25/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
+  },
+  {
+   "id": "sgs-226",
+   "label": "TR (diária)",
+   "value": "0,1712",
+   "unit": "% a.m.",
+   "date": "25/11/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
@@ -2325,14 +2333,6 @@
    "unit": "% a.a.",
    "date": "01/09/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=20749"
-  },
-  {
-   "id": "sgs-20772",
-   "label": "Juros PF – financiamento imobiliário (mercado)",
-   "value": "14,20",
-   "unit": "% a.a.",
-   "date": "01/09/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=20772"
   }
  ],
  "agenda": []
