@@ -1,16 +1,106 @@
 {
- "updatedAt": "2026-11-26T18:57:21.946272+00:00",
- "checkedAt": "2026-11-26T18:57:21.946272+00:00",
+ "updatedAt": "2026-11-27T03:36:34.422141+00:00",
+ "checkedAt": "2026-11-27T03:36:34.422141+00:00",
  "fontes": {
-  "Google Notícias": "ok (+72)",
+  "Google Notícias": "ok (+83)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.20772/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Banco Central SGS": "ok (6)"
  },
  "news": [
+  {
+   "title": "Itaú Unibanco entra no Minha Casa, Minha Vida com financiamento para imóveis usados, ampliando concorrência na habitação popular no Brasil.",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQYVZLblpCTG40bzBNRkNGMGpvZDJTVHhwX3hnQWU1ZUNJWEtiNkRxTlI5RlhqMWdkRVRpLXdWcjdpOWFhQnBYXzBuY2VZdWhMMTE5azNXZllWZnRCMW9raGd3eGdSNE50bVBOdTBieTVXVkp1OGZHZElETG1oT0FEWERBcHNBZmI2cmtaOVpSWGRjM2lQOWJZUXFSaFNLTHlIdWJ4MERVVFRIT0Z0Yklkc3dhY21UckFwUm05Wk1qMjdQYldLZExVdzUzeEMyNzFlbFBaTGlGTmNsMnBsakd6SnNGbGJWaklBUm5ieGdBTTNsalprQVhNM1BHTQ?oc=5",
+   "source": "Repórter Maceió",
+   "date": "2026-11-26T22:50:00+00:00",
+   "summary": "",
+   "id": "140235430458f7",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Com menos recursos da poupança, fundos de crédito ampliam o financiamento de empreendimentos imobiliários",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWTd1cTFKQ05HZWtqX2xUWlk1MF9vYkMyY2pNSW1JR2toUGJoSW9qVWhvR1ZtcUx6d0lYSzZXcFIzQnJrdzRRN2kxX1ZpclJsWTJrVEFReHJKYVhMUUV3TjVEbG5RSmpOLUVGOGdvLXR4NEthMlJlOEVHQnZFbnFEdEx4TDJSVkNCS3M1TFFYTlZrVGVndkFyOWRvUFBZRTVCWWVv?oc=5",
+   "source": "A Crítica de Campo Grande",
+   "date": "2026-11-26T22:15:00+00:00",
+   "summary": "",
+   "id": "63f3cff31cbe8c",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Itaú Unibanco entra no programa Minha Casa, Minha Vida, trazendo novas opções de financiamento para imóveis usados na faixa de renda de R$ 5 mil a R$ 9,6 mil.",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOaUh2UWFKZElydUNlVWx4emdiTHhucXJGNDhIa0pVOU1SdFl2YXlEREFNaXdrZzRDNm43S2diRHdnN1p5dTgxSTNvVUcyb0txMURUVTA4ZzhiZXZRY3pTSWpsR3BQU1ZfaF9TQVl2bVRtWkc4T2JCV0tuY3VFWWllVTNaR3VvQ2hTaFlnY2UzYTMySXhuUy1OTER3ZnJ5WmhodXliNUJNWmJTQW1JVjIyNUo5OE9LdVhxRUdBMzdPUG5xaHdfRHlGeHNfUUloRHdUYm42Y3QtMUxRYURYblA5NDVBSy15QjFYbUNnUXpJOFREeFlHWXNjSDd1NEpzdlZiYkZ1UlRHR3NyVEVwY0tvVg?oc=5",
+   "source": "Repórter Maceió",
+   "date": "2026-11-26T22:05:00+00:00",
+   "summary": "",
+   "id": "d39037f49685e5",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Consumidora que adquiriu consórcio achando ser financiamento imobiliário deve ser indenizada",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbTBXdnl1dmpFZGdrSUw3Y0lWWDdWTGwtalU5S0ctcFRfbWprdklOX01fbzNSdksxcGVzUWo1Q3hzMUlnbFNvclk0aHZNaENBdm9rc2tUVXJJcm55cnduWUpzRk9HR0NUMFhITjNsYmdwU0tVTXlZQnI1SjIyZ0N3am5UaC1SbkJqb28wMXAwMWxaMGRCa0tpbkVOajE5V3k3OHBqak5ySDNZOGZ3NHJoSU5wMFQtY2FDOGEwNGxKZF9DWG01cUtDVVhCQXA3NWFPMXpsb2c3RHk?oc=5",
+   "source": "Portal TJMG",
+   "date": "2026-11-26T21:05:24+00:00",
+   "summary": "",
+   "id": "145fa780436d1f",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Poupança perde força e abre novas oportunidades de investimento no mercado imobiliário",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZVJ3c1lWTGpCYzhNczh5b1M5MWFkZm5DYW5oWlZtLVdHZXZCMDZQZ3MtdUlEQmp1YUtTN2YzUjVrNGFkcWdpcWhFb0lwSEFmdjlvSnE0Y1h5NXF6NW5hdlZDMks4MFlYVnZSZ09nRFBzZl9NZkdpZThwc3ZheHdxMUdpY2pUTm5aRjZTQXo0YzBaVkc0QjZkdkZURV9qWjNVNW9PcmJ1dk5CVExna0hOVk95Yll5dFlTU0J4M0daWEQwOWV2OWkya3FpTlhESWNjQU5qUG12a9IB3AFBVV95cUxNSEVfV1RPengxeXoxYUhnTUJQWVN3RXVLNG1wdFBjeHNaMHhGRlFOTzVSWThvYml4UXRKU3RULVlYU1lzTGlrWkJqSHVXWGJobVI5TU00cExIUlUzVEJ1V0I3WkFHdHlCTkw1ZnBuZGZKOWRPS3V2Mko5OHdKRDFydE9Gdnc3eGVqM093bzI2MDdsZjRmbVMxRjVrUlY4cklLZlBxY2k1ajAxR1dlNWozQ2FRbVZYNDhHOTVzQ1U1ekdSZlRfUjMzeXdXaEo1eDJ3OFE1aGU3UWNERFRr?oc=5",
+   "source": "Estadão",
+   "date": "2026-11-26T21:00:00+00:00",
+   "summary": "",
+   "id": "0a5a8dfefd68e4",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Depois do Itaú, Bradesco (BBDC4) e Santander Brasil (SANB11) confirmam planos para entrar no Minha Casa, Minha Vida",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSEw3QklRUDFibmFpSUxtb0cxaGRqbmRiRjJzLVo0LVpNdVFiRWpma2FTcjdndHRyczJoMDhNSkZKaXVaaktmT3h2RER5RE1iVzg1bzUzOHVuWHlTeUI5NEFqaWZYUi02ZnJLbDlBZ1I2ZGFqY3BjanBoTWdleV9OQXZYRDNMS3VBd1JBYkR1RXkzeHBrai01bDJWSkYyb2ZtU0hJRTctVEtVZl9BZ0tUdkQtbkMtMGg5NXdVR2xWbkMwemdsRFNleDFRdGtiOEY3NWc?oc=5",
+   "source": "Money Times",
+   "date": "2026-11-26T20:25:00+00:00",
+   "summary": "",
+   "id": "af21245ad2b5fe",
+   "topic": "imoveis"
+  },
+  {
+   "title": "A Caixa que se cuide: Bradesco (BBDC4) e Santander (SANB11) avaliam entrar na disputa pelo Minha Casa Minha Vida",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaFc4U3hWVVFfQ2M5a0ZUTl9SR1U2T04xVU9td0NVMUVsaXd0SFVHeGZOZVlmeTRtaVRrZEgwN2p1RFhQWWtHdTRieU9WcDd3NktqZGJ0T1BQREl1Nm9VMjBFRlFyR3pHVHZfb3gzZGRUZ1BjbXB6czVxZUwxOFNCb1ZubDktNnJ5TTFzUE1rM2tYQ0NnNHkwRkIwbXRBczlnUkwwaW1JRkR5VnVUSkVQVGRMMmRIODNSTnl6V1d3MXFWbnBRcE1SQjV3?oc=5",
+   "source": "Seu Dinheiro",
+   "date": "2026-11-26T19:41:25+00:00",
+   "summary": "",
+   "id": "24b58373e75088",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Financiamento imobiliário mais caro: veja quando dá para desistir da compra",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ1JxN214UkZ4ZnhXSHZwdkN4UkV2c3VYYmVKNXczSS1YM2NENnBGOG9zSnlXUUFIb1NaWG8zWmozV1JNMXdzMDNyakJvNE12YjZrNDV2dVRvUlZhWDJyRS1OUHVsVkdwVWVaN2xTcFhraExWaFdTUlpWSWVVNHN2bmFSNDlib2ZqdDktRWd0NkNtQlN1U25mdXNVUndOM2RsQTA1a1ZlMEc4T3RveGxnZVEtN1E0UQ?oc=5",
+   "source": "Revista Ana Maria",
+   "date": "2026-11-26T19:30:07+00:00",
+   "summary": "",
+   "id": "7578a3542e6cb7",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Redução de recursos da poupança abre espaço para fundo imobiliário acessar praças premium, diz XP Asset",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTjk2d0M3V1pDQ2FFX0NzeFNzeUJSdnRBeXJtWnZMTGlYS0xsMzdXYlRvWi1OUlhyVmFkMzlaVVNNWmVPUy1oaDVpZnZFVEFJbWZQcDdXeHBQbUJiYjh3ZHVtMEpCaVB1bFpqZFNMLXU3bHJnc2RCTnlUNWJKcmJ6ZjJ4aEx6Uk8taG52cWZQRjhDQ0pxek5PNHJvRTBSakF3dW1yUWVXOUlDV1VuMnB4Z2xmeExmTTEydnc0Smlra1pHeEtlUXoxTTd3czI4YVVqQm1FOFM5OE9TdDlkYmRVc2hJZnJOLWlxRFHSAfgBQVVfeXFMTWdXOHAwQlVhWUh4eXVUYzY2a3ZMQXVwY2JsQzE1Tms3aE84d01iWlZXX1FVODM4dThzcXFFVVRWYXJ5cjlqR2pVdExqcEZaaXM3cWp5XzNONEJhTEttcGwtdFhpemNrOWlldTVxZDZPelMyNGJMYk5TVF9kcHFTaGhaaEFwTEFySWdqU3V4bS1iQWRqbzV3VHlYOFpsMWtmQ2VaXzNGZUlaZGktam1kRDVqeFRGRUdmamRGVk9iampNa0poR3dpNllBWDRDMWhpaWhuanVRNHdkMUdrcHZxb2JqUDNuMEpLWmN3aXBDak1BV3VGUC1RdHA?oc=5",
+   "source": "Valor Econômico",
+   "date": "2026-11-26T19:28:16+00:00",
+   "summary": "",
+   "id": "05aad4ca260c69",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Itaú passa a financiar imóveis usados no Minha Casa, Minha Vida; veja para qual faixa de renda",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNc3RmLW1PV1BQb0sxLV9CUGpMN05yLXlvMm9VMUl5TXhvYUZUenVZNWUwNWFYaU5CdGQ1UnRFeE1JcW02c2RTSGRqV280VzFySWFvZ2h4Vkp6YWM0Nk5ualJfaUl2aG1TM3E2c2lmVkhnbW5admR0c3I3ZnN3c3N3Nmlub3VzX3pSYW5yVlN2dW43QVI5cHZPQV9jSFZmbFEwdzZRU1czUnMyQTVicG1xX0NRdXBNWTNKT0NvdnZucE9fTWhQUkprelhDRnlzUHBER2VZeE1maUw3dEZGNXRQWtIB7wFBVV95cUxNMHBsRzJrNE9Zem1ZbTBKcEprVVdBU2JGX3dYeU02clBDNmwwWXNNZ0l1WnBIbzJCcVVxcHhKVGVELTU1SzFpdXNyZW5BeDZ1TGljcTdDOG9YSUpRelRNTEdDLWF4UDkxVzVYMDNhVzhIVmhUVkE3MEw4WFNLWEdGaTNJZ1k1a3VNSlExNWR4bG4yQVBEa0dZeTBTakRZRVotME0zTTBtQmpHTXJiOUlNZzdSV2NJZWgxLUk1WHpjbUFvOG5MR0Z2aGx4Vy1PVjRMZWdZQllMWjZuZm9VbGFMb2E1T1NlTHhteHpEQjRPQQ?oc=5",
+   "source": "Extra online",
+   "date": "2026-11-26T18:59:27+00:00",
+   "summary": "",
+   "id": "4850e65b9a6f59",
+   "topic": "imoveis"
+  },
   {
    "title": "Financiamento de carros elétricos e híbridos mais que dobra em 2026",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1INWJtSzJTWnRqZUlkWlJfOVh5Uko3bEV4ODNiOEJnMEdvcG9BZ2cwTThfTy1sWmszMXJfdThVNk9VUU1DM0NxZll5aXZldDNPN285cENmRnN1cjE4b2RxV2JFTFl6LXVpWTVPS1Z0UEFBZHM?oc=5",
@@ -48,12 +138,12 @@
    "topic": "veiculos"
   },
   {
-   "title": "Órgão regulador do Reino Unido identifica erros no cálculo da indenização por financiamento de veículos",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9CbTR5X1FlS1ROWXJ1blpldXExLWVid1NrZ2gzSWxDNkVULXp2b2dwZ1VBWjJOX0xxV0huNTZhVlgzRnhseTNTVmlkVDdTS2tCN2JuTEpSdTRTc180cWY0VFlzdGdfN3p2OWI2cnhzd3NCY3dTMGNv?oc=5",
+   "title": "Órgão regulador do Reino Unido identifica erros no cálculo da indenização por financiamento de veículos em meio a uma disputa judicial",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzNktwUFlLdkJvdWZicVRsV2JVZWVNcVUxa0tlX2liVXpmSE5QNEgtdEw4RHplRHlrYTNoVmYzMXVDdTg4Y3ZsWC1id0Vza1hQLUFfakhsdXAyN3Nhbk92emIyM0d0X3RDaTJzcG81UXI5VkdhTkdz?oc=5",
    "source": "TradingView",
-   "date": "2026-11-26T07:10:00+00:00",
+   "date": "2026-11-26T07:35:00+00:00",
    "summary": "",
-   "id": "52c402c9b89677",
+   "id": "00ef2be85951d0",
    "topic": "veiculos"
   },
   {
@@ -246,6 +336,15 @@
    "topic": "veiculos"
   },
   {
+   "title": "Crédito Habitação Jovem: Aproveitar os apoios em 2026 ou arriscar esperar por 2027?",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMUkwZDh1TGd5d1h3SzBabmU3ODJTVDFoekFZTWdCVGRpOUs1eEZlRFFuYjU1V3UtOWREQ25hV3c3Q0YwWFpXaGZQYVVzR1lBYTVZZWs4ak1HTU1pR29ySlJiZDJVd09HVDhJc0IyNGxDZjJLZkxtYUxWSG91eEJvRzNjRVd5VFZsSlg5VzdTRlhKa1ppX0Y0UEtXZnFpNmdncEJGWTRKanF6QUlYbnpnZV9MNFZWdElQdGw4Y19WdHk2aVh1VGVjTEh2UndTd3B5?oc=5",
+   "source": "Doutor Finanças",
+   "date": "2026-11-25T08:00:00+00:00",
+   "summary": "",
+   "id": "112bde674185f0",
+   "topic": "imoveis"
+  },
+  {
    "title": "Financiamento de veículos pode saltar para r$ 1,5 trilhão no país",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVUxJVDVGSlhSaHpkTG5TdXZMOGd2YUUwVkp1aXpfUjFxZHZibVZ1Tjg0dWJPUUZkbk9nUmNHRmQ0TjdjSnhQbUN2bm81Q2RGcWVPdlVGWDc1UnIzN2dQcjdZNUVkTzlObUpXSnpNbi03cE4wUUJHUElXblRfZGpzRFZhNEVVSWw1WERVdXY2OHcwV1I3QWV2UzNKajY3eXpZYk5vUTFB?oc=5",
    "source": "Agora Litoral",
@@ -396,15 +495,6 @@
    "date": "2026-11-23T16:25:58+00:00",
    "summary": "",
    "id": "1095d04c061478",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Minha Casa, Minha Vida concentra 58,6% dos lançamentos de imóveis no Brasil",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObm9XSnJwVHdPOGhJVnhZZkpqbmNEbXd0TlJ6LWI0UlFzdS1sT2RiTEl5cGxSaTlVV3VyV1JmdTltWjBPZ0MwQ2xGOTFZOHZndllZd1ppNTJqaEVHcUJxTWQ1QXNpVTVSVnBFNm9UZkEzNzRHLVN5Y0M3Z1FiOWlLclVIeElkVkMyeldkd1dVWEVVZk9GdUY4SnNGRllfMTZqbkJkRmwwRQ?oc=5",
-   "source": "Diário da Manhã",
-   "date": "2026-11-23T16:24:00+00:00",
-   "summary": "",
-   "id": "5ee38713b0723f",
    "topic": "imoveis"
   },
   {
@@ -1900,96 +1990,6 @@
    "summary": "",
    "id": "5a4e40132f729b",
    "topic": "garantias"
-  },
-  {
-   "title": "Juros do financiamento imobiliário aumentam e encarecem compra de imóveis no Brasil",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxON1NTZFh5SXRzQTJHbVpvcjFERUdLM0lMUGRjN1UtdVoySGxydl9XNUJDelBreDU1WXNiVFVVRWJhRUZEb0NhQlA2OGtsb1l6OWFfamk1MzZxaFduRmRYTzU2Z3NqeElqcmk5dVM0TFloYWJFUjhJd2xlRUxUYWp0Z0xBYzJqRnhoVmcyb3pRQzJReFNkU3htUDh2VUI4bFNzRUdmX3dSLTdBOW00NlVvTks3Q0pyRGhuUG5yTkp1MA?oc=5",
-   "source": "Grande Ponto",
-   "date": "2026-10-30T07:00:00+00:00",
-   "summary": "",
-   "id": "9d06e3462c612f",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Bancos aumentam taxas e encarecem crédito imobiliário",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcEFGdTdQblBuX19XUlVldnlMTHNlSFFBQVRXb3FnQzVZUjlTak03YmFfaDlrQjJIOUV3blF3WnJobG1BQVRBV3JaR0VGYlVvdnREYVhNTUFKdC1Uekk0dDlpQWVFVjk1VDc3VHhsd3Qtb2xlcU5vM1I0T1pRbUZzSlhEOEVzdGRIOW8yMThMbHpxLXppUGpwcFZLRGRQZw?oc=5",
-   "source": "Serra News",
-   "date": "2026-10-30T07:00:00+00:00",
-   "summary": "",
-   "id": "f7692f4ae858e5",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Singapura estende limites de financiamento de veículos a compradores individuais de carros de aluguel privado - Notícias e Estatísticas",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQm9ZY0E5OW5MYnhRS3Y5c2ZvYW1EVlZaSXM1ZTFaRU51SlE1ejI5ZDJRSWV2ZjlCQ2p3aU8xZHRWTXd1ZUd4QmpXR0JZSk5PUFdIdGZ3YXZKMGhNVHhzRXVCLTNFV3k3MGJDOFlDUWdkOS02V1pqcEV2SWV2RWNJbTcxc196dHRpU2pYR0VUWEs2OXJDTTBoSWk2MHUzSmctbTc2blBYU0RSQ0xxbFBMV3J2Z05CNmtqSDB1Sm5DRHpZZ0JkZ2pzdjQ1c19TSExHaXdfX3cyTDVVVGp0aTRhbA?oc=5",
-   "source": "IndexBox",
-   "date": "2026-10-30T04:03:01+00:00",
-   "summary": "",
-   "id": "a4835b099413ec",
-   "topic": "veiculos"
-  },
-  {
-   "title": "FGTS mantém orçamento de R$ 144,5 bilhões para habitação em 2027",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdGNBYzVUN3lUZzJQa0dvYzBaZzl6Y2VHZFB3MlNOeTJzZmo5OGduTVRFU3FjWjdaM2JYbnRNU0VCR2hNM0ZpSVRqel9DalBWbGJQNUloVUljU1dOblh4UjJEM3huYllwNFpRc2FiaXpHYXdwaGhZQi1wejRSZmhFYVBxUkdaR0Y3YnZ6bFR4OHJVMFlRX0dIMFNxZ25ORDlUdHNYY0JrVGVlSm9SYm1DQmlZT1ZHVzFlT01FXw?oc=5",
-   "source": "Agência Brasil",
-   "date": "2026-10-29T22:41:00+00:00",
-   "summary": "",
-   "id": "f29bb67426b44c",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Fim de uma Era no Canadá: Banco Central Sobe Juros Após 3 Anos e Pressiona Financiamentos Imobiliários",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRGxDc1hUOWM0azFUTEdtZUY2a3I3Y1lKME1qMjVhMXp2OVJLc1dvTXY5VHZGMTAzRFVuMFJPVlo2UV9vUUc3WEVTanhrb0dhV00xN2R3X19PZklrRVg3MGwxV1VPSWQyZ2p4ZnNTZkEyNko3UzNhSmRoaU5XOWFLZElNWEJ3VXBNRVJYTTE4WlB3X0xjVkxNblZuR1hudVdDTVQ0YmJrUQ?oc=5",
-   "source": "Portal North News",
-   "date": "2026-10-29T21:19:05+00:00",
-   "summary": "",
-   "id": "79023a015eae82",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Financiamento imobiliário com recursos da poupança cai 14% em setembro, diz Abecip",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMDlKUFByWjdFRnZaS0hwTm1VbkZkSGZBTmpBSjFncUhrck42aDVQSXNNZVlsVFRROXYtXy11eFlMcXFHdVp3dkJSNmhsVXJjb05DQXREZGxUcFpNY3BRUHNYbDNqd0VBS0xUWlp0V0MtTFU2MmtxeUw2V1Q5LWNKV1dSRURSdHI3TmxPcHZQejhtYmRvaG1wYVJ5STl3RWo1aXVmNlZWSGJPbm9JLUgtdUpHMHA5Z3RteDlJSEhnTXpZWndRdWZQYjNXVzJXdkVCRGsxa0tncEc2UUxCUEoyS2FqdzNLQXRoYXJn0gH6AUFVX3lxTE45SW1LTnJyUE10cTU4dlVHTGM2WkJUQWd6c0pteFExckdJSUszTVNHT3NxNlNrczRkZS1IR3pDZHI4NkVzSkRaNTJjLUYzcnFoc1RVdHVmNGVQa2s5dExkY2dIQ3dYaDA0eHJIaWVyeDkyTW1FMENyc21hMXFOS1RwRExvb09uYUFnMEFnVThFNG1SYmNxU0FELWNFT0JETEYyV2hVbUNxUm8wcTZGS3Rsdzl1eDgxQUxvcVBmUTdVRF9WVTZ4alN4djRRRHNxSmFjOGNPSTk4Z3gxUjdqeDZMSmZVZnJOMmktXzdfVF85OXBVWTlLTXNfbHc?oc=5",
-   "source": "Valor Econômico",
-   "date": "2026-10-29T19:47:58+00:00",
-   "summary": "",
-   "id": "d575bab3eded4f",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Governo libera crédito de R$ 30 bi para financiamento de veículos",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ3JyOWxyNzNsdHljNWtrSzl5dUQ5ZEdEdUVzM2pKYWtobWlNYjN2R2pLeVk0ajdneDJ0cHFSeVZGMF81ZFd5bTgyNFl1aGlrc2l1dmNjcV9oXzkyYW43M2ZBd2RHY3hpbFl4VHBndU16Q1JYZkJ2NGE0a1EtWlg2R1l0MTBfXzI4Y1pnRS1CWnRUVzJiWXkyNVZZenRDUXhLcVIxNjlVRQ?oc=5",
-   "source": "Rádio 93 FM",
-   "date": "2026-10-29T19:45:45+00:00",
-   "summary": "",
-   "id": "679899cd66d377",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Juros do crédito imobiliário sobem no Bradesco e Itaú na contramão da Selic",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdWhNdDBILThVSkpILVZMRHZIaU90bkRlSHVvWi1xYXBpeUZlckNYZjdyNEFPODFCN2NCb2J5THJpWEVZTzNvd2xrMWxSQ2Eza3VqdmJvYVNJalp4WkFSaUNSdDBQVS14cEJUc0ZpVWo2LXlaUHQ2VThobTNpVjMwcWJZZHFSeTlPX015Mnd3?oc=5",
-   "source": "Economic News Brasil",
-   "date": "2026-10-29T15:47:00+00:00",
-   "summary": "",
-   "id": "a84ccaab5afb78",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Senatran anuncia mudanças no free flow e avança na digitalização de serviços",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUDdDaWZzTVlzMW8xcnNIb1RSeGdKRWJxU0tRTlhGYUU2c0lyX1ZvTDBVUVlIenZLd3pFMEJIcW5EMXZYREVEUnkxbEcyZzdZelJLU0FweWpGcDVQREVSQlF2V3ZRU0JXUE8yOFphaGI1emwxaVp4bFdyaGNwSnNqTHNlQ1hmVnJSa1dvRmJPS2NQWUExYWdtMGtWNzBJdDA0QU0tdzdPY1hIZ2doenJUeE5oMy1kUQ?oc=5",
-   "source": "Brasilturis",
-   "date": "2026-10-29T15:43:30+00:00",
-   "summary": "",
-   "id": "1d505c8d33ea65",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Juro do financiamento imobiliário vai subir em outros bancos? O que se sabe até agora",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMzR4VVBOeFNuenpXQ0gxZG0xOEhXZXBlN0hMUFRza1dKNnQ0OEVneVJrOVBhM0xEZFhxeXU5cVhHRGpzb3h1MDc4MGo5WThKTUEyanNsQUlzczRoMEFua2luWTdCMmJZanJyTlNfN3ZBcy1zcEpPYWxvNnZqcTV0a3NGbzF1LUN5VjVvX0F3RzZiRUtjRzd5dGw3dkdqaV9vemNOUXdrSS1hanhKVUJWazBBZHA5QUNIZ29KR1ZkeHM?oc=5",
-   "source": "Exame",
-   "date": "2026-10-29T13:39:39+00:00",
-   "summary": "",
-   "id": "36ad76b257add9",
-   "topic": "imoveis"
   }
  ],
  "normas": [
@@ -2333,6 +2333,14 @@
    "unit": "% a.a.",
    "date": "01/09/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=20749"
+  },
+  {
+   "id": "sgs-20772",
+   "label": "Juros PF – financiamento imobiliário (mercado)",
+   "value": "14,20",
+   "unit": "% a.a.",
+   "date": "01/09/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=20772"
   }
  ],
  "agenda": []
