@@ -1,16 +1,106 @@
 {
- "updatedAt": "2026-11-27T03:36:34.422141+00:00",
- "checkedAt": "2026-11-27T03:36:34.422141+00:00",
+ "updatedAt": "2026-11-27T18:51:56.433289+00:00",
+ "checkedAt": "2026-11-27T18:51:56.433289+00:00",
  "fontes": {
-  "Google Notícias": "ok (+83)",
+  "Google Notícias": "ok (+88)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
   "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "ok (6)"
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Imóveis em Umuarama devem ganhar novo fôlego com entrada do Itaú no Minha Casa Minha Vida",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMC00aGtpeGcwQmRESGJTeVBtVDR5dmZHQXZaZ21QUkZvRlB2VXRKNkVUYy1HU2hEQnFycEd1UFRYdkJrNEVzWVhUZ0g1UGpma3NxMGpHUm04ai1ZdVcwbjZhSUREYlVKZWtwQ3paN1RfSk0xNHFxLWdQQTBHQ3plS2RXSXY1TlYydHItVWR4YkdXOUZMX24xRGtKeDJzMUVIeW40a0x3SWVHTmlEQUd2eFdMeUdtZFZHTTZMZG10ZDZfVC0tZ3pJRnNIcndrOXgwTDdkRjVXdnZZcllkYW8w?oc=5",
+   "source": "Portal da Cidade - Umuarama / PR",
+   "date": "2026-11-27T17:56:00+00:00",
+   "summary": "",
+   "id": "1313e3cb65be73",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Greve na Caixa prejudicou quem dependia de financiamento de imóveis",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQanFOT0RKYjhqanhaalpJRGV3enMzNGFMc3lyTVZSWm9PR1Y4Vk1RejFNdFlUYnpoSzhlSkdnOUxWSDk2OXRDUkFldXRONHZYMWpoNWJ2QjFlX25pb3JzOVBEQmRMTDI0bWVpcEJuUkFIMmJnMXZHbFFrbHJyZWZpUE1jVDZEQTJkVDhaUnpMa1piVVhOY2ZFZ2JrdnpXdw?oc=5",
+   "source": "JORNAL DA REGIÃO",
+   "date": "2026-11-27T17:18:45+00:00",
+   "summary": "",
+   "id": "6babba829afa37",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Dois bancos privados têm interesse em oferecer financiamentos para o programa Minha Casa, Minha Vida, diz jornal",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ZbkM4WVAzMWRhbzMzWi1oX2VfRUFGWEtWTUp1cTlocGJpNy1ob3o2WkgtNlhacUdFR0hFazBFWHhvWlNESjBPNU5FdUpqd0FyY1J3Q0FZVmVzM0tTbmpqZmZ3ZjNrS3o3VzRHaWRXLTlzUQ?oc=5",
+   "source": "Revista Fórum",
+   "date": "2026-11-27T15:20:52+00:00",
+   "summary": "",
+   "id": "ce324c1965ca22",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Itaú e Santander avaliam entrar no Minha Casa, Minha Vida e podem aumentar concorrência com a Caixa",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONUNwb1RldWhwbW8ySEV2ZWRPNFF5Y2prTHVGUjQzWG9qSk1takxUYUV3RkpDTzlmWnFGQWZianE2UVVzYkQyY0xXZElKbG9McWZuSEhheXU1LVgtMVZwVmxjRWI5SGdXdm9xcmdEQ2g2WUZ5Vm5PSkY3RHpoWnJRY2FTLUhRUk5ZM2pHemE2Xzc3a2RFUkN3WWplVERpYWZ1Q3lFU2JBVERwUnBaVXpOYzRITDNBamtNdEZ3bHVLY05ybVFnLWZOQVRCVGgwZw?oc=5",
+   "source": "Agência GBC",
+   "date": "2026-11-27T14:33:21+00:00",
+   "summary": "",
+   "id": "1aa2bd7f30076e",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Justiça anula consórcio vendido como financiamento imobiliário e condena empresas em BH",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUnFUcXpLOG5FWW5yZUNfRTN6a09UdWtiWnJVc0pjOHlpdHlaUnNKX1pzR0dZTkdXbm8zUG95ZTA0d2hpaEszVFkzYVZSNFVBMVI3OVNZUEdJc1JuMW0yLURsdmtpZkUydGNLSTRyQm94Y0xXWHdSNDBONXBtcFhiWjFNeVF1czVxR01aU201cWRBOGFmbEd6ZjBXM2tLYUg5cmF0MFoyeWxWRl9sWUlpQ2liQTFuTlhkaEVtd3ZTdU5wejFCNHFIQ3hrUHY?oc=5",
+   "source": "O Tempo",
+   "date": "2026-11-27T14:08:51+00:00",
+   "summary": "",
+   "id": "88810420e1de04",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Trillia, da B3, lança 42 audiências de Black Friday na Meta",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5WYmgyZjMxcjUtUkhKdkVyMmJvMW5uVHQwemEybV9KaVIzeTJoZGtlN0pWdFVUNXJoU2ViWUxFb1ZkbGtzM1N3a3N3WF9DWEN2MFFWNVl2eW5JS3F0eHJwVmpPUHFqb0RZaFdYSldaWko2UWsybkZJOU9B?oc=5",
+   "source": "Let's Money",
+   "date": "2026-11-27T12:39:02+00:00",
+   "summary": "",
+   "id": "ec4957ac615217",
+   "topic": "trillia"
+  },
+  {
+   "title": "Santander avalia financiar imóvel pelo Minha Casa Minha Vida",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUWVMV2pWRG4zdnpUTjNWX2pqRkFVbThrYjM3cEt3MlpRSC1xSzlWWlhzMHJyODBUTHIyZFVQTkZWTms5R3NTcDFWbEV5TVR4NEhrdnhuVUtZWXVNc1RQVEhVSkZYYVl4QU1ONklPbGZWY1ZxQVZCVlBwWnFwY3ZtanV3?oc=5",
+   "source": "Let's Money",
+   "date": "2026-11-27T12:38:54+00:00",
+   "summary": "",
+   "id": "8a0cdfa4207f4b",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Itaú detalha regras do Minha Casa Minha Vida; veja como pedir",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQR1V1dDBjZWF3TTgyY29ieGtZbW43a0lmVUlRUGxsd3BlMUpHMGtuNGJPWXBtZGJfRnMxUUxQMUxpejExYWx6VV9NV2tUb0xKWFR6ZlAxdFJrMXF1TWVqMm80LXFHYS1PY3haRVlHLWNiUUh6emFKWndFV0dUTVVUWmtRdVR2bjBLSHVJTnNHM09mUGg4QXB6Q0tuUDViZVhuY0ZpNXJtak9oWkdIczB2Mk9rejZ3bFhjeFprVlVCVmVjU3pGUkxWUGs3Qjlnd9IB3AFBVV95cUxNa0NtREJ2ekVranR1ZkU5M1QzVW5tZG9GcU11NHF2LXViaHNtS3k1S1pvZWNiRVVvZUdGSmk5VVQ0NHRfcVlSb1V3NmxXYzVPdTZzb2dwdW5WaEVPeDVLMmc0RS1td0hkcVJrRVF1Y24zVDV4V2RITmx4WlNNc1JvWlJXM2hzXzRDc1dUeDB3cVlvcjJyczBabjBxd3M0WDg1bFZwVXRvd2VWRUFlcjJkX1I5S05ReWhUSjhKbzFsVkJXd003LXpDdEViUjF6U2t2SWo4Mm9FLTVGdEty?oc=5",
+   "source": "Valor Investe",
+   "date": "2026-11-27T11:05:27+00:00",
+   "summary": "",
+   "id": "617b70fba3d5bc",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Financiamento imobiliário fica mais caro após reeleição de Lula; veja os juros de cada banco",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSkJSN1haTThGbUZzdmZPaFBJRnpOaUVrY3Y3THJCdGUyYUtSSVotQmhyX3JVV0U1RVlRaTRzaW1jMVpZd0pVek82SnBHdDV5U3pjOF9wbGdoWVNHRFp1M3BIbkgxMkVjV0NvalJHeG9EWmZERjBLMEkxV0JZeVdJNllRNDdDMlpyRUtnSUh0VjhqZS1oSW05cmI5NTRSVlF6cll1YkF2bmdfSU0wdE12MTRnZDNwWXA4Z290SUlWXzRUUWIzWDJsRWVya3pvMWQtWFpjOGJORlg1aGRiUzZMeF85UdIB6AFBVV95cUxNS0lMaDlXOFVKWUlLWUl2LUNBWXFNNUg0TVIyc2J4TmV5bHZwdUpsQTJoN25oXzFMMHhTRFpxbllfUlJDcXZqUE1xUUV2WlhQOUdqZFBpTzRUZFBDVjhISUljSHpjTVhMeXlNRlR3YjRHREFVZzdLM09kUlZCc3hSNUNxQXRvSjdKWTRDaElYTUh2MTVtSTlIbGRYYjJjQVZWMzlod1pEdlk3WVZuTnFKOHhmOG5KZEdhQUNPS3lqc3FXbjZHcGswN05PQko3bXdwLUZDaWtSemJEOTRINmdKbTJMNUNnVUMz?oc=5",
+   "source": "Estadão",
+   "date": "2026-11-27T08:35:45+00:00",
+   "summary": "",
+   "id": "93770fa19f3533",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Consórcio vendido como financiamento rende indenização de quase R$ 70 mil",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdmFEaEdwTU5selVvdW03ZWhxdS1BZ0c2akpzTjVyeUg4YTZvUlZZcFI4UE9uUFEyX0JPTlVrdGtTLWdJbnp2Nk1NUm05M0JpQ3ptOHRRUFhXTkdwbjlQenpNc2F1V2o4V2ZoR0Jzb3dtXzdCcjV3aTRQc0d0dG5jWTAzTF8yS1FFdDRsRno2cHR4aHFMSG9CM0FTWFlCODFwSVYwOE5URElDRklzNHY4NmlUcFc3U3VCbGtxakVray3SAcYBQVVfeXFMTVVtRjBxLTY0aTFELWpQaW1rR2pDMlAybllkUkxiNVQtQUlrYWJ2NU5nS3BiQkdxUkNDNlUzUHZuZVpYQVRkYjVBWWlTZmVwTGo1bU9pV3dlR0pBanFYbm1OZDVFQmNpZ2NXVkZrcXZLTG9pN2htZkRuU3lMTFI2UlFtOFh4OEhDT1pRdzJsaFJycGpTekJoOUtXZGt1MVR1TXhjZFpiQ3VTZWUwb2ZVUDFCR0oxMVJrUWI4MkJjWDZHZlJGTmhR?oc=5",
+   "source": "Estado de Minas",
+   "date": "2026-11-27T03:00:00+00:00",
+   "summary": "",
+   "id": "fbb760b658739f",
+   "topic": "imoveis"
+  },
   {
    "title": "Itaú Unibanco entra no Minha Casa, Minha Vida com financiamento para imóveis usados, ampliando concorrência na habitação popular no Brasil.",
    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQYVZLblpCTG40bzBNRkNGMGpvZDJTVHhwX3hnQWU1ZUNJWEtiNkRxTlI5RlhqMWdkRVRpLXdWcjdpOWFhQnBYXzBuY2VZdWhMMTE5azNXZllWZnRCMW9raGd3eGdSNE50bVBOdTBieTVXVkp1OGZHZElETG1oT0FEWERBcHNBZmI2cmtaOVpSWGRjM2lQOWJZUXFSaFNLTHlIdWJ4MERVVFRIT0Z0Yklkc3dhY21UckFwUm05Wk1qMjdQYldLZExVdzUzeEMyNzFlbFBaTGlGTmNsMnBsakd6SnNGbGJWaklBUm5ieGdBTTNsalprQVhNM1BHTQ?oc=5",
@@ -102,6 +192,15 @@
    "topic": "imoveis"
   },
   {
+   "title": "Trillia amplia segmentação de campanhas de Black Friday com IA e dados da B3",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObE4wYkhKQjlhV3p3MG1tYzFpd3hjNEVjdWFIZUZ3Z1cydHZzLXd0QnhwemdBTjB1aVd1UnpVempMR29JZVVYRG9hNzZEUDNBdzh1c0Nub3ZlRVZJWlRoNXVTYTl1U00weDFBRW9vOWZFVktTdHkzT3dmRUFoUHNYazNvdkxPYnhYeDRTX1A0Xy1hbVRLWWpnWVpfNEc?oc=5",
+   "source": "Traders Union",
+   "date": "2026-11-26T18:21:51+00:00",
+   "summary": "",
+   "id": "306d7135410cb8",
+   "topic": "trillia"
+  },
+  {
    "title": "Financiamento de carros elétricos e híbridos mais que dobra em 2026",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1INWJtSzJTWnRqZUlkWlJfOVh5Uko3bEV4ODNiOEJnMEdvcG9BZ2cwTThfTy1sWmszMXJfdThVNk9VUU1DM0NxZll5aXZldDNPN285cENmRnN1cjE4b2RxV2JFTFl6LXVpWTVPS1Z0UEFBZHM?oc=5",
    "source": "Canal VE",
@@ -127,6 +226,15 @@
    "summary": "",
    "id": "63822a8cefa540",
    "topic": "imoveis"
+  },
+  {
+   "title": "Financiamento de veículos elétricos e híbridos mais que dobra até outubro, aponta Trillia",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZUFQcVZFcmRPZVlLNmsycHExeW9iLUp0Vk9oY3FWcFc5QUdicFZwYWFSQnZILVZGcGloaDZIZEZTMHZWUEtYSUg1dm5iUUxSSkREdWl0b3YwMFhoTWdEd25oaTVxT29jTjdTb1k4cUtXS0JhQk9wNXY2SW0wZG4yZ2RUMmJFSVAyQ2h0U01FYnRXeXljcVJMOA?oc=5",
+   "source": "Rádio Guaíba",
+   "date": "2026-11-26T13:30:00+00:00",
+   "summary": "",
+   "id": "dfd86ca6efb0c6",
+   "topic": "trillia"
   },
   {
    "title": "O financiamento de veículos atinge novos níveis recorde",
@@ -1882,114 +1990,6 @@
    "summary": "",
    "id": "ccc177964e7b06",
    "topic": "imoveis"
-  },
-  {
-   "title": "Por dívida de longo prazo, especialistas revelam guia do financiamento imobiliário para evitar prejuízos e realizar sonho da casa própria",
-   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPZUVPN0VjbDJONE4wUnlENXVEYXZieFBnWUhsYXRQMzJ2aklFUnRJemRrVUREZzJDUjJiblhmVmN6cE12Q3ltX093NDc0VXduNnNId1Vra3NaUmFmV2kxTkpwRkNlY18tWU9UbUZfX2lqbk0ybF9rTzd0cHlPTzZiVkZkY1hLUXAtVW1YazQ5VzU4NTJkak9xN1JDVldEYmxSUHNYdWltUkN6R1ZFLTVwLVk2ZzM3ZGdGY2xzR2U2UXpNaUVqTFRaRFotWmFrVnpiZzd6VE5tZWI3LWMwT1E5dTd5NDBjeGN4dWstR1BmNjRRSDZreGNoSkVRckhsUXpJUlp2MWNxbXBWTXFscmJJ?oc=5",
-   "source": "Diário do Litoral",
-   "date": "2026-10-30T23:29:00+00:00",
-   "summary": "",
-   "id": "c992b9fc78c34b",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Financiamento imobiliário não deve aumentar para habitação social, explica especialista",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS20xTlVhNTdMYmRCT0FLZjZvdVNYSlJLd0dkOEdLYk5xelFtem5BNnZnNklSYTlORWxBOE5ZSEJKLVRYOWZPSnhOamVYYkw0ZzFfVHkzZkN4al81YmNfZTMycnhTXzFpaEpZR1AtTFZXdVFRUTZqeFZsY2s2MnpkaW93a2FnYTlaNHdFNWhFLTN0MDFrbWJYeHRqbGswaE5rUlpTSGhHT1R4MHFFajhuaEtSVUFuVm9mMG1PSk5ESDFGTC1IMV9Hdw?oc=5",
-   "source": "R7",
-   "date": "2026-10-30T19:12:54+00:00",
-   "summary": "",
-   "id": "5d26d3b0c6eb5a",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Itaú anuncia leve aumento na taxa de financiamento imobiliário",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZjRIWDdyZXBfZXpHRTJ5Q0RQNnMxTjBxM1MwS0NLTXdtRW5icEV1SEthWVBWWS1CLVpxb1JyTndBdnlSVUFuUDAxS3ZUOGlqME1keU83ZzBBMUQyT1VQT0Vlc3ByREJuWjFLaHpZWF9NLXFhaHc0Mk8zUlE1QXFLTF9SSTlYNVotMkZn?oc=5",
-   "source": "portas.com.br",
-   "date": "2026-10-30T18:26:38+00:00",
-   "summary": "",
-   "id": "6df35915a44084",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Juro do financiamento imobiliário subiu. Quem tem crédito aprovado paga a nova taxa?",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeTlRclZuZHMyaXE3Zkxad1liakY4WHYzNFlZeGFXYk1zakVBcWJTTU95cmR0bHpidUcwUDljbTVMdERBbzkxNHlrMGh1Y0IwRjJWa0t6Z1ZqYkhOV3A0aXJFcTVGWUJNdnVURDRnd3ltbHRibzdXVGprNXhGVU5vSEV1emYtWWZRY0pBd3F1aVp2ek56ZDBTamJSNjljMU1VUVp3NW5pdWxlUWQ2VVVYWWU4UzhoWk9mYXR4dEV3?oc=5",
-   "source": "Exame",
-   "date": "2026-10-30T18:09:17+00:00",
-   "summary": "",
-   "id": "c12292c984e30a",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Financiamento imobiliário: bancos elevam taxas de juros",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ3o1UldKV1VzYUs5SGFrb29vNzIxbjFfbzlxZElCVGtPd3pGUFgzMXlaTHdKZk5hZFZWNVJzLTcyWkMtVU1qYUJzZFVoMUtNakFzVVNuQkFnSlk1cHZmMGFoQ1lYT09idGJadWpUSkhOdHVCcy1kRm1HaEhBY0gwMUxMUUQ?oc=5",
-   "source": "Revista Empreende",
-   "date": "2026-10-30T18:05:00+00:00",
-   "summary": "",
-   "id": "20c15d0f119aca",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Casa própria mais distante? Bancos aumentam juros e financiamento imobiliário fica mais caro",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRFU0XzJiTE5QdHF0VkVyeVA5SXhnV0FvUGdrWldFU3YyeUczaEtHVmJNQWNYSmFEWUptb0xNZGhVc3lTRUp4Y0ZhSll3ZHNOZ2ZCcFp3dUpkR3lmek1lSVhFVHVFU2Rsams1QVR2eUdDMkR4ek0zTUk0NzRuRVpSWVhUU1NNVUg3b3hKT0VfYjlnaVVoOFJ6NzF6WU1aeTRkdDg1UzdBVVVBNEpTV3pweHZMMEhRWURQbWdpeUtSMVp3YjVsWm44M0Rsaw?oc=5",
-   "source": "Power Mix",
-   "date": "2026-10-30T18:00:00+00:00",
-   "summary": "",
-   "id": "15bee87cbbbce4",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Do mercado imobiliário ao consórcio: consultores de Criciúma mostram como funciona na prática",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcGlnejR1dzBUZ0hHY3U0Z2lJNHJMU3VZQkdCeU13N3pmM1MzV0VKZUtJaEpUbGQza3dOS1ZGRWRpREs0MzlXenJWem1wWEhkQXJmdkRpMmJyd2h3R2FGcVpPdE1ZUjlSeWltRlJTRjRmUW1taUs4dUFSNU53ZEFHalJPRUJDLXVmbHg2OFI5UF9mS1I4eGJ3U1RFcnNfWlhRTVFZX0lvZi1YTDJsVXVhRzJWMUt1aWo0NlhGOHhVc3dVc0k2cUNWRDZCNA?oc=5",
-   "source": "4oito",
-   "date": "2026-10-30T17:29:00+00:00",
-   "summary": "",
-   "id": "0197c8c3008d3e",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Bancos sobem juros do financiamento imobiliário; veja quanto sua parcela vai encarecer",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdnZtaEtBMzcyeWhkN0dfNFRkOVRwajh1UkFwQWQtRmVDbjg1WjNCZ0RibHpnU1ZVUnlwVTlTWVE2dE9tY1BhaUJERVFEV0VrV2tRZk9pc2UwU0h1b3N4X1cwUkI2a1hLdWItdlBpOVBRSVZqbEFOT09VUmFPLUZ6QjhBa1QyNHFub1VhU3hoSzJlZV9qdXkwZTBWcTc3ZUtaeTZUUmtzWlQyNDJmbldEZWR2UENVc0l0?oc=5",
-   "source": "Serra Noticiário",
-   "date": "2026-10-30T16:47:00+00:00",
-   "summary": "",
-   "id": "c2fb933a7fbb3c",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Anef: Financiamentos de veículos caíram em setembro",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTnVyNFhBOVF6ZnpFamQtRUwtWkpNeU5lMHhabFBheV8yM2prTmhaODFWeERFYkVieHlXaGpoMWdiblJuN25TWlRrMGpYc0lRSHZ5clM0T0RlZU8wVjQzWmlTZDdMcWhGTWhhclhBWXRfTTAzN2t3VDMxQnJWM1FKWmh3MWNzRHFuOEFlT3liZzV3dEhyaGRIYzdoMTRKQQ?oc=5",
-   "source": "Automotive Business",
-   "date": "2026-10-30T16:17:22+00:00",
-   "summary": "",
-   "id": "6a34b580110e12",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Cheque especial supera o dobro do crédito imobiliário",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQc2FDWmh5X2V4QVhNdDZFeTRERENPbnEwdDdEekd6bVBZLWlnbTQ3eHc5VUIzSWYyRUdraDRBNFk3aTlBbzdiTEt0OGR4RUs0Ukc4ZldGZkFqMWhpZTBLVHlmdmdLTV9OLThhaDdWRkZIcnlXd1otOS1WUXY4Q29JMHhWcHJWd19vbk1haktrWTVva0ZHal9oWFVNaTNvMmR2YXc2Yg?oc=5",
-   "source": "Agrolink",
-   "date": "2026-10-30T14:11:00+00:00",
-   "summary": "",
-   "id": "588d998baf4c81",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Economia e Negócios: Juros do crédito imobiliário disparam e ameaçam empregos",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONU9NYWQ3NkVpRDZ1NTNiTWFKRWdDTDVrNDFhdGNnc29QRm5YNEVxVTJuXzBkN1kxeTlBUTZrMWZXbTFlNEU4V2hxUHhnR2pCQ1JXdG9mS0dWQ3NUMDFBS1NxdkVlaVc4SDl1Rk9qV0hqc3o3UWdBaDQtUC1IejFzUnRKVHFYOTFzdmlqNExsVW96bVdxT05Sc1doWTZGSkJaREdGV1c3Y2dyaHd0Nmw5Zzk5RmtPRExtY0M4UG5UV0JyV1U4MGI2MTBJWVhfMFRqM1E?oc=5",
-   "source": "JC",
-   "date": "2026-10-30T10:49:03+00:00",
-   "summary": "",
-   "id": "c13f8a1e55d0eb",
-   "topic": "imoveis"
-  },
-  {
-   "title": "A nova estratégia dos bancos no crédito rural: Como a alienação fiduciária pode acelerar a perda da propriedade",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSXkxMmNnQTlRV2toTUJkRkdQY0FSNWxEeWotSzFRMnI5eEs4MHNPdE1CRFo4TFR0ajZZZE5fVDZOTHFUcEdyUEZHUVlZNlBDVEZhRExJaUNEeTROYjRINWVVLV83dFRjTDE4S0JZZTI5WGtLc0V3SmIxTjVKc2ViT1N4OUFLWGR3NExUckI4czUzM3NiUWRMOTg3ODF6UlpjUFBTb0x5S2pFXzVW?oc=5",
-   "source": "Migalhas",
-   "date": "2026-10-30T10:05:47+00:00",
-   "summary": "",
-   "id": "5a4e40132f729b",
-   "topic": "garantias"
   }
  ],
  "normas": [
@@ -2295,14 +2295,6 @@
  ],
  "indicadores": [
   {
-   "id": "sgs-432",
-   "label": "Selic (meta)",
-   "value": "13,75",
-   "unit": "% a.a.",
-   "date": "09/12/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
-  },
-  {
    "id": "sgs-13522",
    "label": "IPCA 12 meses",
    "value": "4,63",
@@ -2315,31 +2307,31 @@
    "label": "CDI anualizado",
    "value": "13,65",
    "unit": "% a.a.",
-   "date": "25/11/2026",
+   "date": "26/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
   },
   {
    "id": "sgs-226",
    "label": "TR (diária)",
-   "value": "0,1712",
+   "value": "0,1691",
    "unit": "% a.m.",
-   "date": "25/11/2026",
+   "date": "26/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
    "label": "Juros PF – aquisição de veículos",
-   "value": "26,18",
+   "value": "26,32",
    "unit": "% a.a.",
-   "date": "01/09/2026",
+   "date": "01/10/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=20749"
   },
   {
    "id": "sgs-20772",
    "label": "Juros PF – financiamento imobiliário (mercado)",
-   "value": "14,20",
+   "value": "14,05",
    "unit": "% a.a.",
-   "date": "01/09/2026",
+   "date": "01/10/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=20772"
   }
  ],
