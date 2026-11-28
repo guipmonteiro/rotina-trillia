@@ -1,16 +1,34 @@
 {
- "updatedAt": "2026-11-28T03:14:09.856854+00:00",
- "checkedAt": "2026-11-28T03:14:09.856854+00:00",
+ "updatedAt": "2026-11-28T17:28:53.043895+00:00",
+ "checkedAt": "2026-11-28T17:28:53.043895+00:00",
  "fontes": {
-  "Google Notícias": "ok (+84)",
+  "Google Notícias": "ok (+80)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
-  "Atos na imprensa": "ok (+1)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Atos na imprensa": "ok (+0)",
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.4389/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Minha Casa, Minha Vida atrai Itaú, Bradesco e Santander",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOEpDQ2dOUWNneUdibkFxdExtSjlSbVV2RkRzXzV3Q3ljSHh3eEZ3OUxVb3pick9Zb3lXbzl5VGdkNXRTdGxTZFVEdjRHT3F0M1p6ZnJ0amxLZDAzSERlSk5vNHJLVzN3eUxKUWVMd1AwelZXYmpoZzZQVE5QMW9iUVN6dUNwUQ?oc=5",
+   "source": "Seu Crédito Digital",
+   "date": "2026-11-28T15:00:00+00:00",
+   "summary": "",
+   "id": "1b2736087274c9",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Com entrada do Itaú, disputa pelo financiamento habitacional ganha força",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc2w2eG1lbE1XNmxWajBUZF9EWk82RGxUajN3cUZQeUpOakZIOHF4TTdRMjZKVW5nXzZDbUpqOUxNY0lmOUZXTWJsNDhSRWNSaGFHbVJmYUJNb3FUWGxPLWd6MUJ4NTlFeXFacHE3T2hIdU1TWHdib0dsNFZSSFd0VWE3bkg3bVRYSzA5NncyX2l4ak55VC1HbHN5TWh4dmZSV254YXNsbDBJT1IxMl90a3J2bWI2X0JLVzlB?oc=5",
+   "source": "Jornal Correio",
+   "date": "2026-11-28T11:22:00+00:00",
+   "summary": "",
+   "id": "3e15e50a433c82",
+   "topic": "imoveis"
+  },
   {
    "title": "Financiamento de carros elétricos e híbridos cresce 142,5% no Brasil, supera 392 mil unidades e já representa 27% dos automóveis novos financiados",
    "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNT0lkR2xzMDVlTWZuZVhpdDJUYkYtWEM3bDBnV0JKYXNCeVRRTll4RUJXa0lmQzQ3bGpBc0RVeXRjQXlBX29qQ2JLYURhakRLQjFNZHk3eHByazR5NUw3SlE0YjRzdmpoaDlqdWlsOWgtbEV1SktRWUx5NlZncHJTSldNMGlCcEZoZzRVUUQwcGY2dFlZMENpVFlzU1h0UXFhWDUzT1RqdV8ySXROTTJVX3NRVnl6TnZnRW1WM2hQaUpHVl9JdzREaXVPRENKR0J4ZEF6X09GU0ZMYXhMaXJ5UWd1WDg4QU5uamc2M2xONzBxV1prTXV2UkZWTS1DU1VicHQzNXduSGhiWkNGajAtcS1WSmFGUE80REk3eGxPSnQ0dzg?oc=5",
@@ -18,6 +36,24 @@
    "date": "2026-11-27T22:42:00+00:00",
    "summary": "",
    "id": "6d40de8e3144a2",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Itaú passa a financiar imóveis usados pelo programa Minha Casa, Minha Vida para famílias da Faixa 3",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUFJVdEUyZDlwUzgwbXFXOVNJbkd4TERXWTBRWXBDTkZPZjZRODVFRjdmNlZicWhrV0lyRjBta2RnVjNDUzhHZ2JYZGVFY2REc1VVclhwYlFIMXNCT0k1WnFFRTMxNjBudWExVTBEMHhVOC11ZE5YM1ZPY1Z6QnQtN011amQxWmFKQlg1WHlkdTREWGlqRTdhOW51RG1oR3dyMjN1TTR0SlRIWDVWblp6cEM4c29vTU9HeFpWWTVvUHpZT2V1b1ZDVHo2R2J2M0VYSHN4SWNnNGp0eERN?oc=5",
+   "source": "www.jornalcruzeiro.com.br",
+   "date": "2026-11-27T21:34:00+00:00",
+   "summary": "",
+   "id": "9e0d18122836f8",
+   "topic": "imoveis"
+  },
+  {
+   "title": "Empresa de Porto Alegre oferece consultoria para quem enfrenta dificuldades com financiamento de veículos",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQcFRhSy1lWE03S1FiODBibF9RdTk3cjZzekNFVm9jYTl1SGlVWlFLejhXYUszX1h5dXcwcndjU24wRGxfMjBobHVTZVBfcDB6cFlrNlFGRmJlWWV0Nk14a1prYkY5cFg1bWN6RURwQ1o5VWxreWlpYmtpN3NubHVhX0JSck8zbDJUUkczelpEQmdEaVlIVE1YVHlmWS03NmVsTjdlaUg5MXllOHNPelRFemMxRU9NSm1zaURIbnNaZHBHSEdwTm0wSVJxTFFRVWpSOFBtd2RQUGoyTk1qTVg2T2ctMA?oc=5",
+   "source": "Porto Alegre 24 Horas",
+   "date": "2026-11-27T19:58:57+00:00",
+   "summary": "",
+   "id": "a042c53c584d1b",
    "topic": "veiculos"
   },
   {
@@ -54,15 +90,6 @@
    "date": "2026-11-27T15:20:52+00:00",
    "summary": "",
    "id": "ce324c1965ca22",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Itaú e Santander avaliam entrar no Minha Casa, Minha Vida e podem aumentar concorrência com a Caixa",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONUNwb1RldWhwbW8ySEV2ZWRPNFF5Y2prTHVGUjQzWG9qSk1takxUYUV3RkpDTzlmWnFGQWZianE2UVVzYkQyY0xXZElKbG9McWZuSEhheXU1LVgtMVZwVmxjRWI5SGdXdm9xcmdEQ2g2WUZ5Vm5PSkY3RHpoWnJRY2FTLUhRUk5ZM2pHemE2Xzc3a2RFUkN3WWplVERpYWZ1Q3lFU2JBVERwUnBaVXpOYzRITDNBamtNdEZ3bHVLY05ybVFnLWZOQVRCVGgwZw?oc=5",
-   "source": "Agência GBC",
-   "date": "2026-11-27T14:33:21+00:00",
-   "summary": "",
-   "id": "1aa2bd7f30076e",
    "topic": "imoveis"
   },
   {
@@ -165,24 +192,6 @@
    "topic": "imoveis"
   },
   {
-   "title": "Depois do Itaú, Bradesco (BBDC4) e Santander Brasil (SANB11) confirmam planos para entrar no Minha Casa, Minha Vida",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSEw3QklRUDFibmFpSUxtb0cxaGRqbmRiRjJzLVo0LVpNdVFiRWpma2FTcjdndHRyczJoMDhNSkZKaXVaaktmT3h2RER5RE1iVzg1bzUzOHVuWHlTeUI5NEFqaWZYUi02ZnJLbDlBZ1I2ZGFqY3BjanBoTWdleV9OQXZYRDNMS3VBd1JBYkR1RXkzeHBrai01bDJWSkYyb2ZtU0hJRTctVEtVZl9BZ0tUdkQtbkMtMGg5NXdVR2xWbkMwemdsRFNleDFRdGtiOEY3NWc?oc=5",
-   "source": "Money Times",
-   "date": "2026-11-26T20:25:00+00:00",
-   "summary": "",
-   "id": "af21245ad2b5fe",
-   "topic": "imoveis"
-  },
-  {
-   "title": "A Caixa que se cuide: Bradesco (BBDC4) e Santander (SANB11) avaliam entrar na disputa pelo Minha Casa Minha Vida",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaFc4U3hWVVFfQ2M5a0ZUTl9SR1U2T04xVU9td0NVMUVsaXd0SFVHeGZOZVlmeTRtaVRrZEgwN2p1RFhQWWtHdTRieU9WcDd3NktqZGJ0T1BQREl1Nm9VMjBFRlFyR3pHVHZfb3gzZGRUZ1BjbXB6czVxZUwxOFNCb1ZubDktNnJ5TTFzUE1rM2tYQ0NnNHkwRkIwbXRBczlnUkwwaW1JRkR5VnVUSkVQVGRMMmRIODNSTnl6V1d3MXFWbnBRcE1SQjV3?oc=5",
-   "source": "Seu Dinheiro",
-   "date": "2026-11-26T19:41:25+00:00",
-   "summary": "",
-   "id": "24b58373e75088",
-   "topic": "imoveis"
-  },
-  {
    "title": "Financiamento imobiliário mais caro: veja quando dá para desistir da compra",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ1JxN214UkZ4ZnhXSHZwdkN4UkV2c3VYYmVKNXczSS1YM2NENnBGOG9zSnlXUUFIb1NaWG8zWmozV1JNMXdzMDNyakJvNE12YjZrNDV2dVRvUlZhWDJyRS1OUHVsVkdwVWVaN2xTcFhraExWaFdTUlpWSWVVNHN2bmFSNDlib2ZqdDktRWd0NkNtQlN1U25mdXNVUndOM2RsQTA1a1ZlMEc4T3RveGxnZVEtN1E0UQ?oc=5",
    "source": "Revista Ana Maria",
@@ -198,15 +207,6 @@
    "date": "2026-11-26T19:28:16+00:00",
    "summary": "",
    "id": "05aad4ca260c69",
-   "topic": "imoveis"
-  },
-  {
-   "title": "Itaú passa a financiar imóveis usados no Minha Casa, Minha Vida; veja para qual faixa de renda",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNc3RmLW1PV1BQb0sxLV9CUGpMN05yLXlvMm9VMUl5TXhvYUZUenVZNWUwNWFYaU5CdGQ1UnRFeE1JcW02c2RTSGRqV280VzFySWFvZ2h4Vkp6YWM0Nk5ualJfaUl2aG1TM3E2c2lmVkhnbW5admR0c3I3ZnN3c3N3Nmlub3VzX3pSYW5yVlN2dW43QVI5cHZPQV9jSFZmbFEwdzZRU1czUnMyQTVicG1xX0NRdXBNWTNKT0NvdnZucE9fTWhQUkprelhDRnlzUHBER2VZeE1maUw3dEZGNXRQWtIB7wFBVV95cUxNMHBsRzJrNE9Zem1ZbTBKcEprVVdBU2JGX3dYeU02clBDNmwwWXNNZ0l1WnBIbzJCcVVxcHhKVGVELTU1SzFpdXNyZW5BeDZ1TGljcTdDOG9YSUpRelRNTEdDLWF4UDkxVzVYMDNhVzhIVmhUVkE3MEw4WFNLWEdGaTNJZ1k1a3VNSlExNWR4bG4yQVBEa0dZeTBTakRZRVotME0zTTBtQmpHTXJiOUlNZzdSV2NJZWgxLUk1WHpjbUFvOG5MR0Z2aGx4Vy1PVjRMZWdZQllMWjZuZm9VbGFMb2E1T1NlTHhteHpEQjRPQQ?oc=5",
-   "source": "Extra online",
-   "date": "2026-11-26T18:59:27+00:00",
-   "summary": "",
-   "id": "4850e65b9a6f59",
    "topic": "imoveis"
   },
   {
@@ -441,6 +441,15 @@
    "date": "2026-11-25T12:51:00+00:00",
    "summary": "",
    "id": "2367197690c818",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Consórcio, Carros, Planejamento Financeiro, Mercado Automotivo, Financiamento, Manutenção Automotiva",
+   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxObU5MZENiYUJYbEp5WnNTT0JzdkxYN2F4WmFLcU9sWXRlbUJLb3ljbzlTamVIOExqYlZDSVpHa3ZIT3BlQXVuSVFXd1o1X1FkX2ZzWGE1YXpnUGZDQklPOE9iR1NfcGctdkhkSXp4NURRLXZIWWNvZFpVTEstUEJPajNQd0NESHVMM1ZFeWI1RkRLN0lHazJtZkxQb1VfVUlseW0xUGFCbGNkX1N6TmlwNWY4YW9BOWhKTTBtWGxPYm42aHBsTU1rcmhUWTQyVlNaQzhmdHB4ZmdYMzI5REQ2ZFlBVmFCSGY2TDlxNG1wZ1EzU1VSaDZNSmJ2OXdzNFlucHlHcnpySHoyYVVtZzdDR3FjbXdFX1BPZVE?oc=5",
+   "source": "Mecânica Online",
+   "date": "2026-11-25T11:20:32+00:00",
+   "summary": "",
+   "id": "480588c648118d",
    "topic": "veiculos"
   },
   {
@@ -1981,15 +1990,6 @@
    "summary": "",
    "id": "b4bc3571c7c2b5",
    "topic": "imoveis"
-  },
-  {
-   "title": "Home equity cresce entre brasileiros que querem estudar fora",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWmdQQmJmby1wcWtVSzRpcmxKVEhfcjVsRDhZcG92T1F2RzEzX3hkVTdMRDVFREg5Y0hNa3JzOUUyZFdOcUJPUGhhQXVTdDRnU3pBNUR5UW1hTjBhU0Q2Y0pIMXQyR041Tkd2WkVmblZValgwZ1RXQkV6dFJMeS1lTENISXRQdXF4bFVTalotNkNMdnFnOGNqWTRUVVRGOTI5VXU4S0p6RjZOdDkzZXlz?oc=5",
-   "source": "Educa Mais Brasil",
-   "date": "2026-10-31T03:15:56+00:00",
-   "summary": "",
-   "id": "ccc177964e7b06",
-   "topic": "imoveis"
   }
  ],
  "normas": [
@@ -2324,12 +2324,12 @@
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=13522"
   },
   {
-   "id": "sgs-4389",
-   "label": "CDI anualizado",
-   "value": "13,65",
-   "unit": "% a.a.",
+   "id": "sgs-226",
+   "label": "TR (diária)",
+   "value": "0,1691",
+   "unit": "% a.m.",
    "date": "26/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
