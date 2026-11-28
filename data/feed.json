@@ -1,16 +1,34 @@
 {
- "updatedAt": "2026-11-27T18:51:56.433289+00:00",
- "checkedAt": "2026-11-27T18:51:56.433289+00:00",
+ "updatedAt": "2026-11-28T03:14:09.856854+00:00",
+ "checkedAt": "2026-11-28T03:14:09.856854+00:00",
  "fontes": {
-  "Google Notícias": "ok (+88)",
+  "Google Notícias": "ok (+84)",
   "Banco Central": "ok (+0)",
   "Diário Oficial": "erro: https://www.in.gov.br/consulta/-/buscar/dou?q=gravame&s=todos&exactDate=ano&sortType=0… -> Remote end closed connection without response (+0)",
   "Câmara": "ok (+0)",
   "Senado": "ok (+0)",
-  "Atos na imprensa": "ok (+0)",
-  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
+  "Atos na imprensa": "ok (+1)",
+  "Banco Central SGS": "erro: https://api.bcb.gov.br/dados/serie/bcdata.sgs.226/dados/ultimos/1?formato=json… -> HTTP Error 304: Not Modified"
  },
  "news": [
+  {
+   "title": "Financiamento de carros elétricos e híbridos cresce 142,5% no Brasil, supera 392 mil unidades e já representa 27% dos automóveis novos financiados",
+   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNT0lkR2xzMDVlTWZuZVhpdDJUYkYtWEM3bDBnV0JKYXNCeVRRTll4RUJXa0lmQzQ3bGpBc0RVeXRjQXlBX29qQ2JLYURhakRLQjFNZHk3eHByazR5NUw3SlE0YjRzdmpoaDlqdWlsOWgtbEV1SktRWUx5NlZncHJTSldNMGlCcEZoZzRVUUQwcGY2dFlZMENpVFlzU1h0UXFhWDUzT1RqdV8ySXROTTJVX3NRVnl6TnZnRW1WM2hQaUpHVl9JdzREaXVPRENKR0J4ZEF6X09GU0ZMYXhMaXJ5UWd1WDg4QU5uamc2M2xONzBxV1prTXV2UkZWTS1DU1VicHQzNXduSGhiWkNGajAtcS1WSmFGUE80REk3eGxPSnQ0dzg?oc=5",
+   "source": "CPG Click Petróleo e Gás",
+   "date": "2026-11-27T22:42:00+00:00",
+   "summary": "",
+   "id": "6d40de8e3144a2",
+   "topic": "veiculos"
+  },
+  {
+   "title": "Bancos privados ampliam crédito imobiliário e Itaú entra no Minha Casa, Minha Vida",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQWYtd04weDBfLWlQQl9MTF9hWTh6YmNDTUFiN0hETWlMeXhsZGdFdzVpQ2Z1NG9OMkFnTE0yM0JMcnRGeV94OElLbHFmZllXdTJnbFd6YkFFR2F0ZHYyQnBZYXZrRVM3UFRzRy0wT1lCWXZSNUw5Umw2NzZEODJPZW9vWWlHbjRJd1I2R2xDSXBELXZBUjFNOU9RSjgxcnZzbGhsa045cDFXZWJZZm96T2l2VnloX2M?oc=5",
+   "source": "Times Brasil | CNBC",
+   "date": "2026-11-27T19:46:00+00:00",
+   "summary": "",
+   "id": "64863ad6b82520",
+   "topic": "imoveis"
+  },
   {
    "title": "Imóveis em Umuarama devem ganhar novo fôlego com entrada do Itaú no Minha Casa Minha Vida",
    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMC00aGtpeGcwQmRESGJTeVBtVDR5dmZHQXZaZ21QUkZvRlB2VXRKNkVUYy1HU2hEQnFycEd1UFRYdkJrNEVzWVhUZ0g1UGpma3NxMGpHUm04ai1ZdVcwbjZhSUREYlVKZWtwQ3paN1RfSk0xNHFxLWdQQTBHQ3plS2RXSXY1TlYydHItVWR4YkdXOUZMX24xRGtKeDJzMUVIeW40a0x3SWVHTmlEQUd2eFdMeUdtZFZHTTZMZG10ZDZfVC0tZ3pJRnNIcndrOXgwTDdkRjVXdnZZcllkYW8w?oc=5",
@@ -255,15 +273,6 @@
    "topic": "veiculos"
   },
   {
-   "title": "Financiamento de veículos elétricos e híbridos avança 142,5% e atinge 27% dos carros novos no Brasil",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ01kVGZ2SG0zdWpkMjl6U09zaTFFdGx3OWN4VE5EeXlKbWQwS1NMSEpWRjZmRlRVQ1gyT0tSTm1ueV90OFItMW1SRmtndzJDRW9EVXJYUGJQN2dDbWV1WjdQLUd3Mkh2ejREVzU1QjJPY2sydFZva0ctU0M3dE00RV9FZThPUzU0VVQxblc0VGNGaDgyT2RKb21BMC1ja0ptNnZNd0hMSE1WUjV3X1hBRW1uLVBaV2FCWTF0QjBtLXkyc1pzUlQw?oc=5",
-   "source": "Brasil Inovador",
-   "date": "2026-11-26T02:59:57+00:00",
-   "summary": "",
-   "id": "ae6acae4e45d8b",
-   "topic": "veiculos"
-  },
-  {
    "title": "Financiamento de veículos cresce 4,9% no Ceará e supera 220 mil operações realizadas em 2026",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSnk3TldjQmpWYjRNRTdCRkVRSXRXb3ExQ2xyOUZIVllkbkJrQUJzSlVTWjN1aWdmV1JZblFza0RfWXF2dnZjamtucjNnSFNzYl85Ulg3QVdwMk5WYkJxdXdpTE5tdmZVdVRHZUc3N3QxMnlic25MbUJ5LW5PLVVVZWJtdHFfb3VYSld0eUtDUGRNdE15UTJxTVRwR3p1NURTeGg5akZVb3g5SjdaM0YxbFE1SjBnNWtPR1UxSzhlN25aU29yM3RB?oc=5",
    "source": "Portal IN - Pompeu Vasconcelos",
@@ -351,15 +360,6 @@
    "date": "2026-11-25T17:06:22+00:00",
    "summary": "",
    "id": "69c3e66979dc6a",
-   "topic": "veiculos"
-  },
-  {
-   "title": "Financiamento de veículos elétricos e híbridos supera 392 mil unidades até outubro",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeTZjQ0FpVXFGcnlVd011NjRmZW9faWdCbkhrRDBjUXE1WWdfZG84SnBzM3BMenRKX1FrU3FHdDdqTExoVUFmME50T0FPSnBWMEVleHVLd3hoZzctZUxOWGU5ZElFUnhEMldzTWVTb2JONWZzRWRFckEzZl9XWUh5UHdKUmZ5V3dLY1JkQTMwNFlBR1hrUGs2VURKSHFFdkJJN3hhYmZaNmo?oc=5",
-   "source": "Mobilidade Sampa",
-   "date": "2026-11-25T16:57:20+00:00",
-   "summary": "",
-   "id": "b3bd54f6784c02",
    "topic": "veiculos"
   },
   {
@@ -2040,6 +2040,19 @@
    "firstSeen": "2026-11-16T19:30:46.805309+00:00"
   },
   {
+   "id": "n-2977c4cac88abf",
+   "kind": "Resolução Contran",
+   "number": "1.032",
+   "title": "Quem compra carro usado de outro estado vai fazer uma vistoria só: a Resolução 1.032 do Contran obriga os Detrans de origem e de destino a aceitar o mesmo laudo, válido por 30 dias",
+   "ementa": "",
+   "date": "2026-10-29",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaVVaS1pDeWlUaElxdGQzR20xSm5jZ1UtRnQ0UFp5Z1hpbUdsSXBkQ0UzbXUzc1QxOXJNY3A1QU1sTGVtdTJfM0FrZDEzRFE1bnFYNDc2QmlxTF9JMXBJdHl4TG1xR3VkRTNnX18tZEgwWTVyUFVwajQ4Y0ptVGswZmhJQllCX0xHbGNoXzQzTHRLT2F0NGU2bQ?oc=5",
+   "source": "Imprensa · CPG Click Petróleo e Gás",
+   "origin": "imprensa",
+   "topic": "veiculos",
+   "firstSeen": "2026-11-28T03:14:09.856854+00:00"
+  },
+  {
    "id": "n-9bd6f685da4f8d",
    "kind": "Resolução Contran",
    "number": "1.027/2026",
@@ -2295,6 +2308,14 @@
  ],
  "indicadores": [
   {
+   "id": "sgs-432",
+   "label": "Selic (meta)",
+   "value": "13,75",
+   "unit": "% a.a.",
+   "date": "09/12/2026",
+   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=432"
+  },
+  {
    "id": "sgs-13522",
    "label": "IPCA 12 meses",
    "value": "4,63",
@@ -2309,14 +2330,6 @@
    "unit": "% a.a.",
    "date": "26/11/2026",
    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=4389"
-  },
-  {
-   "id": "sgs-226",
-   "label": "TR (diária)",
-   "value": "0,1691",
-   "unit": "% a.m.",
-   "date": "26/11/2026",
-   "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint?serie=226"
   },
   {
    "id": "sgs-20749",
